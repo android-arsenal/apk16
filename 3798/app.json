@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "github.vatsal.easyweatherdemo",
+    "label" : "Easy Weather",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 11,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2334,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"11\" android:versionName=\"1.1\" package=\"github.vatsal.easyweatherdemo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0800a4\" android:label=\"Easy Weather\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"github.vatsal.easyweatherdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1855442,
+  "crc32" : 256223642,
+  "sha256" : "6a162c03dd0f9dc6f4dfb1e155bf4ef8e8d144ee3ca92249dd83cbc1197de4dd",
+  "buildTime" : 1526839651000
+}

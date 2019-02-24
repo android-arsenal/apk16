@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "github.nisrulz.projectpackagehunter",
+    "label" : "PackageHunter",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEWUlEQVRoQ+2YTWhcVRTHf/e9SdISbZqkiqCbEruxWheNWCVGLTFtrDUqWFyIKwUVLFINFUUUpJSisQhVcSG4EBXEChrqyupKhNYWFyXEZJI0/bZEa0I67+Pee+RNyJiMmXnzJjMJhXnbd+85/987/3vufVdxjT/qGtdPDWClK1i1CshwTwPKbKZt8phSv4XVAq0KgAx3bQG1H5H7gR9x17yu2g4fqwZERQFkuKcNx+zB2GeA63KCFVOo+s9w1xxU678aryRIRQBk7OGbMOGLCM8jckNBgYpLOA0fYe3HasMPlysBsiQAERTp7l5E3kXk1pIFOQyhVr+q2r4fKHlOgYFlA0h6+11YuxexvUAquRDx0ee/5urgQdXOieTzZ2ckBpCR7hvB6cPqF4DGshLbqyH+iKD/rAemcThEQL+6m8mk8UoGkN+7G2l0nsbqV4ANSRNlx0ugCc9agrMuErgLYigGcelnhi/UvWRKjR8LIMc319HU2guyF5H2UgMvGCfGoM8bggkHmyluN8WvKA5whQH1IDouX1EAOb1zI4G/D7GPlmO36Jtj/grwRxzMVF2cmHnvBZfDKN5QdzJUbF5BAEl3dWAZQGhKkPi/oXYmJBgXwkspsE4ZMSLDXdIhOxs7OF5ofmGAP7qeAL5JnFh8TXDaEp5zEbPQ5yUG04bA8yHU1CE80rKVI8sAIJHoEH/MRfwy2iqIoDM+JgipE2G2asKOagMIejKyC5i/o7aY+BHBBiHaC3CszdtTqgoQ2cUfM4Tn6kFiO9piZJFdMh5ow+LwVQXQlz38kRR2JrFljEX7PjbQpHJ2WYywqgBZj2pDOGEIzrhIGLtoRTBegPEDXImaZdxTdYA5ATYTEqQt4cXICovZKWqLkV0in5e+JywbwGzLmFvQCnMlJzKqkecj2baY9Py1vAC5ckQLW1tvHM/zWdAW4yyT/35lAGZVZKZHjTc1Gu/zYlA1gKQlnze+VoFlOkoUrFGtArUKlPM/UFvEeUuq7H0gut8U9R0UuWmLabFLXcSO4iIOO9Z2Fr43Kv5TP969ntB9BwmfghJOjnlASwDQyuVzcXirpYOJYt8p9idE5G2H9C/bEPUaYjqT7GvlACiHo8phf1MHR5XCxuWLBZgLkL3vRz+JuH2gN8UFTnoWUoqTSnGgaR3fqo0EpcSPxpQMkAMZe2wtdmY31n0Z0c3FEpVYgUkU/bKKD1u3MFWq8LlxiQFyICOP3w5eH2J3IWbVYoljADJK8WWqgfeuv4fBpMKXDJADSfd2YWfeR7gjX0QhAAUnSbGn+T5+Lld4xQCyu/2ZbS149jlEXgJungv+PwDFhHL5QFbzaUs7/yxVfFlroFhSGe65BRXuxvIs0DwPYNJRfFLncKixkwuVEF7RCuQLktHtm9B6nzc9+pA3PXrEWt5s3cqpSgqvKkDWVj89kArWXbitfnDolNqFqYb4iluoWiKLxS27ja6E2MVy1gBWuhL/AuIJgU8ipRpAAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2065,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" package=\"github.nisrulz.projectpackagehunter\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"PackageHunter\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:label=\"PackageHunter\" android:name=\"github.nisrulz.projectpackagehunter.MainActivity\" />\n\t\t<activity android:name=\"github.nisrulz.projectpackagehunter.DetailActivity\" />\n\t\t<activity android:name=\"github.nisrulz.projectpackagehunter.SplashActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"github.nisrulz.projectpackagehunter.AboutActivity\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1967565,
+  "crc32" : 3858973006,
+  "sha256" : "c22c51f706ee0770cee5917857e24fa1b2c192a26263db3419b8c978c9939bd9",
+  "buildTime" : 1522164852000
+}

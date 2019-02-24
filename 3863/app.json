@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.chenenyu.plugintest",
+    "label" : null,
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 8,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.chenenyu.plugintest\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n</manifest>\n",
+  "fileSize" : 507173,
+  "crc32" : 2633108178,
+  "sha256" : "780d7537664aaa4437be106629d49c7bdad3ba666757e4b7abfd4ef6c502bb19",
+  "buildTime" : 1522155242000
+}

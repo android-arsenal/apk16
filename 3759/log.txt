@@ -1,0 +1,55 @@
+2019-01-08 18:32:14,647 INFO  DownloadService - Downloading "https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip", attempt 3
+2019-01-08 18:32:15,186 INFO  DownloadService - Downloaded https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip, attempt 3
+2019-01-08 18:32:15,186 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/master.zip": 126 KB
+2019-01-08 18:32:15,186 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-08 18:32:15,192 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/master.zip: true
+2019-01-08 18:32:15,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src'.
+2019-01-08 18:32:15,214 INFO  FullProcessService - Size of directory with sources: 221 KB
+2019-01-08 18:32:15,214 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src]
+2019-01-08 18:32:15,231 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/.git/
+
+2019-01-08 18:32:15,234 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradlew
+2019-01-08 18:32:15,238 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle
+2019-01-08 18:32:15,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradle/credentials.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradle/integration-tests.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradle/code-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradle/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/settings.gradle
+2019-01-08 18:32:15,241 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 18:32:15,241 INFO  ProjectFixService - Fixing project...
+2019-01-08 18:32:15,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/local.properties
+2019-01-08 18:32:15,250 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2019-01-08 18:32:15,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-08 18:32:15,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-08 18:32:15,256 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 18:32:15,256 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 18:32:15,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 18:32:27,509 INFO  ProjectTaskService - Detected possible tasks: 92
+2019-01-08 18:32:27,509 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-01-08 18:32:27,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947134641-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-01-08 18:32:42,190 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compileJava NO-SOURCE
+
+> Task :compileGroovy
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+> Task :pluginDescriptors
+> Task :processResources
+> Task :classes
+> Task :jar
+
+> Task :groovydoc
+Trying to override old definition of task fileScanner
+
+> Task :publishPluginGroovyDocsJar
+> Task :publishPluginJar
+> Task :publishPluginJavaDocsJar
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 14s
+8 actionable tasks: 8 executed
+
+2019-01-08 18:32:42,198 ERROR FullProcessService - Project build has not produced APK file
+2019-01-08 18:32:42,206 ERROR FullProcessService - Could not find generated or existed APK file

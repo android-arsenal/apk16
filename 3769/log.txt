@@ -1,0 +1,128 @@
+2018-11-16 20:20:40,346 INFO  DownloadService - Downloading "https://github.com/loopeer/PullSwitcher/archive/master.zip", attempt 3
+2018-11-16 20:20:46,304 INFO  DownloadService - Downloaded https://github.com/loopeer/PullSwitcher/archive/master.zip, attempt 3
+2018-11-16 20:20:46,304 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/master.zip": 3 MB
+2018-11-16 20:20:46,304 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 20:20:46,311 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/master.zip: true
+2018-11-16 20:20:46,311 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src'.
+2018-11-16 20:20:46,362 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-11-16 20:20:46,362 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src]
+2018-11-16 20:20:46,381 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/.git/
+
+2018-11-16 20:20:46,385 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/gradlew
+2018-11-16 20:20:46,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/pullswitcherview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/build.gradle
+2018-11-16 20:20:46,395 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/pullswitcherview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/settings.gradle
+2018-11-16 20:20:46,396 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 20:20:46,396 INFO  ProjectFixService - Fixing project...
+2018-11-16 20:20:46,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/local.properties
+2018-11-16 20:20:46,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-16 20:20:46,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/pullswitcherview/local.properties
+2018-11-16 20:20:46,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/pullswitcherview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-16 20:20:46,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/local.properties
+2018-11-16 20:20:46,407 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-11-16 20:20:46,407 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-11-16 20:20:46,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-16 20:20:46,408 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 20:20:46,408 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 20:20:46,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 20:20:56,290 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-16 20:20:56,291 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 20:20:56,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 20:21:19,246 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:pullswitcherview:compileLint
+:pullswitcherview:copyReleaseLint UP-TO-DATE
+:pullswitcherview:preBuild UP-TO-DATE
+:pullswitcherview:preReleaseBuild UP-TO-DATE
+:pullswitcherview:checkReleaseManifest
+:pullswitcherview:preDebugAndroidTestBuild UP-TO-DATE
+:pullswitcherview:preDebugBuild UP-TO-DATE
+:pullswitcherview:preDebugUnitTestBuild UP-TO-DATE
+:pullswitcherview:preReleaseUnitTestBuild UP-TO-DATE
+:pullswitcherview:prepareComAndroidSupportAppcompatV72310Library
+:pullswitcherview:prepareComAndroidSupportSupportV42310Library
+:pullswitcherview:prepareReleaseDependencies
+:pullswitcherview:compileReleaseAidl
+:pullswitcherview:compileReleaseRenderscript
+:pullswitcherview:generateReleaseBuildConfig
+:pullswitcherview:generateReleaseAssets UP-TO-DATE
+:pullswitcherview:mergeReleaseAssets
+:pullswitcherview:generateReleaseResValues
+:pullswitcherview:generateReleaseResources
+:pullswitcherview:mergeReleaseResources
+:pullswitcherview:processReleaseManifest
+:pullswitcherview:processReleaseResources
+:pullswitcherview:generateReleaseSources
+:pullswitcherview:processReleaseJavaRes UP-TO-DATE
+:pullswitcherview:compileReleaseJavaWithJavac
+:pullswitcherview:extractReleaseAnnotations
+:pullswitcherview:mergeReleaseProguardFiles
+:pullswitcherview:packageReleaseJar
+:pullswitcherview:compileReleaseNdk UP-TO-DATE
+:pullswitcherview:packageReleaseJniLibs UP-TO-DATE
+:pullswitcherview:packageReleaseLocalJar UP-TO-DATE
+:pullswitcherview:packageReleaseRenderscript UP-TO-DATE
+:pullswitcherview:packageReleaseResources
+:pullswitcherview:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72310Library
+:app:prepareComAndroidSupportDesign2310Library
+:app:prepareComAndroidSupportRecyclerviewV72310Library
+:app:prepareComAndroidSupportSupportV42310Library
+:app:prepareComLoopeerLibraryPullswitcherview106Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/src/main/java/com/loopeer/android/librarys/pullswitcher/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/src/main/java/com/loopeer/android/librarys/pullswitcher/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.416 secs
+
+2018-11-16 20:21:19,324 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374440342-0/src/PullSwitcher-master/app/build/outputs/apk/app-debug.apk

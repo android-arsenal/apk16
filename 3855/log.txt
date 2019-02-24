@@ -1,0 +1,118 @@
+2018-12-16 21:46:04,824 INFO  DownloadService - Downloading "https://github.com/andremion/Music-Player/archive/master.zip", attempt 3
+2018-12-16 21:47:05,611 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-16 21:47:06,473 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-16 21:47:06,474 INFO  DownloadService - Downloading "https://github.com/andremion/Music-Player/archive/master.zip", attempt 3
+2018-12-16 21:48:08,091 DEBUG FullProcessService - Repository https://github.com/andremion/Music-Player available: true
+2018-12-16 21:48:08,091 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-16 21:48:08,091 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andremion/Music-Player, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src]
+2018-12-16 21:48:12,799 INFO  SysUtils - 
+2018-12-16 21:48:12,808 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/.git": true
+2018-12-16 21:48:12,813 INFO  FullProcessService - Size of directory with sources: 13 MB
+2018-12-16 21:48:12,814 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src]
+2018-12-16 21:48:12,832 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/.git/
+
+2018-12-16 21:48:12,837 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/gradlew
+2018-12-16 21:48:12,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/build.gradle
+2018-12-16 21:48:12,846 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/settings.gradle
+2018-12-16 21:48:12,846 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 21:48:12,846 INFO  ProjectFixService - Fixing project...
+2018-12-16 21:48:12,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/local.properties
+2018-12-16 21:48:12,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-12-16 21:48:12,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-12-16 21:48:12,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/local.properties
+2018-12-16 21:48:12,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-16 21:48:12,859 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-16 21:48:12,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-12-16 21:48:12,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-12-16 21:48:12,861 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 21:48:12,861 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:48:12,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:48:20,721 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-12-16 21:48:20,721 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 21:48:20,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 21:48:55,380 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/percent/27.1.1/percent-27.1.1.aar
+Download https://jcenter.bintray.com/com/github/andremion/musiccoverview/1.0.0/musiccoverview-1.0.0.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/src/main/java/com/sample/andremion/musicplayer/view/InsetsPercentRelativeLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/src/main/java/com/sample/andremion/musicplayer/activities/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/src/main/java/com/sample/andremion/musicplayer/view/InsetsPercentRelativeLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/src/main/java/com/sample/andremion/musicplayer/activities/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 34s
+53 actionable tasks: 53 executed
+
+2018-12-16 21:48:55,484 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971564821-0/src/app/build/outputs/apk/debug/app-debug.apk

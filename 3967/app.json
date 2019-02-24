@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.yydcdut.markdowndemo",
+    "label" : "RxMarkdown",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.1",
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.MOUNT_UNMOUNT_FILESYSTEMS", "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2883,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.1.1\" package=\"com.yydcdut.markdowndemo\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0d0004\" android:label=\"RxMarkdown\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:label=\"RxMarkdown\" android:name=\"com.yydcdut.markdowndemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:label=\"RxMarkdown\" android:name=\"com.yydcdut.markdowndemo.ShowActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:label=\"RxMarkdown\" android:name=\"com.yydcdut.markdowndemo.EditActivity\" android:windowSoftInputMode=\"0x12\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:label=\"RxMarkdown\" android:name=\"com.yydcdut.markdowndemo.CompareActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2170102,
+  "crc32" : 1188241150,
+  "sha256" : "0a71b55cee03d501a4b28968da395a17e31ac04ba2a5c1e9795b517c98e2e0bf",
+  "buildTime" : 1541955785000
+}

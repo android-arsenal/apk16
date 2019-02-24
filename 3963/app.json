@@ -1,0 +1,39 @@
+{
+  "meta" : {
+    "packageName" : "com.example.android.batchstepsensor",
+    "label" : "BatchStepSensor",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.sensor.stepcounter",
+      "required" : false
+    }, {
+      "name" : "android.hardware.sensor.stepdetector",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1594,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.example.android.batchstepsensor\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"27\" />\n\t<uses-feature android:name=\"android.hardware.sensor.stepcounter\" />\n\t<uses-feature android:name=\"android.hardware.sensor.stepdetector\" />\n\t<application android:theme=\"resourceId:0x7f0b0006\" android:label=\"BatchStepSensor\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"BatchStepSensor\" android:name=\"com.example.android.batchstepsensor.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1425692,
+  "crc32" : 3602019404,
+  "sha256" : "bc0e22147c52e048ecf33ea9f957afe285f05f7d2bb4a3a001f733a5f5f014f0",
+  "buildTime" : 1522138667000
+}

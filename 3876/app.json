@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.varunest.sample.sparkbutton",
+    "label" : "SparkButton Showcase App",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1916,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.varunest.sample.sparkbutton\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008d\" android:label=\"SparkButton Showcase App\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.varunest.sample.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1651070,
+  "crc32" : 3636237068,
+  "sha256" : "857da5c1a4691bdd565b456d0c58007ab0c6950306f06337cb00e4cfbb296286",
+  "buildTime" : 1525976132000
+}

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.riontech.sample",
+    "label" : "Custom Calendar Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACslBMVEUAAAC9pWO9pGy8pW+9pHDEqmbGqlW8pG/Ap3PDrHXCqnS/pm69o2q8omi+p3Snk1i/qHDBqnW+pGu4nF6zlVOwkUyxk1iqqlW9pm7BqnO6n2OylFG9pG6uml6/pnO7oWaxk0+/p3OolF6znmfAp3G1mFgAAAC1nWe+pWyylFC+pGytmGS8ommwkU28ommtmGeXhVG9omuOfU9mZjO5oWyxj0y8dkq+cEm8o2utl2TOSkZ4akC4n2O5n2IAAACplWColGFaSx62m16Qe1PEjGXahoPDjGWRfFIAAACii1rOvpny8vKijVoAAACxlVru7u7k5eXm5uft7u7x8fHj4+SyllpuXzeylFKKjZBLT1TV1tfl5eVQVVl/g4arra9ESU6/wMJwYTh5akOvkEtzdnpARUq3uLrt7e3X19hkaGvh4eGSlZifoaPq6up2Z0YAAAB6akPg4ODp6ekAAAB5Z0J0Yz1uXTphZWnU1NWMj5JlVzOtj0tiVDZNQSSdgUTo6ellaW1MUVVGSk9PRyYAAACDbTfm5ubk5OSMjpGCbTkAAABpWDFqWC9bTC2hhUVcTSwhGgd5YzRzd3oAAABcTCmliEekpqhna2/Pz8+/wcJjZ2vAwcJbTCgAAAA7LxhzXjHs7Ozo6Ojn5+dyXjE8MBhWRyWRdz7Kt4zJtoyQdj5URyUHBwBcSyajhkayk1DKtowAAAA9NBxlUyurjUkAAABMPh9qVy5NQSAAAAAAAABQQSJkUSsAAAAAAABLPSFYSCZLQB8zKhdTRCNyXjFTRSMFBQBTRCNURSN5ZDRRRCMAAAApIxBTRCJQQiJmVCyFbTmegkQtIxAAAAAUEARLPx9URSRQQSFRQyNfTilpVi1uWi9PQSJMQCAAAAAAAAAtKBFFOR5NQCJQQiEAAAAAAAAAAAAH74FeAAAA5nRSTlMAH0ljcB4JXKng/P///6kaj+f/////GgN77f//eybG///GJlTq/wFo+P/3V/j/91cs6i0Fxv///8WC/yTt7QKXlhHmbv///20EsP//sAne////////3jP8////////////MmP//////////////2MDff//BYuNhP///23/bT/9/////z0T5v///+YNwsKH/4Un7f8Qtf////////+zB0Hz////80Cm/////6Yl3P///w5T8v8Wg/uBBh2V+wgfhfSEWuD/3zCq9v+qI1C79P///1AlQJLO8P7////wkCo2WoGYoxkeIMq608AAAALZSURBVEjHY2AYGoCRiZmFhZmJlSjFbOwcnFzcPLy8PNxcnHzsbASU8wsICgmLiEKBiLCQoIAYHuXiEpJS0qIoQFpKUkYcl3pZOXkFUQygIK+ohF29soqqKFagqqKMRbmauoamKA6gqaWuhqFBW0dXFCfQ1dNHV29giEc9UIehEap6YxOQe0zNzLEAM1OQqyyMUTxgCfavmRVWYAb2uSWyN6xtwBabY9dgDpa0tUaot7NXIKxBwcEOrsHRSZSwBlEnR7gPnKHpwcUVK3CDphJ3mC88PKGB5+WNFXhBpX08oBp8/VA0+AcAicAgIBEcgqIh1BeqISwcRUNEZJR3dEysv7d3XHxCMJKG8ESoF5KSUTSkpKalZ6RmZnl7Z6fm5CJpSM6DeCK/AKuGQrCGImQNBflgDcUlxGooKYZoKCVWQylUQxk2DeUVAQGVaBrKoBqqqrFogAAUDdU1EA35tXUYGuobGoGgCVVDXTPE02otrRgavL3b2tvbO1A1dLZA00ZXdzKmBhBA9XRyTxcsafT2EaOhrx+WNDwmTExG0jAJu4bkiRNgiU9t8pSpSBqmTZ8B1TBz1mxE0pg6ZzI8k86dNz8ZKXkvWAhL2P6L4IkvefGSuYgs2rJ0GUhwOfb8sAIkt3JVCyKLMsxdvWYtUHDdei8sYMU6oNTaNavnIhczGzZu2oyvINu8aeMGlNIyf8vWbXh0bN62fUs+atG3Y+eu3WtxqV+7e9fOHeiF6569+/YvS8amPHnl/gN792AW93t2Hjx0eCqGluSph48c3LlHDUsNsWPL0WPHT/ShaEnuO3H85NEtO7BXQfkbTp0+c/bc+QvVyWBQfeH8ubNnLp7akI+rklOb23Lp8pWr167fuHnr1s0b129fvXP5UstcNTz1qN3cyTvv3rv/4OGjRw8f3L93d+fkuXYEamo1D9+ulsdPnj598rily9dDjajWgFp+MRDkq1GlHQIAFEuQxmhoOhUAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2066,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.riontech.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008c\" android:label=\"Custom Calendar Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.riontech.sample.MainActivity\" android:configChanges=\"0x4a0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1651813,
+  "crc32" : 4046468592,
+  "sha256" : "2a843db451f0cf9231d4d839a1b46f9a40ca808b8f8f7b74f8f972539bf0bcec",
+  "buildTime" : 1541995898000
+}

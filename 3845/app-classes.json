@@ -1,0 +1,4 @@
+{
+  "com.github.rahatarmanahmed.cpv" : [ "BuildConfig", "CircularProgressView", "CircularProgressView$1", "CircularProgressView$2", "CircularProgressView$3", "CircularProgressView$4", "CircularProgressView$5", "CircularProgressView$6", "CircularProgressView$7", "CircularProgressView$8", "CircularProgressView$9", "CircularProgressViewAdapter", "CircularProgressViewListener", "R", "R$attr", "R$bool", "R$color", "R$dimen", "R$integer", "R$string", "R$styleable" ],
+  "com.github.rahatarmanahmed.cpv.example" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$2", "MainActivity$3", "MainActivity$3$1", "MainActivity$3$1$1", "R", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ]
+}

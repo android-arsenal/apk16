@@ -1,0 +1,292 @@
+2018-11-16 20:17:24,685 INFO  DownloadService - Downloading "https://github.com/mzelzoghbi/ParallaxRecyclerView/archive/master.zip", attempt 3
+2018-11-16 20:17:27,144 INFO  DownloadService - Downloaded https://github.com/mzelzoghbi/ParallaxRecyclerView/archive/master.zip, attempt 3
+2018-11-16 20:17:27,144 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/master.zip": 4 MB
+2018-11-16 20:17:27,144 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 20:17:27,151 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/master.zip: true
+2018-11-16 20:17:27,151 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src'.
+2018-11-16 20:17:27,207 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-11-16 20:17:27,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src]
+2018-11-16 20:17:27,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/.git/
+
+2018-11-16 20:17:27,228 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/gradlew
+2018-11-16 20:17:27,235 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/parallexrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/build.gradle
+2018-11-16 20:17:27,238 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/parallexrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/settings.gradle
+2018-11-16 20:17:27,239 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 20:17:27,239 INFO  ProjectFixService - Fixing project...
+2018-11-16 20:17:27,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/local.properties
+2018-11-16 20:17:27,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-11-16 20:17:27,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/parallexrecyclerview/local.properties
+2018-11-16 20:17:27,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/parallexrecyclerview/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-11-16 20:17:27,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/local.properties
+2018-11-16 20:17:27,249 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-16 20:17:27,249 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-16 20:17:27,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-11-16 20:17:27,250 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 20:17:27,250 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 20:17:27,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 20:17:35,029 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-11-16 20:17:35,029 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 20:17:35,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 20:18:00,678 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-16 20:18:00,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:parallexrecyclerview:preBuild UP-TO-DATE
+:parallexrecyclerview:preReleaseBuild UP-TO-DATE
+:parallexrecyclerview:compileReleaseNdk UP-TO-DATE
+:parallexrecyclerview:compileLint
+:parallexrecyclerview:copyReleaseLint UP-TO-DATE
+:parallexrecyclerview:checkReleaseManifest
+:parallexrecyclerview:preDebugAndroidTestBuild UP-TO-DATE
+:parallexrecyclerview:preDebugBuild UP-TO-DATE
+:parallexrecyclerview:preDebugUnitTestBuild UP-TO-DATE
+:parallexrecyclerview:preReleaseUnitTestBuild UP-TO-DATE
+:parallexrecyclerview:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:parallexrecyclerview:prepareComAndroidSupportAppcompatV72340Library
+:parallexrecyclerview:prepareComAndroidSupportRecyclerviewV72340Library
+:parallexrecyclerview:prepareComAndroidSupportSupportV42340Library
+:parallexrecyclerview:prepareComAndroidSupportSupportVectorDrawable2340Library
+:parallexrecyclerview:prepareReleaseDependencies
+:parallexrecyclerview:compileReleaseAidl
+:parallexrecyclerview:compileReleaseRenderscript
+:parallexrecyclerview:generateReleaseBuildConfig
+:parallexrecyclerview:mergeReleaseShaders
+:parallexrecyclerview:compileReleaseShaders
+:parallexrecyclerview:generateReleaseAssets
+:parallexrecyclerview:mergeReleaseAssets
+:parallexrecyclerview:generateReleaseResValues
+:parallexrecyclerview:generateReleaseResources
+:parallexrecyclerview:mergeReleaseResources
+:parallexrecyclerview:processReleaseManifest
+:parallexrecyclerview:processReleaseResources
+:parallexrecyclerview:generateReleaseSources
+:parallexrecyclerview:incrementalReleaseJavaCompilationSafeguard
+:parallexrecyclerview:compileReleaseJavaWithJavac
+:parallexrecyclerview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:parallexrecyclerview:extractReleaseAnnotations
+:parallexrecyclerview:mergeReleaseProguardFiles
+:parallexrecyclerview:packageReleaseRenderscript UP-TO-DATE
+:parallexrecyclerview:packageReleaseResources
+:parallexrecyclerview:processReleaseJavaRes UP-TO-DATE
+:parallexrecyclerview:transformResourcesWithMergeJavaResForRelease
+:parallexrecyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:parallexrecyclerview:mergeReleaseJniLibFolders
+:parallexrecyclerview:transformNative_libsWithMergeJniLibsForRelease
+:parallexrecyclerview:transformNative_libsWithSyncJniLibsForRelease
+:parallexrecyclerview:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportCardviewV72340Library
+:app:prepareComAndroidSupportRecyclerviewV72340Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareComGoogleAndroidGmsPlayServicesAds902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite902Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase902Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement902Library
+:app:prepareComGoogleAndroidGmsPlayServicesTasks902Library
+:app:prepareComGoogleFirebaseFirebaseCommon902Library
+:app:prepareComJakewhartonButterknife810Library
+:app:prepareParallaxRecyclerViewMasterParallexrecyclerviewUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+Result compacted from 6502.1KiB to 5030.6KiB to save 1471.6KiB
+Merged dex #1 (10 defs/14.0KiB)
+Merged dex #2 (28 defs/10.3KiB)
+Merged dex #3 (5 defs/15.3KiB)
+Merged dex #4 (330 defs/538.0KiB)
+Merged dex #5 (13 defs/22.9KiB)
+Merged dex #6 (134 defs/303.8KiB)
+Merged dex #7 (770 defs/937.1KiB)
+Merged dex #8 (17 defs/48.5KiB)
+Merged dex #9 (699 defs/939.3KiB)
+Merged dex #10 (380 defs/277.8KiB)
+Merged dex #11 (266 defs/240.5KiB)
+Merged dex #12 (555 defs/536.9KiB)
+Merged dex #13 (29 defs/20.5KiB)
+Merged dex #14 (24 defs/23.9KiB)
+Merged dex #15 (17 defs/18.0KiB)
+Merged dex #16 (3 defs/4.5KiB)
+Merged dex #17 (81 defs/149.6KiB)
+Merged dex #18 (391 defs/393.2KiB)
+Merged dex #19 (173 defs/181.8KiB)
+Merged dex #20 (335 defs/262.9KiB)
+Merged dex #21 (4 defs/9.3KiB)
+Merged dex #22 (192 defs/315.3KiB)
+Merged dex #23 (37 defs/73.8KiB)
+Merged dex #24 (80 defs/73.3KiB)
+Merged dex #25 (41 defs/6.5KiB)
+Result is 4614 defs/5030.6KiB. Took 0.6s
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 24.977 secs
+
+2018-11-16 20:18:00,800 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374244677-0/src/ParallaxRecyclerView-master/app/build/outputs/apk/app-debug.apk

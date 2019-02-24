@@ -1,0 +1,218 @@
+2018-11-16 20:18:15,908 INFO  DownloadService - Downloading "https://github.com/AlburIvan/SlickForm/archive/master.zip", attempt 3
+2018-11-16 20:18:17,120 INFO  DownloadService - Downloaded https://github.com/AlburIvan/SlickForm/archive/master.zip, attempt 3
+2018-11-16 20:18:17,120 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/master.zip": 428 KB
+2018-11-16 20:18:17,120 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 20:18:17,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/master.zip: true
+2018-11-16 20:18:17,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src'.
+2018-11-16 20:18:17,149 INFO  FullProcessService - Size of directory with sources: 526 KB
+2018-11-16 20:18:17,149 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src]
+2018-11-16 20:18:17,171 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/.git/
+
+2018-11-16 20:18:17,173 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/gradlew
+2018-11-16 20:18:17,176 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/build.gradle
+2018-11-16 20:18:17,179 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/settings.gradle
+2018-11-16 20:18:17,179 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 20:18:17,179 INFO  ProjectFixService - Fixing project...
+2018-11-16 20:18:17,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/local.properties
+2018-11-16 20:18:17,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-16 20:18:17,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/local.properties
+2018-11-16 20:18:17,187 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-16 20:18:17,187 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-16 20:18:17,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-16 20:18:17,188 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 20:18:17,188 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 20:18:17,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 20:18:24,874 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-16 20:18:24,874 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 20:18:24,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 20:18:37,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:slicksignform:preBuild UP-TO-DATE
+:slicksignform:preDebugBuild UP-TO-DATE
+:slicksignform:compileDebugNdk UP-TO-DATE
+:slicksignform:compileLint
+:slicksignform:copyDebugLint UP-TO-DATE
+:slicksignform:checkDebugManifest
+:slicksignform:preDebugAndroidTestBuild UP-TO-DATE
+:slicksignform:preDebugUnitTestBuild UP-TO-DATE
+:slicksignform:preReleaseBuild UP-TO-DATE
+:slicksignform:preReleaseUnitTestBuild UP-TO-DATE
+:slicksignform:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:slicksignform:prepareComAndroidSupportAppcompatV72340Library
+:slicksignform:prepareComAndroidSupportDesign2340Library
+:slicksignform:prepareComAndroidSupportRecyclerviewV72340Library
+:slicksignform:prepareComAndroidSupportSupportV42340Library
+:slicksignform:prepareComAndroidSupportSupportVectorDrawable2340Library
+:slicksignform:prepareComEftimoffAndroidPathview108Library
+:slicksignform:prepareDebugDependencies
+:slicksignform:compileDebugAidl
+:slicksignform:compileDebugRenderscript
+:slicksignform:generateDebugBuildConfig
+:slicksignform:mergeDebugShaders
+:slicksignform:compileDebugShaders
+:slicksignform:generateDebugAssets
+:slicksignform:mergeDebugAssets
+:slicksignform:generateDebugResValues
+:slicksignform:generateDebugResources
+:slicksignform:mergeDebugResources
+:slicksignform:processDebugManifest
+:slicksignform:processDebugResources
+:slicksignform:generateDebugSources
+:slicksignform:incrementalDebugJavaCompilationSafeguard
+:slicksignform:compileDebugJavaWithJavac
+:slicksignform:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/src/main/java/com/alburivan/slickform/tooltip/SimpleTooltip.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:slicksignform:extractDebugAnnotations
+:slicksignform:mergeDebugProguardFiles
+:slicksignform:packageDebugRenderscript UP-TO-DATE
+:slicksignform:packageDebugResources
+:slicksignform:processDebugJavaRes UP-TO-DATE
+:slicksignform:transformResourcesWithMergeJavaResForDebug
+:slicksignform:transformClassesAndResourcesWithSyncLibJarsForDebug
+:slicksignform:mergeDebugJniLibFolders
+:slicksignform:transformNative_libsWithMergeJniLibsForDebug
+:slicksignform:transformNative_libsWithSyncJniLibsForDebug
+:slicksignform:bundleDebug
+:slicksignform:compileDebugSources
+:slicksignform:assembleDebug
+:slicksignform:compileReleaseNdk UP-TO-DATE
+:slicksignform:copyReleaseLint UP-TO-DATE
+:slicksignform:checkReleaseManifest
+:slicksignform:prepareReleaseDependencies
+:slicksignform:compileReleaseAidl
+:slicksignform:compileReleaseRenderscript
+:slicksignform:generateReleaseBuildConfig
+:slicksignform:mergeReleaseShaders
+:slicksignform:compileReleaseShaders
+:slicksignform:generateReleaseAssets
+:slicksignform:mergeReleaseAssets
+:slicksignform:generateReleaseResValues
+:slicksignform:generateReleaseResources
+:slicksignform:mergeReleaseResources
+:slicksignform:processReleaseManifest
+:slicksignform:processReleaseResources
+:slicksignform:generateReleaseSources
+:slicksignform:incrementalReleaseJavaCompilationSafeguard
+:slicksignform:compileReleaseJavaWithJavac
+:slicksignform:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/slicksignform/src/main/java/com/alburivan/slickform/tooltip/SimpleTooltip.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:slicksignform:extractReleaseAnnotations
+:slicksignform:mergeReleaseProguardFiles
+:slicksignform:packageReleaseRenderscript UP-TO-DATE
+:slicksignform:packageReleaseResources
+:slicksignform:processReleaseJavaRes UP-TO-DATE
+:slicksignform:transformResourcesWithMergeJavaResForRelease
+:slicksignform:transformClassesAndResourcesWithSyncLibJarsForRelease
+:slicksignform:mergeReleaseJniLibFolders
+:slicksignform:transformNative_libsWithMergeJniLibsForRelease
+:slicksignform:transformNative_libsWithSyncJniLibsForRelease
+:slicksignform:bundleRelease
+:slicksignform:compileReleaseSources
+:slicksignform:assembleRelease
+:slicksignform:assemble
+:slicksignform:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.933 secs
+
+2018-11-16 20:18:37,386 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 20:18:37,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 20:18:43,483 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-11-16 20:18:43,483 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 20:18:43,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374295900-0/src/SlickForm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 20:18:49,793 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:slicksignform:preBuild UP-TO-DATE
+:slicksignform:preDebugBuild UP-TO-DATE
+:slicksignform:compileDebugNdk UP-TO-DATE
+:slicksignform:compileLint
+:slicksignform:copyDebugLint UP-TO-DATE
+:slicksignform:checkDebugManifest
+:slicksignform:preDebugAndroidTestBuild UP-TO-DATE
+:slicksignform:preDebugUnitTestBuild UP-TO-DATE
+:slicksignform:preReleaseBuild UP-TO-DATE
+:slicksignform:preReleaseUnitTestBuild UP-TO-DATE
+:slicksignform:prepareComAndroidSupportAnimatedVectorDrawable2340Library UP-TO-DATE
+:slicksignform:prepareComAndroidSupportAppcompatV72340Library UP-TO-DATE
+:slicksignform:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:slicksignform:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:slicksignform:prepareComAndroidSupportSupportV42340Library UP-TO-DATE
+:slicksignform:prepareComAndroidSupportSupportVectorDrawable2340Library UP-TO-DATE
+:slicksignform:prepareComEftimoffAndroidPathview108Library UP-TO-DATE
+:slicksignform:prepareDebugDependencies
+:slicksignform:compileDebugAidl UP-TO-DATE
+:slicksignform:compileDebugRenderscript UP-TO-DATE
+:slicksignform:generateDebugBuildConfig UP-TO-DATE
+:slicksignform:mergeDebugShaders UP-TO-DATE
+:slicksignform:compileDebugShaders UP-TO-DATE
+:slicksignform:generateDebugAssets UP-TO-DATE
+:slicksignform:mergeDebugAssets UP-TO-DATE
+:slicksignform:generateDebugResValues UP-TO-DATE
+:slicksignform:generateDebugResources UP-TO-DATE
+:slicksignform:mergeDebugResources UP-TO-DATE
+:slicksignform:processDebugManifest UP-TO-DATE
+:slicksignform:processDebugResources UP-TO-DATE
+:slicksignform:generateDebugSources UP-TO-DATE
+:slicksignform:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:slicksignform:compileDebugJavaWithJavac UP-TO-DATE
+:slicksignform:extractDebugAnnotations UP-TO-DATE
+:slicksignform:mergeDebugProguardFiles UP-TO-DATE
+:slicksignform:packageDebugRenderscript UP-TO-DATE
+:slicksignform:packageDebugResources UP-TO-DATE
+:slicksignform:processDebugJavaRes UP-TO-DATE
+:slicksignform:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:slicksignform:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:slicksignform:mergeDebugJniLibFolders UP-TO-DATE
+:slicksignform:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:slicksignform:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:slicksignform:bundleDebug UP-TO-DATE
+:slicksignform:compileDebugSources UP-TO-DATE
+:slicksignform:assembleDebug UP-TO-DATE
+:slicksignform:compileReleaseNdk UP-TO-DATE
+:slicksignform:copyReleaseLint UP-TO-DATE
+:slicksignform:checkReleaseManifest
+:slicksignform:prepareReleaseDependencies
+:slicksignform:compileReleaseAidl UP-TO-DATE
+:slicksignform:compileReleaseRenderscript UP-TO-DATE
+:slicksignform:generateReleaseBuildConfig UP-TO-DATE
+:slicksignform:mergeReleaseShaders UP-TO-DATE
+:slicksignform:compileReleaseShaders UP-TO-DATE
+:slicksignform:generateReleaseAssets UP-TO-DATE
+:slicksignform:mergeReleaseAssets UP-TO-DATE
+:slicksignform:generateReleaseResValues UP-TO-DATE
+:slicksignform:generateReleaseResources UP-TO-DATE
+:slicksignform:mergeReleaseResources UP-TO-DATE
+:slicksignform:processReleaseManifest UP-TO-DATE
+:slicksignform:processReleaseResources UP-TO-DATE
+:slicksignform:generateReleaseSources UP-TO-DATE
+:slicksignform:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:slicksignform:compileReleaseJavaWithJavac UP-TO-DATE
+:slicksignform:extractReleaseAnnotations UP-TO-DATE
+:slicksignform:mergeReleaseProguardFiles UP-TO-DATE
+:slicksignform:packageReleaseRenderscript UP-TO-DATE
+:slicksignform:packageReleaseResources UP-TO-DATE
+:slicksignform:processReleaseJavaRes UP-TO-DATE
+:slicksignform:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:slicksignform:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:slicksignform:mergeReleaseJniLibFolders UP-TO-DATE
+:slicksignform:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:slicksignform:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:slicksignform:bundleRelease UP-TO-DATE
+:slicksignform:compileReleaseSources UP-TO-DATE
+:slicksignform:assembleRelease UP-TO-DATE
+:slicksignform:assemble UP-TO-DATE
+:slicksignform:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.808 secs
+
+2018-11-16 20:18:49,855 ERROR FullProcessService - Project build has not produced APK file
+2018-11-16 20:18:49,913 ERROR FullProcessService - Could not find generated or existed APK file

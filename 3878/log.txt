@@ -1,0 +1,592 @@
+2019-01-26 22:00:06,250 INFO  DownloadService - Downloading "https://github.com/beworker/featured/archive/master.zip", attempt 3
+2019-01-26 22:00:08,272 INFO  DownloadService - Downloaded https://github.com/beworker/featured/archive/master.zip, attempt 3
+2019-01-26 22:00:08,272 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/master.zip": 242 KB
+2019-01-26 22:00:08,272 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 22:00:08,272 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/master.zip: true
+2019-01-26 22:00:08,273 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src'.
+2019-01-26 22:00:08,302 INFO  FullProcessService - Size of directory with sources: 350 KB
+2019-01-26 22:00:08,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src]
+2019-01-26 22:00:08,321 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/.git/
+
+2019-01-26 22:00:08,326 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradlew
+2019-01-26 22:00:08,333 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/build.gradle
+2019-01-26 22:00:08,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/settings.gradle
+2019-01-26 22:00:08,339 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 22:00:08,339 INFO  ProjectFixService - Fixing project...
+2019-01-26 22:00:08,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/local.properties
+2019-01-26 22:00:08,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/local.properties
+2019-01-26 22:00:08,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,364 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/local.properties
+2019-01-26 22:00:08,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/local.properties
+2019-01-26 22:00:08,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-26 22:00:08,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-26 22:00:08,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,373 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,374 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/local.properties
+2019-01-26 22:00:08,377 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,377 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/local.properties
+2019-01-26 22:00:08,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,381 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 22:00:08,381 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 22:00:08,381 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 22:00:08,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 22:00:21,113 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-01-26 22:00:21,113 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-26 22:00:21,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-26 22:00:46,394 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :featured
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :featured:preBuild UP-TO-DATE
+> Task :featured:preDebugBuild UP-TO-DATE
+> Task :featured:compileDebugAidl NO-SOURCE
+> Task :featured-sample-library:preBuild UP-TO-DATE
+> Task :featured-sample-library:extractProguardFiles
+> Task :featured-sample-library:preDebugBuild
+> Task :featured-sample-library:compileDebugAidl NO-SOURCE
+
+> Task :featured-annotations:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+> Task :featured-annotations:processResources NO-SOURCE
+> Task :featured-annotations:classes
+> Task :featured-annotations:jar
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured:compileDebugRenderscript
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured:checkDebugManifest
+> Task :featured:generateDebugBuildConfig
+> Task :featured:generateDebugResValues
+> Task :featured:generateDebugResources
+> Task :featured:packageDebugResources
+> Task :featured:processDebugManifest
+> Task :featured:generateDebugRFile
+> Task :featured:prepareLintJar
+> Task :featured:generateDebugSources
+> Task :featured:javaPreCompileDebug
+
+> Task :featured:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured:processDebugJavaRes NO-SOURCE
+> Task :featured:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+
+> Task :featured-compiler:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-compiler/src/main/java/de/halfbit/featured/compiler/model/ModelNode.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured-compiler:processResources NO-SOURCE
+> Task :featured-compiler:classes
+> Task :featured-compiler:jar
+> Task :featured:packageDebugRenderscript NO-SOURCE
+> Transform featured-compiler.jar (project :featured-compiler) with IdentityTransform
+> Task :featured-sample-library:compileDebugRenderscript
+> Task :featured-sample-library:checkDebugManifest
+> Task :featured-sample-library:generateDebugBuildConfig
+> Task :featured-sample-library:generateDebugResValues
+> Task :featured-sample-library:generateDebugResources
+> Task :featured-sample-library:packageDebugResources
+> Task :featured-sample-library:processDebugManifest
+> Task :featured-sample-library:generateDebugRFile
+> Task :featured-sample-library:prepareLintJar
+> Task :featured-sample-library:generateDebugSources
+> Task :featured-sample-library:javaPreCompileDebug
+
+> Task :featured-sample-library:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: featured-compiler-0.3.0.jar (project :featured-compiler), auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/generated/source/apt/debug/de/halfbit/featured/sample/library/LifecycleFeatureHost.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured-sample-library:extractDebugAnnotations
+> Task :featured-sample-library:mergeDebugConsumerProguardFiles
+> Task :featured-sample-library:mergeDebugShaders
+> Task :featured-sample-library:compileDebugShaders
+> Task :featured-sample-library:generateDebugAssets
+> Task :featured-sample-library:packageDebugAssets
+> Task :featured-sample-library:packageDebugRenderscript NO-SOURCE
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured:mergeDebugConsumerProguardFiles
+> Transform featured-annotations.jar (project :featured-annotations) with ExtractProGuardRulesTransform
+> Task :featured-sample-library:processDebugJavaRes NO-SOURCE
+> Task :featured-sample-library:transformResourcesWithMergeJavaResForDebug
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar] (filtered)
+Reading library jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading library jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build/libs/featured-annotations-0.3.0.jar] (filtered)
+Reading library jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build/intermediates/intermediate-jars/debug/res.jar] (filtered)
+Reading library jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build/libs/featured-annotations-0.3.0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4842
+  Final number of library classes:    143
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 10
+  Final number of program classes:    3
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/outputs/mapping/debug/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+
+> Task :featured-sample-library:transformClassesAndResourcesWithProguardForDebug
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+> Task :featured-sample-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :featured-sample-library:compileDebugNdk NO-SOURCE
+> Task :featured-sample-library:mergeDebugJniLibFolders
+> Task :featured-sample-library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :featured-sample-library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :featured-sample-library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :featured-sample-library:bundleDebugAar
+> Task :featured-sample-library:compileDebugSources
+> Task :featured-sample-library:assembleDebug
+> Task :featured:preReleaseBuild UP-TO-DATE
+> Task :featured:compileReleaseAidl NO-SOURCE
+> Task :featured-sample-library:preReleaseBuild UP-TO-DATE
+> Task :featured-sample-library:compileReleaseAidl NO-SOURCE
+> Task :featured:compileReleaseRenderscript
+> Task :featured:checkReleaseManifest
+> Task :featured:generateReleaseBuildConfig
+> Task :featured:generateReleaseResValues
+> Task :featured:generateReleaseResources
+> Task :featured:packageReleaseResources
+> Task :featured:processReleaseManifest
+> Task :featured:generateReleaseRFile
+> Task :featured:generateReleaseSources
+> Task :featured:javaPreCompileRelease
+
+> Task :featured:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured:processReleaseJavaRes NO-SOURCE
+> Task :featured:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :featured:packageReleaseRenderscript NO-SOURCE
+> Task :featured-sample-library:compileReleaseRenderscript
+> Task :featured-sample-library:checkReleaseManifest
+> Task :featured-sample-library:generateReleaseBuildConfig
+> Task :featured-sample-library:generateReleaseResValues
+> Task :featured-sample-library:generateReleaseResources
+> Task :featured-sample-library:packageReleaseResources
+> Task :featured-sample-library:processReleaseManifest
+> Task :featured-sample-library:generateReleaseRFile
+> Task :featured-sample-library:generateReleaseSources
+> Task :featured-sample-library:javaPreCompileRelease
+
+> Task :featured-sample-library:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: featured-compiler-0.3.0.jar (project :featured-compiler), auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/generated/source/apt/release/de/halfbit/featured/sample/library/LifecycleFeatureHost.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured-sample-library:extractReleaseAnnotations
+> Task :featured-sample-library:mergeReleaseConsumerProguardFiles
+> Task :featured-sample-library:mergeReleaseShaders
+> Task :featured-sample-library:compileReleaseShaders
+> Task :featured-sample-library:generateReleaseAssets
+> Task :featured-sample-library:packageReleaseAssets
+> Task :featured-sample-library:packageReleaseRenderscript NO-SOURCE
+> Task :featured-sample-library:processReleaseJavaRes NO-SOURCE
+> Task :featured-sample-library:transformResourcesWithMergeJavaResForRelease
+> Task :featured-sample-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :featured-sample-library:compileReleaseNdk NO-SOURCE
+> Task :featured-sample-library:mergeReleaseJniLibFolders
+> Task :featured-sample-library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :featured-sample-library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :featured-sample-library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :featured-sample-library:bundleReleaseAar
+> Task :featured-sample-library:compileReleaseSources
+> Task :featured-sample-library:mergeReleaseResources
+> Task :featured-sample-library:verifyReleaseResources
+> Task :featured-sample-library:assembleRelease
+> Task :featured-sample-library:assemble
+> Task :featured-sample-library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 25s
+73 actionable tasks: 73 executed
+
+2019-01-26 22:00:46,427 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 22:00:46,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 22:00:59,554 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-26 22:00:59,554 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-26 22:00:59,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-26 22:02:02,602 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :featured
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :featured-annotations:compileJava UP-TO-DATE
+> Task :featured-annotations:processResources NO-SOURCE
+> Task :featured-annotations:classes UP-TO-DATE
+> Task :featured-annotations:jar UP-TO-DATE
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured-compiler:compileJava UP-TO-DATE
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured-compiler:processResources NO-SOURCE
+> Task :featured-compiler:classes UP-TO-DATE
+> Task :featured-compiler:jar UP-TO-DATE
+> Transform featured-compiler.jar (project :featured-compiler) with IdentityTransform
+> Task :featured:preBuild UP-TO-DATE
+> Task :featured:preDebugBuild UP-TO-DATE
+> Task :featured:compileDebugAidl NO-SOURCE
+> Task :featured:compileDebugRenderscript UP-TO-DATE
+> Task :featured:checkDebugManifest UP-TO-DATE
+> Task :featured:generateDebugBuildConfig UP-TO-DATE
+> Task :featured:generateDebugResValues UP-TO-DATE
+> Task :featured:generateDebugResources UP-TO-DATE
+> Task :featured:packageDebugResources UP-TO-DATE
+> Task :featured:processDebugManifest UP-TO-DATE
+> Task :featured:generateDebugRFile UP-TO-DATE
+> Task :featured:prepareLintJar UP-TO-DATE
+> Task :featured:generateDebugSources UP-TO-DATE
+> Task :featured:javaPreCompileDebug UP-TO-DATE
+> Task :featured:compileDebugJavaWithJavac UP-TO-DATE
+> Task :featured:processDebugJavaRes NO-SOURCE
+> Task :featured:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :featured-sample:preBuild UP-TO-DATE
+> Task :featured-sample:extractProguardFiles
+> Task :featured-sample-library:preBuild UP-TO-DATE
+> Task :featured-sample-library:extractProguardFiles UP-TO-DATE
+> Task :featured-sample-library:preDebugBuild UP-TO-DATE
+> Task :featured-sample-library:checkDebugManifest UP-TO-DATE
+> Task :featured-sample-library:processDebugManifest UP-TO-DATE
+> Task :featured-sample:preDebugBuild
+> Task :featured-sample-library:compileDebugAidl NO-SOURCE
+> Task :featured-sample:compileDebugAidl NO-SOURCE
+> Task :featured:packageDebugRenderscript NO-SOURCE
+> Task :featured-sample-library:packageDebugRenderscript NO-SOURCE
+> Task :featured-sample:compileDebugRenderscript
+> Task :featured-sample:checkDebugManifest
+> Task :featured-sample:generateDebugBuildConfig
+> Task :featured-sample:prepareLintJar
+> Task :featured-sample:generateDebugSources
+> Task :featured-sample-library:compileDebugRenderscript UP-TO-DATE
+> Task :featured-sample-library:generateDebugBuildConfig UP-TO-DATE
+> Task :featured-sample-library:generateDebugResValues UP-TO-DATE
+> Task :featured-sample-library:generateDebugResources UP-TO-DATE
+> Task :featured-sample-library:packageDebugResources UP-TO-DATE
+> Task :featured-sample-library:generateDebugRFile UP-TO-DATE
+> Task :featured-sample-library:prepareLintJar UP-TO-DATE
+> Task :featured-sample-library:generateDebugSources UP-TO-DATE
+> Task :featured-sample-library:javaPreCompileDebug UP-TO-DATE
+> Task :featured-sample-library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :featured-sample-library:processDebugJavaRes NO-SOURCE
+> Task :featured-sample-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :featured-sample:javaPreCompileDebug
+> Task :featured-sample:mainApkListPersistenceDebug
+> Task :featured-sample:generateDebugResValues
+> Task :featured-sample:generateDebugResources
+> Task :featured-sample:mergeDebugResources
+> Task :featured-sample:createDebugCompatibleScreenManifests
+> Task :featured-sample:processDebugManifest
+> Task :featured-sample:processDebugResources
+
+> Task :featured-sample:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: featured-compiler-0.3.0.jar (project :featured-compiler), auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/src/main/java/de/halfbit/featured/sample/util/Utils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured-sample:compileDebugNdk NO-SOURCE
+> Task :featured-sample:compileDebugSources
+> Task :featured:mergeDebugShaders
+> Task :featured:compileDebugShaders
+> Task :featured:generateDebugAssets
+> Task :featured:packageDebugAssets
+> Task :featured-sample:mergeDebugShaders
+> Task :featured-sample:compileDebugShaders
+> Task :featured-sample:generateDebugAssets
+> Task :featured-sample-library:mergeDebugShaders UP-TO-DATE
+> Task :featured-sample-library:compileDebugShaders UP-TO-DATE
+> Task :featured-sample-library:generateDebugAssets UP-TO-DATE
+> Task :featured-sample-library:packageDebugAssets UP-TO-DATE
+> Task :featured-sample:mergeDebugAssets
+> Task :featured-sample:validateSigningDebug
+> Task :featured-sample:signingConfigWriterDebug
+> Transform featured-annotations.jar (project :featured-annotations) with ExtractProGuardRulesTransform
+> Task :featured:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Transform featured-annotations.jar (project :featured-annotations) with IdentityTransform
+> Task :featured-sample:processDebugJavaRes NO-SOURCE
+> Task :featured-sample:transformResourcesWithMergeJavaResForDebug
+> Task :featured-sample-library:mergeDebugConsumerProguardFiles UP-TO-DATE
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/54aef1b84d6185f890bbfb1e99eacab7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a191fdbd09448684a8fe759159fb7761/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5b0803be6bb72aeaa1a0a37b0ea8231b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/790c2cc1f81581128a38408328740bf6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/539ec9d741ced405407bde28b1ef0a94/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bfbf0fff64e29e5a87ac21ba27d054d0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b2311376cd3cefa65b566129f7a9fa5c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f83656278e3865b653cbfaffd38d2c3b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4a3d00010163c67263e1db51888f08d1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2155bb4a40d26ac938624266733f4143/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/715b540df971f12abbbe461832bfc78e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6030fb8d2e78dbcbd305b25aff15b4f4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7dd166485c0bfa07b6527d7bb1c08b09/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/49f6a3365a44a16d35cd872342e09b9c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fbd2647e2eb3516846c2b666fd5fa6f9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ba9b0ca55a0588cceece3f80c1923c13/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/05269107cae29247acbf933e3720722c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c60b62d222824ba45a826180c0bb4051/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/294e67828c74a02067c22b73fb4475d6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a1e1aabf47a9a7204434881d27a064e7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/98158ef0c56f84d5639020eb5f47ff18/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/b7f7177328285eb26e3f53a6a51f1516/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/80ffe45f9fbe5a9052cd59e5db3ebf06/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/568961b9ef395ed8ae645eb856046d55/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f8f4302f9926c5b2b618e415f4599b4a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f5e2eb446060deb7437189a4070fbc09/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d139080fb78a42f7ba3cb20f85634782/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8f473a752eaa30d97dbe72521145b736/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8bce146a59c0e57e59a5a5911b7a368a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f56e28f5209cf4bf67b058348c238a99/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2148fd86e63927672e7af6c22d1f4e3b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/76f9c2d588e9b89d4a1e0ef65641a184/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build/libs/featured-annotations-0.3.0.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+
+> Task :featured-sample:transformClassesAndResourcesWithProguardForDebug
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1285
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2324
+  Final number of program classes:    1114
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/outputs/mapping/debug/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/54aef1b84d6185f890bbfb1e99eacab7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a191fdbd09448684a8fe759159fb7761/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5b0803be6bb72aeaa1a0a37b0ea8231b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/790c2cc1f81581128a38408328740bf6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/539ec9d741ced405407bde28b1ef0a94/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bfbf0fff64e29e5a87ac21ba27d054d0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b2311376cd3cefa65b566129f7a9fa5c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f83656278e3865b653cbfaffd38d2c3b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4a3d00010163c67263e1db51888f08d1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2155bb4a40d26ac938624266733f4143/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/715b540df971f12abbbe461832bfc78e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6030fb8d2e78dbcbd305b25aff15b4f4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7dd166485c0bfa07b6527d7bb1c08b09/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/49f6a3365a44a16d35cd872342e09b9c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fbd2647e2eb3516846c2b666fd5fa6f9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ba9b0ca55a0588cceece3f80c1923c13/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/05269107cae29247acbf933e3720722c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c60b62d222824ba45a826180c0bb4051/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/294e67828c74a02067c22b73fb4475d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a1e1aabf47a9a7204434881d27a064e7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/98158ef0c56f84d5639020eb5f47ff18/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/b7f7177328285eb26e3f53a6a51f1516/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/80ffe45f9fbe5a9052cd59e5db3ebf06/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/568961b9ef395ed8ae645eb856046d55/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f8f4302f9926c5b2b618e415f4599b4a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f5e2eb446060deb7437189a4070fbc09/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d139080fb78a42f7ba3cb20f85634782/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8f473a752eaa30d97dbe72521145b736/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8bce146a59c0e57e59a5a5911b7a368a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f56e28f5209cf4bf67b058348c238a99/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2148fd86e63927672e7af6c22d1f4e3b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/76f9c2d588e9b89d4a1e0ef65641a184/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample-library/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-annotations/build/libs/featured-annotations-0.3.0.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+
+> Task :featured-sample:transformClassesWithDexBuilderForDebug
+> Task :featured-sample:transformDexArchiveWithDexMergerForDebug
+> Task :featured:compileDebugNdk NO-SOURCE
+> Task :featured:mergeDebugJniLibFolders
+> Task :featured:transformNativeLibsWithMergeJniLibsForDebug
+> Task :featured:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :featured:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :featured-sample:mergeDebugJniLibFolders
+> Task :featured-sample-library:compileDebugNdk NO-SOURCE
+> Task :featured-sample-library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :featured-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :featured-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :featured-sample:packageDebug
+> Task :featured-sample:assembleDebug
+> Task :featured:preReleaseBuild UP-TO-DATE
+> Task :featured:compileReleaseAidl NO-SOURCE
+> Task :featured:compileReleaseRenderscript UP-TO-DATE
+> Task :featured:checkReleaseManifest UP-TO-DATE
+> Task :featured:generateReleaseBuildConfig UP-TO-DATE
+> Task :featured:generateReleaseResValues UP-TO-DATE
+> Task :featured:generateReleaseResources UP-TO-DATE
+> Task :featured:packageReleaseResources UP-TO-DATE
+> Task :featured:processReleaseManifest UP-TO-DATE
+> Task :featured:generateReleaseRFile UP-TO-DATE
+> Task :featured:generateReleaseSources UP-TO-DATE
+> Task :featured:javaPreCompileRelease UP-TO-DATE
+> Task :featured:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :featured:processReleaseJavaRes NO-SOURCE
+> Task :featured:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :featured-sample-library:preReleaseBuild UP-TO-DATE
+> Task :featured-sample-library:checkReleaseManifest UP-TO-DATE
+> Task :featured-sample-library:processReleaseManifest UP-TO-DATE
+> Task :featured-sample:preReleaseBuild
+> Task :featured-sample-library:compileReleaseAidl NO-SOURCE
+> Task :featured-sample:compileReleaseAidl NO-SOURCE
+> Task :featured:packageReleaseRenderscript NO-SOURCE
+> Task :featured-sample-library:packageReleaseRenderscript NO-SOURCE
+> Task :featured-sample:compileReleaseRenderscript
+> Task :featured-sample:checkReleaseManifest
+> Task :featured-sample:generateReleaseBuildConfig
+> Task :featured-sample:generateReleaseSources
+> Task :featured-sample-library:compileReleaseRenderscript UP-TO-DATE
+> Task :featured-sample-library:generateReleaseBuildConfig UP-TO-DATE
+> Task :featured-sample-library:generateReleaseResValues UP-TO-DATE
+> Task :featured-sample-library:generateReleaseResources UP-TO-DATE
+> Task :featured-sample-library:packageReleaseResources UP-TO-DATE
+> Task :featured-sample-library:generateReleaseRFile UP-TO-DATE
+> Task :featured-sample-library:generateReleaseSources UP-TO-DATE
+> Task :featured-sample-library:javaPreCompileRelease UP-TO-DATE
+> Task :featured-sample-library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :featured-sample-library:processReleaseJavaRes NO-SOURCE
+> Task :featured-sample-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :featured-sample:javaPreCompileRelease
+> Task :featured-sample:mainApkListPersistenceRelease
+> Task :featured-sample:generateReleaseResValues
+> Task :featured-sample:generateReleaseResources
+> Task :featured-sample:mergeReleaseResources
+> Task :featured-sample:createReleaseCompatibleScreenManifests
+> Task :featured-sample:processReleaseManifest
+> Task :featured-sample:processReleaseResources
+
+> Task :featured-sample:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: featured-compiler-0.3.0.jar (project :featured-compiler), auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/src/main/java/de/halfbit/featured/sample/util/Utils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :featured-sample:compileReleaseNdk NO-SOURCE
+> Task :featured-sample:compileReleaseSources
+
+> Task :featured-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/087c1829c5694d07ff0b856418fed455/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :featured:createFullJarRelease
+> Transform full.jar (project :featured) with IdentityTransform
+> Task :featured-sample-library:createFullJarRelease
+> Transform full.jar (project :featured-sample-library) with IdentityTransform
+> Transform featured-annotations.jar (project :featured-annotations) with DexingTransform
+> Transform full.jar (project :featured) with DexingTransform
+> Task :featured-sample:mergeExtDexRelease
+> Transform full.jar (project :featured-sample-library) with DexingTransform
+> Task :featured-sample:transformClassesWithDexBuilderForRelease
+> Task :featured-sample:mergeDexRelease
+> Task :featured:mergeReleaseShaders
+> Task :featured:compileReleaseShaders
+> Task :featured:generateReleaseAssets
+> Task :featured:packageReleaseAssets
+> Task :featured-sample:mergeReleaseShaders
+> Task :featured-sample:compileReleaseShaders
+> Task :featured-sample:generateReleaseAssets
+> Task :featured-sample-library:mergeReleaseShaders UP-TO-DATE
+> Task :featured-sample-library:compileReleaseShaders UP-TO-DATE
+> Task :featured-sample-library:generateReleaseAssets UP-TO-DATE
+> Task :featured-sample-library:packageReleaseAssets UP-TO-DATE
+> Task :featured-sample:mergeReleaseAssets
+> Task :featured-sample:signingConfigWriterRelease
+> Task :featured:compileReleaseNdk NO-SOURCE
+> Task :featured:mergeReleaseJniLibFolders
+> Task :featured:transformNativeLibsWithMergeJniLibsForRelease
+> Task :featured:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :featured:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :featured-sample:mergeReleaseJniLibFolders
+> Task :featured-sample-library:compileReleaseNdk NO-SOURCE
+> Task :featured-sample-library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :featured-sample-library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :featured-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :featured-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :featured-sample:processReleaseJavaRes NO-SOURCE
+> Task :featured-sample:transformResourcesWithMergeJavaResForRelease
+> Task :featured-sample:packageRelease
+> Task :featured-sample:assembleRelease
+> Task :featured-sample:assemble
+> Task :featured-sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 2s
+131 actionable tasks: 72 executed, 59 up-to-date
+
+2019-01-26 22:02:02,744 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514806245-0/src/featured-master/featured-sample/build/outputs/apk/release/featured-sample-release-unsigned.apk

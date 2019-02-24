@@ -1,0 +1,4 @@
+{
+  "com.aigestudio.wheelpicker" : [ "BuildConfig", "IDebug", "IWheelPicker", "R", "R$array", "R$attr", "R$dimen", "R$id", "R$layout", "R$string", "R$styleable", "WheelPicker", "WheelPicker$OnItemSelectedListener", "WheelPicker$OnWheelChangeListener" ],
+  "com.aigestudio.wheelpicker.demo" : [ "BuildConfig", "PreviewActivity", "R", "R$array", "R$attr", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string", "R$styleable" ]
+}

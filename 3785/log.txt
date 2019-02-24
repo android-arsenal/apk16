@@ -1,0 +1,190 @@
+2018-11-16 18:11:33,962 INFO  DownloadService - Downloading "https://github.com/ahmed-basyouni/QRParserLib/archive/master.zip", attempt 3
+2018-11-16 18:11:34,659 INFO  DownloadService - Downloaded https://github.com/ahmed-basyouni/QRParserLib/archive/master.zip, attempt 3
+2018-11-16 18:11:34,660 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/master.zip": 181 KB
+2018-11-16 18:11:34,660 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 18:11:34,665 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/master.zip: true
+2018-11-16 18:11:34,665 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src'.
+2018-11-16 18:11:34,693 INFO  FullProcessService - Size of directory with sources: 247 KB
+2018-11-16 18:11:34,693 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src]
+2018-11-16 18:11:34,710 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/.git/
+
+2018-11-16 18:11:34,714 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/gradlew
+2018-11-16 18:11:34,718 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/build.gradle
+2018-11-16 18:11:34,721 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/settings.gradle
+2018-11-16 18:11:34,722 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 18:11:34,722 INFO  ProjectFixService - Fixing project...
+2018-11-16 18:11:34,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/local.properties
+2018-11-16 18:11:34,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-11-16 18:11:34,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/local.properties
+2018-11-16 18:11:34,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-16 18:11:34,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-16 18:11:34,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-11-16 18:11:34,732 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 18:11:34,733 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:11:34,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:11:44,439 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-16 18:11:44,439 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 18:11:44,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/QRParserLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 18:11:51,966 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:QRParserLib:preBuild UP-TO-DATE
+:QRParserLib:preDebugBuild UP-TO-DATE
+:QRParserLib:compileDebugNdk UP-TO-DATE
+:QRParserLib:compileLint
+:QRParserLib:copyDebugLint UP-TO-DATE
+:QRParserLib:mergeDebugProguardFiles
+:QRParserLib:packageDebugRenderscript UP-TO-DATE
+:QRParserLib:checkDebugManifest
+:QRParserLib:prepareDebugDependencies
+:QRParserLib:compileDebugRenderscript
+:QRParserLib:generateDebugResValues
+:QRParserLib:generateDebugResources
+:QRParserLib:packageDebugResources
+:QRParserLib:compileDebugAidl
+:QRParserLib:generateDebugBuildConfig
+:QRParserLib:mergeDebugShaders
+:QRParserLib:compileDebugShaders
+:QRParserLib:generateDebugAssets
+:QRParserLib:mergeDebugAssets
+:QRParserLib:processDebugManifest
+:QRParserLib:processDebugResources
+:QRParserLib:generateDebugSources
+:QRParserLib:incrementalDebugJavaCompilationSafeguard
+:QRParserLib:compileDebugJavaWithJavac
+:QRParserLib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:QRParserLib:processDebugJavaRes UP-TO-DATE
+:QRParserLib:transformResourcesWithMergeJavaResForDebug
+:QRParserLib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:QRParserLib:mergeDebugJniLibFolders
+:QRParserLib:transformNative_libsWithMergeJniLibsForDebug
+:QRParserLib:transformNative_libsWithSyncJniLibsForDebug
+:QRParserLib:bundleDebug
+:QRParserLib:compileDebugSources
+:QRParserLib:assembleDebug
+:QRParserLib:preReleaseBuild UP-TO-DATE
+:QRParserLib:compileReleaseNdk UP-TO-DATE
+:QRParserLib:copyReleaseLint UP-TO-DATE
+:QRParserLib:mergeReleaseProguardFiles
+:QRParserLib:packageReleaseRenderscript UP-TO-DATE
+:QRParserLib:checkReleaseManifest
+:QRParserLib:prepareReleaseDependencies
+:QRParserLib:compileReleaseRenderscript
+:QRParserLib:generateReleaseResValues
+:QRParserLib:generateReleaseResources
+:QRParserLib:packageReleaseResources
+:QRParserLib:compileReleaseAidl
+:QRParserLib:generateReleaseBuildConfig
+:QRParserLib:mergeReleaseShaders
+:QRParserLib:compileReleaseShaders
+:QRParserLib:generateReleaseAssets
+:QRParserLib:mergeReleaseAssets
+:QRParserLib:processReleaseManifest
+:QRParserLib:processReleaseResources
+:QRParserLib:generateReleaseSources
+:QRParserLib:incrementalReleaseJavaCompilationSafeguard
+:QRParserLib:compileReleaseJavaWithJavac
+:QRParserLib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:QRParserLib:processReleaseJavaRes UP-TO-DATE
+:QRParserLib:transformResourcesWithMergeJavaResForRelease
+:QRParserLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:QRParserLib:mergeReleaseJniLibFolders
+:QRParserLib:transformNative_libsWithMergeJniLibsForRelease
+:QRParserLib:transformNative_libsWithSyncJniLibsForRelease
+:QRParserLib:bundleRelease
+:QRParserLib:compileReleaseSources
+:QRParserLib:assembleRelease
+:QRParserLib:assemble
+:QRParserLib:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.022 secs
+
+2018-11-16 18:11:51,987 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:11:51,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:11:57,468 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-11-16 18:11:57,468 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 18:11:57,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366693959-0/src/QRParserLib-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 18:12:02,939 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:QRParserLib:preBuild UP-TO-DATE
+:QRParserLib:preDebugBuild UP-TO-DATE
+:QRParserLib:compileDebugNdk UP-TO-DATE
+:QRParserLib:compileLint
+:QRParserLib:copyDebugLint UP-TO-DATE
+:QRParserLib:mergeDebugProguardFiles UP-TO-DATE
+:QRParserLib:packageDebugRenderscript UP-TO-DATE
+:QRParserLib:checkDebugManifest
+:QRParserLib:prepareDebugDependencies
+:QRParserLib:compileDebugRenderscript UP-TO-DATE
+:QRParserLib:generateDebugResValues UP-TO-DATE
+:QRParserLib:generateDebugResources UP-TO-DATE
+:QRParserLib:packageDebugResources UP-TO-DATE
+:QRParserLib:compileDebugAidl UP-TO-DATE
+:QRParserLib:generateDebugBuildConfig UP-TO-DATE
+:QRParserLib:mergeDebugShaders UP-TO-DATE
+:QRParserLib:compileDebugShaders UP-TO-DATE
+:QRParserLib:generateDebugAssets UP-TO-DATE
+:QRParserLib:mergeDebugAssets UP-TO-DATE
+:QRParserLib:processDebugManifest UP-TO-DATE
+:QRParserLib:processDebugResources UP-TO-DATE
+:QRParserLib:generateDebugSources UP-TO-DATE
+:QRParserLib:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:QRParserLib:compileDebugJavaWithJavac UP-TO-DATE
+:QRParserLib:processDebugJavaRes UP-TO-DATE
+:QRParserLib:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:QRParserLib:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:QRParserLib:mergeDebugJniLibFolders UP-TO-DATE
+:QRParserLib:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:QRParserLib:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:QRParserLib:bundleDebug UP-TO-DATE
+:QRParserLib:compileDebugSources UP-TO-DATE
+:QRParserLib:assembleDebug UP-TO-DATE
+:QRParserLib:preReleaseBuild UP-TO-DATE
+:QRParserLib:compileReleaseNdk UP-TO-DATE
+:QRParserLib:copyReleaseLint UP-TO-DATE
+:QRParserLib:mergeReleaseProguardFiles UP-TO-DATE
+:QRParserLib:packageReleaseRenderscript UP-TO-DATE
+:QRParserLib:checkReleaseManifest
+:QRParserLib:prepareReleaseDependencies
+:QRParserLib:compileReleaseRenderscript UP-TO-DATE
+:QRParserLib:generateReleaseResValues UP-TO-DATE
+:QRParserLib:generateReleaseResources UP-TO-DATE
+:QRParserLib:packageReleaseResources UP-TO-DATE
+:QRParserLib:compileReleaseAidl UP-TO-DATE
+:QRParserLib:generateReleaseBuildConfig UP-TO-DATE
+:QRParserLib:mergeReleaseShaders UP-TO-DATE
+:QRParserLib:compileReleaseShaders UP-TO-DATE
+:QRParserLib:generateReleaseAssets UP-TO-DATE
+:QRParserLib:mergeReleaseAssets UP-TO-DATE
+:QRParserLib:processReleaseManifest UP-TO-DATE
+:QRParserLib:processReleaseResources UP-TO-DATE
+:QRParserLib:generateReleaseSources UP-TO-DATE
+:QRParserLib:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:QRParserLib:compileReleaseJavaWithJavac UP-TO-DATE
+:QRParserLib:processReleaseJavaRes UP-TO-DATE
+:QRParserLib:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:QRParserLib:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:QRParserLib:mergeReleaseJniLibFolders UP-TO-DATE
+:QRParserLib:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:QRParserLib:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:QRParserLib:bundleRelease UP-TO-DATE
+:QRParserLib:compileReleaseSources UP-TO-DATE
+:QRParserLib:assembleRelease UP-TO-DATE
+:QRParserLib:assemble UP-TO-DATE
+:QRParserLib:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.965 secs
+
+2018-11-16 18:12:02,961 ERROR FullProcessService - Project build has not produced APK file
+2018-11-16 18:12:02,982 ERROR FullProcessService - Could not find generated or existed APK file

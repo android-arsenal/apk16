@@ -1,0 +1,45 @@
+2018-11-16 18:11:16,175 INFO  DownloadService - Downloading "https://github.com/shiraji/kew-instance-inspection/archive/master.zip", attempt 3
+2018-11-16 18:11:16,683 INFO  DownloadService - Downloaded https://github.com/shiraji/kew-instance-inspection/archive/master.zip, attempt 3
+2018-11-16 18:11:16,683 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/master.zip": 109 KB
+2018-11-16 18:11:16,683 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 18:11:16,689 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/master.zip: true
+2018-11-16 18:11:16,689 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src'.
+2018-11-16 18:11:16,701 INFO  FullProcessService - Size of directory with sources: 184 KB
+2018-11-16 18:11:16,701 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src]
+2018-11-16 18:11:16,719 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/.git/
+
+2018-11-16 18:11:16,721 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/gradlew
+2018-11-16 18:11:16,723 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle
+2018-11-16 18:11:16,725 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/settings.gradle
+2018-11-16 18:11:16,725 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 18:11:16,725 INFO  ProjectFixService - Fixing project...
+2018-11-16 18:11:16,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/local.properties
+2018-11-16 18:11:16,730 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.7-all.zip
+2018-11-16 18:11:16,730 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.7-bin.zip)
+2018-11-16 18:11:16,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-16 18:11:16,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-16 18:11:16,732 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 18:11:16,732 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:11:16,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:11:22,442 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-11-16 18:11:22,442 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-11-16 18:11:22,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366676171-0/src/kew-instance-inspection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-11-16 18:11:33,922 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileKotlin
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources
+:classes
+:prepareSandbox
+:buildPlugin
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.972 secs
+
+2018-11-16 18:11:33,927 ERROR FullProcessService - Project build has not produced APK file
+2018-11-16 18:11:33,932 ERROR FullProcessService - Could not find generated or existed APK file

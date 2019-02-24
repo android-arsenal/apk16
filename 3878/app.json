@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "de.halfbit.featured",
+    "label" : "Featured Sample",
+    "icon" : null,
+    "versionName" : "0.2.0",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "5",
+    "platformBuildVersionName" : "0.2.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 2324,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"0.2.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"de.halfbit.featured\" platformBuildVersionCode=\"5\" platformBuildVersionName=\"0.2.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0139\" android:label=\"Featured Sample\" android:allowBackup=\"false\" android:fullBackupContent=\"false\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0d00e4\" android:label=\"Featured Sample\" android:name=\"de.halfbit.featured.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1865992,
+  "crc32" : 3467842144,
+  "sha256" : "fe9d94e66a38168413f72349871a54a57753cdeac6da8395f87546615f07e7bb",
+  "buildTime" : 1548514921000
+}

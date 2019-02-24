@@ -1,0 +1,244 @@
+2018-11-11 23:36:37,231 INFO  DownloadService - Downloading "https://github.com/PierfrancescoSoffritti/SlidingDrawer/archive/master.zip", attempt 3
+2018-11-11 23:36:38,666 INFO  DownloadService - Downloaded https://github.com/PierfrancescoSoffritti/SlidingDrawer/archive/master.zip, attempt 3
+2018-11-11 23:36:38,666 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/master.zip": 1 MB
+2018-11-11 23:36:38,666 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-11 23:36:38,669 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/master.zip: true
+2018-11-11 23:36:38,669 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src'.
+2018-11-11 23:36:38,710 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-11-11 23:36:38,710 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src]
+2018-11-11 23:36:38,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/.git/
+
+2018-11-11 23:36:38,731 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/gradlew
+2018-11-11 23:36:38,736 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/build.gradle
+2018-11-11 23:36:38,740 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/settings.gradle
+2018-11-11 23:36:38,740 INFO  ProjectBuildService - Remote scripts: none
+2018-11-11 23:36:38,740 INFO  ProjectFixService - Fixing project...
+2018-11-11 23:36:38,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/local.properties
+2018-11-11 23:36:38,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-11 23:36:38,752 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/local.properties
+2018-11-11 23:36:38,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-11 23:36:38,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/local.properties
+2018-11-11 23:36:38,753 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-11 23:36:38,753 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-11 23:36:38,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-11 23:36:38,754 INFO  ProjectFixService - Project was maybe fixed
+2018-11-11 23:36:38,754 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-11 23:36:38,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-11 23:36:47,114 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-11 23:36:47,114 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-11 23:36:47,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-11 23:37:27,601 INFO  SysUtils - Configuration on demand is an incubating feature.
+:slidingdrawer:preBuild UP-TO-DATE
+:slidingdrawer:preDebugBuild UP-TO-DATE
+:slidingdrawer:compileDebugAidl
+:slidingdrawer:compileDebugRenderscript
+:slidingdrawer:checkDebugManifest
+:slidingdrawer:generateDebugBuildConfig
+:slidingdrawer:generateDebugResValues
+:slidingdrawer:generateDebugResources
+:slidingdrawer:packageDebugResources
+:slidingdrawer:platformAttrExtractor
+:slidingdrawer:processDebugManifest
+:slidingdrawer:prepareLintJar
+:slidingdrawer:javaPreCompileDebug
+:slidingdrawer:processDebugJavaRes NO-SOURCE
+:slidingdrawer-sample:preBuild UP-TO-DATE
+:slidingdrawer-sample:preDebugBuild
+:slidingdrawer-sample:compileDebugAidl
+:slidingdrawer:packageDebugRenderscript NO-SOURCE
+:slidingdrawer-sample:compileDebugRenderscript
+:slidingdrawer-sample:checkDebugManifest
+:slidingdrawer-sample:generateDebugBuildConfig
+:slidingdrawer-sample:prepareLintJar
+:slidingdrawer-sample:mainApkListPersistenceDebug
+:slidingdrawer-sample:generateDebugResValues
+:slidingdrawer-sample:generateDebugResources
+:slidingdrawer-sample:mergeDebugResources
+:slidingdrawer-sample:createDebugCompatibleScreenManifests
+:slidingdrawer-sample:processDebugManifest
+:slidingdrawer-sample:splitsDiscoveryTaskDebug
+:slidingdrawer-sample:compileDebugNdk NO-SOURCE
+:slidingdrawer:mergeDebugShaders
+:slidingdrawer:compileDebugShaders
+:slidingdrawer:generateDebugAssets
+:slidingdrawer:packageDebugAssets
+:slidingdrawer-sample:mergeDebugShaders
+:slidingdrawer-sample:compileDebugShaders
+:slidingdrawer-sample:generateDebugAssets
+:slidingdrawer-sample:mergeDebugAssets
+:slidingdrawer:compileDebugNdk NO-SOURCE
+:slidingdrawer:mergeDebugJniLibFolders
+:slidingdrawer:transformNativeLibsWithMergeJniLibsForDebug
+:slidingdrawer:transformNativeLibsWithStripDebugSymbolForDebug
+:slidingdrawer:transformNativeLibsWithIntermediateJniLibsForDebug
+:slidingdrawer-sample:mergeDebugJniLibFolders
+:slidingdrawer-sample:processDebugJavaRes NO-SOURCE
+:slidingdrawer-sample:validateSigningDebug
+:slidingdrawer:preReleaseBuild UP-TO-DATE
+:slidingdrawer:compileReleaseAidl
+:slidingdrawer:compileReleaseRenderscript
+:slidingdrawer:checkReleaseManifest
+:slidingdrawer:generateReleaseBuildConfig
+:slidingdrawer:generateReleaseResValues
+:slidingdrawer:generateReleaseResources
+:slidingdrawer:packageReleaseResources
+:slidingdrawer:processReleaseManifest
+:slidingdrawer:javaPreCompileRelease
+:slidingdrawer:processReleaseJavaRes NO-SOURCE
+:slidingdrawer-sample:extractProguardFiles
+:slidingdrawer-sample:preReleaseBuild
+:slidingdrawer-sample:compileReleaseAidl
+:slidingdrawer:packageReleaseRenderscript NO-SOURCE
+:slidingdrawer-sample:compileReleaseRenderscript
+:slidingdrawer-sample:checkReleaseManifest
+:slidingdrawer-sample:generateReleaseBuildConfig
+:slidingdrawer-sample:mainApkListPersistenceRelease
+:slidingdrawer-sample:generateReleaseResValues
+:slidingdrawer-sample:generateReleaseResources
+:slidingdrawer-sample:mergeReleaseResources
+:slidingdrawer-sample:createReleaseCompatibleScreenManifests
+:slidingdrawer-sample:processReleaseManifest
+:slidingdrawer-sample:splitsDiscoveryTaskRelease
+:slidingdrawer-sample:compileReleaseNdk NO-SOURCE
+:slidingdrawer:mergeReleaseShaders
+:slidingdrawer:compileReleaseShaders
+:slidingdrawer:generateReleaseAssets
+:slidingdrawer:packageReleaseAssets
+:slidingdrawer-sample:mergeReleaseShaders
+:slidingdrawer-sample:compileReleaseShaders
+:slidingdrawer-sample:generateReleaseAssets
+:slidingdrawer-sample:mergeReleaseAssets
+:slidingdrawer:mergeReleaseConsumerProguardFiles
+:slidingdrawer-sample:processReleaseJavaRes NO-SOURCE
+:slidingdrawer:compileReleaseNdk NO-SOURCE
+:slidingdrawer:mergeReleaseJniLibFolders
+:slidingdrawer:transformNativeLibsWithMergeJniLibsForRelease
+:slidingdrawer:transformNativeLibsWithStripDebugSymbolForRelease
+:slidingdrawer:transformNativeLibsWithIntermediateJniLibsForRelease
+:slidingdrawer-sample:mergeReleaseJniLibFolders
+:slidingdrawer:generateDebugRFile
+:slidingdrawer:generateDebugSources
+:slidingdrawer:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/src/main/java/com/pierfrancescosoffritti/slidingdrawer/SlidingDrawer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slidingdrawer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:slidingdrawer-sample:processDebugResources
+:slidingdrawer-sample:generateDebugSources
+:slidingdrawer-sample:javaPreCompileDebug
+:slidingdrawer-sample:compileDebugJavaWithJavac
+:slidingdrawer-sample:compileDebugSources
+:slidingdrawer-sample:transformClassesWithDexBuilderForDebug
+:slidingdrawer-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:slidingdrawer-sample:transformDexArchiveWithDexMergerForDebug
+:slidingdrawer-sample:transformNativeLibsWithMergeJniLibsForDebug
+:slidingdrawer-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:slidingdrawer-sample:transformResourcesWithMergeJavaResForDebug
+:slidingdrawer-sample:packageDebug
+:slidingdrawer-sample:assembleDebug
+:slidingdrawer:generateReleaseRFile
+:slidingdrawer:generateReleaseSources
+:slidingdrawer:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/src/main/java/com/pierfrancescosoffritti/slidingdrawer/SlidingDrawer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slidingdrawer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:slidingdrawer-sample:processReleaseResources
+:slidingdrawer-sample:generateReleaseSources
+:slidingdrawer-sample:javaPreCompileRelease
+:slidingdrawer-sample:compileReleaseJavaWithJavac
+:slidingdrawer-sample:compileReleaseSources
+:slidingdrawer-sample:lintVitalRelease
+:slidingdrawer-sample:transformResourcesWithMergeJavaResForRelease
+:slidingdrawer-sample:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/da112664f1a2b665f86997083fe19e9e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/85d12866654c60b7c20418c17968b611/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b49b8b7044ef2595992953df267f9b5e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b61ee9a8518d9f398b06bac595806b8b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38c2752400fa8631f6b0d320bc199594/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aa99dc380a43bb387e85894c7bff5350/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/91d2c66fe6533fe446b608a282d86a54/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b2494e55d8bbe8f52a38f7d280ae94da/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f74f8e057a24b5eb8991299515d0162d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a5d36044c377fc02f58afb92429cf1aa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6189bbba2d17ecb1e502fbd7032d489d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dac7945c7f20fe9e27b7186821260627/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3a199258b4b129809862969048ab3c40/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/51adc613c442d84b994c54a18ef1d4f8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d0d2b8b6209035bd82f54802b595228d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b9635f502ea4495d5dc463985002f314/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1090
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2108
+  Final number of program classes:    1064
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/da112664f1a2b665f86997083fe19e9e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/85d12866654c60b7c20418c17968b611/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b49b8b7044ef2595992953df267f9b5e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b61ee9a8518d9f398b06bac595806b8b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38c2752400fa8631f6b0d320bc199594/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aa99dc380a43bb387e85894c7bff5350/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/91d2c66fe6533fe446b608a282d86a54/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b2494e55d8bbe8f52a38f7d280ae94da/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f74f8e057a24b5eb8991299515d0162d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a5d36044c377fc02f58afb92429cf1aa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6189bbba2d17ecb1e502fbd7032d489d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/dac7945c7f20fe9e27b7186821260627/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3a199258b4b129809862969048ab3c40/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/51adc613c442d84b994c54a18ef1d4f8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d0d2b8b6209035bd82f54802b595228d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b9635f502ea4495d5dc463985002f314/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/build/outputs/mapping/release/dump.txt]...
+:slidingdrawer-sample:transformClassesWithDexBuilderForRelease
+:slidingdrawer-sample:transformDexArchiveWithDexMergerForRelease
+:slidingdrawer-sample:transformNativeLibsWithMergeJniLibsForRelease
+:slidingdrawer-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:slidingdrawer-sample:packageRelease
+:slidingdrawer-sample:assembleRelease
+:slidingdrawer-sample:assemble
+:slidingdrawer-sample:build
+
+BUILD SUCCESSFUL in 39s
+93 actionable tasks: 93 executed
+
+2018-11-11 23:37:27,683 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954197227-0/src/sliding-drawer-master/slidingdrawer-sample/apk/slidingdrawer-sample-release.apk

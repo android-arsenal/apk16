@@ -1,0 +1,5 @@
+{
+  "com.android.tools.fd.common" : [ "Log", "Log$Logging", "ProtocolConstants" ],
+  "com.android.tools.fd.runtime" : [ "AbstractPatchesLoaderImpl", "AndroidInstantRuntime", "AndroidInstantRuntime$1", "AndroidInstantRuntime$Logging", "AppInfo", "ApplicationPatch", "BasicType", "BootstrapApplication", "BootstrapApplication$1", "FileManager", "IncrementalChange", "IncrementalClassLoader", "IncrementalClassLoader$1", "IncrementalClassLoader$DelegateClassLoader", "InstantReloadException", "MonkeyPatcher", "PatchesLoader", "PatchesLoaderDumper", "Paths", "Restarter", "Restarter$1", "Restarter$2", "Restarter$3", "Server", "Server$1", "Server$SocketServerReplyThread", "Server$SocketServerThread" ],
+  "com.android.tools.ir.api" : [ "DisableInstantRun" ]
+}

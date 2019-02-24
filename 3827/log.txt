@@ -1,0 +1,123 @@
+2018-11-13 19:14:56,038 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip", attempt 3
+2018-11-13 19:14:57,700 INFO  DownloadService - Downloaded https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip, attempt 3
+2018-11-13 19:14:57,700 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip": 59 KB
+2018-11-13 19:14:57,700 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-13 19:14:57,705 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip: true
+2018-11-13 19:14:57,706 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src'.
+2018-11-13 19:14:57,715 INFO  FullProcessService - Size of directory with sources: 68 KB
+2018-11-13 19:14:57,715 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src]
+2018-11-13 19:14:57,734 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/.git/
+
+2018-11-13 19:14:57,736 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew
+2018-11-13 19:14:57,738 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle
+2018-11-13 19:14:57,739 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle
+2018-11-13 19:14:57,739 INFO  ProjectBuildService - Remote scripts: none
+2018-11-13 19:14:57,739 INFO  ProjectFixService - Fixing project...
+2018-11-13 19:14:57,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/local.properties
+2018-11-13 19:14:57,743 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
+2018-11-13 19:14:57,744 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2018-11-13 19:14:57,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2018-11-13 19:14:57,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
+2018-11-13 19:14:57,745 INFO  ProjectFixService - Project was maybe fixed
+2018-11-13 19:14:57,745 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-13 19:14:57,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-13 19:15:13,978 INFO  ProjectTaskService - Detected possible tasks: 77
+2018-11-13 19:15:13,978 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-13 19:15:13,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-13 19:15:27,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileLint
+:copyDebugLint UP-TO-DATE
+:checkDebugManifest
+:preDebugAndroidTestBuild UP-TO-DATE
+:preDebugUnitTestBuild UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:preReleaseUnitTestBuild UP-TO-DATE
+:prepareComJakewhartonRxbindingRxbinding040Library
+:prepareComTrelloRxlifecycle061Library
+:prepareIoReactivexRxandroid110Library
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:incrementalDebugJavaCompilationSafeguard
+:compileDebugJavaWithJavac
+:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:compileDebugGroovyWithGroovycwarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:extractDebugAnnotations
+:mergeDebugProguardFiles
+:packageDebugRenderscript UP-TO-DATE
+:packageDebugResources
+:processDebugJavaRes
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/transforms/mergeJavaRes/debug/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
+ImmutableDirectoryInput{name=8f2442fa481a96aeba271bcd0bfcf950f9b785f4, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:transformNative_libsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:compileReleaseNdk UP-TO-DATE
+:copyReleaseLint UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:incrementalReleaseJavaCompilationSafeguard
+:compileReleaseJavaWithJavac
+:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:compileReleaseGroovyWithGroovycwarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:extractReleaseAnnotations
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript UP-TO-DATE
+:packageReleaseResources
+:processReleaseJavaRes
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/transforms/mergeJavaRes/release/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
+ImmutableDirectoryInput{name=d1ff4cdac47e33e2355ecc861be95940e58e6069, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:transformNative_libsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.455 secs
+
+2018-11-13 19:15:28,067 ERROR FullProcessService - Project build has not produced APK file
+2018-11-13 19:15:28,143 ERROR FullProcessService - Could not find generated or existed APK file

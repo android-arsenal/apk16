@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "me.mzak.parallexrecyclerview",
+    "label" : "ParallexRecyclerView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAG2klEQVRo3u1ZXUxcxxX+zszc3WV32TUYWBaS8LcYbAjGVp2oOEmdWn3rU5RG6kPkPlSJIkupqpaH1FJtqYottW6rpPJDpVaWZTVSbepKaasqeaB+iB2p2DHFgB0MNpiY9ZoFvF72l7v39OHeJQYW7MUL64cc6erOnTtz5nxzzpkzcwb4hopLtNZPZpaParMJxESUya8Hs2Bm8bTM8lryUK7GRGRY5a0AXAC4iBYSI6KZ5bLlBJBtwMxOAMeZ+TVm1opq40QLAM4R0c+JKL4chMrVKZPJ/E4I8TYzPw3mAwDvRKNR7fDhw2+takLMLIkok0wmK5RSw0RUycxpIlLFAkJEYGZdCGGbn58PDw4OdnR1dQWzsi7XAAHAxMREWWNjo0ZE2f/CKheLsjJqMzMzZQCCD0/8Cs8Oh8NURKddk+LxOK2GLq/4kNNWwRiJjOFiqA9DkS/xVXwK0YV5AECp5sYzzhq0eVvQ5duDbd4m0DrCi67rjw0gLyc7H/wMp8d6MBq9mbNNNB3FVCyI/05fxsnRjxAobcSbTa9jn/8lPKl5PhGAYDyEYwMfoH/2al79RqM3cbj/1+i8/W+81/ET+J2+dcuw7mjbPzuIH1/8ad7CL+Vx1eIxuLkA+mcH0d13BNF09IkdM5qOorvvyLpBiPWYzaEvjiKVSRVsdUllUjj0xVEE46GNBcDMODbwYUFmPpcmjg18iHyDZl4AzgcvoH92YMPW+f7ZAZwPXtgYAAzG6bGzGx6sTo+dBecRRx8bwEhkbNV1vpA0Gr2JkchY4QFcDPVt2pYhn7EeO5AN3f9ysbyzrB1+exXC6Tlcmr3yyL4u5UKFKodbujAUu57XWAUDcCcxtViuU7U409uDF+q+hYCnHi0V2yDThIRIIkFJuHUnxpK3saOkGVVbKvGPiU9Q9aAM1aVVUJrAc65nsNVbjr5wP+7pYQTcDeifGkDCnloxVsFM6IG1MQMAp82J3c/tQnNVE1yxEtwZn8SZiz0oTTjhS1Tg48//iR3UhL9e6MHkV7eBuwsAAywY9dqzOPv5OUTu3ceV/13G69Xfh5wG5m6GkXmwsGKsDdkLLWQWcOf+FIZD16CUwhsdryGanseWEi+m4zMwBMNgA9trWrDD14orU1cXp8ou7WiuDiBQ2YT6snoMT1xDjccPh2ZHMpgy98FbN2Az59HciwHs06n/YHr+HpgAwWn8/fq/4HNX4i8DPTAMAyQJfxv8GNt9rTh5+SOEY2HMJGYhQxLxVBzb/a34Y99J6Bkdn472wqEcICUBg6CH0nC5HYUHUFtSgzuxoBk1RQzasw4sTJk2G0lGEElHzNXbYECa031t+rp5tCAgrifM2SVg8O4wIAAmAEogxWmAASEJDKAm4yu8D7RtaVnyLV0KWq198ejDBJAESCNAAiwBVmS+BcAqW2fVkzk6KXMa2XqgCO3VOwoPoMu3Z0WddCpofsfX5zcCYIEgSSYgZQET1lsCJNkUnMx6KIAUmY8E9ja8WHgA27xNCJQ2rmTglFA+20OHUDK5KhMMBAGSrLL5TVYdSVMTTNZ/SWiuDKC1ornwAAiEN5t+kJtJiYRWaVuiCSEJQglLMFggTHCLGVernixNkCL8qPOHeR0z89qN7vPvRWd5R25GDgm11bY0HSBMECQJQliPXPa2ykSE3dU78d36VzZuO01EeK/jXZTaSnMzs0uocm2ZTxCEJqzZJ7CixfJinRTwlHhx6Ns/y/uQn/eJzO/04f3dv4Bd2nMztEkor6kJNlGbgmoEKNP+SQogC0QRSmwOHHvll6gprd6cM3FneTt+s+fI6pqwCUjP15pgZtN5FS31CUHwOjz47Xd+hV2+5zc3K9FZ3o4/df0eneW5ByZNQLoVQLzEnEgJsDCD227fTvz5e3/Arqrn1yvGk+WF/E4fPnjx/VUTW0IJkBPIJA0ABBamHzWXNeJA4A28WlvkxFbWsV+teRn7al5aNbXodrlQq/nRXtGKvf4XsG3L+lKL+QDIO7lLILR4A2jxBjYuTa0UP9IHpJQCxb/Yy0mGYYi1NMAAEAqF5pk5k71cAFDUCw4AOhHZdF3PTE5OxgBgfHx81cSV8Hq9jpGRkTPpdJqZmQ3D4GJRduxUKsWXLl065/F4SpbfVq645Gtra6OKiorW48ePH62vr39Z0zTJzEybfE2THVPX9cyNGzc+6+7uPjQ3Nzc8NDTED1/y0SpasMdiser9+/c31tXVOVOpVFFMyG63Y3x8PNHb2zvmcrnuRiKR1JrXrA+DOHjwoDp16pRmGIYspuMKITIHDhxYOHHihL5ceDxqtbl165ay2WxFXZHS6TQ3NDTo+IaeUvo/Hfsj5KgR/VYAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 4614,
+  "locales" : [ "", "kk_KZ", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "gu_IN", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "is", "si", "de", "es_US", "ca", "te", "az_AZ", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "sq_AL", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "pa_IN", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "am", "ka_GE", "pl", "no", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "iw", "en_IN", "mk_MK", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"me.mzak.parallexrecyclerview\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9080000\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f09008b\" android:label=\"ParallexRecyclerView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"me.mzak.parallexrecyclerview.ParallexRecyclerViewApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"me.mzak.parallexrecyclerview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"com.google.android.gms.ads.AdActivity\" android:configChanges=\"0xfb0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900f8\" android:name=\"com.google.android.gms.ads.purchase.InAppPurchaseActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9080000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"me.mzak.parallexrecyclerview.firebaseinitprovider\" android:initOrder=\"100\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3155916,
+  "crc32" : 4179802415,
+  "sha256" : "d9e4a20b71a49102c46f54b60177e27689aefad2dd8d5376399b044567055600",
+  "buildTime" : 1542374278000
+}

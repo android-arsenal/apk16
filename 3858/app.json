@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "ren.qinc.markdowneditors",
+    "label" : "MarkdownEditors",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.2",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_INTERNAL_STORAGE", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3911,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "en", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"0.2\" package=\"ren.qinc.markdowneditors\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_INTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<supports-screens android:smallScreens=\"false\" android:normalScreens=\"true\" android:largeScreens=\"true\" android:xlargeScreens=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0b0037\" android:label=\"MarkdownEditors\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"ren.qinc.markdowneditors.AppContext\" android:windowSoftInputMode=\"0x13\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0b008e\" android:name=\"ren.qinc.markdowneditors.view.MainActivity\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"ren.qinc.markdowneditors.view.AboutActivity\" android:exported=\"false\" android:launchMode=\"singleTop\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\" />\n\t\t<activity android:name=\"ren.qinc.markdowneditors.view.CommonMarkdownActivity\" android:exported=\"false\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\" />\n\t\t<activity android:name=\"ren.qinc.markdowneditors.view.CommonImageDetailsActivity\" android:exported=\"false\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\" />\n\t\t<activity android:name=\"ren.qinc.markdowneditors.base.BaseWebActivity\" android:exported=\"false\" android:launchMode=\"singleTop\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\" />\n\t\t<activity android:name=\"ren.qinc.markdowneditors.view.EditorActivity\" android:exported=\"true\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x13\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<action android:name=\"android.intent.action.EDIT\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:mimeType=\"*/*\" android:scheme=\"file\" android:host=\"*\" android:pathPattern=\".*\\.md\" />\n\t\t\t\t<data android:mimeType=\"*/*\" android:scheme=\"file\" android:host=\"*\" android:pathPattern=\".*\\.markdown\" />\n\t\t\t\t<data android:mimeType=\"*/*\" android:scheme=\"file\" android:host=\"*\" android:pathPattern=\".*\\.mdown\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"UMENG_APPKEY\" android:value=\"56a82f52e0f55ae83b000428\" />\n\t\t<meta-data android:name=\"UMENG_CHANNEL\" android:value=\"None\" />\n\t\t<meta-data android:name=\"PGYER_APPID\" android:value=\"703a9ae9ca0394dd8a2315134977c398\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3285909,
+  "crc32" : 1815398218,
+  "sha256" : "9626a9189bba38bd83cda92895afb752b9f76e8becdd6ce2a389b3bd3bd82fc3",
+  "buildTime" : 1542016292000
+}

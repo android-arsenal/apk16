@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.sample.andremion.musicplayer",
+    "label" : "Music Player",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2153,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.2\" package=\"com.sample.andremion.musicplayer\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"Music Player\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:theme=\"resourceId:0x7f0d0008\" android:name=\"com.sample.andremion.musicplayer.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d0007\" android:name=\"com.sample.andremion.musicplayer.activities.DetailActivity\" />\n\t\t<service android:name=\"com.sample.andremion.musicplayer.music.PlayerService\" android:enabled=\"true\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3043901,
+  "crc32" : 1537564538,
+  "sha256" : "470d98dbce7befd62754a0c8888b7c39e4a1391f2bfcab5e9c7d71adf950f753",
+  "buildTime" : 1544971722000
+}

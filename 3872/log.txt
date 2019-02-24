@@ -1,0 +1,1273 @@
+2018-11-12 15:14:07,541 INFO  DownloadService - Downloading "https://github.com/NextFaze/power-adapters/archive/master.zip", attempt 3
+2018-11-12 15:14:10,017 INFO  DownloadService - Downloaded https://github.com/NextFaze/power-adapters/archive/master.zip, attempt 3
+2018-11-12 15:14:10,017 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/master.zip": 400 KB
+2018-11-12 15:14:10,017 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-12 15:14:10,019 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/master.zip: true
+2018-11-12 15:14:10,019 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src'.
+2018-11-12 15:14:10,119 INFO  FullProcessService - Size of directory with sources: 992 KB
+2018-11-12 15:14:10,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src]
+2018-11-12 15:14:10,137 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/.git/
+
+2018-11-12 15:14:10,149 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/gradlew
+2018-11-12 15:14:10,163 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/build.gradle
+2018-11-12 15:14:10,174 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/settings.gradle
+2018-11-12 15:14:10,175 INFO  ProjectBuildService - Remote scripts: none
+2018-11-12 15:14:10,175 INFO  ProjectFixService - Fixing project...
+2018-11-12 15:14:10,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/local.properties
+2018-11-12 15:14:10,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2018-11-12 15:14:10,209 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2018-11-12 15:14:10,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/local.properties
+2018-11-12 15:14:10,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-12 15:14:10,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/local.properties
+2018-11-12 15:14:10,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-11-12 15:14:10,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/local.properties
+2018-11-12 15:14:10,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/local.properties
+2018-11-12 15:14:10,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/local.properties
+2018-11-12 15:14:10,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/local.properties
+2018-11-12 15:14:10,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/local.properties
+2018-11-12 15:14:10,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/local.properties
+2018-11-12 15:14:10,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/local.properties
+2018-11-12 15:14:10,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/local.properties
+2018-11-12 15:14:10,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/local.properties
+2018-11-12 15:14:10,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/local.properties
+2018-11-12 15:14:10,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/local.properties
+2018-11-12 15:14:10,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-12 15:14:10,262 INFO  ProjectFixService - Project was maybe fixed
+2018-11-12 15:14:10,262 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 15:14:10,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 15:14:21,483 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-11-12 15:14:21,483 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-12 15:14:21,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-12 15:17:14,297 INFO  SysUtils - Configuration on demand is an incubating feature.
+:power-adapters:androidJavadocs NO-SOURCE
+:power-adapters:androidJavadocsJar
+:power-adapters:androidSourcesJar
+:power-adapters:preBuild UP-TO-DATE
+:power-adapters:preDebugBuild UP-TO-DATE
+:power-adapters:compileDebugAidl
+:power-adapters:compileDebugRenderscript
+:power-adapters:checkDebugManifest
+:power-adapters:generateDebugBuildConfig
+:power-adapters:generateDebugResValues
+:power-adapters:generateDebugResources
+:power-adapters:packageDebugResources
+:power-adapters:platformAttrExtractor
+:power-adapters:processDebugManifest
+:power-adapters:prepareLintJar
+:power-adapters:mergeDebugConsumerProguardFiles
+:power-adapters:mergeDebugShaders
+:power-adapters:compileDebugShaders
+:power-adapters:generateDebugAssets
+:power-adapters:packageDebugAssets
+:power-adapters:packageDebugRenderscript NO-SOURCE
+:power-adapters:processDebugJavaRes NO-SOURCE
+:power-adapters:compileDebugNdk NO-SOURCE
+:power-adapters:mergeDebugJniLibFolders
+:power-adapters:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters:preReleaseBuild UP-TO-DATE
+:power-adapters:compileReleaseAidl
+:power-adapters:compileReleaseRenderscript
+:power-adapters:checkReleaseManifest
+:power-adapters:generateReleaseBuildConfig
+:power-adapters:generateReleaseResValues
+:power-adapters:generateReleaseResources
+:power-adapters:packageReleaseResources
+:power-adapters:processReleaseManifest
+:power-adapters:mergeReleaseConsumerProguardFiles
+:power-adapters:mergeReleaseShaders
+:power-adapters:compileReleaseShaders
+:power-adapters:generateDebugRFile
+:power-adapters:kaptGenerateStubsDebugKotlin
+:power-adapters:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/debug/kotlin
+:power-adapters:compileDebugKotlin
+:power-adapters:generateDebugSources
+:power-adapters:javaPreCompileDebug
+:power-adapters:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-adapters:extractDebugAnnotations
+:power-adapters:transformResourcesWithMergeJavaResForDebug
+:power-adapters:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters:bundleDebug
+:power-adapters:compileDebugSources
+:power-adapters:assembleDebug
+:power-adapters:generateReleaseRFile
+:power-adapters:kaptGenerateStubsReleaseKotlin
+:power-adapters:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters/src/release/java
+:power-adapters:compileReleaseKotlin
+:power-adapters:generateReleaseSources
+:power-adapters:javaPreCompileRelease
+:power-adapters:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-adapters:extractReleaseAnnotations
+:power-adapters:generateReleaseAssets
+:power-adapters:packageReleaseAssets
+:power-adapters:packageReleaseRenderscript NO-SOURCE
+:power-adapters:processReleaseJavaRes NO-SOURCE
+:power-adapters:transformResourcesWithMergeJavaResForRelease
+:power-adapters:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters:compileReleaseNdk NO-SOURCE
+:power-adapters:mergeReleaseJniLibFolders
+:power-adapters:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters:bundleRelease
+:power-adapters:compileReleaseSources
+:power-adapters:mergeReleaseResources
+:power-adapters:verifyReleaseResources
+:power-adapters:assembleRelease
+:power-adapters:signArchives SKIPPED
+:power-adapters:assemble
+:power-adapters:build
+:power-adapters-data:androidJavadocs NO-SOURCE
+:power-adapters-data:androidJavadocsJar
+:power-adapters-data:androidSourcesJar
+:power-adapters-data:preBuild UP-TO-DATE
+:power-adapters-data:preDebugBuild UP-TO-DATE
+:power-adapters-data:compileDebugAidl
+:power-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-data:compileDebugRenderscript
+:power-adapters-data:checkDebugManifest
+:power-adapters-data:generateDebugBuildConfig
+:power-adapters-data:generateDebugResValues
+:power-adapters-data:generateDebugResources
+:power-adapters-data:packageDebugResources
+:power-adapters-data:platformAttrExtractor
+:power-adapters-data:processDebugManifest
+:power-adapters-data:prepareLintJar
+:power-adapters-data:mergeDebugConsumerProguardFiles
+:power-adapters-data:mergeDebugShaders
+:power-adapters-data:compileDebugShaders
+:power-adapters-data:generateDebugAssets
+:power-adapters-data:packageDebugAssets
+:power-adapters-data:packageDebugRenderscript NO-SOURCE
+:power-adapters-data:processDebugJavaRes NO-SOURCE
+:power-adapters-data:compileDebugNdk NO-SOURCE
+:power-adapters-data:mergeDebugJniLibFolders
+:power-adapters-data:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-data:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-data:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-data:preReleaseBuild UP-TO-DATE
+:power-adapters-data:compileReleaseAidl
+:power-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-data:compileReleaseRenderscript
+:power-adapters-data:checkReleaseManifest
+:power-adapters-data:generateReleaseBuildConfig
+:power-adapters-data:generateReleaseResValues
+:power-adapters-data:generateReleaseResources
+:power-adapters-data:packageReleaseResources
+:power-adapters-data:processReleaseManifest
+:power-adapters-data:mergeReleaseConsumerProguardFiles
+:power-adapters-data:mergeReleaseShaders
+:power-adapters-data:compileReleaseShaders
+:power-adapters-data:generateReleaseAssets
+:power-adapters-data:packageReleaseAssets
+:power-adapters-data:packageReleaseRenderscript NO-SOURCE
+:power-adapters-data:processReleaseJavaRes NO-SOURCE
+:power-adapters-data:compileReleaseNdk NO-SOURCE
+:power-adapters-data:mergeReleaseJniLibFolders
+:power-adapters-data:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-data:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-data:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-data:mergeReleaseResources
+:power-adapters-data:verifyReleaseResources
+:power-adapters-data-kotlin:androidJavadocs NO-SOURCE
+:power-adapters-data-kotlin:androidJavadocsJar
+:power-adapters-data-kotlin:androidSourcesJar
+:power-adapters-data-kotlin:preBuild UP-TO-DATE
+:power-adapters-data-kotlin:preDebugBuild UP-TO-DATE
+:power-adapters-data-kotlin:compileDebugAidl
+:power-adapters-data-kotlin:compileDebugRenderscript
+:power-adapters-data-kotlin:checkDebugManifest
+:power-adapters-data-kotlin:generateDebugBuildConfig
+:power-adapters-data-kotlin:generateDebugResValues
+:power-adapters-data-kotlin:generateDebugResources
+:power-adapters-data-kotlin:packageDebugResources
+:power-adapters-data-kotlin:platformAttrExtractor
+:power-adapters-data-kotlin:processDebugManifest
+:power-adapters-data-kotlin:prepareLintJar
+:power-adapters-data-kotlin:mergeDebugConsumerProguardFiles
+:power-adapters-data-kotlin:mergeDebugShaders
+:power-adapters-data-kotlin:compileDebugShaders
+:power-adapters-data-kotlin:generateDebugAssets
+:power-adapters-data-kotlin:packageDebugAssets
+:power-adapters-data-kotlin:packageDebugRenderscript NO-SOURCE
+:power-adapters-data-kotlin:processDebugJavaRes NO-SOURCE
+:power-adapters-data-kotlin:compileDebugNdk NO-SOURCE
+:power-adapters-data-kotlin:mergeDebugJniLibFolders
+:power-adapters-data-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-data-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-data-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-data-kotlin:preReleaseBuild UP-TO-DATE
+:power-adapters-data-kotlin:compileReleaseAidl
+:power-adapters-data-kotlin:compileReleaseRenderscript
+:power-adapters-data-kotlin:checkReleaseManifest
+:power-adapters-data-kotlin:generateReleaseBuildConfig
+:power-adapters-data-kotlin:generateReleaseResValues
+:power-adapters-data-kotlin:generateReleaseResources
+:power-adapters-data-kotlin:packageReleaseResources
+:power-adapters-data-kotlin:processReleaseManifest
+:power-adapters-data-kotlin:mergeReleaseConsumerProguardFiles
+:power-adapters-data-kotlin:mergeReleaseShaders
+:power-adapters-data-kotlin:compileReleaseShaders
+:power-adapters-data-kotlin:generateReleaseAssets
+:power-adapters-data-kotlin:packageReleaseAssets
+:power-adapters-data-kotlin:packageReleaseRenderscript NO-SOURCE
+:power-adapters-data-kotlin:processReleaseJavaRes NO-SOURCE
+:power-adapters-data-kotlin:compileReleaseNdk NO-SOURCE
+:power-adapters-data-kotlin:mergeReleaseJniLibFolders
+:power-adapters-data-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-data-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-data-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-data-kotlin:mergeReleaseResources
+:power-adapters-data-kotlin:verifyReleaseResources
+:power-adapters-data-rxjava2:androidJavadocs NO-SOURCE
+:power-adapters-data-rxjava2:androidJavadocsJar
+:power-adapters-data-rxjava2:androidSourcesJar
+:power-adapters-data-rxjava2:preBuild UP-TO-DATE
+:power-adapters-data-rxjava2:preDebugBuild UP-TO-DATE
+:power-adapters-rxjava2:preBuild UP-TO-DATE
+:power-adapters-rxjava2:preDebugBuild UP-TO-DATE
+:power-adapters-rxjava2:compileDebugAidl
+:power-adapters-data-rxjava2:compileDebugAidl
+:power-adapters-rxjava2:packageDebugRenderscript NO-SOURCE
+:power-adapters-data-rxjava2:compileDebugRenderscript
+:power-adapters-data-rxjava2:checkDebugManifest
+:power-adapters-data-rxjava2:generateDebugBuildConfig
+:power-adapters-data-rxjava2:generateDebugResValues
+:power-adapters-data-rxjava2:generateDebugResources
+:power-adapters-data-rxjava2:packageDebugResources
+:power-adapters-data-rxjava2:platformAttrExtractor
+:power-adapters-data:generateDebugRFile
+:power-adapters-data:kaptGenerateStubsDebugKotlin
+:power-adapters-data:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/debug/kotlin
+:power-adapters-data:compileDebugKotlin
+:power-adapters-data:generateDebugSources
+:power-adapters-data:javaPreCompileDebug
+:power-adapters-data:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-adapters-data:extractDebugAnnotations
+:power-adapters-data:transformResourcesWithMergeJavaResForDebug
+:power-adapters-data:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-data:bundleDebug
+:power-adapters-data:compileDebugSources
+:power-adapters-data:assembleDebug
+:power-adapters-data:generateReleaseRFile
+:power-adapters-data:kaptGenerateStubsReleaseKotlin
+:power-adapters-data:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/main/kotlin
+:power-adapters-data:compileReleaseKotlin
+:power-adapters-data:generateReleaseSources
+:power-adapters-data:javaPreCompileRelease
+:power-adapters-data:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-adapters-data:extractReleaseAnnotations
+:power-adapters-data:transformResourcesWithMergeJavaResForRelease
+:power-adapters-data:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-data:bundleRelease
+:power-adapters-data:compileReleaseSources
+:power-adapters-data:assembleRelease
+:power-adapters-data:signArchives SKIPPED
+:power-adapters-data:assemble
+:power-adapters-data:build
+:power-adapters-data:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-data-kotlin:generateDebugRFile
+:power-adapters-data-kotlin:kaptGenerateStubsDebugKotlin
+:power-adapters-data-kotlin:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/debug/kotlin
+:power-adapters-data-kotlin:compileDebugKotlin
+:power-adapters-data-kotlin:generateDebugSources
+:power-adapters-data-kotlin:javaPreCompileDebug
+:power-adapters-data-kotlin:compileDebugJavaWithJavac
+:power-adapters-data-kotlin:extractDebugAnnotations
+:power-adapters-data-kotlin:transformResourcesWithMergeJavaResForDebug
+:power-adapters-data-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-data-kotlin:bundleDebug
+:power-adapters-data-kotlin:compileDebugSources
+:power-adapters-data-kotlin:assembleDebug
+:power-adapters-data:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-data-kotlin:generateReleaseRFile
+:power-adapters-data-kotlin:kaptGenerateStubsReleaseKotlin
+:power-adapters-data-kotlin:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-kotlin/src/release/java
+:power-adapters-data-kotlin:compileReleaseKotlin
+:power-adapters-data-kotlin:generateReleaseSources
+:power-adapters-data-kotlin:javaPreCompileRelease
+:power-adapters-data-kotlin:compileReleaseJavaWithJavac
+:power-adapters-data-kotlin:extractReleaseAnnotations
+:power-adapters-data-kotlin:transformResourcesWithMergeJavaResForRelease
+:power-adapters-data-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-data-kotlin:bundleRelease
+:power-adapters-data-kotlin:compileReleaseSources
+:power-adapters-data-kotlin:assembleRelease
+:power-adapters-data-kotlin:signArchives SKIPPED
+:power-adapters-data-kotlin:assemble
+:power-adapters-data-kotlin:build
+:power-adapters-data-rxjava2:processDebugManifest
+:power-adapters-rxjava2:compileDebugRenderscript
+:power-adapters-rxjava2:generateDebugResValues
+:power-adapters-rxjava2:generateDebugResources
+:power-adapters-rxjava2:packageDebugResources
+:power-adapters-rxjava2:platformAttrExtractor
+:power-adapters-rxjava2:checkDebugManifest
+:power-adapters-rxjava2:processDebugManifest
+:power-adapters-rxjava2:generateDebugBuildConfig
+:power-adapters-rxjava2:prepareLintJar
+:power-adapters-rxjava2:processDebugJavaRes NO-SOURCE
+:power-adapters-data-rxjava2:prepareLintJar
+:power-adapters-data-rxjava2:mergeDebugConsumerProguardFiles
+:power-adapters-data-rxjava2:mergeDebugShaders
+:power-adapters-data-rxjava2:compileDebugShaders
+:power-adapters-data-rxjava2:generateDebugAssets
+:power-adapters-data-rxjava2:packageDebugAssets
+:power-adapters-data-rxjava2:packageDebugRenderscript NO-SOURCE
+:power-adapters-data-rxjava2:processDebugJavaRes NO-SOURCE
+:power-adapters-data-rxjava2:compileDebugNdk NO-SOURCE
+:power-adapters-data-rxjava2:mergeDebugJniLibFolders
+:power-adapters-data-rxjava2:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-data-rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-data-rxjava2:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-data-rxjava2:preReleaseBuild UP-TO-DATE
+:power-adapters-rxjava2:preReleaseBuild UP-TO-DATE
+:power-adapters-rxjava2:compileReleaseAidl
+:power-adapters-data-rxjava2:compileReleaseAidl
+:power-adapters-rxjava2:packageReleaseRenderscript NO-SOURCE
+:power-adapters-data-rxjava2:compileReleaseRenderscript
+:power-adapters-data-rxjava2:checkReleaseManifest
+:power-adapters-data-rxjava2:generateReleaseBuildConfig
+:power-adapters-data-rxjava2:generateReleaseResValues
+:power-adapters-data-rxjava2:generateReleaseResources
+:power-adapters-data-rxjava2:packageReleaseResources
+:power-adapters-data-rxjava2:processReleaseManifest
+:power-adapters-rxjava2:compileReleaseRenderscript
+:power-adapters-rxjava2:generateReleaseResValues
+:power-adapters-rxjava2:generateReleaseResources
+:power-adapters-rxjava2:packageReleaseResources
+:power-adapters-rxjava2:checkReleaseManifest
+:power-adapters-rxjava2:processReleaseManifest
+:power-adapters-rxjava2:generateReleaseBuildConfig
+:power-adapters-rxjava2:processReleaseJavaRes NO-SOURCE
+:power-adapters-data-rxjava2:mergeReleaseConsumerProguardFiles
+:power-adapters-data-rxjava2:mergeReleaseShaders
+:power-adapters-data-rxjava2:compileReleaseShaders
+:power-adapters-data-rxjava2:generateReleaseAssets
+:power-adapters-data-rxjava2:packageReleaseAssets
+:power-adapters-data-rxjava2:packageReleaseRenderscript NO-SOURCE
+:power-adapters-data-rxjava2:processReleaseJavaRes NO-SOURCE
+:power-adapters-data-rxjava2:compileReleaseNdk NO-SOURCE
+:power-adapters-data-rxjava2:mergeReleaseJniLibFolders
+:power-adapters-data-rxjava2:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-data-rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-data-rxjava2:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-data-rxjava2:mergeReleaseResources
+:power-adapters-data-rxjava2:verifyReleaseResources
+:power-adapters-data-rxjava2-kotlin:androidJavadocs NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:androidJavadocsJar
+:power-adapters-data-rxjava2-kotlin:androidSourcesJar
+:power-adapters-data-rxjava2-kotlin:preBuild UP-TO-DATE
+:power-adapters-data-rxjava2-kotlin:preDebugBuild UP-TO-DATE
+:power-adapters-data-rxjava2-kotlin:compileDebugAidl
+:power-adapters-data-rxjava2-kotlin:compileDebugRenderscript
+:power-adapters-data-rxjava2-kotlin:checkDebugManifest
+:power-adapters-data-rxjava2-kotlin:generateDebugBuildConfig
+:power-adapters-data-rxjava2-kotlin:generateDebugResValues
+:power-adapters-data-rxjava2-kotlin:generateDebugResources
+:power-adapters-data-rxjava2-kotlin:packageDebugResources
+:power-adapters-data-rxjava2-kotlin:platformAttrExtractor
+:power-adapters-data-rxjava2-kotlin:processDebugManifest
+:power-adapters-data-rxjava2-kotlin:prepareLintJar
+:power-adapters-data-rxjava2-kotlin:mergeDebugConsumerProguardFiles
+:power-adapters-data-rxjava2-kotlin:mergeDebugShaders
+:power-adapters-data-rxjava2-kotlin:compileDebugShaders
+:power-adapters-data-rxjava2-kotlin:generateDebugAssets
+:power-adapters-data-rxjava2-kotlin:packageDebugAssets
+:power-adapters-data-rxjava2-kotlin:packageDebugRenderscript NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:processDebugJavaRes NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:compileDebugNdk NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:mergeDebugJniLibFolders
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-data-rxjava2-kotlin:preReleaseBuild UP-TO-DATE
+:power-adapters-data-rxjava2-kotlin:compileReleaseAidl
+:power-adapters-data-rxjava2-kotlin:compileReleaseRenderscript
+:power-adapters-data-rxjava2-kotlin:checkReleaseManifest
+:power-adapters-data-rxjava2-kotlin:generateReleaseBuildConfig
+:power-adapters-data-rxjava2-kotlin:generateReleaseResValues
+:power-adapters-data-rxjava2-kotlin:generateReleaseResources
+:power-adapters-data-rxjava2-kotlin:packageReleaseResources
+:power-adapters-data-rxjava2-kotlin:processReleaseManifest
+:power-adapters-data-rxjava2-kotlin:mergeReleaseConsumerProguardFiles
+:power-adapters-data-rxjava2-kotlin:mergeReleaseShaders
+:power-adapters-data-rxjava2-kotlin:compileReleaseShaders
+:power-adapters-data-rxjava2-kotlin:generateReleaseAssets
+:power-adapters-data-rxjava2-kotlin:packageReleaseAssets
+:power-adapters-data-rxjava2-kotlin:packageReleaseRenderscript NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:processReleaseJavaRes NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:compileReleaseNdk NO-SOURCE
+:power-adapters-data-rxjava2-kotlin:mergeReleaseJniLibFolders
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-data-rxjava2-kotlin:mergeReleaseResources
+:power-adapters-data-rxjava2-kotlin:verifyReleaseResources
+:power-adapters-kotlin:androidJavadocs NO-SOURCE
+:power-adapters-kotlin:androidJavadocsJar
+:power-adapters-kotlin:androidSourcesJar
+:power-adapters-kotlin:preBuild UP-TO-DATE
+:power-adapters-kotlin:preDebugBuild UP-TO-DATE
+:power-adapters-kotlin:compileDebugAidl
+:power-adapters-kotlin:compileDebugRenderscript
+:power-adapters-kotlin:checkDebugManifest
+:power-adapters-kotlin:generateDebugBuildConfig
+:power-adapters-kotlin:generateDebugResValues
+:power-adapters-kotlin:generateDebugResources
+:power-adapters-kotlin:packageDebugResources
+:power-adapters-kotlin:platformAttrExtractor
+:power-adapters-rxjava2:generateDebugRFile
+:power-adapters-rxjava2:kaptGenerateStubsDebugKotlin
+:power-adapters-rxjava2:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/debug/kotlin
+:power-adapters-rxjava2:compileDebugKotlin
+:power-adapters-rxjava2:generateDebugSources
+:power-adapters-rxjava2:javaPreCompileDebug
+:power-adapters-rxjava2:compileDebugJavaWithJavac
+:power-adapters-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-rxjava2:generateReleaseRFile
+:power-adapters-rxjava2:kaptGenerateStubsReleaseKotlin
+:power-adapters-rxjava2:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2/src/release/kotlin
+:power-adapters-rxjava2:compileReleaseKotlin
+:power-adapters-rxjava2:generateReleaseSources
+:power-adapters-rxjava2:javaPreCompileRelease
+:power-adapters-rxjava2:compileReleaseJavaWithJavac
+:power-adapters-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-kotlin:processDebugManifest
+:power-adapters-kotlin:prepareLintJar
+:power-adapters-kotlin:mergeDebugConsumerProguardFiles
+:power-adapters-kotlin:mergeDebugShaders
+:power-adapters-kotlin:compileDebugShaders
+:power-adapters-kotlin:generateDebugAssets
+:power-adapters-kotlin:packageDebugAssets
+:power-adapters-kotlin:packageDebugRenderscript NO-SOURCE
+:power-adapters-kotlin:processDebugJavaRes NO-SOURCE
+:power-adapters-kotlin:compileDebugNdk NO-SOURCE
+:power-adapters-kotlin:mergeDebugJniLibFolders
+:power-adapters-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-kotlin:preReleaseBuild UP-TO-DATE
+:power-adapters-kotlin:compileReleaseAidl
+:power-adapters-kotlin:compileReleaseRenderscript
+:power-adapters-kotlin:checkReleaseManifest
+:power-adapters-kotlin:generateReleaseBuildConfig
+:power-adapters-kotlin:generateReleaseResValues
+:power-adapters-kotlin:generateReleaseResources
+:power-adapters-kotlin:packageReleaseResources
+:power-adapters-kotlin:processReleaseManifest
+:power-adapters-kotlin:mergeReleaseConsumerProguardFiles
+:power-adapters-kotlin:mergeReleaseShaders
+:power-adapters-kotlin:compileReleaseShaders
+:power-adapters-kotlin:generateReleaseAssets
+:power-adapters-kotlin:packageReleaseAssets
+:power-adapters-kotlin:packageReleaseRenderscript NO-SOURCE
+:power-adapters-kotlin:processReleaseJavaRes NO-SOURCE
+:power-adapters-kotlin:compileReleaseNdk NO-SOURCE
+:power-adapters-kotlin:mergeReleaseJniLibFolders
+:power-adapters-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-kotlin:mergeReleaseResources
+:power-adapters-kotlin:verifyReleaseResources
+:power-adapters-recyclerview-v7:androidJavadocs NO-SOURCE
+:power-adapters-recyclerview-v7:androidJavadocsJar
+:power-adapters-recyclerview-v7:androidSourcesJar
+:power-adapters-recyclerview-v7:preBuild UP-TO-DATE
+:power-adapters-recyclerview-v7:preDebugBuild UP-TO-DATE
+:power-adapters-recyclerview-v7:compileDebugAidl
+:power-adapters-recyclerview-v7:compileDebugRenderscript
+:power-adapters-recyclerview-v7:checkDebugManifest
+:power-adapters-recyclerview-v7:generateDebugBuildConfig
+:power-adapters-recyclerview-v7:generateDebugResValues
+:power-adapters-recyclerview-v7:generateDebugResources
+:power-adapters-recyclerview-v7:packageDebugResources
+:power-adapters-recyclerview-v7:platformAttrExtractor
+:power-adapters-recyclerview-v7:processDebugManifest
+:power-adapters-recyclerview-v7:prepareLintJar
+:power-adapters-recyclerview-v7:mergeDebugConsumerProguardFiles
+:power-adapters-recyclerview-v7:mergeDebugShaders
+:power-adapters-recyclerview-v7:compileDebugShaders
+:power-adapters-recyclerview-v7:generateDebugAssets
+:power-adapters-recyclerview-v7:packageDebugAssets
+:power-adapters-recyclerview-v7:packageDebugRenderscript NO-SOURCE
+:power-adapters-recyclerview-v7:processDebugJavaRes NO-SOURCE
+:power-adapters-recyclerview-v7:compileDebugNdk NO-SOURCE
+:power-adapters-recyclerview-v7:mergeDebugJniLibFolders
+:power-adapters-recyclerview-v7:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-recyclerview-v7:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-recyclerview-v7:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-recyclerview-v7:preReleaseBuild UP-TO-DATE
+:power-adapters-recyclerview-v7:compileReleaseAidl
+:power-adapters-recyclerview-v7:compileReleaseRenderscript
+:power-adapters-recyclerview-v7:checkReleaseManifest
+:power-adapters-recyclerview-v7:generateReleaseBuildConfig
+:power-adapters-recyclerview-v7:generateReleaseResValues
+:power-adapters-recyclerview-v7:generateReleaseResources
+:power-adapters-recyclerview-v7:packageReleaseResources
+:power-adapters-recyclerview-v7:processReleaseManifest
+:power-adapters-recyclerview-v7:mergeReleaseConsumerProguardFiles
+:power-adapters-recyclerview-v7:mergeReleaseShaders
+:power-adapters-recyclerview-v7:compileReleaseShaders
+:power-adapters-recyclerview-v7:generateReleaseAssets
+:power-adapters-recyclerview-v7:packageReleaseAssets
+:power-adapters-recyclerview-v7:packageReleaseRenderscript NO-SOURCE
+:power-adapters-recyclerview-v7:processReleaseJavaRes NO-SOURCE
+:power-adapters-recyclerview-v7:compileReleaseNdk NO-SOURCE
+:power-adapters-recyclerview-v7:mergeReleaseJniLibFolders
+:power-adapters-recyclerview-v7:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-recyclerview-v7:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-recyclerview-v7:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-recyclerview-v7:mergeReleaseResources
+:power-adapters-recyclerview-v7:verifyReleaseResources
+:power-adapters-recyclerview-v7-kotlin:androidJavadocs NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:androidJavadocsJar
+:power-adapters-recyclerview-v7-kotlin:androidSourcesJar
+:power-adapters-recyclerview-v7-kotlin:preBuild UP-TO-DATE
+:power-adapters-recyclerview-v7-kotlin:preDebugBuild UP-TO-DATE
+:power-adapters-recyclerview-v7-kotlin:compileDebugAidl
+:power-adapters-recyclerview-v7-kotlin:compileDebugRenderscript
+:power-adapters-recyclerview-v7-kotlin:checkDebugManifest
+:power-adapters-recyclerview-v7-kotlin:generateDebugBuildConfig
+:power-adapters-recyclerview-v7-kotlin:generateDebugResValues
+:power-adapters-recyclerview-v7-kotlin:generateDebugResources
+:power-adapters-recyclerview-v7-kotlin:packageDebugResources
+:power-adapters-recyclerview-v7-kotlin:platformAttrExtractor
+:power-adapters-data-rxjava2:generateDebugRFile
+:power-adapters-data-rxjava2:kaptGenerateStubsDebugKotlin
+:power-adapters-data-rxjava2:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/debug/java
+:power-adapters-data-rxjava2:compileDebugKotlin
+:power-adapters-data-rxjava2:generateDebugSources
+:power-adapters-data-rxjava2:javaPreCompileDebug
+:power-adapters-data-rxjava2:compileDebugJavaWithJavac
+:power-adapters-data-rxjava2:extractDebugAnnotations
+:power-adapters-data-rxjava2:transformResourcesWithMergeJavaResForDebug
+:power-adapters-data-rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-data-rxjava2:bundleDebug
+:power-adapters-data-rxjava2:compileDebugSources
+:power-adapters-data-rxjava2:assembleDebug
+:power-adapters-data-rxjava2:generateReleaseRFile
+:power-adapters-data-rxjava2:kaptGenerateStubsReleaseKotlin
+:power-adapters-data-rxjava2:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2/src/release/java
+:power-adapters-data-rxjava2:compileReleaseKotlin
+:power-adapters-data-rxjava2:generateReleaseSources
+:power-adapters-data-rxjava2:javaPreCompileRelease
+:power-adapters-data-rxjava2:compileReleaseJavaWithJavac
+:power-adapters-data-rxjava2:extractReleaseAnnotations
+:power-adapters-data-rxjava2:transformResourcesWithMergeJavaResForRelease
+:power-adapters-data-rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-data-rxjava2:bundleRelease
+:power-adapters-data-rxjava2:compileReleaseSources
+:power-adapters-data-rxjava2:assembleRelease
+:power-adapters-data-rxjava2:signArchives SKIPPED
+:power-adapters-data-rxjava2:assemble
+:power-adapters-data-rxjava2:build
+:power-adapters-data-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-data-rxjava2-kotlin:generateDebugRFile
+:power-adapters-data-rxjava2-kotlin:kaptGenerateStubsDebugKotlin
+:power-adapters-data-rxjava2-kotlin:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/main/kotlin
+:power-adapters-data-rxjava2-kotlin:compileDebugKotlin
+:power-adapters-data-rxjava2-kotlin:generateDebugSources
+:power-adapters-data-rxjava2-kotlin:javaPreCompileDebug
+:power-adapters-data-rxjava2-kotlin:compileDebugJavaWithJavac
+:power-adapters-data-rxjava2-kotlin:extractDebugAnnotations
+:power-adapters-data-rxjava2-kotlin:transformResourcesWithMergeJavaResForDebug
+:power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-data-rxjava2-kotlin:bundleDebug
+:power-adapters-data-rxjava2-kotlin:compileDebugSources
+:power-adapters-data-rxjava2-kotlin:assembleDebug
+:power-adapters-data-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-data-rxjava2-kotlin:generateReleaseRFile
+:power-adapters-data-rxjava2-kotlin:kaptGenerateStubsReleaseKotlin
+:power-adapters-data-rxjava2-kotlin:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/src/release/java
+:power-adapters-data-rxjava2-kotlin:compileReleaseKotlin
+:power-adapters-data-rxjava2-kotlin:generateReleaseSources
+:power-adapters-data-rxjava2-kotlin:javaPreCompileRelease
+:power-adapters-data-rxjava2-kotlin:compileReleaseJavaWithJavac
+:power-adapters-data-rxjava2-kotlin:extractReleaseAnnotations
+:power-adapters-data-rxjava2-kotlin:transformResourcesWithMergeJavaResForRelease
+:power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-data-rxjava2-kotlin:bundleRelease
+:power-adapters-data-rxjava2-kotlin:compileReleaseSources
+:power-adapters-data-rxjava2-kotlin:assembleRelease
+:power-adapters-data-rxjava2-kotlin:signArchives SKIPPED
+:power-adapters-data-rxjava2-kotlin:assemble
+:power-adapters-data-rxjava2-kotlin:build
+:power-adapters-kotlin:generateDebugRFile
+:power-adapters-kotlin:kaptGenerateStubsDebugKotlin
+:power-adapters-kotlin:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/main/kotlin
+:power-adapters-kotlin:compileDebugKotlin
+:power-adapters-kotlin:generateDebugSources
+:power-adapters-kotlin:javaPreCompileDebug
+:power-adapters-kotlin:compileDebugJavaWithJavac
+:power-adapters-kotlin:extractDebugAnnotations
+:power-adapters-kotlin:transformResourcesWithMergeJavaResForDebug
+:power-adapters-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-kotlin:bundleDebug
+:power-adapters-kotlin:compileDebugSources
+:power-adapters-kotlin:assembleDebug
+:power-adapters-kotlin:generateReleaseRFile
+:power-adapters-kotlin:kaptGenerateStubsReleaseKotlin
+:power-adapters-kotlin:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-kotlin/src/main/kotlin
+:power-adapters-kotlin:compileReleaseKotlin
+:power-adapters-kotlin:generateReleaseSources
+:power-adapters-kotlin:javaPreCompileRelease
+:power-adapters-kotlin:compileReleaseJavaWithJavac
+:power-adapters-kotlin:extractReleaseAnnotations
+:power-adapters-kotlin:transformResourcesWithMergeJavaResForRelease
+:power-adapters-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-kotlin:bundleRelease
+:power-adapters-kotlin:compileReleaseSources
+:power-adapters-kotlin:assembleRelease
+:power-adapters-kotlin:signArchives SKIPPED
+:power-adapters-kotlin:assemble
+:power-adapters-kotlin:build
+:power-adapters-recyclerview-v7-kotlin:processDebugManifest
+:power-adapters-recyclerview-v7-kotlin:prepareLintJar
+:power-adapters-recyclerview-v7-kotlin:mergeDebugConsumerProguardFiles
+:power-adapters-recyclerview-v7-kotlin:mergeDebugShaders
+:power-adapters-recyclerview-v7-kotlin:compileDebugShaders
+:power-adapters-recyclerview-v7-kotlin:generateDebugAssets
+:power-adapters-recyclerview-v7-kotlin:packageDebugAssets
+:power-adapters-recyclerview-v7-kotlin:packageDebugRenderscript NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:processDebugJavaRes NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:compileDebugNdk NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:mergeDebugJniLibFolders
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-recyclerview-v7-kotlin:preReleaseBuild UP-TO-DATE
+:power-adapters-recyclerview-v7-kotlin:compileReleaseAidl
+:power-adapters-recyclerview-v7-kotlin:compileReleaseRenderscript
+:power-adapters-recyclerview-v7-kotlin:checkReleaseManifest
+:power-adapters-recyclerview-v7-kotlin:generateReleaseBuildConfig
+:power-adapters-recyclerview-v7-kotlin:generateReleaseResValues
+:power-adapters-recyclerview-v7-kotlin:generateReleaseResources
+:power-adapters-recyclerview-v7-kotlin:packageReleaseResources
+:power-adapters-recyclerview-v7-kotlin:processReleaseManifest
+:power-adapters-recyclerview-v7-kotlin:mergeReleaseConsumerProguardFiles
+:power-adapters-recyclerview-v7-kotlin:mergeReleaseShaders
+:power-adapters-recyclerview-v7-kotlin:compileReleaseShaders
+:power-adapters-recyclerview-v7-kotlin:generateReleaseAssets
+:power-adapters-recyclerview-v7-kotlin:packageReleaseAssets
+:power-adapters-recyclerview-v7-kotlin:packageReleaseRenderscript NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:processReleaseJavaRes NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:compileReleaseNdk NO-SOURCE
+:power-adapters-recyclerview-v7-kotlin:mergeReleaseJniLibFolders
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-recyclerview-v7-kotlin:mergeReleaseResources
+:power-adapters-recyclerview-v7-kotlin:verifyReleaseResources
+:power-adapters-rxjava2:androidJavadocs NO-SOURCE
+:power-adapters-rxjava2:androidJavadocsJar
+:power-adapters-rxjava2:androidSourcesJar
+:power-adapters-rxjava2:extractDebugAnnotations
+:power-adapters-rxjava2:mergeDebugConsumerProguardFiles
+:power-adapters-rxjava2:mergeDebugShaders
+:power-adapters-rxjava2:compileDebugShaders
+:power-adapters-rxjava2:generateDebugAssets
+:power-adapters-rxjava2:packageDebugAssets
+:power-adapters-rxjava2:transformResourcesWithMergeJavaResForDebug
+:power-adapters-rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-rxjava2:compileDebugNdk NO-SOURCE
+:power-adapters-rxjava2:mergeDebugJniLibFolders
+:power-adapters-rxjava2:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-rxjava2:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-rxjava2:bundleDebug
+:power-adapters-rxjava2:compileDebugSources
+:power-adapters-rxjava2:assembleDebug
+:power-adapters-rxjava2:extractReleaseAnnotations
+:power-adapters-rxjava2:mergeReleaseConsumerProguardFiles
+:power-adapters-rxjava2:mergeReleaseShaders
+:power-adapters-rxjava2:compileReleaseShaders
+:power-adapters-rxjava2:generateReleaseAssets
+:power-adapters-rxjava2:packageReleaseAssets
+:power-adapters-rxjava2:transformResourcesWithMergeJavaResForRelease
+:power-adapters-rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-rxjava2:compileReleaseNdk NO-SOURCE
+:power-adapters-rxjava2:mergeReleaseJniLibFolders
+:power-adapters-rxjava2:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-rxjava2:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-rxjava2:bundleRelease
+:power-adapters-rxjava2:compileReleaseSources
+:power-adapters-rxjava2:mergeReleaseResources
+:power-adapters-rxjava2:verifyReleaseResources
+:power-adapters-rxjava2:assembleRelease
+:power-adapters-rxjava2:signArchives SKIPPED
+:power-adapters-rxjava2:assemble
+:power-adapters-rxjava2:build
+:power-adapters-rxjava2-kotlin:androidJavadocs NO-SOURCE
+:power-adapters-rxjava2-kotlin:androidJavadocsJar
+:power-adapters-rxjava2-kotlin:androidSourcesJar
+:power-adapters-rxjava2-kotlin:preBuild UP-TO-DATE
+:power-adapters-rxjava2-kotlin:preDebugBuild UP-TO-DATE
+:power-adapters-rxjava2-kotlin:compileDebugAidl
+:power-adapters-rxjava2-kotlin:compileDebugRenderscript
+:power-adapters-rxjava2-kotlin:checkDebugManifest
+:power-adapters-rxjava2-kotlin:generateDebugBuildConfig
+:power-adapters-rxjava2-kotlin:generateDebugResValues
+:power-adapters-rxjava2-kotlin:generateDebugResources
+:power-adapters-rxjava2-kotlin:packageDebugResources
+:power-adapters-rxjava2-kotlin:platformAttrExtractor
+:power-adapters-rxjava2-kotlin:processDebugManifest
+:power-adapters-rxjava2-kotlin:prepareLintJar
+:power-adapters-rxjava2-kotlin:mergeDebugConsumerProguardFiles
+:power-adapters-rxjava2-kotlin:mergeDebugShaders
+:power-adapters-rxjava2-kotlin:compileDebugShaders
+:power-adapters-rxjava2-kotlin:generateDebugAssets
+:power-adapters-rxjava2-kotlin:packageDebugAssets
+:power-adapters-rxjava2-kotlin:packageDebugRenderscript NO-SOURCE
+:power-adapters-rxjava2-kotlin:processDebugJavaRes NO-SOURCE
+:power-adapters-rxjava2-kotlin:compileDebugNdk NO-SOURCE
+:power-adapters-rxjava2-kotlin:mergeDebugJniLibFolders
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-rxjava2-kotlin:preReleaseBuild UP-TO-DATE
+:power-adapters-rxjava2-kotlin:compileReleaseAidl
+:power-adapters-rxjava2-kotlin:compileReleaseRenderscript
+:power-adapters-rxjava2-kotlin:checkReleaseManifest
+:power-adapters-rxjava2-kotlin:generateReleaseBuildConfig
+:power-adapters-rxjava2-kotlin:generateReleaseResValues
+:power-adapters-rxjava2-kotlin:generateReleaseResources
+:power-adapters-rxjava2-kotlin:packageReleaseResources
+:power-adapters-rxjava2-kotlin:processReleaseManifest
+:power-adapters-rxjava2-kotlin:mergeReleaseConsumerProguardFiles
+:power-adapters-rxjava2-kotlin:mergeReleaseShaders
+:power-adapters-rxjava2-kotlin:compileReleaseShaders
+:power-adapters-rxjava2-kotlin:generateReleaseAssets
+:power-adapters-rxjava2-kotlin:packageReleaseAssets
+:power-adapters-rxjava2-kotlin:packageReleaseRenderscript NO-SOURCE
+:power-adapters-rxjava2-kotlin:processReleaseJavaRes NO-SOURCE
+:power-adapters-rxjava2-kotlin:compileReleaseNdk NO-SOURCE
+:power-adapters-rxjava2-kotlin:mergeReleaseJniLibFolders
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-rxjava2-kotlin:mergeReleaseResources
+:power-adapters-rxjava2-kotlin:verifyReleaseResources
+:power-adapters-data-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-sample:preBuild UP-TO-DATE
+:power-adapters-sample:preDebugBuild
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxkotlin/2.1.0/rxkotlin-2.1.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.1.1/rxbinding-kotlin-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7-kotlin/2.1.1/rxbinding-appcompat-v7-kotlin-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7-kotlin/2.1.1/rxbinding-recyclerview-v7-kotlin-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rx2/replaying-share-kotlin/2.0.1/replaying-share-kotlin-2.0.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rx2/replaying-share-parent/2.0.1/replaying-share-parent-2.0.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.8.1/butterknife-8.8.1.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.8.0/autodispose-android-archcomponents-kotlin-0.8.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.1.1/extensions-1.1.1.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-kotlin/0.8.0/autodispose-kotlin-0.8.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.8.0/autodispose-android-kotlin-0.8.0.pom
+Download http://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.1/kotlinx-collections-immutable-0.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding/2.1.1/rxbinding-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7/2.1.1/rxbinding-appcompat-v7-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7/2.1.1/rxbinding-recyclerview-v7-2.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rx2/replaying-share/2.0.1/replaying-share-2.0.1.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose/0.8.0/autodispose-0.8.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android/0.8.0/autodispose-android-0.8.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents/0.8.0/autodispose-android-archcomponents-0.8.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.8.1/butterknife-annotations-8.8.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7-kotlin/2.1.1/rxbinding-appcompat-v7-kotlin-2.1.1.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7/2.1.1/rxbinding-appcompat-v7-2.1.1.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7-kotlin/2.1.1/rxbinding-recyclerview-v7-kotlin-2.1.1.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.8.0/autodispose-android-kotlin-0.8.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.1.1/rxbinding-kotlin-2.1.1.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.8.0/autodispose-android-archcomponents-kotlin-0.8.0.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents/0.8.0/autodispose-android-archcomponents-0.8.0.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android/0.8.0/autodispose-android-0.8.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding/2.1.1/rxbinding-2.1.1.aar
+:power-adapters-sample:compileDebugAidl
+:power-adapters-sample:compileDebugRenderscript
+:power-adapters-sample:checkDebugManifest
+:power-adapters-sample:generateDebugBuildConfig
+:power-adapters-sample:mainApkListPersistenceDebug
+:power-adapters-sample:generateDebugResValues
+:power-adapters-sample:generateDebugResources
+:power-adapters-sample:mergeDebugResources
+:power-adapters-sample:createDebugCompatibleScreenManifests
+:power-adapters-sample:processDebugManifest
+:power-adapters-sample:splitsDiscoveryTaskDebug
+:power-adapters-recyclerview-v7:generateDebugRFile
+:power-adapters-recyclerview-v7:kaptGenerateStubsDebugKotlin
+:power-adapters-recyclerview-v7:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/debug/java
+:power-adapters-recyclerview-v7:compileDebugKotlin
+:power-adapters-recyclerview-v7:generateDebugSources
+:power-adapters-recyclerview-v7:javaPreCompileDebug
+:power-adapters-recyclerview-v7:compileDebugJavaWithJavac
+:power-adapters-recyclerview-v7:extractDebugAnnotations
+:power-adapters-recyclerview-v7:transformResourcesWithMergeJavaResForDebug
+:power-adapters-recyclerview-v7:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-recyclerview-v7:bundleDebug
+:power-adapters-recyclerview-v7:compileDebugSources
+:power-adapters-recyclerview-v7:assembleDebug
+:power-adapters-recyclerview-v7:generateReleaseRFile
+:power-adapters-recyclerview-v7:kaptGenerateStubsReleaseKotlin
+:power-adapters-recyclerview-v7:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7/src/release/kotlin
+:power-adapters-recyclerview-v7:compileReleaseKotlin
+:power-adapters-recyclerview-v7:generateReleaseSources
+:power-adapters-recyclerview-v7:javaPreCompileRelease
+:power-adapters-recyclerview-v7:compileReleaseJavaWithJavac
+:power-adapters-recyclerview-v7:extractReleaseAnnotations
+:power-adapters-recyclerview-v7:transformResourcesWithMergeJavaResForRelease
+:power-adapters-recyclerview-v7:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-recyclerview-v7:bundleRelease
+:power-adapters-recyclerview-v7:compileReleaseSources
+:power-adapters-recyclerview-v7:assembleRelease
+:power-adapters-recyclerview-v7:signArchives SKIPPED
+:power-adapters-recyclerview-v7:assemble
+:power-adapters-recyclerview-v7:build
+:power-adapters-recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-recyclerview-v7-kotlin:generateDebugRFile
+:power-adapters-recyclerview-v7-kotlin:kaptGenerateStubsDebugKotlin
+:power-adapters-recyclerview-v7-kotlin:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/main/kotlin
+:power-adapters-recyclerview-v7-kotlin:compileDebugKotlin
+:power-adapters-recyclerview-v7-kotlin:generateDebugSources
+:power-adapters-recyclerview-v7-kotlin:javaPreCompileDebug
+:power-adapters-recyclerview-v7-kotlin:compileDebugJavaWithJavac
+:power-adapters-recyclerview-v7-kotlin:extractDebugAnnotations
+:power-adapters-recyclerview-v7-kotlin:transformResourcesWithMergeJavaResForDebug
+:power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-recyclerview-v7-kotlin:bundleDebug
+:power-adapters-recyclerview-v7-kotlin:compileDebugSources
+:power-adapters-recyclerview-v7-kotlin:assembleDebug
+:power-adapters-recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-recyclerview-v7-kotlin:generateReleaseRFile
+:power-adapters-recyclerview-v7-kotlin:kaptGenerateStubsReleaseKotlin
+:power-adapters-recyclerview-v7-kotlin:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/src/main/kotlin
+:power-adapters-recyclerview-v7-kotlin:compileReleaseKotlin
+:power-adapters-recyclerview-v7-kotlin:generateReleaseSources
+:power-adapters-recyclerview-v7-kotlin:javaPreCompileRelease
+:power-adapters-recyclerview-v7-kotlin:compileReleaseJavaWithJavac
+:power-adapters-recyclerview-v7-kotlin:extractReleaseAnnotations
+:power-adapters-recyclerview-v7-kotlin:transformResourcesWithMergeJavaResForRelease
+:power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-recyclerview-v7-kotlin:bundleRelease
+:power-adapters-recyclerview-v7-kotlin:compileReleaseSources
+:power-adapters-recyclerview-v7-kotlin:assembleRelease
+:power-adapters-recyclerview-v7-kotlin:signArchives SKIPPED
+:power-adapters-recyclerview-v7-kotlin:assemble
+:power-adapters-recyclerview-v7-kotlin:build
+:power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-sample:prepareLintJar
+:power-adapters-sample:compileDebugNdk NO-SOURCE
+:power-adapters-sample:mergeDebugShaders
+:power-adapters-sample:compileDebugShaders
+:power-adapters-sample:generateDebugAssets
+:power-adapters-sample:mergeDebugAssets
+:power-adapters-sample:extractTryWithResourcesSupportJarDebug
+:power-adapters:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-data:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-data-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-data-rxjava2:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-rxjava2:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:power-adapters-sample:mergeDebugJniLibFolders
+:power-adapters-sample:processDebugJavaRes NO-SOURCE
+:power-adapters-sample:validateSigningDebug
+:power-adapters-data-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-sample:preReleaseBuild
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.5.4/leakcanary-android-no-op-1.5.4.pom
+:power-adapters-sample:compileReleaseAidl
+:power-adapters-sample:compileReleaseRenderscript
+:power-adapters-sample:checkReleaseManifest
+:power-adapters-sample:generateReleaseBuildConfig
+:power-adapters-sample:mainApkListPersistenceRelease
+:power-adapters-sample:generateReleaseResValues
+:power-adapters-sample:generateReleaseResources
+:power-adapters-sample:mergeReleaseResources
+:power-adapters-sample:createReleaseCompatibleScreenManifests
+:power-adapters-sample:processReleaseManifest
+:power-adapters-sample:splitsDiscoveryTaskRelease
+:power-adapters-sample:compileReleaseNdk NO-SOURCE
+:power-adapters-sample:mergeReleaseShaders
+:power-adapters-sample:compileReleaseShaders
+:power-adapters-sample:generateReleaseAssets
+:power-adapters-sample:mergeReleaseAssets
+:power-adapters-sample:extractTryWithResourcesSupportJarRelease
+:power-adapters:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-data:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-data-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-data-rxjava2:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-data-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-rxjava2:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:power-adapters-sample:mergeReleaseJniLibFolders
+:power-adapters-sample:processReleaseJavaRes NO-SOURCE
+:power-adapters-support-v4:androidJavadocs NO-SOURCE
+:power-adapters-support-v4:androidJavadocsJar
+:power-adapters-support-v4:androidSourcesJar
+:power-adapters-support-v4:preBuild UP-TO-DATE
+:power-adapters-support-v4:preDebugBuild UP-TO-DATE
+:power-adapters-support-v4:compileDebugAidl
+:power-adapters-support-v4:compileDebugRenderscript
+:power-adapters-support-v4:checkDebugManifest
+:power-adapters-support-v4:generateDebugBuildConfig
+:power-adapters-support-v4:generateDebugResValues
+:power-adapters-support-v4:generateDebugResources
+:power-adapters-support-v4:packageDebugResources
+:power-adapters-support-v4:platformAttrExtractor
+:power-adapters-rxjava2-kotlin:generateDebugRFile
+:power-adapters-rxjava2-kotlin:kaptGenerateStubsDebugKotlin
+:power-adapters-rxjava2-kotlin:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/debug/java
+:power-adapters-rxjava2-kotlin:compileDebugKotlin
+:power-adapters-rxjava2-kotlin:generateDebugSources
+:power-adapters-rxjava2-kotlin:javaPreCompileDebug
+:power-adapters-rxjava2-kotlin:compileDebugJavaWithJavac
+:power-adapters-rxjava2-kotlin:extractDebugAnnotations
+:power-adapters-rxjava2-kotlin:transformResourcesWithMergeJavaResForDebug
+:power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-rxjava2-kotlin:bundleDebug
+:power-adapters-rxjava2-kotlin:compileDebugSources
+:power-adapters-rxjava2-kotlin:assembleDebug
+:power-adapters-rxjava2-kotlin:generateReleaseRFile
+:power-adapters-rxjava2-kotlin:kaptGenerateStubsReleaseKotlin
+:power-adapters-rxjava2-kotlin:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/src/release/kotlin
+:power-adapters-rxjava2-kotlin:compileReleaseKotlin
+:power-adapters-rxjava2-kotlin:generateReleaseSources
+:power-adapters-rxjava2-kotlin:javaPreCompileRelease
+:power-adapters-rxjava2-kotlin:compileReleaseJavaWithJavac
+:power-adapters-rxjava2-kotlin:extractReleaseAnnotations
+:power-adapters-rxjava2-kotlin:transformResourcesWithMergeJavaResForRelease
+:power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-rxjava2-kotlin:bundleRelease
+:power-adapters-rxjava2-kotlin:compileReleaseSources
+:power-adapters-rxjava2-kotlin:assembleRelease
+:power-adapters-rxjava2-kotlin:signArchives SKIPPED
+:power-adapters-rxjava2-kotlin:assemble
+:power-adapters-rxjava2-kotlin:build
+:power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:power-adapters-sample:processDebugResources
+:power-adapters-sample:kaptGenerateStubsDebugKotlin
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose/0.8.0/autodispose-0.8.0.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxkotlin/2.1.0/rxkotlin-2.1.0.jar
+Download http://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.1/kotlinx-collections-immutable-0.1.jar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-kotlin/0.8.0/autodispose-kotlin-0.8.0.jar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.8.1/butterknife-compiler-8.8.1.pom
+:power-adapters-sample:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/main/kotlin
+:power-adapters-sample:compileDebugKotlin
+:power-adapters-sample:generateDebugSources
+:power-adapters-sample:javaPreCompileDebug
+:power-adapters-sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:power-adapters-sample:compileDebugSources
+:power-adapters-sample:transformClassesWithStackFramesFixerForDebug
+:power-adapters-sample:transformClassesWithDesugarForDebug
+:power-adapters-sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:power-adapters-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:power-adapters-sample:transformDexArchiveWithDexMergerForDebug
+:power-adapters-sample:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-sample:transformResourcesWithMergeJavaResForDebug
+:power-adapters-sample:packageDebug
+:power-adapters-sample:assembleDebug
+:power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:power-adapters-sample:processReleaseResources
+:power-adapters-sample:kaptGenerateStubsReleaseKotlin
+:power-adapters-sample:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/release/java
+:power-adapters-sample:compileReleaseKotlin
+:power-adapters-sample:generateReleaseSources
+:power-adapters-sample:javaPreCompileRelease
+:power-adapters-sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:power-adapters-sample:compileReleaseSources
+:power-adapters-sample:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.19.0/mockito-core-2.19.0.pom
+Download https://jcenter.bintray.com/org/robolectric/robolectric/4.0-alpha-2/robolectric-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/com/google/truth/truth/0.41/truth-0.41.pom
+Download https://jcenter.bintray.com/com/google/truth/truth-parent/0.41/truth-parent-0.41.pom
+Download https://jcenter.bintray.com/org/robolectric/annotations/4.0-alpha-2/annotations-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/junit/4.0-alpha-2/junit-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/sandbox/4.0-alpha-2/sandbox-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/utils/4.0-alpha-2/utils-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/resources/4.0-alpha-2/resources-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/shadows-framework/4.0-alpha-2/shadows-framework-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.8.10/byte-buddy-1.8.10.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.8.10/byte-buddy-agent-1.8.10.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-parent/1.8.10/byte-buddy-parent-1.8.10.pom
+Download https://jcenter.bintray.com/org/robolectric/shadowapi/4.0-alpha-2/shadowapi-4.0-alpha-2.pom
+Download https://jcenter.bintray.com/org/robolectric/sandbox/4.0-alpha-2/sandbox-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/junit/4.0-alpha-2/junit-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/robolectric/4.0-alpha-2/robolectric-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/com/google/truth/truth/0.41/truth-0.41.jar
+Download https://jcenter.bintray.com/org/robolectric/utils/4.0-alpha-2/utils-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/annotations/4.0-alpha-2/annotations-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/shadowapi/4.0-alpha-2/shadowapi-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/shadows-framework/4.0-alpha-2/shadows-framework-4.0-alpha-2.jar
+Download https://jcenter.bintray.com/org/robolectric/resources/4.0-alpha-2/resources-4.0-alpha-2.jar
+:power-adapters-sample:transformClassesWithStackFramesFixerForRelease
+:power-adapters-sample:transformClassesWithDesugarForRelease
+:power-adapters-sample:transformClassesWithDexBuilderForRelease
+:power-adapters-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:power-adapters-sample:transformDexArchiveWithDexMergerForRelease
+:power-adapters-sample:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-sample:transformResourcesWithMergeJavaResForRelease
+:power-adapters-sample:packageRelease
+:power-adapters-sample:assembleRelease
+:power-adapters-sample:assemble
+:power-adapters-sample:build
+:power-adapters-support-v4:processDebugManifest
+:power-adapters-support-v4:prepareLintJar
+:power-adapters-support-v4:mergeDebugConsumerProguardFiles
+:power-adapters-support-v4:mergeDebugShaders
+:power-adapters-support-v4:compileDebugShaders
+:power-adapters-support-v4:generateDebugAssets
+:power-adapters-support-v4:packageDebugAssets
+:power-adapters-support-v4:packageDebugRenderscript NO-SOURCE
+:power-adapters-support-v4:processDebugJavaRes NO-SOURCE
+:power-adapters-support-v4:compileDebugNdk NO-SOURCE
+:power-adapters-support-v4:mergeDebugJniLibFolders
+:power-adapters-support-v4:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-support-v4:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-support-v4:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-support-v4:preReleaseBuild UP-TO-DATE
+:power-adapters-support-v4:compileReleaseAidl
+:power-adapters-support-v4:compileReleaseRenderscript
+:power-adapters-support-v4:checkReleaseManifest
+:power-adapters-support-v4:generateReleaseBuildConfig
+:power-adapters-support-v4:generateReleaseResValues
+:power-adapters-support-v4:generateReleaseResources
+:power-adapters-support-v4:packageReleaseResources
+:power-adapters-support-v4:processReleaseManifest
+:power-adapters-support-v4:mergeReleaseConsumerProguardFiles
+:power-adapters-support-v4:mergeReleaseShaders
+:power-adapters-support-v4:compileReleaseShaders
+:power-adapters-support-v4:generateReleaseAssets
+:power-adapters-support-v4:packageReleaseAssets
+:power-adapters-support-v4:packageReleaseRenderscript NO-SOURCE
+:power-adapters-support-v4:processReleaseJavaRes NO-SOURCE
+:power-adapters-support-v4:compileReleaseNdk NO-SOURCE
+:power-adapters-support-v4:mergeReleaseJniLibFolders
+:power-adapters-support-v4:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-support-v4:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-support-v4:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-support-v4:mergeReleaseResources
+:power-adapters-support-v4:verifyReleaseResources
+:power-adapters-test:preBuild UP-TO-DATE
+:power-adapters-test:preDebugBuild UP-TO-DATE
+:power-adapters-test:compileDebugAidl
+:power-adapters-test:compileDebugRenderscript
+:power-adapters-test:checkDebugManifest
+:power-adapters-test:generateDebugBuildConfig
+:power-adapters-test:generateDebugResValues
+:power-adapters-test:generateDebugResources
+:power-adapters-test:packageDebugResources
+:power-adapters-test:platformAttrExtractor
+:power-adapters-test:processDebugManifest
+:power-adapters-test:prepareLintJar
+:power-adapters-test:mergeDebugConsumerProguardFiles
+:power-adapters-test:mergeDebugShaders
+:power-adapters-test:compileDebugShaders
+:power-adapters-test:generateDebugAssets
+:power-adapters-test:packageDebugAssets
+:power-adapters-test:packageDebugRenderscript NO-SOURCE
+:power-adapters-test:processDebugJavaRes
+:power-adapters-test:compileDebugNdk NO-SOURCE
+:power-adapters-test:mergeDebugJniLibFolders
+:power-adapters-test:transformNativeLibsWithMergeJniLibsForDebug
+:power-adapters-test:transformNativeLibsWithStripDebugSymbolForDebug
+:power-adapters-test:transformNativeLibsWithSyncJniLibsForDebug
+:power-adapters-test:preReleaseBuild UP-TO-DATE
+:power-adapters-test:compileReleaseAidl
+:power-adapters-test:compileReleaseRenderscript
+:power-adapters-test:checkReleaseManifest
+:power-adapters-test:generateReleaseBuildConfig
+:power-adapters-test:generateReleaseResValues
+:power-adapters-test:generateReleaseResources
+:power-adapters-test:packageReleaseResources
+:power-adapters-test:processReleaseManifest
+:power-adapters-test:mergeReleaseConsumerProguardFiles
+:power-adapters-test:mergeReleaseShaders
+:power-adapters-test:compileReleaseShaders
+:power-adapters-test:generateReleaseAssets
+:power-adapters-test:packageReleaseAssets
+:power-adapters-test:packageReleaseRenderscript NO-SOURCE
+:power-adapters-test:processReleaseJavaRes
+:power-adapters-test:compileReleaseNdk NO-SOURCE
+:power-adapters-test:mergeReleaseJniLibFolders
+:power-adapters-test:transformNativeLibsWithMergeJniLibsForRelease
+:power-adapters-test:transformNativeLibsWithStripDebugSymbolForRelease
+:power-adapters-test:transformNativeLibsWithSyncJniLibsForRelease
+:power-adapters-test:mergeReleaseResources
+:power-adapters-test:verifyReleaseResources
+:power-adapters-support-v4:generateDebugRFile
+:power-adapters-support-v4:kaptGenerateStubsDebugKotlin
+:power-adapters-support-v4:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/debug/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/debug/kotlin
+:power-adapters-support-v4:compileDebugKotlin
+:power-adapters-support-v4:generateDebugSources
+:power-adapters-support-v4:javaPreCompileDebug
+:power-adapters-support-v4:compileDebugJavaWithJavac
+:power-adapters-support-v4:extractDebugAnnotations
+:power-adapters-support-v4:transformResourcesWithMergeJavaResForDebug
+:power-adapters-support-v4:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-support-v4:bundleDebug
+:power-adapters-support-v4:compileDebugSources
+:power-adapters-support-v4:assembleDebug
+:power-adapters-support-v4:generateReleaseRFile
+:power-adapters-support-v4:kaptGenerateStubsReleaseKotlin
+:power-adapters-support-v4:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/release/java
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-support-v4/src/release/kotlin
+:power-adapters-support-v4:compileReleaseKotlin
+:power-adapters-support-v4:generateReleaseSources
+:power-adapters-support-v4:javaPreCompileRelease
+:power-adapters-support-v4:compileReleaseJavaWithJavac
+:power-adapters-support-v4:extractReleaseAnnotations
+:power-adapters-support-v4:transformResourcesWithMergeJavaResForRelease
+:power-adapters-support-v4:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-support-v4:bundleRelease
+:power-adapters-support-v4:compileReleaseSources
+:power-adapters-support-v4:assembleRelease
+:power-adapters-support-v4:signArchives SKIPPED
+:power-adapters-support-v4:assemble
+:power-adapters-support-v4:build
+:power-adapters-test:generateDebugRFile
+:power-adapters-test:kaptGenerateStubsDebugKotlin
+:power-adapters-test:kaptDebugKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/debug/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/debug/java
+:power-adapters-test:compileDebugKotlin
+:power-adapters-test:generateDebugSources
+:power-adapters-test:javaPreCompileDebug
+:power-adapters-test:compileDebugJavaWithJavac
+:power-adapters-test:extractDebugAnnotations
+:power-adapters-test:transformResourcesWithMergeJavaResForDebug
+:power-adapters-test:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-adapters-test:bundleDebug
+:power-adapters-test:compileDebugSources
+:power-adapters-test:assembleDebug
+:power-adapters-test:generateReleaseRFile
+:power-adapters-test:kaptGenerateStubsReleaseKotlin
+:power-adapters-test:kaptReleaseKotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/main/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/release/kotlin
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-test/src/release/java
+:power-adapters-test:compileReleaseKotlin
+:power-adapters-test:generateReleaseSources
+:power-adapters-test:javaPreCompileRelease
+:power-adapters-test:compileReleaseJavaWithJavac
+:power-adapters-test:extractReleaseAnnotations
+:power-adapters-test:transformResourcesWithMergeJavaResForRelease
+:power-adapters-test:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-adapters-test:bundleRelease
+:power-adapters-test:compileReleaseSources
+:power-adapters-test:assembleRelease
+:power-adapters-test:assemble
+:power-adapters-test:build
+
+BUILD SUCCESSFUL in 2m 51s
+777 actionable tasks: 777 executed
+
+2018-11-12 15:17:14,738 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010447538-0/src/power-adapters-master/power-adapters-sample/build/outputs/apk/release/power-adapters-sample-release-unsigned.apk

@@ -1,0 +1,256 @@
+2018-11-12 01:15:02,092 INFO  DownloadService - Downloading "https://github.com/carrot/recycler-core/archive/master.zip", attempt 3
+2018-11-12 01:16:02,747 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-12 01:16:03,889 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-12 01:16:03,889 INFO  DownloadService - Downloading "https://github.com/carrot/recycler-core/archive/master.zip", attempt 3
+2018-11-12 01:17:05,423 DEBUG FullProcessService - Repository https://github.com/carrot/recycler-core available: true
+2018-11-12 01:17:05,423 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-12 01:17:05,423 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/carrot/recycler-core, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src]
+2018-11-12 01:17:07,396 INFO  SysUtils - 
+2018-11-12 01:17:07,405 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/.git": true
+2018-11-12 01:17:07,409 INFO  FullProcessService - Size of directory with sources: 157 KB
+2018-11-12 01:17:07,409 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src]
+2018-11-12 01:17:07,428 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/.git/
+
+2018-11-12 01:17:07,432 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/gradlew
+2018-11-12 01:17:07,436 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-compiler/build.gradle
+2018-11-12 01:17:07,439 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/publish-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/publish-maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/settings.gradle
+2018-11-12 01:17:07,440 INFO  ProjectBuildService - Remote scripts: none
+2018-11-12 01:17:07,440 INFO  ProjectFixService - Fixing project...
+2018-11-12 01:17:07,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/local.properties
+2018-11-12 01:17:07,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 01:17:07,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/local.properties
+2018-11-12 01:17:07,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 01:17:07,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/local.properties
+2018-11-12 01:17:07,451 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-12 01:17:07,452 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-12 01:17:07,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 01:17:07,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-annotations/local.properties
+2018-11-12 01:17:07,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-annotations/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 01:17:07,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-compiler/local.properties
+2018-11-12 01:17:07,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recyclercore-compiler/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 01:17:07,455 INFO  ProjectFixService - Project was maybe fixed
+2018-11-12 01:17:07,455 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 01:17:07,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 01:17:26,813 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-12 01:17:26,814 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-12 01:17:26,814 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-12 01:17:26,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-12 01:17:44,102 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-12 01:17:44,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:recycler-core-example:preBuild UP-TO-DATE
+:recycler-core-example:preDebugBuild UP-TO-DATE
+:recycler-core-example:checkDebugManifest
+:recycler-core-example:preReleaseBuild UP-TO-DATE
+:recycler-core-example:prepareComAndroidSupportAnimatedVectorDrawable2420Library
+:recycler-core-example:prepareComAndroidSupportAppcompatV72420Library
+:recycler-core-example:prepareComAndroidSupportRecyclerviewV72420Library
+:recycler-core-example:prepareComAndroidSupportSupportCompat2420Library
+:recycler-core-example:prepareComAndroidSupportSupportCoreUi2420Library
+:recycler-core-example:prepareComAndroidSupportSupportCoreUtils2420Library
+:recycler-core-example:prepareComAndroidSupportSupportFragment2420Library
+:recycler-core-example:prepareComAndroidSupportSupportMediaCompat2420Library
+:recycler-core-example:prepareComAndroidSupportSupportV42420Library
+:recycler-core-example:prepareComAndroidSupportSupportVectorDrawable2420Library
+:recycler-core-example:prepareComCarrotcreativeRecyclercoreRecyclerCore20AlphaLibrary
+:recycler-core-example:prepareDebugDependencies
+:recycler-core-example:compileDebugAidl
+:recycler-core-example:compileDebugRenderscript
+:recycler-core-example:generateDebugBuildConfig
+:recycler-core-example:mergeDebugShaders
+:recycler-core-example:compileDebugShaders
+:recycler-core-example:generateDebugAssets
+:recycler-core-example:mergeDebugAssets
+:recycler-core-example:generateDebugResValues
+:recycler-core-example:generateDebugResources
+:recycler-core-example:mergeDebugResources
+:recycler-core-example:processDebugManifest
+:recycler-core-example:processDebugResources
+:recycler-core-example:generateDebugSources
+:recycler-core-example:incrementalDebugJavaCompilationSafeguard
+:recycler-core-example:compileDebugJavaWithJavacwarning: No SupportedSourceVersion annotation found on com.carrotcreative.recyclercore.compiler.RecyclerCorePreprocessor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'com.carrotcreative.recyclercore.compiler.RecyclerCorePreprocessor' less than -source '1.7'
+2 warnings
+
+:recycler-core-example:compileDebugNdk UP-TO-DATE
+:recycler-core-example:compileDebugSources
+:recycler-core-example:prePackageMarkerForDebug
+:recycler-core-example:transformClassesWithDexForDebug
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (357 defs/579.7KiB)
+Merged dex #3 (148 defs/325.1KiB)
+Merged dex #4 (449 defs/471.7KiB)
+Merged dex #5 (135 defs/248.9KiB)
+Merged dex #6 (53 defs/75.9KiB)
+Merged dex #7 (57 defs/148.3KiB)
+Merged dex #8 (144 defs/179.1KiB)
+Merged dex #9 (1 defs/0.7KiB)
+Merged dex #10 (17 defs/48.5KiB)
+Merged dex #11 (16 defs/18.0KiB)
+Merged dex #12 (60 defs/123.9KiB)
+Merged dex #13 (165 defs/169.9KiB)
+Merged dex #14 (10 defs/15.2KiB)
+Merged dex #15 (73 defs/58.2KiB)
+Merged dex #16 (8 defs/8.3KiB)
+Merged dex #17 (249 defs/186.4KiB)
+Merged dex #18 (17 defs/28.5KiB)
+Merged dex #19 (81 defs/102.9KiB)
+Merged dex #20 (2 defs/1.1KiB)
+Merged dex #21 (126 defs/93.0KiB)
+Merged dex #22 (46 defs/7.4KiB)
+Result is 2219 defs/3506.0KiB. Took 0.4s
+:recycler-core-example:mergeDebugJniLibFolders
+:recycler-core-example:transformNative_libsWithMergeJniLibsForDebug
+:recycler-core-example:processDebugJavaRes UP-TO-DATE
+:recycler-core-example:transformResourcesWithMergeJavaResForDebug
+:recycler-core-example:validateDebugSigning
+:recycler-core-example:packageDebug
+:recycler-core-example:zipalignDebug
+:recycler-core-example:assembleDebug
+:recycler-core-example:checkReleaseManifest
+:recycler-core-example:prepareReleaseDependencies
+:recycler-core-example:compileReleaseAidl
+:recycler-core-example:compileReleaseRenderscript
+:recycler-core-example:generateReleaseBuildConfig
+:recycler-core-example:mergeReleaseShaders
+:recycler-core-example:compileReleaseShaders
+:recycler-core-example:generateReleaseAssets
+:recycler-core-example:mergeReleaseAssets
+:recycler-core-example:generateReleaseResValues
+:recycler-core-example:generateReleaseResources
+:recycler-core-example:mergeReleaseResources
+:recycler-core-example:processReleaseManifest
+:recycler-core-example:processReleaseResources
+:recycler-core-example:generateReleaseSources
+:recycler-core-example:incrementalReleaseJavaCompilationSafeguard
+:recycler-core-example:compileReleaseJavaWithJavacwarning: No SupportedSourceVersion annotation found on com.carrotcreative.recyclercore.compiler.RecyclerCorePreprocessor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'com.carrotcreative.recyclercore.compiler.RecyclerCorePreprocessor' less than -source '1.7'
+2 warnings
+
+:recycler-core-example:compileReleaseNdk UP-TO-DATE
+:recycler-core-example:compileReleaseSources
+:recycler-core-example:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':recycler-core-example:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':recycler-core-example:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 16.726 secs
+
+2018-11-12 01:17:44,159 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541960102088-0/src/recycler-core-example/build/outputs/apk/recycler-core-example-debug.apk

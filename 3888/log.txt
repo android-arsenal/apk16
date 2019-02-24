@@ -1,0 +1,196 @@
+2018-11-12 14:58:55,028 INFO  DownloadService - Downloading "https://github.com/MartuPuri/Android-Components/archive/master.zip", attempt 3
+2018-11-12 14:58:56,866 INFO  DownloadService - Downloaded https://github.com/MartuPuri/Android-Components/archive/master.zip, attempt 3
+2018-11-12 14:58:56,867 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/master.zip": 383 KB
+2018-11-12 14:58:56,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-12 14:58:56,872 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/master.zip: true
+2018-11-12 14:58:56,873 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src'.
+2018-11-12 14:58:56,892 INFO  FullProcessService - Size of directory with sources: 512 KB
+2018-11-12 14:58:56,892 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src]
+2018-11-12 14:58:56,912 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/.git/
+
+2018-11-12 14:58:56,915 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/gradlew
+2018-11-12 14:58:56,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/build.gradle
+2018-11-12 14:58:56,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/settings.gradle
+2018-11-12 14:58:56,919 INFO  ProjectBuildService - Remote scripts: none
+2018-11-12 14:58:56,919 INFO  ProjectFixService - Fixing project...
+2018-11-12 14:58:56,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/local.properties
+2018-11-12 14:58:56,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 14:58:56,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/local.properties
+2018-11-12 14:58:56,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-12 14:58:56,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-12 14:58:56,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-11-12 14:58:56,928 INFO  ProjectFixService - Project was maybe fixed
+2018-11-12 14:58:56,928 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 14:58:56,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 14:59:04,551 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-11-12 14:59:04,551 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-12 14:59:04,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-12 14:59:13,517 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-components:preBuild UP-TO-DATE
+:android-components:preDebugBuild UP-TO-DATE
+:android-components:compileDebugNdk UP-TO-DATE
+:android-components:compileLint
+:android-components:copyDebugLint UP-TO-DATE
+:android-components:checkDebugManifest
+:android-components:preDebugAndroidTestBuild UP-TO-DATE
+:android-components:preDebugUnitTestBuild UP-TO-DATE
+:android-components:preReleaseBuild UP-TO-DATE
+:android-components:preReleaseUnitTestBuild UP-TO-DATE
+:android-components:prepareComAndroidSupportRecyclerviewV72400Library
+:android-components:prepareComAndroidSupportSupportV42400Library
+:android-components:prepareDebugDependencies
+:android-components:compileDebugAidl
+:android-components:compileDebugRenderscript
+:android-components:generateDebugBuildConfig
+:android-components:generateDebugAssets UP-TO-DATE
+:android-components:mergeDebugAssets
+:android-components:generateDebugResValues
+:android-components:generateDebugResources
+:android-components:mergeDebugResources
+:android-components:processDebugManifest
+:android-components:processDebugResources
+:android-components:generateDebugSources
+:android-components:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/src/main/java/com/masacre/components/ClickableRecyclerView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:android-components:extractDebugAnnotations
+:android-components:mergeDebugProguardFiles
+:android-components:packageDebugRenderscript UP-TO-DATE
+:android-components:packageDebugResources
+:android-components:processDebugJavaRes UP-TO-DATE
+:android-components:transformResourcesWithMergeJavaResForDebug
+:android-components:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android-components:mergeDebugJniLibFolders
+:android-components:transformNative_libsWithMergeJniLibsForDebug
+:android-components:transformNative_libsWithSyncJniLibsForDebug
+:android-components:bundleDebug
+:android-components:compileDebugSources
+:android-components:assembleDebug
+:android-components:compileReleaseNdk UP-TO-DATE
+:android-components:copyReleaseLint UP-TO-DATE
+:android-components:checkReleaseManifest
+:android-components:prepareReleaseDependencies
+:android-components:compileReleaseAidl
+:android-components:compileReleaseRenderscript
+:android-components:generateReleaseBuildConfig
+:android-components:generateReleaseAssets UP-TO-DATE
+:android-components:mergeReleaseAssets
+:android-components:generateReleaseResValues
+:android-components:generateReleaseResources
+:android-components:mergeReleaseResources
+:android-components:processReleaseManifest
+:android-components:processReleaseResources
+:android-components:generateReleaseSources
+:android-components:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/android-components/src/main/java/com/masacre/components/ClickableRecyclerView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:android-components:extractReleaseAnnotations
+:android-components:mergeReleaseProguardFiles
+:android-components:packageReleaseRenderscript UP-TO-DATE
+:android-components:packageReleaseResources
+:android-components:processReleaseJavaRes UP-TO-DATE
+:android-components:transformResourcesWithMergeJavaResForRelease
+:android-components:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-components:mergeReleaseJniLibFolders
+:android-components:transformNative_libsWithMergeJniLibsForRelease
+:android-components:transformNative_libsWithSyncJniLibsForRelease
+:android-components:bundleRelease
+:android-components:compileReleaseSources
+:android-components:assembleRelease
+:android-components:javadoc UP-TO-DATE
+:android-components:javadocJar
+:android-components:sourcesJar
+:android-components:assemble
+:android-components:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.452 secs
+
+2018-11-12 14:59:13,530 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 14:59:13,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 14:59:19,923 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-11-12 14:59:19,923 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-12 14:59:19,924 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009535024-0/src/Android-Components-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-12 14:59:26,481 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-components:preBuild UP-TO-DATE
+:android-components:preDebugBuild UP-TO-DATE
+:android-components:compileDebugNdk UP-TO-DATE
+:android-components:compileLint
+:android-components:copyDebugLint UP-TO-DATE
+:android-components:checkDebugManifest
+:android-components:preDebugAndroidTestBuild UP-TO-DATE
+:android-components:preDebugUnitTestBuild UP-TO-DATE
+:android-components:preReleaseBuild UP-TO-DATE
+:android-components:preReleaseUnitTestBuild UP-TO-DATE
+:android-components:prepareComAndroidSupportRecyclerviewV72400Library UP-TO-DATE
+:android-components:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:android-components:prepareDebugDependencies
+:android-components:compileDebugAidl UP-TO-DATE
+:android-components:compileDebugRenderscript UP-TO-DATE
+:android-components:generateDebugBuildConfig UP-TO-DATE
+:android-components:generateDebugAssets UP-TO-DATE
+:android-components:mergeDebugAssets UP-TO-DATE
+:android-components:generateDebugResValues UP-TO-DATE
+:android-components:generateDebugResources UP-TO-DATE
+:android-components:mergeDebugResources UP-TO-DATE
+:android-components:processDebugManifest UP-TO-DATE
+:android-components:processDebugResources UP-TO-DATE
+:android-components:generateDebugSources UP-TO-DATE
+:android-components:compileDebugJavaWithJavac UP-TO-DATE
+:android-components:extractDebugAnnotations UP-TO-DATE
+:android-components:mergeDebugProguardFiles UP-TO-DATE
+:android-components:packageDebugRenderscript UP-TO-DATE
+:android-components:packageDebugResources UP-TO-DATE
+:android-components:processDebugJavaRes UP-TO-DATE
+:android-components:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:android-components:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:android-components:mergeDebugJniLibFolders UP-TO-DATE
+:android-components:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:android-components:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:android-components:bundleDebug UP-TO-DATE
+:android-components:compileDebugSources UP-TO-DATE
+:android-components:assembleDebug UP-TO-DATE
+:android-components:compileReleaseNdk UP-TO-DATE
+:android-components:copyReleaseLint UP-TO-DATE
+:android-components:checkReleaseManifest
+:android-components:prepareReleaseDependencies
+:android-components:compileReleaseAidl UP-TO-DATE
+:android-components:compileReleaseRenderscript UP-TO-DATE
+:android-components:generateReleaseBuildConfig UP-TO-DATE
+:android-components:generateReleaseAssets UP-TO-DATE
+:android-components:mergeReleaseAssets UP-TO-DATE
+:android-components:generateReleaseResValues UP-TO-DATE
+:android-components:generateReleaseResources UP-TO-DATE
+:android-components:mergeReleaseResources UP-TO-DATE
+:android-components:processReleaseManifest UP-TO-DATE
+:android-components:processReleaseResources UP-TO-DATE
+:android-components:generateReleaseSources UP-TO-DATE
+:android-components:compileReleaseJavaWithJavac UP-TO-DATE
+:android-components:extractReleaseAnnotations UP-TO-DATE
+:android-components:mergeReleaseProguardFiles UP-TO-DATE
+:android-components:packageReleaseRenderscript UP-TO-DATE
+:android-components:packageReleaseResources UP-TO-DATE
+:android-components:processReleaseJavaRes UP-TO-DATE
+:android-components:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android-components:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android-components:mergeReleaseJniLibFolders UP-TO-DATE
+:android-components:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:android-components:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:android-components:bundleRelease UP-TO-DATE
+:android-components:compileReleaseSources UP-TO-DATE
+:android-components:assembleRelease UP-TO-DATE
+:android-components:javadoc UP-TO-DATE
+:android-components:javadocJar UP-TO-DATE
+:android-components:sourcesJar UP-TO-DATE
+:android-components:assemble UP-TO-DATE
+:android-components:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.066 secs
+
+2018-11-12 14:59:26,495 ERROR FullProcessService - Project build has not produced APK file
+2018-11-12 14:59:26,507 ERROR FullProcessService - Could not find generated or existed APK file

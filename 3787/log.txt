@@ -1,0 +1,1597 @@
+2018-11-16 18:10:18,510 INFO  DownloadService - Downloading "https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip", attempt 3
+2018-11-16 18:10:19,025 INFO  DownloadService - Downloaded https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip, attempt 3
+2018-11-16 18:10:19,026 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip": 125 KB
+2018-11-16 18:10:19,026 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 18:10:19,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip: true
+2018-11-16 18:10:19,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src'.
+2018-11-16 18:10:19,048 INFO  FullProcessService - Size of directory with sources: 161 KB
+2018-11-16 18:10:19,048 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src]
+2018-11-16 18:10:19,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/.git/
+
+2018-11-16 18:10:19,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew
+2018-11-16 18:10:19,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle
+2018-11-16 18:10:19,072 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/settings.gradle
+2018-11-16 18:10:19,072 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 18:10:19,072 INFO  ProjectFixService - Fixing project...
+2018-11-16 18:10:19,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/local.properties
+2018-11-16 18:10:19,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-11-16 18:10:19,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/local.properties
+2018-11-16 18:10:19,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-11-16 18:10:19,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/local.properties
+2018-11-16 18:10:19,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-11-16 18:10:19,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-11-16 18:10:19,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-11-16 18:10:19,082 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 18:10:19,082 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:10:19,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:10:33,248 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-16 18:10:33,248 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 18:10:33,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 18:10:46,118 INFO  SysUtils - Configuration on demand is an incubating feature.
+The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
+	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:131)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:39)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createJavacTask(TaskManager.java:1102)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:272)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:268)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantData(LibraryTaskManager.java:267)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:136)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.configureSources(AndroidUnitTest.java:191)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:110)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:70)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createRunUnitTestTask(TaskManager.java:1586)
+	at com.android.build.gradle.internal.TaskManager.createUnitTestVariantTasks(TaskManager.java:1376)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:479)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:library:prepareComAndroidSupportAppcompatV72510Library
+:library:prepareComAndroidSupportDesign2510Library
+:library:prepareComAndroidSupportRecyclerviewV72510Library
+:library:prepareComAndroidSupportSupportCompat2510Library
+:library:prepareComAndroidSupportSupportCoreUi2510Library
+:library:prepareComAndroidSupportSupportCoreUtils2510Library
+:library:prepareComAndroidSupportSupportFragment2510Library
+:library:prepareComAndroidSupportSupportMediaCompat2510Library
+:library:prepareComAndroidSupportSupportV42510Library
+:library:prepareComAndroidSupportSupportVectorDrawable2510Library
+:library:prepareComAndroidSupportTransition2510Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForDebug
+:library:transformNative_libsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:17: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:18: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomNavigationView;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:19: error: package android.support.design.widget does not exist
+import android.support.design.widget.NavigationView;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package NavigationView does not exist
+        extends NavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemSelectedListener {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package BottomNavigationView does not exist
+        extends NavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemSelectedListener {
+                                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:17: error: package android.support.annotation does not exist
+import android.support.annotation.AnimRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:21: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomNavigationView;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:22: error: package android.support.design.widget does not exist
+import android.support.design.widget.NavigationView;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:23: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:24: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:31: error: cannot find symbol
+    final FragmentManager fm;
+          ^
+  symbol:   class FragmentManager
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:17: error: package android.support.annotation does not exist
+import android.support.annotation.AnimRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:18: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+    public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
+                                                      ^
+  symbol:   class FragmentManager
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:103: error: cannot find symbol
+    public final void attachTo(NavigationView navigationView) {
+                               ^
+  symbol:   class NavigationView
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:124: error: cannot find symbol
+    public final void attachTo(BottomNavigationView bottomNavigationView) {
+                               ^
+  symbol:   class BottomNavigationView
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
+    public abstract Fragment getFragment(@IdRes int menuItemId);
+                    ^
+  symbol:   class Fragment
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
+    public FragmentTransaction apply(FragmentTransaction transaction) {
+                                     ^
+  symbol:   class FragmentTransaction
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
+    public FragmentTransaction apply(FragmentTransaction transaction) {
+           ^
+  symbol:   class FragmentTransaction
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:19: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:26: error: package Fragment does not exist
+    private final HashMap<String, Fragment.SavedState> map;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:74: error: package Fragment does not exist
+    public Fragment.SavedState get(String key) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
+    public Fragment.SavedState put(String key, Fragment.SavedState value) {
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
+    public Fragment.SavedState put(String key, Fragment.SavedState value) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:82: error: package Fragment does not exist
+    public Fragment.SavedState remove(String key) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:17: error: package android.support.v4.widget does not exist
+import android.support.v4.widget.DrawerLayout;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:26: error: cannot find symbol
+    private final DrawerLayout drawerLayout;
+                  ^
+  symbol:   class DrawerLayout
+  location: class CloseDrawerNavigationItemSelectedListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:28: error: cannot find symbol
+    public CloseDrawerNavigationItemSelectedListener(DrawerLayout drawerLayout) {
+                                                     ^
+  symbol:   class DrawerLayout
+  location: class CloseDrawerNavigationItemSelectedListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:20: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:21: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:22: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+    public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                  ^
+  symbol:   class FragmentManager
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:20: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:21: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:22: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+    public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                       ^
+  symbol:   class FragmentManager
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:24: error: cannot find symbol
+    boolean onNavigationItemSelected(@NonNull MenuItem item);
+                                      ^
+  symbol:   class NonNull
+  location: interface OnNavigationItemSelectedListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+    public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
+                                              ^
+  symbol:   class NonNull
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+    public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
+                                                                                        ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+    public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
+                                                                                                                ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:50: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                                           ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                                                               ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                           ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                               ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                                  ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                                                         ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                                                    ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                                                                        ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                    ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                        ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                                           ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                                                                  ^
+  symbol:   class AnimRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:93: error: cannot find symbol
+    public final void setNavigationItemSelectedListener(@Nullable OnNavigationItemSelectedListener listener) {
+                                                         ^
+  symbol:   class Nullable
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:147: error: cannot find symbol
+    public String getTag(@IdRes int menuItemId) {
+                          ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:146: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
+    public abstract Fragment getFragment(@IdRes int menuItemId);
+                                          ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:157: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:168: error: cannot find symbol
+    public boolean shouldAddToBackStack(@IdRes int menuItemId) {
+                                         ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:180: error: cannot find symbol
+    public boolean shouldHandleMenuItem(@IdRes int menuItemId) {
+                                         ^
+  symbol:   class IdRes
+  location: class BaseNavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+    public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                               ^
+  symbol:   class AnimRes
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+    public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                   ^
+  symbol:   class AnimRes
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+    public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                      ^
+  symbol:   class AnimRes
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+    public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                                                                                             ^
+  symbol:   class AnimRes
+  location: class FragmentTransactionAnimations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+    public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                          ^
+  symbol:   class NonNull
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+    public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                                                    ^
+  symbol:   class IdRes
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+    public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                                                                            ^
+  symbol:   class IdRes
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:44: error: cannot find symbol
+    public final void onSaveInstanceState(@NonNull Bundle outState) {
+                                           ^
+  symbol:   class NonNull
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:49: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class NavigationViewFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+    public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                               ^
+  symbol:   class NonNull
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+    public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                                                         ^
+  symbol:   class IdRes
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+    public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
+                                                                                                                 ^
+  symbol:   class IdRes
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:50: error: cannot find symbol
+    public final void onSaveInstanceState(@NonNull Bundle outState) {
+                                           ^
+  symbol:   class NonNull
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:55: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class NavigationViewStateFragmentAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:154: warning: no description for @param
+     * @param menuItemId
+       ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:143: warning: no description for @param
+     * @param menuItemId
+       ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for enter
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for exit
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for enter
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for exit
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popEnter
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popExit
+    public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for enter
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for exit
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for enter
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for exit
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popEnter
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popExit
+    public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:165: warning: no description for @param
+     * @param menuItemId
+       ^
+
+100 warnings
+:library:generateJavadocsJar
+:library:generateSourcesJar
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.526 secs
+
+2018-11-16 18:10:46,194 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:10:46,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:10:56,582 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-16 18:10:56,583 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-16 18:10:56,583 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-16 18:10:56,583 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-16 18:11:02,840 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-16 18:11:02,840 INFO  SysUtils - Configuration on demand is an incubating feature.
+The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
+	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:131)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:39)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createJavacTask(TaskManager.java:1102)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:272)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:268)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantData(LibraryTaskManager.java:267)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.api.internal.project.DefaultProjectAccessListener.evaluateProjectAndDiscoverTasks(DefaultProjectAccessListener.java:32)
+	at org.gradle.api.internal.project.DefaultProjectAccessListener.beforeResolvingProjectDependency(DefaultProjectAccessListener.java:28)
+	at org.gradle.api.internal.artifacts.dependencies.DefaultProjectDependency.beforeResolved(DefaultProjectDependency.java:107)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.ProjectIvyDependencyDescriptorFactory.createDependencyDescriptor(ProjectIvyDependencyDescriptorFactory.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependencyDescriptorFactory.createDependencyDescriptor(DefaultDependencyDescriptorFactory.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependenciesToModuleDescriptorConverter.addDependencies(DefaultDependenciesToModuleDescriptorConverter.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependenciesToModuleDescriptorConverter.addDependencyDescriptors(DefaultDependenciesToModuleDescriptorConverter.java:43)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.DefaultConfigurationComponentMetaDataBuilder.addConfigurations(DefaultConfigurationComponentMetaDataBuilder.java:37)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.toRootComponentMetaData(DefaultConfiguration.java:682)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$DefaultResolveContextToComponentResolver.resolve(DefaultArtifactDependencyResolver.java:138)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:85)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:187)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:170)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:129)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:191)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:119)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:72)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:66)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$3.execute(DefaultConfiguration.java:443)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$3.execute(DefaultConfiguration.java:436)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:436)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:411)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:403)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at com.android.build.gradle.internal.DependencyManager.collectArtifacts(DependencyManager.java:497)
+	at com.android.build.gradle.internal.DependencyManager.gatherDependencies(DependencyManager.java:375)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:278)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:155)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:364)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:636)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:633)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:629)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:823)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:494)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:269)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:266)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:265)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:136)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.configureSources(AndroidUnitTest.java:191)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:110)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:70)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createRunUnitTestTask(TaskManager.java:1586)
+	at com.android.build.gradle.internal.TaskManager.createUnitTestVariantTasks(TaskManager.java:1376)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:479)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.api.internal.project.DefaultProjectAccessListener.evaluateProjectAndDiscoverTasks(DefaultProjectAccessListener.java:32)
+	at org.gradle.api.internal.project.DefaultProjectAccessListener.beforeResolvingProjectDependency(DefaultProjectAccessListener.java:28)
+	at org.gradle.api.internal.artifacts.dependencies.DefaultProjectDependency.beforeResolved(DefaultProjectDependency.java:107)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.ProjectIvyDependencyDescriptorFactory.createDependencyDescriptor(ProjectIvyDependencyDescriptorFactory.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependencyDescriptorFactory.createDependencyDescriptor(DefaultDependencyDescriptorFactory.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependenciesToModuleDescriptorConverter.addDependencies(DefaultDependenciesToModuleDescriptorConverter.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultDependenciesToModuleDescriptorConverter.addDependencyDescriptors(DefaultDependenciesToModuleDescriptorConverter.java:43)
+	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.DefaultConfigurationComponentMetaDataBuilder.addConfigurations(DefaultConfigurationComponentMetaDataBuilder.java:37)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.toRootComponentMetaData(DefaultConfiguration.java:682)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$DefaultResolveContextToComponentResolver.resolve(DefaultArtifactDependencyResolver.java:138)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:85)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:187)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:170)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:129)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:191)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:119)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:72)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:66)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$3.execute(DefaultConfiguration.java:443)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$3.execute(DefaultConfiguration.java:436)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:436)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:411)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:403)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at com.android.build.gradle.internal.DependencyManager.collectArtifacts(DependencyManager.java:497)
+	at com.android.build.gradle.internal.DependencyManager.gatherDependencies(DependencyManager.java:375)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:278)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:155)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:364)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:636)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:633)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:629)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:823)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:494)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:269)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:266)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:265)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	... 61 more
+
+
+BUILD FAILED
+
+Total time: 5.901 secs
+
+2018-11-16 18:11:02,913 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 18:11:02,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 18:11:09,367 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-16 18:11:09,368 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-16 18:11:09,368 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-16 18:11:09,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-16 18:11:15,651 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-16 18:11:15,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
+	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:131)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:39)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createJavacTask(TaskManager.java:1102)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:272)
+	at com.android.build.gradle.internal.LibraryTaskManager$10.call(LibraryTaskManager.java:268)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantData(LibraryTaskManager.java:267)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:136)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.configureSources(AndroidUnitTest.java:191)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:110)
+	at com.android.build.gradle.tasks.factory.AndroidUnitTest$ConfigAction.execute(AndroidUnitTest.java:70)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:142)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:59)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:47)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:89)
+	at com.android.build.gradle.internal.TaskManager.createRunUnitTestTask(TaskManager.java:1586)
+	at com.android.build.gradle.internal.TaskManager.createUnitTestVariantTasks(TaskManager.java:1376)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:479)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	... 61 more
+
+
+BUILD FAILED
+
+Total time: 6.017 secs
+
+2018-11-16 18:11:15,719 ERROR FullProcessService - Project build has not produced APK file
+2018-11-16 18:11:15,786 ERROR FullProcessService - Could not find generated or existed APK file

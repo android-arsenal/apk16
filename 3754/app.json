@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.marcoscg.easylicensesdialogsample",
+    "label" : "EasyLicensesDialogSample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB71BMVEUAAABVVapAQL8AgIBDUa48VbM+T7kzTbM/UrQ+ULQ+ULQ9ULI+UbI6TKsAAAA9ULM9ULI+ULM+ULM7TawsN4U3RZg9T7I7Ta0kN3kwPpE9T7IkMXk7TKs7Tas6SqUkMXM8Taw6SqY8Ta06S6g8Tq46S6k9Tq86TKo0QZAkNXcuN3Y9T7E9Tq88Tq85S6YeJloAAFUAAAA1RZoxP44AAAAGDCQxQI45Sqc6S6o7TKo3SKQ4SKQ4SKU4SaU5SaY6S6Y5Sqc4SqUwPokGDCMAAAAAAAAPEy4XHkYUG0QUG0MUG0AAMzMAAAAAAAAAAIA+ULQ+ULObpNfb3vDW2u79/f2krNZLXLiXodagqdm9w+Td3+/8/P2Mlstebb/4+Pvp6/RAUKnd4O9MW7DIzejy8/haaLWWn9E6S6jX2+77/Pymrtg7TKmPmcx9h8R+iMWQms47TKpXZbM5SqY6SqY6S6dXZrWNl8x7hcN7hsR8hsWOmM2nrtk7Taw7TatYZrY8Ta3Gy+W8weG8wuHGy+Y8Taw8Ta7DyOS6v+C6wOHl6POnr9lda7dBUatBUqxCUqzS1uyiqtc8Tq+KldH5+vxodsBqdryutdu1u961vN+1vOCutdxreME8Tq49TrA9Tq8+T7E9T7E/UbU8Tq09Tq49T7BPPKnxAAAAT3RSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4q/PzvKvzv/O/87/zvJysc7P357CIDCKmtAyqw7fDv8PDw8PDv8O2xLAkgQk1LTEwFCw4EZTSopAAAAktJREFUSMe9lvtX0lAcwIdgZk+lshfThYvehWVlQvTyAWmBtrTsoZVGuigSLCjXimaZBUX2ssAl8Ie2e/ek9uIXPj/dc/b57Ozu7NzvEKRaWGoMsJTpVqvxLZUOt7TVrtKl1gY10a9bXb/GgPq1dVJhRdYFQ8as3yAEFsS2MdTQaNelsSG4aTPC77wG2dIUshvd3x7cuo1T+WD7DlPBTjloqn4wMDg4UElwheC4aiYYGr7GcZ0gRkaIGzfBenhIL7h1m+AZHRsbFZZ37uoE9wSJGJ+YGBfX98PawQNRIiYnpeVUmDQRKJgiSVI3eBiJRB7xPBaCaFQveDI9HYvF4vF4ODzDB1EOneDpM45EIpFMJp/DAPhRh/k9vIABOltZQKGzzZp74J8f8FIMKAqlm1u0AsknxYCiKEw7ePVaIJV6wwecz2D0rhazewA+g81pBm/fQebfC8EC8BmndjDDPz85LwWcTzvnWrWCDx/T6XQmk0mJAfD1gn9ZAH5lAa0ZfFILPtMwyKoFXxb/9xe/wgDPtqodAt++/wD8FFla+vUb+jk8u1v1mAHvE37/8HuA7wf6OTyvHoQ0/JyrLFAexur+siu/Rw72lp18qj4I9gmBBdl/IKgcKA6HA0VRDMOcEBzHXa6Dh9jDRxC3MLLajv5ZCa7IMIVCoVgsLkNKpRLLsnmWOdYmzbj24ydOdpzqkOns9Hg8Xq/3NMTn8505e+78hXZ5jHZ19/T6/f6AxEUFgQB3qbenu0s5qPv6LxnQ31c+/N2XDXBX7S/mLzHKAlHbnj7bAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1670,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.marcoscg.easylicensesdialogsample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"EasyLicensesDialogSample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.marcoscg.easylicensesdialogsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1451814,
+  "crc32" : 1918161410,
+  "sha256" : "3faf3973c8dba811f89d7d6f388b328a0ff7e93e7501a399bd9828db1e9c9efe",
+  "buildTime" : 1542376436000
+}

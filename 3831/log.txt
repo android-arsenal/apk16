@@ -1,0 +1,796 @@
+2018-11-12 23:28:34,436 INFO  DownloadService - Downloading "https://github.com/alibaba/weex/archive/master.zip", attempt 3
+2018-11-12 23:28:44,915 INFO  DownloadService - Downloaded https://github.com/alibaba/weex/archive/master.zip, attempt 3
+2018-11-12 23:28:44,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/master.zip": 18 MB
+2018-11-12 23:28:44,915 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-12 23:28:44,922 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/master.zip: true
+2018-11-12 23:28:44,922 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src'.
+2018-11-12 23:28:45,918 INFO  FullProcessService - Size of directory with sources: 40 MB
+2018-11-12 23:28:45,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src]
+2018-11-12 23:28:45,947 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/.git/
+
+2018-11-12 23:28:46,007 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/gradlew
+2018-11-12 23:28:46,066 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/build.gradle
+2018-11-12 23:28:46,128 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle
+2018-11-12 23:28:46,129 INFO  ProjectBuildService - Remote scripts: none
+2018-11-12 23:28:46,129 INFO  ProjectFixService - Fixing project...
+2018-11-12 23:28:46,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/local.properties
+2018-11-12 23:28:46,268 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-11-12 23:28:46,268 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-11-12 23:28:46,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-11-12 23:28:46,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/local.properties
+2018-11-12 23:28:46,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
+2018-11-12 23:28:46,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-11-12 23:28:46,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/local.properties
+2018-11-12 23:28:46,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-11-12 23:28:46,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/local.properties
+2018-11-12 23:28:46,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-12 23:28:46,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/local.properties
+2018-11-12 23:28:46,274 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-11-12 23:28:46,275 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-11-12 23:28:46,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-12 23:28:46,276 INFO  ProjectFixService - Project was maybe fixed
+2018-11-12 23:28:46,276 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 23:28:46,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 23:29:06,182 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-11-12 23:29:06,182 INFO  ProjectTaskService - Excluded tasks (18): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-12 23:29:06,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-12 23:29:25,507 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:licenseFormatAndroidAndroidTest UP-TO-DATE
+:licenseFormatAndroidDebug UP-TO-DATE
+:licenseFormatAndroidMain
+Unknown file extension: src/main/res/drawable/error.png
+:licenseFormatAndroidMain UP-TO-DATE
+:licenseFormatAndroidRelease UP-TO-DATE
+:licenseFormatAndroidTest UP-TO-DATE
+:licenseFormatAndroidTestDebug UP-TO-DATE
+:licenseFormatAndroidTestRelease UP-TO-DATE
+:licenseFormat UP-TO-DATE
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileLint
+:copyDebugLint UP-TO-DATE
+:checkDebugManifest
+:preDebugAndroidTestBuild UP-TO-DATE
+:preDebugUnitTestBuild UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:preReleaseUnitTestBuild UP-TO-DATE
+:prepareComAndroidSupportAppcompatV72311Library
+:prepareComAndroidSupportRecyclerviewV72311Library
+:prepareComAndroidSupportSupportV42311Library
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:incrementalDebugJavaCompilationSafeguard
+:compileDebugJavaWithJavac
+:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:extractDebugAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/src/main/java/com/taobao/weex/ui/view/refresh/circlebar/MaterialProgressDrawable.java: The typedef annotation com.taobao.weex.ui.view.refresh.circlebar.MaterialProgressDrawable.ProgressDrawableSize should have @Retention(RetentionPolicy.SOURCE)
+:mergeDebugProguardFiles
+:packageDebugRenderscript UP-TO-DATE
+:unzipJacocoAgent
+:transformClassesWithJacocoForDebug
+:processDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:transformNative_libsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:compileReleaseNdk UP-TO-DATE
+:copyReleaseLint UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:incrementalReleaseJavaCompilationSafeguard
+:compileReleaseJavaWithJavac
+:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:extractReleaseAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/src/main/java/com/taobao/weex/ui/view/refresh/circlebar/MaterialProgressDrawable.java: The typedef annotation com.taobao.weex.ui.view.refresh.circlebar.MaterialProgressDrawable.ProgressDrawableSize should have @Retention(RetentionPolicy.SOURCE)
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript UP-TO-DATE
+:processReleaseJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:transformNative_libsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.776 secs
+
+2018-11-12 23:29:25,622 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 23:29:25,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 23:29:41,510 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-12 23:29:41,510 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-12 23:29:41,510 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-12 23:29:41,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-12 23:29:45,308 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-12 23:29:45,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle' line: 49
+
+* What went wrong:
+A problem occurred evaluating root project 'weex_debug'.
+> Project with path ':weex_sdk' could not be found in root project 'weex_debug'.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'weex_debug'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:54)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:148)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:59)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:83)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:129)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: org.gradle.api.UnknownProjectException: Project with path ':weex_sdk' could not be found in root project 'weex_debug'.
+	at org.gradle.api.internal.project.AbstractProject.project(AbstractProject.java:450)
+	at org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:225)
+	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:129)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:147)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
+	at build_d9k1u949ixy19g1g5m31w9mh1$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle:49)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:63)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.project.AbstractProject.dependencies(AbstractProject.java:843)
+	at org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:225)
+	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:129)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:147)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
+	at build_d9k1u949ixy19g1g5m31w9mh1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/build.gradle:42)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
+	... 35 more
+
+
+BUILD FAILED
+
+Total time: 3.295 secs
+
+2018-11-12 23:29:45,418 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 23:29:45,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 23:29:54,307 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-12 23:29:54,308 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-12 23:29:54,308 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-12 23:29:54,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-12 23:29:57,519 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-12 23:29:57,519 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle' line: 13
+
+* What went wrong:
+A problem occurred evaluating root project 'commons'.
+> Failed to apply plugin [id 'com.android.library']
+   > Gradle version 2.2 is required. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.2-all.zip
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'commons'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.library']
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:153)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:112)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at build_d4hcv5wznj9bslpoamtarna4e.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/build.gradle:13)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 50 more
+Caused by: org.gradle.tooling.BuildException: Gradle version 2.2 is required. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.2-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.groovy:409)
+	at com.android.build.gradle.BasePlugin.configureProject(BasePlugin.groovy:254)
+	at com.android.build.gradle.BasePlugin$_apply_closure1.doCall(BasePlugin.groovy:241)
+	at com.android.build.gradle.BasePlugin$_apply_closure1.doCall(BasePlugin.groovy)
+	at com.android.build.gradle.internal.profile.SpanRecorders$2.call(SpanRecorders.groovy:52)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:48)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.groovy:54)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.groovy:240)
+	at com.android.build.gradle.LibraryPlugin.super$2$apply(LibraryPlugin.groovy)
+	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.groovy:88)
+	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.groovy)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginApplicator.applyImperative(ImperativeOnlyPluginApplicator.java:35)
+	at org.gradle.api.internal.plugins.RuleBasedPluginApplicator.applyImperative(RuleBasedPluginApplicator.java:43)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:137)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 2.742 secs
+
+2018-11-12 23:29:57,630 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 23:29:57,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 23:30:43,872 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-11-12 23:30:43,873 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-12 23:30:43,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-12 23:31:23,009 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-12 23:31:23,010 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:commons:licenseFormatAndroidAndroidTest UP-TO-DATE
+:commons:licenseFormatAndroidDebug UP-TO-DATE
+:commons:licenseFormatAndroidMain UP-TO-DATE
+:commons:licenseFormatAndroidRelease UP-TO-DATE
+:commons:licenseFormatAndroidTest UP-TO-DATE
+:commons:licenseFormatAndroidTestDebug UP-TO-DATE
+:commons:licenseFormatAndroidTestRelease UP-TO-DATE
+:commons:licenseFormat UP-TO-DATE
+:commons:preBuild UP-TO-DATE
+:commons:preReleaseBuild UP-TO-DATE
+:commons:compileReleaseNdk UP-TO-DATE
+:commons:compileLint
+:commons:copyReleaseLint UP-TO-DATE
+:commons:checkReleaseManifest
+:commons:preDebugAndroidTestBuild UP-TO-DATE
+:commons:preDebugBuild UP-TO-DATE
+:commons:preDebugUnitTestBuild UP-TO-DATE
+:commons:preReleaseUnitTestBuild UP-TO-DATE
+:weex_sdk:licenseFormatAndroidAndroidTest UP-TO-DATE
+:weex_sdk:licenseFormatAndroidDebug UP-TO-DATE
+:weex_sdk:licenseFormatAndroidMain
+Unknown file extension: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/src/main/res/drawable/error.png
+:weex_sdk:licenseFormatAndroidMain UP-TO-DATE
+:weex_sdk:licenseFormatAndroidRelease UP-TO-DATE
+:weex_sdk:licenseFormatAndroidTest UP-TO-DATE
+:weex_sdk:licenseFormatAndroidTestDebug UP-TO-DATE
+:weex_sdk:licenseFormatAndroidTestRelease UP-TO-DATE
+:weex_sdk:licenseFormat UP-TO-DATE
+:weex_sdk:preBuild UP-TO-DATE
+:weex_sdk:preReleaseBuild UP-TO-DATE
+:weex_sdk:compileReleaseNdk UP-TO-DATE
+:weex_sdk:compileLint
+:weex_sdk:copyReleaseLint UP-TO-DATE
+:weex_sdk:checkReleaseManifest
+:weex_sdk:preDebugAndroidTestBuild UP-TO-DATE
+:weex_sdk:preDebugBuild UP-TO-DATE
+:weex_sdk:preDebugUnitTestBuild UP-TO-DATE
+:weex_sdk:preReleaseUnitTestBuild UP-TO-DATE
+:weex_sdk:prepareComAndroidSupportAppcompatV72311Library
+:weex_sdk:prepareComAndroidSupportRecyclerviewV72311Library
+:weex_sdk:prepareComAndroidSupportSupportV42311Library
+:weex_sdk:prepareReleaseDependencies
+:weex_sdk:compileReleaseAidl
+:weex_sdk:compileReleaseRenderscript
+:weex_sdk:generateReleaseBuildConfig
+:weex_sdk:mergeReleaseShaders
+:weex_sdk:compileReleaseShaders
+:weex_sdk:generateReleaseAssets
+:weex_sdk:mergeReleaseAssets
+:weex_sdk:generateReleaseResValues
+:weex_sdk:generateReleaseResources
+:weex_sdk:packageReleaseResources
+:weex_sdk:processReleaseManifest
+:weex_sdk:processReleaseResources
+:weex_sdk:generateReleaseSources
+:weex_sdk:incrementalReleaseJavaCompilationSafeguard
+:weex_sdk:compileReleaseJavaWithJavac
+:weex_sdk:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:weex_sdk:extractReleaseAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/sdk/src/main/java/com/taobao/weex/ui/view/refresh/circlebar/MaterialProgressDrawable.java: The typedef annotation com.taobao.weex.ui.view.refresh.circlebar.MaterialProgressDrawable.ProgressDrawableSize should have @Retention(RetentionPolicy.SOURCE)
+:weex_sdk:mergeReleaseProguardFiles
+:weex_sdk:packageReleaseRenderscript UP-TO-DATE
+:weex_sdk:processReleaseJavaRes UP-TO-DATE
+:weex_sdk:transformResourcesWithMergeJavaResForRelease
+:weex_sdk:transformClassesAndResourcesWithSyncLibJarsForRelease
+:weex_sdk:mergeReleaseJniLibFolders
+:weex_sdk:transformNative_libsWithMergeJniLibsForRelease
+:weex_sdk:transformNative_libsWithSyncJniLibsForRelease
+:weex_sdk:bundleRelease
+:commons:prepareComAndroidSupportAppcompatV72311Library
+:commons:prepareComAndroidSupportSupportV42311Library
+:commons:prepareComFacebookFrescoDrawee0100Library
+:commons:prepareComFacebookFrescoFbcore0100Library
+:commons:prepareComFacebookFrescoFresco0100Library
+:commons:prepareComFacebookFrescoImagepipeline0100Library
+:commons:prepareComFacebookFrescoImagepipelineBase0100Library
+:commons:prepareComTaobaoAndroidWeex_analyzer0105Library
+:commons:preparePlaygroundWeex_sdk094Library
+:commons:prepareReleaseDependencies
+:commons:compileReleaseAidl
+:commons:compileReleaseRenderscript
+:commons:generateReleaseBuildConfig
+:commons:mergeReleaseShaders
+:commons:compileReleaseShaders
+:commons:generateReleaseAssets
+:commons:mergeReleaseAssets
+:commons:generateReleaseResValues
+:commons:generateReleaseResources
+:commons:mergeReleaseResources
+:commons:processReleaseManifest
+:commons:processReleaseResources
+:commons:generateReleaseSources
+:commons:incrementalReleaseJavaCompilationSafeguard
+:commons:compileReleaseJavaWithJavac
+:commons:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/src/main/java/com/alibaba/weex/commons/AbstractWeexActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/commons/src/main/java/com/alibaba/weex/commons/adapter/FrescoImageAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:commons:extractReleaseAnnotations
+:commons:mergeReleaseProguardFiles
+:commons:packageReleaseRenderscript UP-TO-DATE
+:commons:packageReleaseResources
+:commons:processReleaseJavaRes UP-TO-DATE
+:commons:transformResourcesWithMergeJavaResForRelease
+:commons:transformClassesAndResourcesWithSyncLibJarsForRelease
+:commons:mergeReleaseJniLibFolders
+:commons:transformNative_libsWithMergeJniLibsForRelease
+:commons:transformNative_libsWithSyncJniLibsForRelease
+:commons:bundleRelease
+:weex_debug:preBuild UP-TO-DATE
+:weex_debug:preReleaseBuild UP-TO-DATE
+:weex_debug:compileReleaseNdk UP-TO-DATE
+:weex_debug:compileLint
+:weex_debug:copyReleaseLint UP-TO-DATE
+:weex_debug:checkReleaseManifest
+:weex_debug:preDebugAndroidTestBuild UP-TO-DATE
+:weex_debug:preDebugBuild UP-TO-DATE
+:weex_debug:preDebugUnitTestBuild UP-TO-DATE
+:weex_debug:preReleaseUnitTestBuild UP-TO-DATE
+:weex_debug:prepareComAndroidSupportAppcompatV72311Library
+:weex_debug:prepareComAndroidSupportSupportV42311Library
+:weex_debug:preparePlaygroundWeex_sdk094Library
+:weex_debug:prepareReleaseDependencies
+:weex_debug:compileReleaseAidl
+:weex_debug:compileReleaseRenderscript
+:weex_debug:generateReleaseBuildConfig
+:weex_debug:mergeReleaseShaders
+:weex_debug:compileReleaseShaders
+:weex_debug:generateReleaseAssets
+:weex_debug:mergeReleaseAssets
+:weex_debug:generateReleaseResValues
+:weex_debug:generateReleaseResources
+:weex_debug:packageReleaseResources
+:weex_debug:processReleaseManifest
+:weex_debug:processReleaseResources
+:weex_debug:generateReleaseSources
+:weex_debug:incrementalReleaseJavaCompilationSafeguard
+:weex_debug:compileReleaseJavaWithJavac
+:weex_debug:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/src/main/java/com/taobao/weex/adapter/DefautDebugAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/weex_debug/src/main/java/com/taobao/weex/WXPFComponent.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:weex_debug:extractReleaseAnnotations
+:weex_debug:mergeReleaseProguardFiles
+:weex_debug:packageReleaseRenderscript UP-TO-DATE
+:weex_debug:processReleaseJavaRes UP-TO-DATE
+:weex_debug:transformResourcesWithMergeJavaResForRelease
+:weex_debug:transformClassesAndResourcesWithSyncLibJarsForRelease
+:weex_debug:mergeReleaseJniLibFolders
+:weex_debug:transformNative_libsWithMergeJniLibsForRelease
+:weex_debug:transformNative_libsWithSyncJniLibsForRelease
+:weex_debug:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:app:prepareComAndroidSupportAppcompatV72321Library
+:app:prepareComAndroidSupportDesign2321Library
+:app:prepareComAndroidSupportRecyclerviewV72321Library
+:app:prepareComAndroidSupportSupportV42321Library
+:app:prepareComAndroidSupportSupportVectorDrawable2321Library
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library
+:app:prepareComFacebookFrescoAnimatedBase0120Library
+:app:prepareComFacebookFrescoAnimatedGif0120Library
+:app:prepareComFacebookFrescoDrawee0120Library
+:app:prepareComFacebookFrescoFbcore0120Library
+:app:prepareComFacebookFrescoFresco0120Library
+:app:prepareComFacebookFrescoImagepipeline0120Library
+:app:prepareComFacebookFrescoImagepipelineBase0120Library
+:app:prepareComLoopjAndroidAndroidAsyncHttp149Library
+:app:prepareComTaobaoAndroidDexposed018Library
+:app:prepareComTaobaoAndroidWeex_analyzer0105Library
+:app:prepareComTaobaoAndroidWeex_inspectionProtocol101Library
+:app:prepareComTaobaoAndroidWeex_inspectionUrlconnection_interceptor100Library
+:app:prepareComTaobaoAndroidWeex_inspector01003Library
+:app:preparePlaygroundCommonsUnspecifiedLibrary
+:app:preparePlaygroundWeex_debugUnspecifiedLibrary
+:app:preparePlaygroundWeex_sdk094Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+Result compacted from 7594.9KiB to 5675.2KiB to save 1919.7KiB
+Merged dex #1 (36 defs/34.3KiB)
+Merged dex #2 (5 defs/15.3KiB)
+Merged dex #3 (327 defs/532.5KiB)
+Merged dex #4 (182 defs/255.1KiB)
+Merged dex #5 (134 defs/303.4KiB)
+Merged dex #6 (768 defs/935.5KiB)
+Merged dex #7 (17 defs/48.5KiB)
+Merged dex #8 (4 defs/4.1KiB)
+Merged dex #9 (54 defs/66.6KiB)
+Merged dex #10 (3 defs/5.5KiB)
+Merged dex #11 (75 defs/115.6KiB)
+Merged dex #12 (111 defs/107.3KiB)
+Merged dex #13 (7 defs/13.8KiB)
+Merged dex #14 (235 defs/255.2KiB)
+Merged dex #15 (111 defs/107.5KiB)
+Merged dex #16 (61 defs/106.4KiB)
+Merged dex #17 (22 defs/46.9KiB)
+Merged dex #18 (196 defs/205.1KiB)
+Merged dex #19 (413 defs/323.8KiB)
+Merged dex #20 (13 defs/11.6KiB)
+Merged dex #21 (10 defs/10.8KiB)
+Merged dex #22 (514 defs/877.2KiB)
+Merged dex #23 (136 defs/233.6KiB)
+Merged dex #24 (333 defs/261.0KiB)
+Merged dex #25 (73 defs/100.8KiB)
+Merged dex #26 (162 defs/268.2KiB)
+Merged dex #27 (19 defs/24.3KiB)
+Merged dex #28 (33 defs/62.9KiB)
+Merged dex #29 (81 defs/102.9KiB)
+Merged dex #30 (24 defs/33.9KiB)
+Merged dex #31 (18 defs/28.8KiB)
+Merged dex #32 (507 defs/613.3KiB)
+Merged dex #33 (5 defs/13.5KiB)
+Merged dex #34 (41 defs/6.5KiB)
+Merged dex #35 (131 defs/105.1KiB)
+Result is 4861 defs/5675.2KiB. Took 0.8s
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 38.439 secs
+
+2018-11-12 23:31:23,296 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542040114431-0/src/weex-master/android/playground/app/build/outputs/apk/app-debug-unaligned.apk

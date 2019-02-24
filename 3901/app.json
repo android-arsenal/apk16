@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "lt.andro.broadcastlogger",
+    "label" : "Broadcasts Monitor",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.4.20180111",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECEIVE_BOOT_COMPLETED" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACpElEQVR42u2ZTWgTQRTHq6liLXjRi6CCgiLW4qFULCK2tj0IFbxEUCh49taDN4UgIhR7rm6r1kP8IAdti4lJWZtsPopKICgeRFEw1W02m53dTdpID+U5z7oQpUlTE3anOgN/JpCdzP83M+/tkNfQwBvDzQfgCgM0Oin0sGbjALARxcpCrslP6YOv8vnt8e9kz+uittsJ4dzoYSVvFc0nQd6aKJrDiQUjE5/XNSeFHmILxjB6WhXC+jJWILfpQKA/wIymMrOj1NqGsgBWsIRleQcFyOKgRIEsJub1Jdo7o+W5F3ExReWbKgSDO0u9/tYw4rF/kHq5P5rX9F8AS06v/E8QBMjKxg2f91Cp1xUBRkT/AQpAWAS4dn+kpVoAJnfAc+fWYQ7AATjA/wrg1wj0z2ThrKTYopsfc/UFGFcJdIsKtPkztujKO7W+AM/oDlygO9AXUWzR4Ic670C0oENIJ/Cc2KNpkwfxPwgQKywfpXrIdoAgPf+X36hwKVm7BlIqTOaIvQD1TKMnQgo8nLMZYIIC9LxQoD2QqVknpxR4ZDcAnltMb/hGrlUBKinPsxAHWF8AoqHDEL0hXn9fWXiLFA3CHkC1afQUfeapyiAAptHeaQWO0jRYSb001Y6zCIC3w7GvGoymKwufsW6SPIg5AAdwDmD9/rkrhEMHWd2Bq2NCa1kAq2gw6PXuksxcDgexUuCYKZoQlL9oAx7PPvToCYcbK5WYtjx+m/JFzRzgQATB3glZc0uGCvfi0hPqramaGpnryPH2lrvxyEQg/YmE5tImpTewt1PWnIHZz0SIiJOtHW14fFzVViqbqPZ2dHV1913sP3P6/DlHhHMf6+zsQS+rrv6fEG63ezP92Ey1zWE1o5e/KrxjsAjJ5CYnVTZgeWOk/QBMYaXCtITciAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2237,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.4.20180111\" package=\"lt.andro.broadcastlogger\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"Broadcasts Monitor\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Broadcasts Monitor\" android:name=\"lt.andro.broadcastlogger.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:label=\"Latest broadcast&apos;s action is:\" android:name=\"lt.andro.broadcastlogger.BroadcastMonitoringService\" />\n\t\t<provider android:name=\"lt.andro.broadcastlogger.contentprovider.BroadcastContentProvider\" android:exported=\"false\" android:authorities=\"lt.andro.broadcastlogger\" />\n\t\t<receiver android:name=\"lt.andro.broadcastlogger.AnyBroadcastReceiver\" android:process=\":receiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.BOOT_COMPLETED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1957370,
+  "crc32" : 2420222130,
+  "sha256" : "4c912e4561bfbc2cc8064b77049afb36c1eb804bcf4944d584d66cd13beee03e",
+  "buildTime" : 1522149165000
+}

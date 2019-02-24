@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.baoyachi.stepview.demo",
+    "label" : "StepView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAV1BMVEUAAAAAv68Avq4Av68Av68Ava8Avq8Avq8Av64Ava8Avq8Avq8Av68Avq4Av68Avq8Av68Ava8Avq8Av68Avq4Ava4Ava8Avq4Ava8Avq4Ava4Ava8Ava9r9nVFAAAAHXRSTlMAID9vf6+/71+f/98QT0DPMHCgUNDwgMBgsOCQjxfYAm8AAAQtSURBVHja7ZvZsqMgEEAliRsStwiImf//zknukqiJ2guYqqnph3tfjH2E3mggiv4LScTheIqTm6Tp/W98Oh7EbrqzPJFvJckzEV55IVelCAihskSCJM5UAPXnPJVgSfOzZ/VZIZFSZB9V7xXhlEqiFCcP6stKMqQquZafS6bkLI84ppIt6ZH++bH0IjFxEOpCepKiJg2/9CiEacilV8mx019Jz1Kpz+rHEdQB9N8IwKZYpzKIpPXnxh8zC+H0AwkC6r8R7O7/6HjQyMDSbDgA7+3tpSybbv2ZVVdQrPyjS8goFmuGyMq/uobNYxzKAMzzRZZmBooXAUdvuqxHxKVJaFn67fhTNmx1of6V3gCijWff18rFfgBvA6LhFn7jVTTCYD1Z4E0E4mPSV4CeX31jPqb3bQHjRANJ6IX/AbiPgYCvJnveADjzTlpZxUmBt9nN0BUkklwYQbCNPABMXqJQ+rvIB4BUVBPslB+AsRkmiN/p5YICB5AgIufbsoOdzgRpBh7Gqw5fougAPcUH+tn6xTJG4OkHKf43v+G2ZAAU+FrczfW3rJJGYGvRhwM+0o1gAfxWpw7qAGKu3/CKOodcjtZz/fOQgAWoYAXc3AGe6X6eUms7kwFUyQucAzz1D9u9BgexwhIVgUflDqARLSDlOawcti/6LaTfAimOr7AOk5qXe2MXjGsSwBWwkpwUvWP918lIL3TAasiwWqjTZOdiIStfl3pwsU+AlbXNLJl87aYmyZ9TIoMBDF5qektfkkxqWkcFqDCBcLkuFZIsZADraV399fuBCyA6qv6ObITTKKg6lhHyAcjtJX8AwHjuHUAxY4ElD98PQDVKSBeNf82V7EU/ADId1QQ1nsCQ+4P2kWx7jjuW5Bb9E2C8BaGw5iQiaigcAUw2glpCIIyijgcw2Zu+4gMhKZlNAGTa05YGjr5NYGeTdyIBNPSNojnA46QGCuAxdZoPICuBBtCMiuYV4GflhAFooXG8sy9yfQXAR7UeWFM52LoHDzBKJB3wOa8AFlhX6ygQQA9s1aahABS0sldhAFpwuz4PAzBt15Nqc1ZxMXjfskECvOxa6X0BBu/7lkiA151LpfcEeLfpYPYEMO98atgPYAixfY8BWOgwur0AlvKr0PsA6MX8avYBMMux3e4BsNbi5QQDBwTQqyfqGJ5QAGdxo8fOMIMqO5xzjgH48EWyB3roeMGWo4AjlSEJOtihUh1KvwYeLa4DEWj4wWL9Wf1h7KDDHS7vPqt/e8sR7f/4WxbGp34TEaT0ZoqaeNlHWT/6Lf2mj/EwCNpEDBFsW3Tc64clq1ofuFe97pZAnwfe6LMRtPF38VL16IkYes93Li8oc3SXEJdee2CC6PoQl16/vbJxG+agXRP67nHduAWDGFxTRztJfTHtvWd8Gw99/9+acjfd/5r8BVd2vt2Kuz0lAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1556,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.baoyachi.stepview.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008a\" android:label=\"StepView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.baoyachi.stepview.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.baoyachi.stepview.demo.TestHorizontalStepViewActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1283712,
+  "crc32" : 406138368,
+  "sha256" : "13ca58bd43ac50155f74a015ee9939e9d83bd66fec6398c536dca551ddde9d95",
+  "buildTime" : 1522173103000
+}

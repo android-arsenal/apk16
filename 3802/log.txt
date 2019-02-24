@@ -1,0 +1,176 @@
+2018-12-16 22:00:06,637 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/photofilter/archive/master.zip", attempt 3
+2018-12-16 22:01:08,072 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-16 22:01:09,114 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-16 22:01:09,114 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/photofilter/archive/master.zip", attempt 3
+2018-12-16 22:02:10,329 DEBUG FullProcessService - Repository https://github.com/mukeshsolanki/photofilter available: true
+2018-12-16 22:02:10,329 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-16 22:02:10,329 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mukeshsolanki/photofilter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src]
+2018-12-16 22:02:12,512 INFO  SysUtils - 
+2018-12-16 22:02:12,520 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/.git": true
+2018-12-16 22:02:12,523 INFO  FullProcessService - Size of directory with sources: 789 KB
+2018-12-16 22:02:12,523 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src]
+2018-12-16 22:02:12,541 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/.git/
+
+2018-12-16 22:02:12,544 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/gradlew
+2018-12-16 22:02:12,548 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/build.gradle
+2018-12-16 22:02:12,550 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/settings.gradle
+2018-12-16 22:02:12,551 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 22:02:12,551 INFO  ProjectFixService - Fixing project...
+2018-12-16 22:02:12,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/local.properties
+2018-12-16 22:02:12,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,559 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/library/local.properties
+2018-12-16 22:02:12,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/local.properties
+2018-12-16 22:02:12,562 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2018-12-16 22:02:12,562 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2018-12-16 22:02:12,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 22:02:12,564 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 22:02:12,564 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 22:02:12,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 22:02:24,199 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-16 22:02:24,199 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 22:02:24,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 22:03:07,731 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:checkDebugManifest
+> Task :library:processDebugManifest
+> Task :app:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :library:compileDebugRenderscript
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :library:generateDebugRFile
+> Task :app:processDebugResources
+> Task :library:generateDebugBuildConfig
+> Task :library:compileDebugKotlin
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/src/main/java/com/mukesh/imageproccessing/example/MainActivity.kt: (105, 13): Identity equality for arguments of types Int and Int is deprecated
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :library:compileReleaseRenderscript
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :library:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :library:generateReleaseBuildConfig
+> Task :library:compileReleaseKotlin
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/src/main/java/com/mukesh/imageproccessing/example/MainActivity.kt: (105, 13): Identity equality for arguments of types Int and Int is deprecated
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c901a3a8df0af980f63f13919c4fd53f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 42s
+94 actionable tasks: 94 executed
+
+2018-12-16 22:03:07,822 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972406628-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.cookminute.simpledroidrx",
+    "label" : "SimpleDroidRx",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3688,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.cookminute.simpledroidrx\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f09008d\" android:label=\"SimpleDroidRx\" android:icon=\"res/drawable-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.cookminute.simpledroidrx.SimpleDroidRxApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.cookminute.simpledroidrx.UI.Activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2428623,
+  "crc32" : 21997005,
+  "sha256" : "ccebcab9a5fffb0d3f8eaaf30a9227c18d13eef62d706bcb6cdc725e4b176072",
+  "buildTime" : 1541944897000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.bilibili.magicasakurademo",
+    "label" : "MagicaSakura",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2334,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.bilibili.magicasakurademo\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"MagicaSakura\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.bilibili.magicasakurademo.MyApplication\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:name=\"com.bilibili.magicasakurademo.MainActivity\" android:windowSoftInputMode=\"0x30\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2091170,
+  "crc32" : 415869251,
+  "sha256" : "65b86c58d0aad64a9f02adc831b87a3addd07c873542e50591752ca268f2cfcf",
+  "buildTime" : 1525978257000
+}

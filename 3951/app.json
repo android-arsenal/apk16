@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "rebus.permissionutils.sample",
+    "label" : "Permission Utils",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "2.0.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.GET_ACCOUNTS", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.ACCESS_FINE_LOCATION", "android.permission.READ_SMS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADnklEQVR42mNgGAWjYBQMLxAauorZwWE/y2DEILfhdnlDAxMYD3aA1Z1IAs6B64RtQjfL2fnvlB1MGOQmkNsw3QxlGPtu5rIP2jLNPnDrM/vAzW/s/Te/BtODAcPdsuW5fdCmaSC3ItwO9YBd4KYZQAX/7QMGP7b2XTkb6GRGeCw4+C4TsQ3Y+BIkaRuw6adt4Ka/9gGb/gwmDHITyG2gQLb2WfXK0LpeCp6czF1nqNr5b3oH9gDY8Vv+2wVs+QfzMTKbXhhkJ8xeGA12G9ADNr5r3mvbVmrBPaBv06tm57fxHUTzpj/omsn1gFPwVjCmhgcgbGBsgDzgs/q9pkmJDqoHoDEAiTKEJnRDCGGgBf/icg/+W7z61r8TZ1+A8aLVN4FiB8ByRJuDxQ1wDwBjAKcHKE1C9d1n/r9+++3/379////+/QeMQezXb779r+06TVIMoLORkxBRMUCq42Ny9v///OXn/2/ff/1fsPLm/5js/f9jgWKLVt0Ei4HkorP2kewJijxACt66+yE4xKfOv4ohN33h1f+///z5v3nnA7LyA+09ADT43qOP/99/+PE/JGUvhnxY2t7/Hz7++H/3wcf/pNY3dPGAI7C0efnqKzitu0dsx5D3jNoBzhsvgGocArcOUg+8HoIeSCk+9P/y9bf/373/Dk7jf4AYlIxAfGQMEgPJgdS8BfIvXXv7P7no4MB74PSFV+Bikhx88tzLgffAw8efyPbAfWCmH3gPPBmmHvjz5+//j59+gPGfoeiBfYefgGtiEN5/9OnQ8sCnzz//JxYgSpjkwoPgZsSQ8cCXrz//JxUiPJBSdOj/12+/hlYSOnPxFdjhqcB64tyl10OzFAJlZBAeLUZHtAcIeeTIyedke+Dg8WfU79CQ2qWMyd4HLuev3Xr3/zqRGKR235GneHtnVOlSEtupB3XWnUK2kYQJdfCxuQG/B2gwrELNcSG8wyrGDj0aQ2pgC+gBDctCXbgHdEyrZYEx8BokOfiHFrf+t/Je+UZFJ1wZeXSaw8x19io7/43/QQoGM7b13/DfyKFvHdDNnMij08w8Qlraho79Gy09l76x8l35wdp75Xsr7xUfBgMGuwXoJpDbDO27N3ELaoCSDzNDaCgzcixwArGisLipi5Siq5+4nJMvHMs6+g0IRnIDyE3C4rouIDciQh99lkZbmw3I4gZivkGKucFuhIc8FuDg0MBibDyTdTBikNtGp2FHwSgYZgAA70/Zw1rHHS0AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 2265,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"2.0.1\" package=\"rebus.permissionutils.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.READ_SMS\" />\n\t<application android:theme=\"resourceId:0x7f0900b1\" android:label=\"Permission Utils\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"rebus.permissionutils.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"rebus.permissionutils.sample.FragmentActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1875333,
+  "crc32" : 1698088950,
+  "sha256" : "1617f37b2915041c4119d066395736742cc3fb18b78cfd7327412e3dd6a27897",
+  "buildTime" : 1506536776000
+}

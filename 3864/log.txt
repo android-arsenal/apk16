@@ -1,0 +1,601 @@
+2017-01-27 00:09:16,774 INFO  DownloadService - Downloading "https://github.com/chrisdoyle/gradle-fury/archive/master.zip", attempt 3
+2017-01-27 00:09:19,511 INFO  DownloadService - Downloaded https://github.com/chrisdoyle/gradle-fury/archive/master.zip, attempt 3
+2017-01-27 00:09:19,511 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-01-27 00:09:19,519 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/master.zip: true
+2017-01-27 00:09:19,519 DEBUG ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src'.
+2017-01-27 00:09:19,644 INFO  FullProcessService - Size of directory with sources: 1 MB
+2017-01-27 00:09:19,644 INFO  SysUtils - Execute command: [git, init, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src]
+2017-01-27 00:09:19,670 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/.git/
+
+2017-01-27 00:09:19,686 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradlew /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/gradlew /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/gradlew
+2017-01-27 00:09:19,703 INFO  ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-gmaps/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-aar/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app2/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle-fury-validation/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/hello-grandchild-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-gradhell/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-universe-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-aar/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-dist/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-war/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-jar/build.gradle
+2017-01-27 00:09:19,721 INFO  ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/android-support.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/bootstrap.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/encryption.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/init.d/init-1.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/init.d/init-2.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/init.d/init-3.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/maven-support.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/quality.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle/site.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle-fury-validation/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/hello-grandchild-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-gradhell/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-universe-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-aar/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-dist/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-gmaps/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-lib/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-war/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-aar/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-jar/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app2/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/settings.gradle
+2017-01-27 00:09:19,729 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/encryption.gradle", attempt 3
+2017-01-27 00:09:20,402 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/encryption.gradle, attempt 3
+2017-01-27 00:09:20,403 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/quality.gradle", attempt 3
+2017-01-27 00:09:20,814 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/quality.gradle, attempt 3
+2017-01-27 00:09:20,815 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/android-support.gradle", attempt 3
+2017-01-27 00:09:21,221 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/android-support.gradle, attempt 3
+2017-01-27 00:09:21,221 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/site.gradle", attempt 3
+2017-01-27 00:09:21,729 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/site.gradle, attempt 3
+2017-01-27 00:09:21,730 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/maven-support.gradle", attempt 3
+2017-01-27 00:09:22,320 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/maven-support.gradle, attempt 3
+2017-01-27 00:09:22,321 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/encryption.gradle", attempt 3
+2017-01-27 00:09:22,824 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/encryption.gradle, attempt 3
+2017-01-27 00:09:22,825 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/android-support.gradle", attempt 3
+2017-01-27 00:09:23,225 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/android-support.gradle, attempt 3
+2017-01-27 00:09:23,225 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/encryption.gradle https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/quality.gradle https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/android-support.gradle https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/site.gradle https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/maven-support.gradle https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/encryption.gradle https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/android-support.gradle
+2017-01-27 00:09:23,225 INFO  ProjectFixService - Fixing project...
+2017-01-27 00:09:23,681 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/local.properties
+2017-01-27 00:09:23,760 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:23,761 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk/local.properties
+2017-01-27 00:09:23,878 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:23,879 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-gmaps/local.properties
+2017-01-27 00:09:23,995 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-gmaps/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:23,996 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/app/local.properties
+2017-01-27 00:09:23,996 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2017-01-27 00:09:23,996 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-aar/local.properties
+2017-01-27 00:09:23,996 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-aar/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2017-01-27 00:09:23,997 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app/local.properties
+2017-01-27 00:09:23,997 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2017-01-27 00:09:23,997 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app2/local.properties
+2017-01-27 00:09:23,998 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/app2/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2017-01-27 00:09:23,998 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/local.properties
+2017-01-27 00:09:23,998 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-bin.zip
+2017-01-27 00:09:24,109 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,110 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/local.properties
+2017-01-27 00:09:24,110 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2017-01-27 00:09:24,110 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2017-01-27 00:09:24,223 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,224 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/local.properties
+2017-01-27 00:09:24,224 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2017-01-27 00:09:24,224 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2017-01-27 00:09:24,330 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleConsumers/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,330 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle-fury-validation/local.properties
+2017-01-27 00:09:24,446 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradle-fury-validation/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,446 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/local.properties
+2017-01-27 00:09:24,563 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,564 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/hello-grandchild-lib/local.properties
+2017-01-27 00:09:24,677 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-child/hello-grandchild-lib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,678 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-gradhell/local.properties
+2017-01-27 00:09:24,790 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-gradhell/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,790 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-universe-lib/local.properties
+2017-01-27 00:09:24,901 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-universe-lib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:24,902 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-aar/local.properties
+2017-01-27 00:09:25,001 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-aar/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,002 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-app/local.properties
+2017-01-27 00:09:25,108 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,109 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-dist/local.properties
+2017-01-27 00:09:25,220 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-dist/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,221 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-lib/local.properties
+2017-01-27 00:09:25,331 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-lib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,332 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-war/local.properties
+2017-01-27 00:09:25,450 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-war/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,450 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-jar/local.properties
+2017-01-27 00:09:25,558 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/it/GradleBootstrap/bootstrap-jar/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2017-01-27 00:09:25,558 INFO  ProjectFixService - Project was maybe fixed
+2017-01-27 00:09:25,558 INFO  ProjectTaskService - Detecting possible tasks...
+2017-01-27 00:09:25,558 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle, tasks]
+2017-01-27 00:09:48,973 INFO  ProjectTaskService - Detected possible tasks: 188
+2017-01-27 00:09:48,976 INFO  ProjectTaskService - Excluded tasks (11): mockableAndroidJar javadocJar deviceCheck lint deviceAndroidTest connectedCheck sourcesJar test check uninstallAll connectedAndroidTest
+2017-01-27 00:09:48,977 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle, --stacktrace, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, sourcesJar, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
+2017-01-27 00:10:03,159 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:72)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:46)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:33)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:204)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$16(BuildProcessorServiceImpl.java:110)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-01-27 00:10:03,160 INFO  SysUtils - The plus(Iterable<FileCollection>) method and using the '+' operator in conjunction with an Iterable<FileCollection> object have been deprecated and are scheduled to be removed in 3.0.  Please use the plus(FileCollection) method or the '+' operator with a FileCollection object instead.
+WARN - Graphviz/DOT has some issues with MacOS and may cause javadoc generation to fail. Just a heads up
+
+   ----.--.     #####                                        #######                     
+--/ _  |___)  #     #  #####    ##   #####  #      ######    #       #    # #####  #   # 
+     \_|____) #        #    #  #  #  #    # #      #         #       #    # #    #  # #  
+       |____) #  ####  #    # #    # #    # #      #####     #####   #    # #    #   #   
+---\___(__)   #     #  #####  ###### #    # #      #         #       #    # #####    #   
+               #    #  #   #  #    # #    # #      #         #       #    # #   #    #   
+                #####  #    # #    # #####  ###### ######    #        ####  #    #   #   
+                                                                     v1.0.20
+
+== Gradle Fury, bringing maven sensibility to gradle. It's NOT an incubating feature.
+== Gradle Fury: ProTip: Use 'gradle install -Pprofile=ci' to build with all the code quality and analysis plugins
+== Report Gradle Fury issues to: https://github.com/chrisdoyle/gradle-fury/issues, also see the wiki for more info
+
+ Building version 1.0.20 of your project...
+
+
+========================================================================
+==> WARNING: Gradle-Fury has moved! Update your build script refs to <==
+==> https://raw.githubusercontent.com/gradle-fury/gradle-fury/master <==
+=========================================================================
+
+
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+Incremental java compilation is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':hello-world-apk-overrides'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':hello-world-apk-overrides'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 13.474 secs
+
+2017-01-27 00:10:03,160 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2017-01-27 00:10:03,160 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build.gradle, --stacktrace, build]
+2017-01-27 00:11:57,585 INFO  SysUtils - The plus(Iterable<FileCollection>) method and using the '+' operator in conjunction with an Iterable<FileCollection> object have been deprecated and are scheduled to be removed in 3.0.  Please use the plus(FileCollection) method or the '+' operator with a FileCollection object instead.
+WARN - Graphviz/DOT has some issues with MacOS and may cause javadoc generation to fail. Just a heads up
+
+   ----.--.     #####                                        #######                     
+--/ _  |___)  #     #  #####    ##   #####  #      ######    #       #    # #####  #   # 
+     \_|____) #        #    #  #  #  #    # #      #         #       #    # #    #  # #  
+       |____) #  ####  #    # #    # #    # #      #####     #####   #    # #    #   #   
+---\___(__)   #     #  #####  ###### #    # #      #         #       #    # #####    #   
+               #    #  #   #  #    # #    # #      #         #       #    # #   #    #   
+                #####  #    # #    # #####  ###### ######    #        ####  #    #   #   
+                                                                     v1.0.20
+
+== Gradle Fury, bringing maven sensibility to gradle. It's NOT an incubating feature.
+== Gradle Fury: ProTip: Use 'gradle install' to publish to mavenLocal, works with AARs and APKs, even with variants
+== Report Gradle Fury issues to: https://github.com/chrisdoyle/gradle-fury/issues, also see the wiki for more info
+
+ Building version 1.0.20 of your project...
+
+
+========================================================================
+==> WARNING: Gradle-Fury has moved! Update your build script refs to <==
+==> https://raw.githubusercontent.com/gradle-fury/gradle-fury/master <==
+=========================================================================
+
+
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+Incremental java compilation is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for barRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for fooRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazDebug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.2 is ignored for bazRelease as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+:hello-world-aar:preBuild UP-TO-DATE
+:hello-world-aar:preReleaseBuild UP-TO-DATE
+:hello-world-aar:compileReleaseNdk UP-TO-DATE
+:hello-world-aar:compileLint
+:hello-world-aar:copyReleaseLint UP-TO-DATE
+:hello-world-aar:checkReleaseManifest
+:hello-world-aar:preDebugAndroidTestBuild UP-TO-DATE
+:hello-world-aar:preDebugBuild UP-TO-DATE
+:hello-world-aar:preDebugUnitTestBuild UP-TO-DATE
+:hello-world-aar:preReleaseUnitTestBuild UP-TO-DATE
+:hello-world-lib:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:hello-world-lib:processResources UP-TO-DATE
+:hello-world-lib:classes
+:hello-world-lib:jar
+:hello-world-aar:prepareOrgOsmdroidOsmdroidAndroid541ReleaseLibrary
+:hello-world-aar:prepareReleaseDependencies
+:hello-world-aar:compileReleaseAidl
+:hello-world-aar:compileReleaseRenderscript
+:hello-world-aar:generateReleaseBuildConfig
+:hello-world-aar:mergeReleaseShaders
+:hello-world-aar:compileReleaseShaders
+:hello-world-aar:generateReleaseAssets
+:hello-world-aar:mergeReleaseAssets
+:hello-world-aar:generateReleaseResValues
+:hello-world-aar:generateReleaseResources
+:hello-world-aar:mergeReleaseResources
+:hello-world-aar:processReleaseManifest
+:hello-world-aar:processReleaseResources
+:hello-world-aar:generateReleaseSources
+:hello-world-aar:incrementalReleaseJavaCompilationSafeguard
+:hello-world-aar:compileReleaseJavaWithJavac
+:hello-world-aar:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-aar:extractReleaseAnnotations
+:hello-world-aar:mergeReleaseProguardFiles
+:hello-world-aar:packageReleaseRenderscript UP-TO-DATE
+:hello-world-aar:packageReleaseResources
+:hello-world-aar:processReleaseJavaRes UP-TO-DATE
+:hello-world-aar:transformResourcesWithMergeJavaResForRelease
+:hello-world-aar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:hello-world-aar:mergeReleaseJniLibFolders
+:hello-world-aar:transformNative_libsWithMergeJniLibsForRelease
+:hello-world-aar:transformNative_libsWithSyncJniLibsForRelease
+:hello-world-aar:bundleRelease
+:hello-world-apk-overrides:preBuild UP-TO-DATE
+:hello-world-apk-overrides:preBarDebugBuild UP-TO-DATE
+:hello-world-apk-overrides:checkBarDebugManifest
+:hello-world-apk-overrides:preBarReleaseBuild UP-TO-DATE
+:hello-world-apk-overrides:preBazDebugBuild UP-TO-DATE
+:hello-world-apk-overrides:preBazReleaseBuild UP-TO-DATE
+:hello-world-apk-overrides:preFooDebugBuild UP-TO-DATE
+:hello-world-apk-overrides:preFooReleaseBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:hello-world-apk-overrides:prepareComAndroidSupportAppcompatV72330Library
+:hello-world-apk-overrides:prepareComAndroidSupportCardviewV72330Library
+:hello-world-apk-overrides:prepareComAndroidSupportDesign2330Library
+:hello-world-apk-overrides:prepareComAndroidSupportRecyclerviewV72330Library
+:hello-world-apk-overrides:prepareComAndroidSupportSupportV42330Library
+:hello-world-apk-overrides:prepareComAndroidSupportSupportVectorDrawable2330Library
+:hello-world-apk-overrides:prepareComChrisdoyleHelloWorldAar1020ReleaseLibrary
+:hello-world-apk-overrides:prepareOrgOsmdroidOsmdroidAndroid541ReleaseLibrary
+:hello-world-apk-overrides:prepareBarDebugDependencies
+:hello-world-apk-overrides:compileBarDebugAidl
+:hello-world-apk-overrides:compileBarDebugRenderscript
+:hello-world-apk-overrides:generateBarDebugBuildConfig
+:hello-world-apk-overrides:mergeBarDebugShaders
+:hello-world-apk-overrides:compileBarDebugShaders
+:hello-world-apk-overrides:generateBarDebugAssets
+:hello-world-apk-overrides:mergeBarDebugAssets
+:hello-world-apk-overrides:generateBarDebugResValues
+:hello-world-apk-overrides:generateBarDebugResources
+:hello-world-apk-overrides:mergeBarDebugResources
+:hello-world-apk-overrides:processBarDebugManifest
+:hello-world-apk-overrides:processBarDebugResources
+:hello-world-apk-overrides:generateBarDebugSources
+:hello-world-apk-overrides:incrementalBarDebugJavaCompilationSafeguard
+:hello-world-apk-overrides:compileBarDebugJavaWithJavac
+:hello-world-apk-overrides:compileBarDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileBarDebugNdk UP-TO-DATE
+:hello-world-apk-overrides:compileBarDebugSources
+:hello-world-apk-overrides:prePackageMarkerForBarDebug
+:hello-world-apk-overrides:transformClassesWithDexForBarDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 910 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:hello-world-apk-overrides:mergeBarDebugJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForBarDebug
+:hello-world-apk-overrides:processBarDebugJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForBarDebug
+:hello-world-apk-overrides:validateDebugSigning
+:hello-world-apk-overrides:packageBarDebug
+:hello-world-apk-overrides:zipalignBarDebug
+:hello-world-apk-overrides:assembleBarDebug
+:hello-world-apk-overrides:checkBazDebugManifest
+:hello-world-apk-overrides:prepareBazDebugDependencies
+:hello-world-apk-overrides:compileBazDebugAidl
+:hello-world-apk-overrides:compileBazDebugRenderscript
+:hello-world-apk-overrides:generateBazDebugBuildConfig
+:hello-world-apk-overrides:mergeBazDebugShaders
+:hello-world-apk-overrides:compileBazDebugShaders
+:hello-world-apk-overrides:generateBazDebugAssets
+:hello-world-apk-overrides:mergeBazDebugAssets
+:hello-world-apk-overrides:generateBazDebugResValues
+:hello-world-apk-overrides:generateBazDebugResources
+:hello-world-apk-overrides:mergeBazDebugResources
+:hello-world-apk-overrides:processBazDebugManifest
+:hello-world-apk-overrides:processBazDebugResources
+:hello-world-apk-overrides:generateBazDebugSources
+:hello-world-apk-overrides:incrementalBazDebugJavaCompilationSafeguard
+:hello-world-apk-overrides:compileBazDebugJavaWithJavac
+:hello-world-apk-overrides:compileBazDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileBazDebugNdk UP-TO-DATE
+:hello-world-apk-overrides:compileBazDebugSources
+:hello-world-apk-overrides:prePackageMarkerForBazDebug
+:hello-world-apk-overrides:transformClassesWithDexForBazDebug
+:hello-world-apk-overrides:mergeBazDebugJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForBazDebug
+:hello-world-apk-overrides:processBazDebugJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForBazDebug
+:hello-world-apk-overrides:packageBazDebug
+:hello-world-apk-overrides:zipalignBazDebug
+:hello-world-apk-overrides:assembleBazDebug
+:hello-world-apk-overrides:checkFooDebugManifest
+:hello-world-apk-overrides:prepareFooDebugDependencies
+:hello-world-apk-overrides:compileFooDebugAidl
+:hello-world-apk-overrides:compileFooDebugRenderscript
+:hello-world-apk-overrides:generateFooDebugBuildConfig
+:hello-world-apk-overrides:mergeFooDebugShaders
+:hello-world-apk-overrides:compileFooDebugShaders
+:hello-world-apk-overrides:generateFooDebugAssets
+:hello-world-apk-overrides:mergeFooDebugAssets
+:hello-world-apk-overrides:generateFooDebugResValues
+:hello-world-apk-overrides:generateFooDebugResources
+:hello-world-apk-overrides:mergeFooDebugResources
+:hello-world-apk-overrides:processFooDebugManifest
+:hello-world-apk-overrides:processFooDebugResources
+:hello-world-apk-overrides:generateFooDebugSources
+:hello-world-apk-overrides:incrementalFooDebugJavaCompilationSafeguard
+:hello-world-apk-overrides:compileFooDebugJavaWithJavac
+:hello-world-apk-overrides:compileFooDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileFooDebugNdk UP-TO-DATE
+:hello-world-apk-overrides:compileFooDebugSources
+:hello-world-apk-overrides:prePackageMarkerForFooDebug
+:hello-world-apk-overrides:transformClassesWithDexForFooDebug
+:hello-world-apk-overrides:mergeFooDebugJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForFooDebug
+:hello-world-apk-overrides:processFooDebugJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForFooDebug
+:hello-world-apk-overrides:packageFooDebug
+:hello-world-apk-overrides:zipalignFooDebug
+:hello-world-apk-overrides:assembleFooDebug
+:hello-world-apk-overrides:assembleDebug
+:hello-world-apk-overrides:checkBarReleaseManifest
+:hello-world-apk-overrides:prepareBarReleaseDependencies
+:hello-world-apk-overrides:compileBarReleaseAidl
+:hello-world-apk-overrides:compileBarReleaseRenderscript
+:hello-world-apk-overrides:generateBarReleaseBuildConfig
+:hello-world-apk-overrides:mergeBarReleaseShaders
+:hello-world-apk-overrides:compileBarReleaseShaders
+:hello-world-apk-overrides:generateBarReleaseAssets
+:hello-world-apk-overrides:mergeBarReleaseAssets
+:hello-world-apk-overrides:generateBarReleaseResValues
+:hello-world-apk-overrides:generateBarReleaseResources
+:hello-world-apk-overrides:mergeBarReleaseResources
+:hello-world-apk-overrides:processBarReleaseManifest
+:hello-world-apk-overrides:processBarReleaseResources
+:hello-world-apk-overrides:generateBarReleaseSources
+:hello-world-apk-overrides:incrementalBarReleaseJavaCompilationSafeguard
+:hello-world-apk-overrides:compileBarReleaseJavaWithJavac
+:hello-world-apk-overrides:compileBarReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileBarReleaseNdk UP-TO-DATE
+:hello-world-apk-overrides:compileBarReleaseSources
+:hello-world-apk-overrides:lintVitalBarRelease
+:hello-world-apk-overrides:prePackageMarkerForBarRelease
+:hello-world-apk-overrides:transformClassesWithDexForBarRelease
+:hello-world-apk-overrides:mergeBarReleaseJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForBarRelease
+:hello-world-apk-overrides:processBarReleaseJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForBarRelease
+:hello-world-apk-overrides:validateReleaseSigning
+:hello-world-apk-overrides:packageBarRelease
+:hello-world-apk-overrides:zipalignBarRelease
+:hello-world-apk-overrides:assembleBarRelease
+:hello-world-apk-overrides:checkBazReleaseManifest
+:hello-world-apk-overrides:prepareBazReleaseDependencies
+:hello-world-apk-overrides:compileBazReleaseAidl
+:hello-world-apk-overrides:compileBazReleaseRenderscript
+:hello-world-apk-overrides:generateBazReleaseBuildConfig
+:hello-world-apk-overrides:mergeBazReleaseShaders
+:hello-world-apk-overrides:compileBazReleaseShaders
+:hello-world-apk-overrides:generateBazReleaseAssets
+:hello-world-apk-overrides:mergeBazReleaseAssets
+:hello-world-apk-overrides:generateBazReleaseResValues
+:hello-world-apk-overrides:generateBazReleaseResources
+:hello-world-apk-overrides:mergeBazReleaseResources
+:hello-world-apk-overrides:processBazReleaseManifest
+:hello-world-apk-overrides:processBazReleaseResources
+:hello-world-apk-overrides:generateBazReleaseSources
+:hello-world-apk-overrides:incrementalBazReleaseJavaCompilationSafeguard
+:hello-world-apk-overrides:compileBazReleaseJavaWithJavac
+:hello-world-apk-overrides:compileBazReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileBazReleaseNdk UP-TO-DATE
+:hello-world-apk-overrides:compileBazReleaseSources
+:hello-world-apk-overrides:lintVitalBazRelease
+:hello-world-apk-overrides:prePackageMarkerForBazRelease
+:hello-world-apk-overrides:transformClassesWithDexForBazRelease
+:hello-world-apk-overrides:mergeBazReleaseJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForBazRelease
+:hello-world-apk-overrides:processBazReleaseJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForBazRelease
+:hello-world-apk-overrides:packageBazRelease
+:hello-world-apk-overrides:zipalignBazRelease
+:hello-world-apk-overrides:assembleBazRelease
+:hello-world-apk-overrides:checkFooReleaseManifest
+:hello-world-apk-overrides:prepareFooReleaseDependencies
+:hello-world-apk-overrides:compileFooReleaseAidl
+:hello-world-apk-overrides:compileFooReleaseRenderscript
+:hello-world-apk-overrides:generateFooReleaseBuildConfig
+:hello-world-apk-overrides:mergeFooReleaseShaders
+:hello-world-apk-overrides:compileFooReleaseShaders
+:hello-world-apk-overrides:generateFooReleaseAssets
+:hello-world-apk-overrides:mergeFooReleaseAssets
+:hello-world-apk-overrides:generateFooReleaseResValues
+:hello-world-apk-overrides:generateFooReleaseResources
+:hello-world-apk-overrides:mergeFooReleaseResources
+:hello-world-apk-overrides:processFooReleaseManifest
+:hello-world-apk-overrides:processFooReleaseResources
+:hello-world-apk-overrides:generateFooReleaseSources
+:hello-world-apk-overrides:incrementalFooReleaseJavaCompilationSafeguard
+:hello-world-apk-overrides:compileFooReleaseJavaWithJavac
+:hello-world-apk-overrides:compileFooReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:hello-world-apk-overrides:compileFooReleaseNdk UP-TO-DATE
+:hello-world-apk-overrides:compileFooReleaseSources
+:hello-world-apk-overrides:lintVitalFooRelease
+:hello-world-apk-overrides:prePackageMarkerForFooRelease
+:hello-world-apk-overrides:transformClassesWithDexForFooRelease
+:hello-world-apk-overrides:mergeFooReleaseJniLibFolders
+:hello-world-apk-overrides:transformNative_libsWithMergeJniLibsForFooRelease
+:hello-world-apk-overrides:processFooReleaseJavaRes UP-TO-DATE
+:hello-world-apk-overrides:transformResourcesWithMergeJavaResForFooRelease
+:hello-world-apk-overrides:packageFooRelease
+:hello-world-apk-overrides:zipalignFooRelease
+:hello-world-apk-overrides:assembleFooRelease
+:hello-world-apk-overrides:assembleRelease
+:hello-world-apk-overrides:assemble
+:hello-world-apk-overrides:compileLint
+:hello-world-apk-overrides:lint
+Ran lint on variant fooRelease: 7 issues found
+Ran lint on variant barRelease: 7 issues found
+Ran lint on variant bazDebug: 7 issues found
+Ran lint on variant barDebug: 7 issues found
+Ran lint on variant bazRelease: 7 issues found
+Ran lint on variant fooDebug: 7 issues found
+Wrote HTML report to file:///private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build/outputs/lint-results-barDebug.html
+Wrote XML report to file:///private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build/outputs/lint-results-barDebug.xml
+:hello-world-apk-overrides:incrementalBarDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preBarDebugUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareBarDebugUnitTestDependencies
+:hello-world-apk-overrides:compileBarDebugUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processBarDebugUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileBarDebugUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:mockableAndroidJar
+:hello-world-apk-overrides:assembleBarDebugUnitTest
+:hello-world-apk-overrides:testBarDebugUnitTest
+:hello-world-apk-overrides:incrementalBarReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preBarReleaseUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareBarReleaseUnitTestDependencies
+:hello-world-apk-overrides:compileBarReleaseUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processBarReleaseUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileBarReleaseUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:assembleBarReleaseUnitTest
+:hello-world-apk-overrides:testBarReleaseUnitTest
+:hello-world-apk-overrides:incrementalBazDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preBazDebugUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareBazDebugUnitTestDependencies
+:hello-world-apk-overrides:compileBazDebugUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processBazDebugUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileBazDebugUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:assembleBazDebugUnitTest
+:hello-world-apk-overrides:testBazDebugUnitTest
+:hello-world-apk-overrides:incrementalBazReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preBazReleaseUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareBazReleaseUnitTestDependencies
+:hello-world-apk-overrides:compileBazReleaseUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processBazReleaseUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileBazReleaseUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:assembleBazReleaseUnitTest
+:hello-world-apk-overrides:testBazReleaseUnitTest
+:hello-world-apk-overrides:incrementalFooDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preFooDebugUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareFooDebugUnitTestDependencies
+:hello-world-apk-overrides:compileFooDebugUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processFooDebugUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileFooDebugUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:assembleFooDebugUnitTest
+:hello-world-apk-overrides:testFooDebugUnitTest
+:hello-world-apk-overrides:incrementalFooReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:hello-world-apk-overrides:preFooReleaseUnitTestBuild UP-TO-DATE
+:hello-world-apk-overrides:prepareFooReleaseUnitTestDependencies
+:hello-world-apk-overrides:compileFooReleaseUnitTestJavaWithJavac UP-TO-DATE
+:hello-world-apk-overrides:processFooReleaseUnitTestJavaRes UP-TO-DATE
+:hello-world-apk-overrides:compileFooReleaseUnitTestSources UP-TO-DATE
+:hello-world-apk-overrides:assembleFooReleaseUnitTest
+:hello-world-apk-overrides:testFooReleaseUnitTest
+:hello-world-apk-overrides:test
+:hello-world-apk-overrides:check
+:hello-world-apk-overrides:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 53.722 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14/userguide/gradle_daemon.html
+
+2017-01-27 00:11:57,820 INFO  FullProcessService - Found APK file: /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485454156770-0/src/gradle-fury-master/hello-world-apk-overrides/build/outputs/apk/hello-world-apk-overrides-1.0.20-barDebug.apk

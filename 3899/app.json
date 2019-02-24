@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.aigestudio.wheelpicker.demo",
+    "label" : "WheelPickerDemo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "1",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAP1BMVEUAAABmPCFmPCBnPCFmPCGTk8GWlsSWlsVpOyFoPSOYmMKVlsSVl8VnPCJlPCJmPCBoPh9mPCJnOyBmPR9nPR4TVcZAAAAAFXRSTlMA/9yVqiHEcic7Kv+VWWrUMb5XGSr7r2QsAAAAbklEQVRIx2NgGJyAkUgw/DQwMeMBTFg0sOALR5aRooGVDQTYwWwOThAgoIGLGwR4cCa+oaAB2dNEaSCU4yjSwMuHFeDWwE9MfhhuGgQ40YDggGQgHIB5WGvAUbYKDaaCTJjU4l6EhMQ3BDUMLgAAyXMJF1hsk9gAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 25,
+  "locales" : [ "", "zh" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.aigestudio.wheelpicker.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"1\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"@android:style/Theme.Light.NoTitleBar.Fullscreen\" android:label=\"WheelPickerDemo\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\">\n\t\t<activity android:name=\"com.aigestudio.wheelpicker.demo.PreviewActivity\" android:screenOrientation=\"landscape\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1197227,
+  "crc32" : 397153902,
+  "sha256" : "0698458ebadf9e5f8fea8e788bb89a85655fd244a9a0c31675b1ef2543ed8442",
+  "buildTime" : 1546887442000
+}

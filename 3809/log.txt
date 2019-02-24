@@ -1,0 +1,458 @@
+2018-11-16 15:14:08,974 INFO  DownloadService - Downloading "https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip", attempt 3
+2018-11-16 15:14:12,592 INFO  DownloadService - Downloaded https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip, attempt 3
+2018-11-16 15:14:12,592 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip": 114 KB
+2018-11-16 15:14:12,592 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 15:14:12,596 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip: true
+2018-11-16 15:14:12,596 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src'.
+2018-11-16 15:14:12,616 INFO  FullProcessService - Size of directory with sources: 122 KB
+2018-11-16 15:14:12,616 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src]
+2018-11-16 15:14:12,634 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/.git/
+
+2018-11-16 15:14:12,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew
+2018-11-16 15:14:12,639 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle
+2018-11-16 15:14:12,642 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/settings.gradle
+2018-11-16 15:14:12,642 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 15:14:12,642 INFO  ProjectFixService - Fixing project...
+2018-11-16 15:14:12,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/local.properties
+2018-11-16 15:14:12,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-11-16 15:14:12,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/local.properties
+2018-11-16 15:14:12,650 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-16 15:14:12,651 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-16 15:14:12,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-11-16 15:14:12,651 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 15:14:12,651 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 15:14:12,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 15:14:54,098 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-11-16 15:14:54,098 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 15:14:54,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 15:15:03,440 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-16 15:15:03,440 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidDatabindingAdapters11Library
+:app:prepareComAndroidDatabindingLibrary11Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportDesign2340Library
+:app:prepareComAndroidSupportRecyclerviewV72340Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareComGithubDanielnilsson9ColorPickerView140Library
+:app:prepareComJakewhartonHugoHugoRuntime121Library
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:compileDebugAidl
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
+import net.droidlabs.deepdiveintoandroiddatabinding.BR;
+                                                   ^
+  symbol:   class BR
+  location: package net.droidlabs.deepdiveintoandroiddatabinding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
+import net.droidlabs.deepdiveintoandroiddatabinding.BR;
+                                                   ^
+  symbol:   class BR
+  location: package net.droidlabs.deepdiveintoandroiddatabinding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityMainBinding;
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
+    private ActivityMainBinding binding;
+            ^
+  symbol:   class ActivityMainBinding
+  location: class MainActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityTwoWayBinding;
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
+    private ActivityTwoWayBinding binding;
+            ^
+  symbol:   class ActivityTwoWayBinding
+  location: class TwoWayBindingActivity
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+	at com.sun.tools.javac.main.Main.compile(Main.java:553)
+	at com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:129)
+	at com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:138)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:45)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:139)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:93)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:49)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:244)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:231)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+Caused by: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+	at com.google.googlejavaformat.java.JavaCommentsHelper.rewrite(JavaCommentsHelper.java:49)
+	at com.google.googlejavaformat.Doc$Tok.computeBreaks(Doc.java:738)
+	at com.google.googlejavaformat.Doc$Level.computeSplit(Doc.java:326)
+	at com.google.googlejavaformat.Doc$Level.computeBreakAndSplit(Doc.java:316)
+	at com.google.googlejavaformat.Doc$Level.computeBroken(Doc.java:290)
+	at com.google.googlejavaformat.Doc$Level.computeBreaks(Doc.java:258)
+	at com.google.googlejavaformat.java.Formatter.format(Formatter.java:129)
+	at com.google.googlejavaformat.java.Formatter.formatSource(Formatter.java:157)
+	at com.google.googlejavaformat.java.Formatter.formatSource(Formatter.java:144)
+	at dagger.internal.codegen.SourceFileGenerator.generate(SourceFileGenerator.java:77)
+	at dagger.internal.codegen.ModuleProcessingStep.process(ModuleProcessingStep.java:132)
+	at dagger.shaded.auto.common.BasicAnnotationProcessor.process(BasicAnnotationProcessor.java:318)
+	at dagger.shaded.auto.common.BasicAnnotationProcessor.process(BasicAnnotationProcessor.java:171)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:794)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:705)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.access$1800(JavacProcessingEnvironment.java:91)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1035)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1176)
+	at com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1170)
+	at com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:856)
+	at com.sun.tools.javac.main.Main.compile(Main.java:523)
+	... 80 more
+
+
+BUILD FAILED
+
+Total time: 8.809 secs
+
+2018-11-16 15:15:03,491 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 15:15:03,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 15:15:08,891 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-16 15:15:08,891 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 15:15:08,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 15:15:15,691 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-16 15:15:15,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidDatabindingAdapters11Library UP-TO-DATE
+:app:prepareComAndroidDatabindingLibrary11Library UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library UP-TO-DATE
+:app:prepareComGithubDanielnilsson9ColorPickerView140Library UP-TO-DATE
+:app:prepareComJakewhartonHugoHugoRuntime121Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:dataBindingProcessLayoutsDebug UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:dataBindingExportBuildInfoDebug UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
+import net.droidlabs.deepdiveintoandroiddatabinding.BR;
+                                                   ^
+  symbol:   class BR
+  location: package net.droidlabs.deepdiveintoandroiddatabinding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
+import net.droidlabs.deepdiveintoandroiddatabinding.BR;
+                                                   ^
+  symbol:   class BR
+  location: package net.droidlabs.deepdiveintoandroiddatabinding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityMainBinding;
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
+    private ActivityMainBinding binding;
+            ^
+  symbol:   class ActivityMainBinding
+  location: class MainActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityTwoWayBinding;
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
+    private ActivityTwoWayBinding binding;
+            ^
+  symbol:   class ActivityTwoWayBinding
+  location: class TwoWayBindingActivity
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+	at com.sun.tools.javac.main.Main.compile(Main.java:553)
+	at com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:129)
+	at com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:138)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:45)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:139)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:93)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:49)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:244)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:231)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+Caused by: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.whitespace()Lcom/google/common/base/CharMatcher;
+	at com.google.googlejavaformat.java.JavaCommentsHelper.rewrite(JavaCommentsHelper.java:49)
+	at com.google.googlejavaformat.Doc$Tok.computeBreaks(Doc.java:738)
+	at com.google.googlejavaformat.Doc$Level.computeSplit(Doc.java:326)
+	at com.google.googlejavaformat.Doc$Level.computeBreakAndSplit(Doc.java:316)
+	at com.google.googlejavaformat.Doc$Level.computeBroken(Doc.java:290)
+	at com.google.googlejavaformat.Doc$Level.computeBreaks(Doc.java:258)
+	at com.google.googlejavaformat.java.Formatter.format(Formatter.java:129)
+	at com.google.googlejavaformat.java.Formatter.formatSource(Formatter.java:157)
+	at com.google.googlejavaformat.java.Formatter.formatSource(Formatter.java:144)
+	at dagger.internal.codegen.SourceFileGenerator.generate(SourceFileGenerator.java:77)
+	at dagger.internal.codegen.ModuleProcessingStep.process(ModuleProcessingStep.java:132)
+	at dagger.shaded.auto.common.BasicAnnotationProcessor.process(BasicAnnotationProcessor.java:318)
+	at dagger.shaded.auto.common.BasicAnnotationProcessor.process(BasicAnnotationProcessor.java:171)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:794)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:705)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.access$1800(JavacProcessingEnvironment.java:91)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1035)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1176)
+	at com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1170)
+	at com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:856)
+	at com.sun.tools.javac.main.Main.compile(Main.java:523)
+	... 80 more
+
+
+BUILD FAILED
+
+Total time: 6.272 secs
+
+2018-11-16 15:15:15,742 ERROR FullProcessService - Project build has not produced APK file
+2018-11-16 15:15:15,788 ERROR FullProcessService - Could not find generated or existed APK file

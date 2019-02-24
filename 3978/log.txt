@@ -1,0 +1,175 @@
+2018-11-11 23:54:47,864 INFO  DownloadService - Downloading "https://github.com/RurioLuca/QrCardParsing/archive/master.zip", attempt 3
+2018-11-11 23:54:48,823 INFO  DownloadService - Downloaded https://github.com/RurioLuca/QrCardParsing/archive/master.zip, attempt 3
+2018-11-11 23:54:48,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/master.zip": 188 KB
+2018-11-11 23:54:48,823 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-11 23:54:48,829 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/master.zip: true
+2018-11-11 23:54:48,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src'.
+2018-11-11 23:54:48,853 INFO  FullProcessService - Size of directory with sources: 252 KB
+2018-11-11 23:54:48,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src]
+2018-11-11 23:54:48,871 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/.git/
+
+2018-11-11 23:54:48,874 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/gradlew
+2018-11-11 23:54:48,877 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/build.gradle
+2018-11-11 23:54:48,880 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/settings.gradle
+2018-11-11 23:54:48,881 INFO  ProjectBuildService - Remote scripts: none
+2018-11-11 23:54:48,881 INFO  ProjectFixService - Fixing project...
+2018-11-11 23:54:48,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/local.properties
+2018-11-11 23:54:48,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-11 23:54:48,890 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/library/local.properties
+2018-11-11 23:54:48,890 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2018-11-11 23:54:48,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/local.properties
+2018-11-11 23:54:48,891 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-11 23:54:48,892 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-11 23:54:48,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-11 23:54:48,893 INFO  ProjectFixService - Project was maybe fixed
+2018-11-11 23:54:48,894 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-11 23:54:48,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-11 23:54:54,742 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-11 23:54:54,742 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-11 23:54:54,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-11 23:55:35,780 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jitpack.io/com/github/kenglxn/QRGen/android/2.4.0/android-2.4.0.pom
+Download https://jitpack.io/com/github/kenglxn/QRGen/qrgen-parent/2.4.0/qrgen-parent-2.4.0.pom
+Download https://jitpack.io/com/github/kenglxn/QRGen/core/2.4.0/core-2.4.0.pom
+Download https://jitpack.io/com/github/kenglxn/QRGen/android/2.4.0/android-2.4.0.jar
+Download https://jitpack.io/com/github/kenglxn/QRGen/core/2.4.0/core-2.4.0.jar
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar: D8: Methods with invalid locals information:
+  int com.google.zxing.aztec.detector.Detector.getColor(com.google.zxing.aztec.detector.Detector$Point, com.google.zxing.aztec.detector.Detector$Point)
+  Attempt to define local of type int as errRatio
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar: D8: Methods with invalid locals information:
+  boolean com.google.zxing.qrcode.detector.FinderPatternFinder.foundPatternCross(int[])
+  Attempt to define local of type int as moduleSize
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a0fa659693cbffa797d0c34a2c966aa5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 40s
+90 actionable tasks: 90 executed
+
+2018-11-11 23:55:35,844 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955287860-0/src/QrCardParsing-master/app/build/outputs/apk/debug/app-debug.apk
