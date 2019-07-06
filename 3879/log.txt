@@ -1,31 +1,31 @@
-2018-11-12 15:03:43,654 INFO  DownloadService - Downloading "https://github.com/beworker/rx-android-permissions/archive/master.zip", attempt 3
-2018-11-12 15:03:44,478 INFO  DownloadService - Downloaded https://github.com/beworker/rx-android-permissions/archive/master.zip, attempt 3
-2018-11-12 15:03:44,478 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/master.zip": 19 KB
-2018-11-12 15:03:44,478 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 15:03:44,483 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/master.zip: true
-2018-11-12 15:03:44,484 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src'.
-2018-11-12 15:03:44,492 INFO  FullProcessService - Size of directory with sources: 43 KB
-2018-11-12 15:03:44,492 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src]
-2018-11-12 15:03:44,513 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/.git/
+2019-07-07 03:42:37,901 INFO  DownloadService - Downloading "https://github.com/beworker/rx-android-permissions/archive/master.zip", attempt 3
+2019-07-07 03:42:38,412 INFO  DownloadService - Downloaded https://github.com/beworker/rx-android-permissions/archive/master.zip, attempt 3
+2019-07-07 03:42:38,412 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/master.zip": 19 KB
+2019-07-07 03:42:38,412 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-07 03:42:38,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/master.zip: true
+2019-07-07 03:42:38,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src'.
+2019-07-07 03:42:38,425 INFO  FullProcessService - Size of directory with sources: 43 KB
+2019-07-07 03:42:38,425 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src]
+2019-07-07 03:42:38,443 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/.git/
 
-2018-11-12 15:03:44,515 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-11-12 15:03:44,515 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-11-12 15:03:44,517 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/build.gradle
-2018-11-12 15:03:44,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/settings.gradle
-2018-11-12 15:03:44,519 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 15:03:44,519 INFO  ProjectFixService - Fixing project...
-2018-11-12 15:03:44,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/local.properties
-2018-11-12 15:03:44,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-12 15:03:44,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/local.properties
-2018-11-12 15:03:44,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-12 15:03:44,529 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 15:03:44,529 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:03:44,529 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:03:44,534 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-12 15:03:44,534 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 15:03:44,535 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 15:03:44,535 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 15:03:44,540 ERROR SysUtils - Could not process external command
+2019-07-07 03:42:38,444 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-07 03:42:38,444 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-07 03:42:38,446 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/build.gradle
+2019-07-07 03:42:38,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/settings.gradle
+2019-07-07 03:42:38,448 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 03:42:38,448 INFO  ProjectFixService - Fixing project...
+2019-07-07 03:42:38,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/local.properties
+2019-07-07 03:42:38,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-07 03:42:38,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/local.properties
+2019-07-07 03:42:38,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-07 03:42:38,456 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 03:42:38,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:42:38,456 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:42:38,461 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-07 03:42:38,461 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 03:42:38,461 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 03:42:38,461 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/rx-android-permissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 03:42:38,466 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -63,14 +63,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-11-12 15:03:44,540 INFO  SysUtils - 
-2018-11-12 15:03:44,542 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:03:44,542 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:03:44,546 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-12 15:03:44,547 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 15:03:44,547 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 15:03:44,547 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009823651-0/src/rx-android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 15:03:44,552 ERROR SysUtils - Could not process external command
+2019-07-07 03:42:38,466 INFO  SysUtils - 
+2019-07-07 03:42:38,467 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:42:38,467 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:42:38,471 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-07 03:42:38,471 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 03:42:38,471 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 03:42:38,471 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757899-0/src/rx-android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 03:42:38,475 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -108,6 +108,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-11-12 15:03:44,552 INFO  SysUtils - 
-2018-11-12 15:03:44,553 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 15:03:44,555 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 03:42:38,476 INFO  SysUtils - 
+2019-07-07 03:42:38,477 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 03:42:38,478 ERROR FullProcessService - Could not find generated or existed APK file

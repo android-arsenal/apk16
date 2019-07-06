@@ -1,39 +1,39 @@
-2018-11-12 15:00:08,424 INFO  DownloadService - Downloading "https://github.com/barryhappy/TEmptyView/archive/master.zip", attempt 3
-2018-11-12 15:00:09,475 INFO  DownloadService - Downloaded https://github.com/barryhappy/TEmptyView/archive/master.zip, attempt 3
-2018-11-12 15:00:09,475 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/master.zip": 195 KB
-2018-11-12 15:00:09,475 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 15:00:09,481 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/master.zip: true
-2018-11-12 15:00:09,481 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src'.
-2018-11-12 15:00:09,508 INFO  FullProcessService - Size of directory with sources: 223 KB
-2018-11-12 15:00:09,509 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src]
-2018-11-12 15:00:09,526 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/.git/
+2019-07-07 03:39:49,270 INFO  DownloadService - Downloading "https://github.com/barryhappy/TEmptyView/archive/master.zip", attempt 3
+2019-07-07 03:39:49,811 INFO  DownloadService - Downloaded https://github.com/barryhappy/TEmptyView/archive/master.zip, attempt 3
+2019-07-07 03:39:49,811 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/master.zip": 195 KB
+2019-07-07 03:39:49,811 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-07 03:39:49,817 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/master.zip: true
+2019-07-07 03:39:49,817 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src'.
+2019-07-07 03:39:49,842 INFO  FullProcessService - Size of directory with sources: 223 KB
+2019-07-07 03:39:49,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src]
+2019-07-07 03:39:49,884 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/.git/
 
-2018-11-12 15:00:09,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew
-2018-11-12 15:00:09,537 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/build.gradle
-2018-11-12 15:00:09,541 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/settings.gradle
-2018-11-12 15:00:09,542 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-12 15:00:09,644 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-12 15:00:09,644 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-12 15:00:09,740 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-12 15:00:09,741 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-12 15:00:09,741 INFO  ProjectFixService - Fixing project...
-2018-11-12 15:00:09,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/local.properties
-2018-11-12 15:00:09,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-12 15:00:09,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/local.properties
-2018-11-12 15:00:09,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle": [buildToolsVersion=24.0.0 rc3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-12 15:00:09,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-12 15:00:09,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/local.properties
-2018-11-12 15:00:09,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 15:00:09,759 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 15:00:09,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-12 15:00:09,760 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 15:00:09,760 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:00:09,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:00:16,302 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 15:00:16,303 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 15:00:16,303 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 15:00:16,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 15:00:21,972 ERROR SysUtils - Could not process external command
+2019-07-07 03:39:49,890 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew
+2019-07-07 03:39:49,899 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/build.gradle
+2019-07-07 03:39:49,904 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/settings.gradle
+2019-07-07 03:39:49,913 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-07 03:39:50,562 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-07 03:39:50,578 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-07 03:39:50,812 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-07 03:39:50,812 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-07 03:39:50,812 INFO  ProjectFixService - Fixing project...
+2019-07-07 03:39:50,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/local.properties
+2019-07-07 03:39:50,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-07 03:39:50,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/local.properties
+2019-07-07 03:39:50,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle": [buildToolsVersion=24.0.0 rc3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-07 03:39:50,834 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-07 03:39:50,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/local.properties
+2019-07-07 03:39:50,837 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 03:39:50,837 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 03:39:50,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-07 03:39:50,839 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 03:39:50,839 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:39:50,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:39:56,497 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:39:56,498 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-07 03:39:56,498 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-07 03:39:56,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-07 03:40:01,478 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 15:00:21,972 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:40:01,478 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at com.android.builder.sdk.DefaultSdkLoader.getTargetInfo(DefaultSdkLoader.java:87)
@@ -80,7 +80,7 @@ java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -120,7 +120,7 @@ java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -204,7 +204,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dgilfqbg00dc2699137w7utxu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle:53)
+	at build_4iczraf4its2dzmkbh55noz65.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle:53)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -250,7 +250,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -323,15 +323,15 @@ Caused by: java.lang.IllegalStateException: failed to find Build Tools revision 
 
 BUILD FAILED
 
-Total time: 5.166 secs
+Total time: 4.482 secs
 
-2018-11-12 15:00:21,979 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:00:21,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:00:27,693 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 15:00:27,694 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 15:00:27,694 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 15:00:27,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 15:00:33,986 ERROR SysUtils - Could not process external command
+2019-07-07 03:40:01,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:40:01,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:40:06,387 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:40:06,387 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-07 03:40:06,388 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-07 03:40:06,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-07 03:40:11,314 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -359,7 +359,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 15:00:33,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:40:11,314 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at com.android.builder.sdk.DefaultSdkLoader.getTargetInfo(DefaultSdkLoader.java:87)
@@ -462,7 +462,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dgilfqbg00dc2699137w7utxu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle:53)
+	at build_4iczraf4its2dzmkbh55noz65.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle:53)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -541,15 +541,15 @@ Caused by: java.lang.IllegalStateException: failed to find Build Tools revision 
 
 BUILD FAILED
 
-Total time: 5.791 secs
+Total time: 4.417 secs
 
-2018-11-12 15:00:33,992 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:00:33,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:00:39,693 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 15:00:39,694 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 15:00:39,694 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 15:00:39,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 15:00:45,393 ERROR SysUtils - Could not process external command
+2019-07-07 03:40:11,318 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:40:11,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:40:16,276 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:40:16,276 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-07 03:40:16,276 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-07 03:40:16,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-07 03:40:21,180 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -577,7 +577,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 15:00:45,393 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:40:21,181 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at com.android.builder.sdk.DefaultSdkLoader.getTargetInfo(DefaultSdkLoader.java:87)
@@ -596,7 +596,7 @@ java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -636,7 +636,7 @@ java.lang.IllegalStateException: failed to find Build Tools revision 28.0.0-rc1
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -721,7 +721,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dgilfqbg00dc2699137w7utxu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009608420-0/src/TEmptyView-master/temptyview/build.gradle:53)
+	at build_4iczraf4its2dzmkbh55noz65.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445589266-0/src/TEmptyView-master/temptyview/build.gradle:53)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -767,7 +767,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -841,7 +841,7 @@ Caused by: java.lang.IllegalStateException: failed to find Build Tools revision 
 
 BUILD FAILED
 
-Total time: 5.211 secs
+Total time: 4.408 secs
 
-2018-11-12 15:00:45,398 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 15:00:45,401 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 03:40:21,185 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 03:40:21,189 ERROR FullProcessService - Could not find generated or existed APK file
