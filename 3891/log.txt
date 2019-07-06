@@ -1,10 +1,21 @@
-2018-11-12 14:57:19,779 INFO  DownloadService - Downloading "https://github.com/boredream/BorePlugin/archive/master.zip", attempt 3
-2018-11-12 14:57:21,291 INFO  DownloadService - Downloaded https://github.com/boredream/BorePlugin/archive/master.zip, attempt 3
-2018-11-12 14:57:21,291 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009439775-0/master.zip": 16 KB
-2018-11-12 14:57:21,291 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 14:57:21,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009439775-0/master.zip: false
-2018-11-12 14:57:21,297 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-12 14:57:21,297 ERROR FullProcessService - Could not find directory with sources
-2018-11-12 14:57:21,297 ERROR FullProcessService - Project will not be processed
-2018-11-12 14:57:21,297 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 14:57:21,298 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 03:30:03,445 INFO  DownloadService - Downloading "https://github.com/boredream/BorePlugin/archive/master.zip", attempt 3
+2019-07-07 03:31:04,001 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 03:31:04,904 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 03:31:04,904 INFO  DownloadService - Downloading "https://github.com/boredream/BorePlugin/archive/master.zip", attempt 3
+2019-07-07 03:32:06,274 DEBUG FullProcessService - Repository https://github.com/boredream/BorePlugin available: true
+2019-07-07 03:32:06,274 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 03:32:06,274 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/boredream/BorePlugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445003437-0/src]
+2019-07-07 03:32:08,044 INFO  SysUtils - 
+2019-07-07 03:32:08,055 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445003437-0/src/.git": true
+2019-07-07 03:32:08,055 INFO  FullProcessService - Size of directory with sources: 30 KB
+2019-07-07 03:32:08,055 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445003437-0/src]
+2019-07-07 03:32:08,070 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445003437-0/src/.git/
+
+2019-07-07 03:32:08,071 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-07 03:32:08,071 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-07 03:32:08,072 INFO  ProjectBuildService - Build script(s): none
+2019-07-07 03:32:08,073 INFO  ProjectBuildService - All script(s): none
+2019-07-07 03:32:08,073 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 03:32:08,073 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-07 03:32:08,073 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 03:32:08,073 ERROR FullProcessService - Could not find generated or existed APK file

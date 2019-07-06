@@ -1,31 +1,34 @@
-2018-11-11 23:44:17,126 INFO  DownloadService - Downloading "https://github.com/makiftutuncu/Toolbelt/archive/master.zip", attempt 3
-2018-11-11 23:44:18,762 INFO  DownloadService - Downloaded https://github.com/makiftutuncu/Toolbelt/archive/master.zip, attempt 3
-2018-11-11 23:44:18,762 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/master.zip": 68 KB
-2018-11-11 23:44:18,762 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:44:18,768 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/master.zip: true
-2018-11-11 23:44:18,768 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src'.
-2018-11-11 23:44:18,778 INFO  FullProcessService - Size of directory with sources: 92 KB
-2018-11-11 23:44:18,778 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src]
-2018-11-11 23:44:18,798 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/.git/
+2019-07-07 00:06:53,779 INFO  DownloadService - Downloading "https://github.com/makiftutuncu/Toolbelt/archive/master.zip", attempt 3
+2019-07-07 00:07:54,402 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:07:55,301 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:07:55,301 INFO  DownloadService - Downloading "https://github.com/makiftutuncu/Toolbelt/archive/master.zip", attempt 3
+2019-07-07 00:08:56,726 DEBUG FullProcessService - Repository https://github.com/makiftutuncu/Toolbelt available: true
+2019-07-07 00:08:56,726 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:08:56,726 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/makiftutuncu/Toolbelt, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src]
+2019-07-07 00:08:58,598 INFO  SysUtils - 
+2019-07-07 00:08:58,613 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/.git": true
+2019-07-07 00:08:58,614 INFO  FullProcessService - Size of directory with sources: 92 KB
+2019-07-07 00:08:58,614 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src]
+2019-07-07 00:08:58,628 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/.git/
 
-2018-11-11 23:44:18,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/gradlew
-2018-11-11 23:44:18,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/build.gradle
-2018-11-11 23:44:18,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/settings.gradle
-2018-11-11 23:44:18,804 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:44:18,804 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:44:18,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/local.properties
-2018-11-11 23:44:18,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-11-11 23:44:18,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/local.properties
-2018-11-11 23:44:18,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-11 23:44:18,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-11 23:44:18,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-11-11 23:44:18,811 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:44:18,811 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:44:18,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:44:31,029 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-11 23:44:31,029 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 23:44:31,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 23:44:39,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:08:58,630 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/gradlew
+2019-07-07 00:08:58,631 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/build.gradle
+2019-07-07 00:08:58,632 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/settings.gradle
+2019-07-07 00:08:58,632 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:08:58,632 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:08:58,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/local.properties
+2019-07-07 00:08:58,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-07-07 00:08:58,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/local.properties
+2019-07-07 00:08:58,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-07 00:08:58,637 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-07 00:08:58,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-07-07 00:08:58,638 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:08:58,638 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:08:58,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:09:05,117 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-07 00:09:05,117 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-07 00:09:05,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-07 00:09:12,945 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :toolbelt:preBuild UP-TO-DATE
 :toolbelt:preDebugBuild UP-TO-DATE
@@ -95,226 +98,226 @@ Incremental java compilation is an incubating feature.
 :toolbelt:bundleRelease
 :toolbelt:compileReleaseSources
 :toolbelt:assembleRelease
-:toolbelt:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:3: error: package android.support.annotation does not exist
+:toolbelt:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:55: error: cannot find symbol
     @Nullable protected T value;
      ^
   symbol:   class Nullable
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:68: error: cannot find symbol
     @NonNull public static<W> Optional<W> with(W value) {
      ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:79: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:79: error: cannot find symbol
     @NonNull public static<E> Optional<E> empty() {
      ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:105: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:105: error: cannot find symbol
     @NonNull public T getOrElse(@NonNull T defaultValue) {
                                  ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:105: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:105: error: cannot find symbol
     @NonNull public T getOrElse(@NonNull T defaultValue) {
      ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:116: error: cannot find symbol
     @NonNull public Optional<T> or(@NonNull Optional<T> alternative) {
                                     ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:116: error: cannot find symbol
     @NonNull public Optional<T> or(@NonNull Optional<T> alternative) {
      ^
   symbol:   class NonNull
   location: class Optional<T>
   where T is a type-variable:
     T extends Object declared in class Optional
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:26: error: cannot find symbol
         private Some(@NonNull S value) {
                       ^
   symbol:   class NonNull
   location: class Some<S>
   where S is a type-variable:
     S extends Object declared in class Some
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:30: error: cannot find symbol
         @NonNull @Override public S get() throws NoSuchElementException {
          ^
   symbol:   class NonNull
   location: class Some<S>
   where S is a type-variable:
     S extends Object declared in class Some
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:34: error: cannot find symbol
         @NonNull @Override public String toString() {
          ^
   symbol:   class NonNull
   location: class Some<S>
   where S is a type-variable:
     S extends Object declared in class Some
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Optional.java:49: error: cannot find symbol
         @NonNull @Override public String toString() {
          ^
   symbol:   class NonNull
   location: class None<N>
   where N is a type-variable:
     N extends Object declared in class None
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:70: error: cannot find symbol
     public static long start(@NonNull String key) {
                               ^
   symbol:   class NonNull
   location: class Timer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:93: error: cannot find symbol
     public static long stop(@NonNull String key) {
                              ^
   symbol:   class NonNull
   location: class Timer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:120: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:120: error: cannot find symbol
     @NonNull public static<R> ActionResult<R> time(@NonNull Action<R> action) {
                                                     ^
   symbol:   class NonNull
   location: class Timer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:120: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:120: error: cannot find symbol
     @NonNull public static<R> ActionResult<R> time(@NonNull Action<R> action) {
      ^
   symbol:   class NonNull
   location: class Timer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:32: error: cannot find symbol
         @NonNull R perform();
          ^
   symbol:   class NonNull
   location: interface Action<R>
   where R is a type-variable:
     R extends Object declared in interface Action
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:44: error: cannot find symbol
         @NonNull public final R result;
          ^
   symbol:   class NonNull
   location: class ActionResult<R>
   where R is a type-variable:
     R extends Object declared in class ActionResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Timer.java:55: error: cannot find symbol
         public ActionResult(@NonNull R result, long duration) {
                              ^
   symbol:   class NonNull
   location: class ActionResult<R>
   where R is a type-variable:
     R extends Object declared in class ActionResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:22: error: cannot find symbol
     public static boolean isEmpty(@Nullable String s) {
                                    ^
   symbol:   class Nullable
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:47: error: cannot find symbol
     public static String makeString(@Nullable Collection collection,
                                      ^
   symbol:   class Nullable
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:48: error: cannot find symbol
                                     @NonNull String prefix,
                                      ^
   symbol:   class NonNull
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:49: error: cannot find symbol
                                     @NonNull String separator,
                                      ^
   symbol:   class NonNull
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:50: error: cannot find symbol
                                     @NonNull String suffix) {
                                      ^
   symbol:   class NonNull
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:93: error: cannot find symbol
     public static String makeString(@Nullable Collection collection, @NonNull String separator) {
                                      ^
   symbol:   class Nullable
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/StringUtilities.java:93: error: cannot find symbol
     public static String makeString(@Nullable Collection collection, @NonNull String separator) {
                                                                       ^
   symbol:   class NonNull
   location: class StringUtilities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:23: error: cannot find symbol
     public static void debug(@Nullable Class<?> caller, String message, Object... args) {
                               ^
   symbol:   class Nullable
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:34: error: cannot find symbol
     public static void debug(@NonNull String tag, String message, Object... args) {
                               ^
   symbol:   class NonNull
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:45: error: cannot find symbol
     public static void warn(@Nullable Class<?> caller, String message, Object... args) {
                              ^
   symbol:   class Nullable
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:56: error: cannot find symbol
     public static void warn(@NonNull String tag, String message, Object... args) {
                              ^
   symbol:   class NonNull
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:67: error: cannot find symbol
     public static void error(@Nullable Class<?> caller, String message, Object... args) {
                               ^
   symbol:   class Nullable
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:78: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:78: error: cannot find symbol
     public static void error(@NonNull String tag, String message, Object... args) {
                               ^
   symbol:   class NonNull
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:90: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:90: error: cannot find symbol
     public static void error(@Nullable Class<?> caller, Throwable throwable, String message, Object... args) {
                               ^
   symbol:   class Nullable
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:102: error: cannot find symbol
     public static void error(@NonNull String tag, Throwable throwable, String message, Object... args) {
                               ^
   symbol:   class NonNull
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:113: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:113: error: cannot find symbol
     @NonNull private static String tag(@Nullable Class<?> caller) {
                                         ^
   symbol:   class Nullable
   location: class Log
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:113: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/toolbelt/src/main/java/com/github/mehmetakiftutuncu/toolbelt/Log.java:113: error: cannot find symbol
     @NonNull private static String tag(@Nullable Class<?> caller) {
      ^
   symbol:   class NonNull
@@ -386,14 +389,14 @@ javadoc: warning - Class Nullable not found.
 
 BUILD SUCCESSFUL
 
-Total time: 8.407 secs
+Total time: 7.326 secs
 
-2018-11-11 23:44:39,945 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:44:39,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:44:46,248 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-11 23:44:46,248 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 23:44:46,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954657120-0/src/Toolbelt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 23:44:52,232 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:09:12,953 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:09:12,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:09:18,317 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-07 00:09:18,317 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-07 00:09:18,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432813774-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-07 00:09:23,704 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :toolbelt:preBuild UP-TO-DATE
 :toolbelt:preDebugBuild UP-TO-DATE
@@ -469,7 +472,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 5.472 secs
+Total time: 4.897 secs
 
-2018-11-11 23:44:52,242 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 23:44:52,251 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 00:09:23,711 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 00:09:23,717 ERROR FullProcessService - Could not find generated or existed APK file

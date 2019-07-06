@@ -1,38 +1,41 @@
-2018-11-12 11:10:45,787 INFO  DownloadService - Downloading "https://github.com/Riontech/CustomCalendar/archive/master.zip", attempt 3
-2018-11-12 11:10:46,589 INFO  DownloadService - Downloaded https://github.com/Riontech/CustomCalendar/archive/master.zip, attempt 3
-2018-11-12 11:10:46,590 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/master.zip": 187 KB
-2018-11-12 11:10:46,590 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 11:10:46,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/master.zip: true
-2018-11-12 11:10:46,595 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src'.
-2018-11-12 11:10:46,636 INFO  FullProcessService - Size of directory with sources: 456 KB
-2018-11-12 11:10:46,636 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src]
-2018-11-12 11:10:46,655 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/.git/
+2019-07-07 02:14:19,804 INFO  DownloadService - Downloading "https://github.com/Riontech/CustomCalendar/archive/master.zip", attempt 3
+2019-07-07 02:15:20,371 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 02:15:21,166 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 02:15:21,167 INFO  DownloadService - Downloading "https://github.com/Riontech/CustomCalendar/archive/master.zip", attempt 3
+2019-07-07 02:16:22,829 DEBUG FullProcessService - Repository https://github.com/Riontech/CustomCalendar available: true
+2019-07-07 02:16:22,829 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 02:16:22,829 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Riontech/CustomCalendar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src]
+2019-07-07 02:16:25,111 INFO  SysUtils - 
+2019-07-07 02:16:25,118 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/.git": true
+2019-07-07 02:16:25,121 INFO  FullProcessService - Size of directory with sources: 456 KB
+2019-07-07 02:16:25,121 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src]
+2019-07-07 02:16:25,136 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/.git/
 
-2018-11-12 11:10:46,660 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew
-2018-11-12 11:10:46,665 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/build.gradle
-2018-11-12 11:10:46,670 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/settings.gradle
-2018-11-12 11:10:46,675 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-12 11:10:47,377 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-12 11:10:47,377 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-12 11:10:47,473 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-12 11:10:47,473 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-12 11:10:47,473 INFO  ProjectFixService - Fixing project...
-2018-11-12 11:10:47,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/local.properties
-2018-11-12 11:10:47,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 11:10:47,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/local.properties
-2018-11-12 11:10:47,490 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 11:10:47,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/local.properties
-2018-11-12 11:10:47,492 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 11:10:47,492 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 11:10:47,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 11:10:47,493 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 11:10:47,493 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:10:47,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:10:55,616 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:10:55,617 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 11:10:55,617 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 11:10:55,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/calendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 11:11:08,915 ERROR SysUtils - Could not process external command
+2019-07-07 02:16:25,139 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew
+2019-07-07 02:16:25,142 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/build.gradle
+2019-07-07 02:16:25,145 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/settings.gradle
+2019-07-07 02:16:25,145 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-07 02:16:25,233 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-07 02:16:25,234 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-07 02:16:25,320 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-07 02:16:25,321 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-07 02:16:25,321 INFO  ProjectFixService - Fixing project...
+2019-07-07 02:16:25,331 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/local.properties
+2019-07-07 02:16:25,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 02:16:25,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/local.properties
+2019-07-07 02:16:25,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 02:16:25,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/local.properties
+2019-07-07 02:16:25,333 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 02:16:25,333 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 02:16:25,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 02:16:25,334 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 02:16:25,334 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:16:25,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:16:32,265 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:16:32,265 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-07 02:16:32,265 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-07 02:16:32,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/calendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-07 02:16:42,957 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,8 +48,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:11:08,916 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:16:42,957 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :calendar:preBuild UP-TO-DATE
 :calendar:preDebugBuild UP-TO-DATE
@@ -242,14 +244,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.752 secs
+Total time: 10.123 secs
 
-2018-11-12 11:11:09,003 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:11:09,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:11:16,801 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-12 11:11:16,802 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 11:11:16,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 11:11:23,805 ERROR SysUtils - Could not process external command
+2019-07-07 02:16:42,999 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:16:42,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:16:49,162 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-07 02:16:49,162 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 02:16:49,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 02:16:54,899 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -262,8 +264,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -277,7 +278,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:11:23,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:16:54,899 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -338,11 +339,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 6.502 secs
+Total time: 5.178 secs
 
-2018-11-12 11:11:23,805 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 11:11:23,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:11:41,706 ERROR SysUtils - Could not process external command
+2019-07-07 02:16:54,899 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-07 02:16:54,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:17:08,799 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -355,8 +356,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -370,7 +370,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:11:41,706 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:17:08,799 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :calendar:preBuild UP-TO-DATE
 :calendar:preReleaseBuild UP-TO-DATE
@@ -443,7 +443,7 @@ Incremental java compilation is an incubating feature.
 :sample:incrementalDebugJavaCompilationSafeguard
 :sample:compileDebugJavaWithJavac
 :sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/src/main/java/com/riontech/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/src/main/java/com/riontech/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :sample:compileDebugNdk UP-TO-DATE
 :sample:compileDebugSources
@@ -460,7 +460,7 @@ Merged dex #8 (60 defs/154.3KiB)
 Merged dex #9 (173 defs/181.1KiB)
 Merged dex #10 (335 defs/262.9KiB)
 Merged dex #11 (41 defs/6.5KiB)
-Result is 2066 defs/3330.0KiB. Took 0.3s
+Result is 2066 defs/3330.0KiB. Took 0.2s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -487,7 +487,7 @@ Result is 2066 defs/3330.0KiB. Took 0.3s
 :sample:incrementalReleaseJavaCompilationSafeguard
 :sample:compileReleaseJavaWithJavac
 :sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/src/main/java/com/riontech/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/src/main/java/com/riontech/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :sample:compileReleaseNdk UP-TO-DATE
 :sample:compileReleaseSources
@@ -587,6 +587,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.327 secs
+Total time: 13.302 secs
 
-2018-11-12 11:11:41,839 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995845783-0/src/CustomCalendar-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-07 02:17:08,875 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440459801-0/src/sample/build/outputs/apk/sample-debug-unaligned.apk

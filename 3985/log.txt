@@ -1,34 +1,37 @@
-2018-11-11 23:48:43,582 INFO  DownloadService - Downloading "https://github.com/chengdazhi/DecentBanner/archive/master.zip", attempt 3
-2018-11-11 23:48:48,185 INFO  DownloadService - Downloaded https://github.com/chengdazhi/DecentBanner/archive/master.zip, attempt 3
-2018-11-11 23:48:48,186 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/master.zip": 5 MB
-2018-11-11 23:48:48,186 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:48:48,187 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/master.zip: true
-2018-11-11 23:48:48,188 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src'.
-2018-11-11 23:48:48,248 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-11-11 23:48:48,248 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src]
-2018-11-11 23:48:48,268 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/.git/
+2019-07-07 00:17:28,359 INFO  DownloadService - Downloading "https://github.com/chengdazhi/DecentBanner/archive/master.zip", attempt 3
+2019-07-07 00:18:28,931 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:18:29,732 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:18:29,732 INFO  DownloadService - Downloading "https://github.com/chengdazhi/DecentBanner/archive/master.zip", attempt 3
+2019-07-07 00:19:31,014 DEBUG FullProcessService - Repository https://github.com/chengdazhi/DecentBanner available: true
+2019-07-07 00:19:31,014 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:19:31,014 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chengdazhi/DecentBanner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src]
+2019-07-07 00:19:34,442 INFO  SysUtils - 
+2019-07-07 00:19:34,471 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/.git": true
+2019-07-07 00:19:34,473 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-07-07 00:19:34,473 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src]
+2019-07-07 00:19:34,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/.git/
 
-2018-11-11 23:48:48,271 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/gradlew
-2018-11-11 23:48:48,274 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/build.gradle
-2018-11-11 23:48:48,277 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/build.gradle
-2018-11-11 23:48:48,277 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:48:48,277 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:48:48,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/local.properties
-2018-11-11 23:48:48,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 23:48:48,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/local.properties
-2018-11-11 23:48:48,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 23:48:48,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/local.properties
-2018-11-11 23:48:48,286 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 23:48:48,286 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 23:48:48,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 23:48:48,287 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:48:48,287 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:48:48,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:49:01,077 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 23:49:01,078 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:49:01,078 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:49:01,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:49:13,720 ERROR SysUtils - Could not process external command
+2019-07-07 00:19:34,490 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/gradlew
+2019-07-07 00:19:34,492 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/build.gradle
+2019-07-07 00:19:34,494 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/build.gradle
+2019-07-07 00:19:34,494 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:19:34,494 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:19:34,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/local.properties
+2019-07-07 00:19:34,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 00:19:34,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/local.properties
+2019-07-07 00:19:34,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 00:19:34,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/local.properties
+2019-07-07 00:19:34,501 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 00:19:34,501 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 00:19:34,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 00:19:34,502 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:19:34,502 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:19:34,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:19:41,528 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 00:19:41,528 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:19:41,528 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:19:41,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:19:51,855 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:49:13,720 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:19:51,855 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :decentbanner:preBuild UP-TO-DATE
 :decentbanner:preDebugBuild UP-TO-DATE
@@ -134,18 +137,18 @@ Incremental java compilation is an incubating feature.
 :decentbanner:bundleRelease
 :decentbanner:compileReleaseSources
 :decentbanner:assembleRelease
-:decentbanner:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBanner.java:9: error: package android.support.v4.view does not exist
+:decentbanner:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBanner.java:9: error: package android.support.v4.view does not exist
 import android.support.v4.view.ViewPager;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBanner.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBanner.java:31: error: cannot find symbol
     ViewPager viewPager;
     ^
   symbol:   class ViewPager
   location: class DecentBanner
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBannerAdapter.java:3: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBannerAdapter.java:3: error: package android.support.v4.view does not exist
 import android.support.v4.view.PagerAdapter;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBannerAdapter.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/decentbanner/src/main/java/it/chengdazhi/decentbanner/DecentBannerAdapter.java:13: error: cannot find symbol
 public class DecentBannerAdapter extends PagerAdapter {
                                          ^
   symbol: class PagerAdapter
@@ -250,15 +253,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.11 secs
+Total time: 9.784 secs
 
-2018-11-11 23:49:13,770 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:49:13,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:49:19,484 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 23:49:19,484 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:49:19,484 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:49:19,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:49:32,966 ERROR SysUtils - Could not process external command
+2019-07-07 00:19:51,892 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:19:51,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:19:57,083 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 00:19:57,083 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:19:57,083 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:19:57,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:20:09,623 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -285,7 +288,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:49:32,966 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:20:09,623 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :demo:preBuild UP-TO-DATE
 :demo:preDebugBuild UP-TO-DATE
@@ -450,6 +453,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.934 secs
+Total time: 11.984 secs
 
-2018-11-11 23:49:33,066 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954923579-0/src/DecentBanner-master/demo/build/outputs/apk/demo-debug-unaligned.apk
+2019-07-07 00:20:09,691 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433448357-0/src/demo/build/outputs/apk/demo-debug-unaligned.apk

@@ -1,34 +1,37 @@
-2018-11-11 23:46:08,090 INFO  DownloadService - Downloading "https://github.com/cynnyx/auto-value-map/archive/master.zip", attempt 3
-2018-11-11 23:46:08,579 INFO  DownloadService - Downloaded https://github.com/cynnyx/auto-value-map/archive/master.zip, attempt 3
-2018-11-11 23:46:08,580 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/master.zip": 104 KB
-2018-11-11 23:46:08,580 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:46:08,585 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/master.zip: true
-2018-11-11 23:46:08,585 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src'.
-2018-11-11 23:46:08,600 INFO  FullProcessService - Size of directory with sources: 129 KB
-2018-11-11 23:46:08,600 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src]
-2018-11-11 23:46:08,617 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/.git/
+2019-07-07 00:14:44,971 INFO  DownloadService - Downloading "https://github.com/cynnyx/auto-value-map/archive/master.zip", attempt 3
+2019-07-07 00:15:45,504 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:15:46,360 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:15:46,360 INFO  DownloadService - Downloading "https://github.com/cynnyx/auto-value-map/archive/master.zip", attempt 3
+2019-07-07 00:16:47,786 DEBUG FullProcessService - Repository https://github.com/cynnyx/auto-value-map available: true
+2019-07-07 00:16:47,786 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:16:47,786 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/cynnyx/auto-value-map, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src]
+2019-07-07 00:16:49,836 INFO  SysUtils - 
+2019-07-07 00:16:49,858 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/.git": true
+2019-07-07 00:16:49,860 INFO  FullProcessService - Size of directory with sources: 129 KB
+2019-07-07 00:16:49,860 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src]
+2019-07-07 00:16:49,875 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/.git/
 
-2018-11-11 23:46:08,620 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew
-2018-11-11 23:46:08,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/build.gradle
-2018-11-11 23:46:08,625 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/settings.gradle
-2018-11-11 23:46:08,625 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:46:08,625 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:46:08,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/local.properties
-2018-11-11 23:46:08,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-11 23:46:08,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/local.properties
-2018-11-11 23:46:08,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 23:46:08,632 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 23:46:08,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-11 23:46:08,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/local.properties
-2018-11-11 23:46:08,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-11 23:46:08,634 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:46:08,634 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:46:08,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:47:42,755 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 23:47:42,755 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:47:42,755 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:47:42,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:47:49,745 ERROR SysUtils - Could not process external command
+2019-07-07 00:16:49,877 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew
+2019-07-07 00:16:49,879 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/build.gradle
+2019-07-07 00:16:49,881 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/settings.gradle
+2019-07-07 00:16:49,881 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:16:49,881 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:16:49,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/local.properties
+2019-07-07 00:16:49,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-07 00:16:49,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/local.properties
+2019-07-07 00:16:49,886 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 00:16:49,886 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 00:16:49,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-07 00:16:49,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/local.properties
+2019-07-07 00:16:49,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-07 00:16:49,888 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:16:49,888 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:16:49,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:17:02,825 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 00:17:02,825 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:17:02,825 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:17:02,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:17:07,644 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:47:49,746 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:17:07,644 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -165,15 +168,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.423 secs
+Total time: 4.25 secs
 
-2018-11-11 23:47:49,749 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:47:49,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:47:56,504 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 23:47:56,504 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:47:56,504 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:47:56,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:48:03,421 ERROR SysUtils - Could not process external command
+2019-07-07 00:17:07,646 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:17:07,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:17:12,599 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 00:17:12,600 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:17:12,600 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:17:12,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:17:17,349 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -200,7 +203,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:48:03,421 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:17:17,349 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -310,25 +313,23 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.334 secs
+Total time: 4.152 secs
 
-2018-11-11 23:48:03,424 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:48:03,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:48:10,135 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 23:48:10,135 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:48:10,135 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:48:10,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954768087-0/src/auto-value-map-master/auto-value-map/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:48:43,541 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:17:17,351 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:17:17,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:17:23,019 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 00:17:23,019 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:17:23,020 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:17:23,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433284969-0/src/auto-value-map/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:17:28,323 INFO  SysUtils - Configuration on demand is an incubating feature.
 :auto-value-map:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 :auto-value-map:processResources UP-TO-DATE
 :auto-value-map:classes
 :auto-value-map:jar
 :auto-value-map:assemble
-:auto-value-map:compileTestJava
-Download https://jcenter.bintray.com/com/google/truth/truth/0.27/truth-0.27.pom
-Download https://jcenter.bintray.com/com/google/truth/truth-parent/0.27/truth-parent-0.27.pom
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
+:auto-value-map:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+
 :auto-value-map:processTestResources UP-TO-DATE
 :auto-value-map:testClasses
 :auto-value-map:test
@@ -337,7 +338,7 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 BUILD SUCCESSFUL
 
-Total time: 32.938 secs
+Total time: 4.803 secs
 
-2018-11-11 23:48:43,547 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 23:48:43,552 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 00:17:28,326 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 00:17:28,329 ERROR FullProcessService - Could not find generated or existed APK file

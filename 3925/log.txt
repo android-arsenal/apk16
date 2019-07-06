@@ -1,11 +1,14 @@
-2018-11-12 11:11:50,433 INFO  DownloadService - Downloading "https://github.com/rm3l/maoni/archive/master.zip", attempt 3
-2018-11-12 11:16:43,987 INFO  DownloadService - Downloaded https://github.com/rm3l/maoni/archive/master.zip, attempt 3
-2018-11-12 11:16:43,987 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995910428-0/master.zip": 107 MB
-2018-11-12 11:16:43,987 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 11:16:43,995 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995910428-0/master.zip: true
-2018-11-12 11:16:43,996 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995910428-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541995910428-0/src'.
-2018-11-12 11:16:44,924 INFO  FullProcessService - Size of directory with sources: 108 MB
-2018-11-12 11:16:44,924 ERROR FullProcessService - Source directory should be less than 50 MB
-2018-11-12 11:16:44,924 ERROR FullProcessService - Project will not be processed
-2018-11-12 11:16:44,924 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 11:16:44,944 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 02:17:17,310 INFO  DownloadService - Downloading "https://github.com/rm3l/maoni/archive/master.zip", attempt 3
+2019-07-07 02:18:18,100 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 02:18:19,475 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 02:18:19,475 INFO  DownloadService - Downloading "https://github.com/rm3l/maoni/archive/master.zip", attempt 3
+2019-07-07 02:19:21,645 DEBUG FullProcessService - Repository https://github.com/rm3l/maoni available: true
+2019-07-07 02:19:21,645 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 02:19:21,645 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rm3l/maoni, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440637302-0/src]
+2019-07-07 02:19:33,362 INFO  SysUtils - 
+2019-07-07 02:19:33,378 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562440637302-0/src/.git": true
+2019-07-07 02:19:33,394 INFO  FullProcessService - Size of directory with sources: 108 MB
+2019-07-07 02:19:33,395 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-07-07 02:19:33,395 ERROR FullProcessService - Project will not be processed
+2019-07-07 02:19:33,395 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 02:19:33,406 ERROR FullProcessService - Could not find generated or existed APK file

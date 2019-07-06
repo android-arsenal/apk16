@@ -1,33 +1,36 @@
-2018-11-12 11:23:07,975 INFO  DownloadService - Downloading "https://github.com/w4lle/PullDownView/archive/master.zip", attempt 3
-2018-11-12 11:23:14,500 INFO  DownloadService - Downloaded https://github.com/w4lle/PullDownView/archive/master.zip, attempt 3
-2018-11-12 11:23:14,500 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/master.zip": 1 MB
-2018-11-12 11:23:14,500 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 11:23:14,506 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/master.zip: true
-2018-11-12 11:23:14,507 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src'.
-2018-11-12 11:23:14,535 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-12 11:23:14,535 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src]
-2018-11-12 11:23:14,553 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/.git/
+2019-07-07 02:35:54,628 INFO  DownloadService - Downloading "https://github.com/w4lle/PullDownView/archive/master.zip", attempt 3
+2019-07-07 02:36:55,184 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 02:36:56,002 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 02:36:56,002 INFO  DownloadService - Downloading "https://github.com/w4lle/PullDownView/archive/master.zip", attempt 3
+2019-07-07 02:37:57,290 DEBUG FullProcessService - Repository https://github.com/w4lle/PullDownView available: true
+2019-07-07 02:37:57,290 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 02:37:57,290 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/w4lle/PullDownView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src]
+2019-07-07 02:37:59,957 INFO  SysUtils - 
+2019-07-07 02:37:59,983 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/.git": true
+2019-07-07 02:37:59,985 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-07 02:37:59,985 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src]
+2019-07-07 02:38:00,000 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/.git/
 
-2018-11-12 11:23:14,556 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/gradlew
-2018-11-12 11:23:14,559 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/pull-down-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/build.gradle
-2018-11-12 11:23:14,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/pull-down-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/settings.gradle
-2018-11-12 11:23:14,563 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 11:23:14,563 INFO  ProjectFixService - Fixing project...
-2018-11-12 11:23:14,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/local.properties
-2018-11-12 11:23:14,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-11-12 11:23:14,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/pull-down-layout/local.properties
-2018-11-12 11:23:14,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/pull-down-layout/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-11-12 11:23:14,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/local.properties
-2018-11-12 11:23:14,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-11-12 11:23:14,573 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-11-12 11:23:14,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-11-12 11:23:14,573 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 11:23:14,573 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:23:14,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:23:23,229 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-11-12 11:23:23,229 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
-2018-11-12 11:23:23,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
-2018-11-12 11:23:45,226 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:38:00,002 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/gradlew
+2019-07-07 02:38:00,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/pull-down-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/build.gradle
+2019-07-07 02:38:00,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/pull-down-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/settings.gradle
+2019-07-07 02:38:00,006 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 02:38:00,006 INFO  ProjectFixService - Fixing project...
+2019-07-07 02:38:00,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/local.properties
+2019-07-07 02:38:00,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-07 02:38:00,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/pull-down-layout/local.properties
+2019-07-07 02:38:00,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/pull-down-layout/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-07 02:38:00,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/local.properties
+2019-07-07 02:38:00,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-07 02:38:00,012 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-07 02:38:00,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-07 02:38:00,013 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 02:38:00,013 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:38:00,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:38:06,807 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-07-07 02:38:06,807 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-07-07 02:38:06,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-07-07 02:38:24,099 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -118,6 +121,6 @@
 
 BUILD SUCCESSFUL
 
-Total time: 21.482 secs
+Total time: 16.801 secs
 
-2018-11-12 11:23:45,295 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541996587972-0/src/PullDownView-master/app/build/outputs/apk/app-debug.apk
+2019-07-07 02:38:24,145 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562441754626-0/src/app/build/outputs/apk/app-debug.apk

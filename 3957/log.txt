@@ -1,34 +1,37 @@
-2018-12-16 21:42:38,387 INFO  DownloadService - Downloading "https://github.com/robinhood/ticker/archive/master.zip", attempt 3
-2018-12-16 21:42:39,287 INFO  DownloadService - Downloaded https://github.com/robinhood/ticker/archive/master.zip, attempt 3
-2018-12-16 21:42:39,287 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/master.zip": 605 KB
-2018-12-16 21:42:39,287 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 21:42:39,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/master.zip: true
-2018-12-16 21:42:39,288 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src'.
-2018-12-16 21:42:39,314 INFO  FullProcessService - Size of directory with sources: 689 KB
-2018-12-16 21:42:39,314 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src]
-2018-12-16 21:42:39,334 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/.git/
+2019-07-07 01:16:20,397 INFO  DownloadService - Downloading "https://github.com/robinhood/ticker/archive/master.zip", attempt 3
+2019-07-07 01:17:20,947 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 01:17:21,775 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 01:17:21,775 INFO  DownloadService - Downloading "https://github.com/robinhood/ticker/archive/master.zip", attempt 3
+2019-07-07 01:18:23,235 DEBUG FullProcessService - Repository https://github.com/robinhood/ticker available: true
+2019-07-07 01:18:23,235 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 01:18:23,235 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/robinhood/ticker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src]
+2019-07-07 01:18:25,503 INFO  SysUtils - 
+2019-07-07 01:18:25,531 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/.git": true
+2019-07-07 01:18:25,533 INFO  FullProcessService - Size of directory with sources: 694 KB
+2019-07-07 01:18:25,533 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src]
+2019-07-07 01:18:25,548 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/.git/
 
-2018-12-16 21:42:39,338 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew
-2018-12-16 21:42:39,343 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/build.gradle
-2018-12-16 21:42:39,346 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/settings.gradle
-2018-12-16 21:42:39,347 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:42:39,347 INFO  ProjectFixService - Fixing project...
-2018-12-16 21:42:39,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/local.properties
-2018-12-16 21:42:39,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:42:39,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/local.properties
-2018-12-16 21:42:39,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=12,targetSdkVersion=28]
-2018-12-16 21:42:39,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/local.properties
-2018-12-16 21:42:39,362 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
-2018-12-16 21:42:39,363 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
-2018-12-16 21:42:39,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:42:39,365 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 21:42:39,365 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:42:39,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:42:43,825 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 21:42:43,825 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 21:42:43,825 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 21:42:43,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 21:42:48,103 ERROR SysUtils - Could not process external command
+2019-07-07 01:18:25,550 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew
+2019-07-07 01:18:25,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/build.gradle
+2019-07-07 01:18:25,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/settings.gradle
+2019-07-07 01:18:25,554 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 01:18:25,554 INFO  ProjectFixService - Fixing project...
+2019-07-07 01:18:25,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/local.properties
+2019-07-07 01:18:25,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 01:18:25,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/local.properties
+2019-07-07 01:18:25,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=12,targetSdkVersion=28]
+2019-07-07 01:18:25,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/local.properties
+2019-07-07 01:18:25,562 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2019-07-07 01:18:25,562 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2019-07-07 01:18:25,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 01:18:25,563 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 01:18:25,563 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:18:25,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:18:30,772 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:18:30,772 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:18:30,772 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:18:30,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:18:33,291 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,12 +58,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 21:42:48,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:18:33,291 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':ticker-sample'.
@@ -187,7 +189,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_c4whe36nq5s7kduc6p5q05zp5.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker-sample/build.gradle:1)
+	at build_dexs7ffsaa2tq0l5uuldxy5si.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker-sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 103 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -211,15 +213,15 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 2s
 
-2018-12-16 21:42:48,107 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:42:48,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:42:51,577 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 21:42:51,577 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 21:42:51,578 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 21:42:51,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 21:42:54,715 ERROR SysUtils - Could not process external command
+2019-07-07 01:18:33,294 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:18:33,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:18:35,976 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:18:35,976 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:18:35,976 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:18:35,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:18:38,444 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -232,8 +234,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -247,12 +248,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 21:42:54,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:18:38,444 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':ticker'.
@@ -378,7 +379,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_3fwgax0fm5wwozbkednqjyt0c.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle:1)
+	at build_2o7smuhwamrih1qvzga6go63k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 103 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -404,13 +405,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 2s
 
-2018-12-16 21:42:54,719 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:42:54,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:42:57,690 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 21:42:57,690 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 21:42:57,690 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 21:42:57,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 21:43:00,669 ERROR SysUtils - Could not process external command
+2019-07-07 01:18:38,447 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:18:38,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:18:40,929 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:18:40,929 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:18:40,929 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:18:40,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:18:43,489 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -423,8 +424,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -438,12 +438,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 21:43:00,669 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:18:43,489 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':ticker'.
@@ -569,7 +569,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_3fwgax0fm5wwozbkednqjyt0c.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971358382-0/src/ticker-master/ticker/build.gradle:1)
+	at build_2o7smuhwamrih1qvzga6go63k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436980394-0/src/ticker/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 103 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -595,5 +595,5 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 2s
 
-2018-12-16 21:43:00,674 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 21:43:00,678 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 01:18:43,492 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 01:18:43,495 ERROR FullProcessService - Could not find generated or existed APK file

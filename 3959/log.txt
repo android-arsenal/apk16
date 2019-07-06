@@ -1,55 +1,41 @@
-2018-11-12 00:08:30,953 INFO  DownloadService - Downloading "https://github.com/renaudcerrato/Hook/archive/master.zip", attempt 3
-2018-11-12 00:08:31,557 INFO  DownloadService - Downloaded https://github.com/renaudcerrato/Hook/archive/master.zip, attempt 3
-2018-11-12 00:08:31,557 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/master.zip": 81 KB
-2018-11-12 00:08:31,557 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 00:08:31,562 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/master.zip: true
-2018-11-12 00:08:31,563 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src'.
-2018-11-12 00:08:31,580 INFO  FullProcessService - Size of directory with sources: 119 KB
-2018-11-12 00:08:31,580 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src]
-2018-11-12 00:08:31,598 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/.git/
+2019-07-07 01:13:42,903 INFO  DownloadService - Downloading "https://github.com/renaudcerrato/Hook/archive/master.zip", attempt 3
+2019-07-07 01:14:43,461 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 01:14:44,290 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 01:14:44,290 INFO  DownloadService - Downloading "https://github.com/renaudcerrato/Hook/archive/master.zip", attempt 3
+2019-07-07 01:15:45,742 DEBUG FullProcessService - Repository https://github.com/renaudcerrato/Hook available: true
+2019-07-07 01:15:45,742 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 01:15:45,743 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/renaudcerrato/Hook, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src]
+2019-07-07 01:15:47,580 INFO  SysUtils - 
+2019-07-07 01:15:47,603 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/.git": true
+2019-07-07 01:15:47,605 INFO  FullProcessService - Size of directory with sources: 119 KB
+2019-07-07 01:15:47,605 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src]
+2019-07-07 01:15:47,621 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/.git/
 
-2018-11-12 00:08:31,601 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew
-2018-11-12 00:08:31,603 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle
-2018-11-12 00:08:31,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/settings.gradle
-2018-11-12 00:08:31,606 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 00:08:31,606 INFO  ProjectFixService - Fixing project...
-2018-11-12 00:08:31,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/local.properties
-2018-11-12 00:08:31,613 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
-2018-11-12 00:08:31,613 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
-2018-11-12 00:08:31,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 00:08:31,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 00:08:31,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/local.properties
-2018-11-12 00:08:31,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 00:08:31,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 00:08:31,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/local.properties
-2018-11-12 00:08:31,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 00:08:31,619 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 00:08:31,620 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 00:08:31,620 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:08:31,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:08:39,115 INFO  ProjectTaskService - Detected possible tasks: 42
-2018-11-12 00:08:39,115 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-12 00:08:39,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-12 00:09:00,191 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:15:47,622 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew
+2019-07-07 01:15:47,624 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle
+2019-07-07 01:15:47,626 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/settings.gradle
+2019-07-07 01:15:47,626 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 01:15:47,626 INFO  ProjectFixService - Fixing project...
+2019-07-07 01:15:47,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/local.properties
+2019-07-07 01:15:47,631 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
+2019-07-07 01:15:47,631 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
+2019-07-07 01:15:47,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 01:15:47,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 01:15:47,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/local.properties
+2019-07-07 01:15:47,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 01:15:47,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 01:15:47,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/local.properties
+2019-07-07 01:15:47,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 01:15:47,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 01:15:47,636 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 01:15:47,636 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:15:47,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:15:53,638 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-07 01:15:53,638 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-07 01:15:53,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-07 01:16:07,901 INFO  SysUtils - Configuration on demand is an incubating feature.
 :plugin:compileJava UP-TO-DATE
 :plugin:compileGroovy
-Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.3.1/gradle-1.3.1.pom
-Download https://jcenter.bintray.com/org/aspectj/aspectjtools/1.8.9/aspectjtools-1.8.9.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/1.3.1/gradle-core-1.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder/1.3.1/builder-1.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint/24.3.1/lint-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/1.3.1/builder-model-1.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/1.3.1/builder-test-api-1.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/sdklib/24.3.1/sdklib-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/24.3.1/sdk-common-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/common/24.3.1/common-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/24.3.1/manifest-merger-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/24.3.1/ddmlib-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/24.3.1/lint-checks-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/annotations/24.3.1/annotations-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/24.3.1/layoutlib-api-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/dvlib/24.3.1/dvlib-24.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.3.1/lint-api-24.3.1.pom
 Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.3.1/gradle-1.3.1.jar
 Download https://jcenter.bintray.com/org/aspectj/aspectjtools/1.8.9/aspectjtools-1.8.9.jar
 Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/1.3.1/gradle-core-1.3.1.jar
@@ -82,14 +68,14 @@ Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.3.1/lint
 
 BUILD SUCCESSFUL
 
-Total time: 20.544 secs
+Total time: 13.784 secs
 
-2018-11-12 00:09:00,196 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:09:00,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:09:03,625 INFO  ProjectTaskService - Detected possible tasks: 41
-2018-11-12 00:09:03,625 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-12 00:09:03,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-12 00:09:07,057 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:16:07,905 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:16:07,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:16:11,080 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-07-07 01:16:11,080 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-07 01:16:11,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-07 01:16:14,077 INFO  SysUtils - Configuration on demand is an incubating feature.
 :plugin:compileJava UP-TO-DATE
 :plugin:compileGroovy UP-TO-DATE
 :plugin:processResources UP-TO-DATE
@@ -100,14 +86,14 @@ Total time: 20.544 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.95 secs
+Total time: 2.539 secs
 
-2018-11-12 00:09:07,064 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:09:07,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:09:10,622 INFO  ProjectTaskService - Detected possible tasks: 40
-2018-11-12 00:09:10,622 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-12 00:09:10,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541956110950-0/src/Hook-master/runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-12 00:09:14,221 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:16:14,080 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:16:14,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:16:17,202 INFO  ProjectTaskService - Detected possible tasks: 40
+2019-07-07 01:16:17,202 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-07 01:16:17,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562436822901-0/src/runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-07 01:16:20,361 INFO  SysUtils - Configuration on demand is an incubating feature.
 :runtime:compileAspect UP-TO-DATE
 :runtime:compileJava UP-TO-DATE
 :runtime:processResources UP-TO-DATE
@@ -118,7 +104,7 @@ Total time: 2.95 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.131 secs
+Total time: 2.688 secs
 
-2018-11-12 00:09:14,226 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 00:09:14,231 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 01:16:20,365 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 01:16:20,368 ERROR FullProcessService - Could not find generated or existed APK file

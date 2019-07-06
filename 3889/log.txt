@@ -1,39 +1,42 @@
-2018-11-12 14:58:00,890 INFO  DownloadService - Downloading "https://github.com/lijy91/blankapp-validation/archive/master.zip", attempt 3
-2018-11-12 14:58:01,756 INFO  DownloadService - Downloaded https://github.com/lijy91/blankapp-validation/archive/master.zip, attempt 3
-2018-11-12 14:58:01,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/master.zip": 135 KB
-2018-11-12 14:58:01,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 14:58:01,762 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/master.zip: true
-2018-11-12 14:58:01,763 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src'.
-2018-11-12 14:58:01,791 INFO  FullProcessService - Size of directory with sources: 182 KB
-2018-11-12 14:58:01,791 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src]
-2018-11-12 14:58:01,809 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/.git/
+2019-07-07 03:34:45,248 INFO  DownloadService - Downloading "https://github.com/lijy91/blankapp-validation/archive/master.zip", attempt 3
+2019-07-07 03:35:45,822 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 03:35:46,730 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 03:35:46,730 INFO  DownloadService - Downloading "https://github.com/lijy91/blankapp-validation/archive/master.zip", attempt 3
+2019-07-07 03:36:48,083 DEBUG FullProcessService - Repository https://github.com/lijy91/blankapp-validation available: true
+2019-07-07 03:36:48,083 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 03:36:48,083 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lijy91/blankapp-validation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src]
+2019-07-07 03:36:50,153 INFO  SysUtils - 
+2019-07-07 03:36:50,160 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/.git": true
+2019-07-07 03:36:50,163 INFO  FullProcessService - Size of directory with sources: 182 KB
+2019-07-07 03:36:50,163 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src]
+2019-07-07 03:36:50,177 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/.git/
 
-2018-11-12 14:58:01,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew
-2018-11-12 14:58:01,816 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle
-2018-11-12 14:58:01,820 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/settings.gradle
-2018-11-12 14:58:01,821 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2018-11-12 14:58:02,064 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2018-11-12 14:58:02,065 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle
-2018-11-12 14:58:02,065 INFO  ProjectFixService - Fixing project...
-2018-11-12 14:58:02,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/local.properties
-2018-11-12 14:58:02,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 14:58:02,087 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 14:58:02,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/local.properties
-2018-11-12 14:58:02,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 14:58:02,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 14:58:02,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/local.properties
-2018-11-12 14:58:02,093 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-12 14:58:02,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-12 14:58:02,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-12 14:58:02,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-12 14:58:02,097 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 14:58:02,097 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 14:58:02,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 14:58:13,095 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 14:58:13,096 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-12 14:58:13,096 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-12 14:58:13,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-12 14:58:20,268 ERROR SysUtils - Could not process external command
+2019-07-07 03:36:50,180 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew
+2019-07-07 03:36:50,183 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle
+2019-07-07 03:36:50,185 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/settings.gradle
+2019-07-07 03:36:50,185 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-07-07 03:36:50,432 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-07-07 03:36:50,432 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/lijy91/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-07-07 03:36:50,432 INFO  ProjectFixService - Fixing project...
+2019-07-07 03:36:50,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/local.properties
+2019-07-07 03:36:50,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 03:36:50,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 03:36:50,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/local.properties
+2019-07-07 03:36:50,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 03:36:50,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 03:36:50,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/local.properties
+2019-07-07 03:36:50,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-07 03:36:50,450 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-07 03:36:50,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-07 03:36:50,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-07 03:36:50,452 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 03:36:50,452 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:36:50,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:36:56,995 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:36:56,995 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-07 03:36:56,995 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-07 03:36:56,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-07 03:37:03,131 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,8 +49,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +63,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 14:58:20,269 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:37:03,131 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -155,22 +157,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 6.561 secs
+Total time: 5.563 secs
 
-2018-11-12 14:58:20,274 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 14:58:20,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 14:58:27,623 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 14:58:27,623 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-12 14:58:27,623 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-12 14:58:27,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-12 14:58:40,193 ERROR SysUtils - Could not process external command
+2019-07-07 03:37:03,134 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:37:03,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:37:09,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:37:09,535 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-07 03:37:09,535 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-07 03:37:09,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-07 03:37:20,386 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -183,8 +185,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -198,7 +199,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 14:58:40,193 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:37:20,386 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -228,11 +229,11 @@ Incremental java compilation is an incubating feature.
 :library:compileDebugJavaWithJavac
 :library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :library:extractDebugAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.DateFlags should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/TypeValidator.java: The typedef annotation org.blankapp.validation.validators.TypeValidator.ValueType should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/NumericValidator.java: The typedef annotation org.blankapp.validation.validators.NumericValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/TextValidator.java: The typedef annotation org.blankapp.validation.validators.TextValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/TextValidator.java: The typedef annotation org.blankapp.validation.validators.TextValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.DateFlags should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/NumericValidator.java: The typedef annotation org.blankapp.validation.validators.NumericValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/TypeValidator.java: The typedef annotation org.blankapp.validation.validators.TypeValidator.ValueType should have @Retention(RetentionPolicy.SOURCE)
 :library:mergeDebugShaders
 :library:compileDebugShaders
 :library:generateDebugAssets
@@ -266,11 +267,11 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-
 :library:compileReleaseJavaWithJavac
 :library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :library:extractReleaseAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/TextValidator.java: The typedef annotation org.blankapp.validation.validators.TextValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/NumericValidator.java: The typedef annotation org.blankapp.validation.validators.NumericValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.DateFlags should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/library/src/main/java/org/blankapp/validation/validators/TypeValidator.java: The typedef annotation org.blankapp.validation.validators.TypeValidator.ValueType should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/NumericValidator.java: The typedef annotation org.blankapp.validation.validators.NumericValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/TextValidator.java: The typedef annotation org.blankapp.validation.validators.TextValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/TypeValidator.java: The typedef annotation org.blankapp.validation.validators.TypeValidator.ValueType should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.DateFlags should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/library/src/main/java/org/blankapp/validation/validators/DateValidator.java: The typedef annotation org.blankapp.validation.validators.DateValidator.Patterns should have @Retention(RetentionPolicy.SOURCE)
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
 :library:generateReleaseAssets
@@ -385,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.967 secs
+Total time: 10.245 secs
 
-2018-11-12 14:58:40,260 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 14:58:40,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 14:58:47,377 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 14:58:47,377 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-12 14:58:47,378 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-12 14:58:47,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009480886-0/src/blankapp-validation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-12 14:58:54,557 ERROR SysUtils - Could not process external command
+2019-07-07 03:37:20,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 03:37:20,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 03:37:26,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 03:37:26,590 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-07 03:37:26,590 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-07 03:37:26,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445285246-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-07 03:37:32,867 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -406,8 +407,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -421,7 +421,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 14:58:54,557 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 03:37:32,867 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -523,7 +523,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.583 secs
+Total time: 5.692 secs
 
-2018-11-12 14:58:54,623 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 14:58:54,686 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 03:37:32,912 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 03:37:32,953 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,37 +1,40 @@
-2018-11-12 00:25:51,351 INFO  DownloadService - Downloading "https://github.com/Iojjj/RoundedCornersBackgroundSpan/archive/master.zip", attempt 3
-2018-11-12 00:25:52,156 INFO  DownloadService - Downloaded https://github.com/Iojjj/RoundedCornersBackgroundSpan/archive/master.zip, attempt 3
-2018-11-12 00:25:52,157 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/master.zip": 513 KB
-2018-11-12 00:25:52,157 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 00:25:52,162 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/master.zip: true
-2018-11-12 00:25:52,162 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src'.
-2018-11-12 00:25:52,186 INFO  FullProcessService - Size of directory with sources: 536 KB
-2018-11-12 00:25:52,186 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src]
-2018-11-12 00:25:52,206 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/.git/
+2019-07-07 01:23:48,824 INFO  DownloadService - Downloading "https://github.com/Iojjj/RoundedCornersBackgroundSpan/archive/master.zip", attempt 3
+2019-07-07 01:24:49,347 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 01:24:50,125 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 01:24:50,130 INFO  DownloadService - Downloading "https://github.com/Iojjj/RoundedCornersBackgroundSpan/archive/master.zip", attempt 3
+2019-07-07 01:25:51,420 DEBUG FullProcessService - Repository https://github.com/Iojjj/RoundedCornersBackgroundSpan available: true
+2019-07-07 01:25:51,420 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 01:25:51,420 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Iojjj/RoundedCornersBackgroundSpan, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src]
+2019-07-07 01:25:53,550 INFO  SysUtils - 
+2019-07-07 01:25:53,578 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/.git": true
+2019-07-07 01:25:53,580 INFO  FullProcessService - Size of directory with sources: 536 KB
+2019-07-07 01:25:53,580 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src]
+2019-07-07 01:25:53,595 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/.git/
 
-2018-11-12 00:25:52,209 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew
-2018-11-12 00:25:52,212 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle
-2018-11-12 00:25:52,215 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/settings.gradle
-2018-11-12 00:25:52,216 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 00:25:52,216 INFO  ProjectFixService - Fixing project...
-2018-11-12 00:25:52,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/local.properties
-2018-11-12 00:25:52,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/local.properties
-2018-11-12 00:25:52,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,232 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/local.properties
-2018-11-12 00:25:52,234 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
-2018-11-12 00:25:52,234 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
-2018-11-12 00:25:52,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=25]
-2018-11-12 00:25:52,237 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 00:25:52,237 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:25:52,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:26:03,217 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 00:26:03,217 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 00:26:03,217 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 00:26:03,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 00:26:09,714 ERROR SysUtils - Could not process external command
+2019-07-07 01:25:53,597 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew
+2019-07-07 01:25:53,599 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle
+2019-07-07 01:25:53,601 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/settings.gradle
+2019-07-07 01:25:53,601 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 01:25:53,601 INFO  ProjectFixService - Fixing project...
+2019-07-07 01:25:53,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/local.properties
+2019-07-07 01:25:53,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/local.properties
+2019-07-07 01:25:53,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/local.properties
+2019-07-07 01:25:53,611 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
+2019-07-07 01:25:53,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
+2019-07-07 01:25:53,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-07-07 01:25:53,612 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 01:25:53,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:25:53,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:26:02,061 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:26:02,062 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:26:02,062 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:26:02,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:26:06,964 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,8 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:26:09,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:26:06,964 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -244,15 +246,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.138 secs
+Total time: 4.636 secs
 
-2018-11-12 00:26:09,719 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:26:09,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:26:16,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 00:26:16,017 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 00:26:16,017 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 00:26:16,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 00:26:22,416 ERROR SysUtils - Could not process external command
+2019-07-07 01:26:06,967 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:26:06,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:26:11,768 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:26:11,768 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:26:11,768 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:26:11,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:26:16,550 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -265,8 +267,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -280,7 +281,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:26:22,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:26:16,550 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -387,15 +388,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.966 secs
+Total time: 4.516 secs
 
-2018-11-12 00:26:22,421 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:26:22,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:26:29,306 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 00:26:29,306 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 00:26:29,306 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 00:26:29,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957151342-0/src/RoundedCornersBackgroundSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 00:26:35,695 ERROR SysUtils - Could not process external command
+2019-07-07 01:26:16,553 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:26:16,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:26:21,547 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 01:26:21,547 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 01:26:21,548 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 01:26:21,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437428820-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 01:26:26,411 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,8 +409,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -423,7 +423,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:26:35,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:26:26,411 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -608,7 +608,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.086 secs
+Total time: 4.625 secs
 
-2018-11-12 00:26:35,700 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 00:26:35,703 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 01:26:26,415 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 01:26:26,417 ERROR FullProcessService - Could not find generated or existed APK file

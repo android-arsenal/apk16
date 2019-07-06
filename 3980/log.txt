@@ -1,36 +1,39 @@
-2018-12-16 21:40:34,737 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/MarkdownView-Android/archive/master.zip", attempt 3
-2018-12-16 21:40:37,954 INFO  DownloadService - Downloaded https://github.com/mukeshsolanki/MarkdownView-Android/archive/master.zip, attempt 3
-2018-12-16 21:40:37,954 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/master.zip": 3 MB
-2018-12-16 21:40:37,954 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 21:40:37,959 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/master.zip: true
-2018-12-16 21:40:37,960 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src'.
-2018-12-16 21:40:38,010 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-12-16 21:40:38,011 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src]
-2018-12-16 21:40:38,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/.git/
+2019-07-07 00:30:12,457 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/MarkdownView-Android/archive/master.zip", attempt 3
+2019-07-07 00:31:13,002 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:31:13,832 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:31:13,833 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/MarkdownView-Android/archive/master.zip", attempt 3
+2019-07-07 00:32:15,332 DEBUG FullProcessService - Repository https://github.com/mukeshsolanki/MarkdownView-Android available: true
+2019-07-07 00:32:15,333 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:32:15,333 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mukeshsolanki/MarkdownView-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src]
+2019-07-07 00:32:18,563 INFO  SysUtils - 
+2019-07-07 00:32:18,590 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/.git": true
+2019-07-07 00:32:18,593 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-07 00:32:18,593 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src]
+2019-07-07 00:32:18,607 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/.git/
 
-2018-12-16 21:40:38,037 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/gradlew
-2018-12-16 21:40:38,041 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/build.gradle
-2018-12-16 21:40:38,044 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/build.gradle
-2018-12-16 21:40:38,045 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:40:38,045 INFO  ProjectFixService - Fixing project...
-2018-12-16 21:40:38,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/local.properties
-2018-12-16 21:40:38,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/local.properties
-2018-12-16 21:40:38,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/local.properties
-2018-12-16 21:40:38,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
-2018-12-16 21:40:38,058 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
-2018-12-16 21:40:38,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:40:38,060 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 21:40:38,060 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:40:38,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:40:44,240 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 21:40:44,240 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 21:40:44,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 21:41:09,672 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:32:18,609 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/gradlew
+2019-07-07 00:32:18,611 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/build.gradle
+2019-07-07 00:32:18,613 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/build.gradle
+2019-07-07 00:32:18,613 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:32:18,613 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:32:18,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/local.properties
+2019-07-07 00:32:18,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,619 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/local.properties
+2019-07-07 00:32:18,620 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,620 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/local.properties
+2019-07-07 00:32:18,621 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-07-07 00:32:18,621 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-07-07 00:32:18,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-07 00:32:18,622 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:32:18,622 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:32:18,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:32:26,393 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-07 00:32:26,393 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 00:32:26,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 00:32:50,150 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :markdownview:preBuild UP-TO-DATE
@@ -65,7 +68,7 @@
 > Task :markdownview:javaPreCompileDebug
 
 > Task :markdownview:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/src/main/java/com/mukesh/MarkdownView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/src/main/java/com/mukesh/MarkdownView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :markdownview:processDebugJavaRes NO-SOURCE
@@ -129,7 +132,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :markdownview:javaPreCompileRelease
 
 > Task :markdownview:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/markdownview/src/main/java/com/mukesh/MarkdownView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/markdownview/src/main/java/com/mukesh/MarkdownView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :markdownview:processReleaseJavaRes NO-SOURCE
@@ -138,7 +141,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b2d0966fbda79d1bd6cfc16224fe1261/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -166,7 +172,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 25s
+BUILD SUCCESSFUL in 23s
 90 actionable tasks: 90 executed
 
-2018-12-16 21:41:09,752 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971234728-0/src/MarkdownView-Android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-07 00:32:50,205 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562434212449-0/src/app/build/outputs/apk/debug/app-debug.apk

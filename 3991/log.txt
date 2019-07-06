@@ -1,33 +1,36 @@
-2018-11-11 23:39:17,296 INFO  DownloadService - Downloading "https://github.com/binaryroot/CarouselView/archive/master.zip", attempt 3
-2018-11-11 23:39:18,327 INFO  DownloadService - Downloaded https://github.com/binaryroot/CarouselView/archive/master.zip, attempt 3
-2018-11-11 23:39:18,327 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/master.zip": 585 KB
-2018-11-11 23:39:18,327 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:39:18,333 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/master.zip: true
-2018-11-11 23:39:18,333 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src'.
-2018-11-11 23:39:18,359 INFO  FullProcessService - Size of directory with sources: 671 KB
-2018-11-11 23:39:18,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src]
-2018-11-11 23:39:18,378 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/.git/
+2019-07-06 23:59:47,355 INFO  DownloadService - Downloading "https://github.com/binaryroot/CarouselView/archive/master.zip", attempt 3
+2019-07-07 00:00:47,920 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:00:49,000 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:00:49,000 INFO  DownloadService - Downloading "https://github.com/binaryroot/CarouselView/archive/master.zip", attempt 3
+2019-07-07 00:01:50,419 DEBUG FullProcessService - Repository https://github.com/binaryroot/CarouselView available: true
+2019-07-07 00:01:50,419 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:01:50,419 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/binaryroot/CarouselView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src]
+2019-07-07 00:01:52,582 INFO  SysUtils - 
+2019-07-07 00:01:52,612 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/.git": true
+2019-07-07 00:01:52,614 INFO  FullProcessService - Size of directory with sources: 671 KB
+2019-07-07 00:01:52,615 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src]
+2019-07-07 00:01:52,629 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/.git/
 
-2018-11-11 23:39:18,381 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/gradlew
-2018-11-11 23:39:18,385 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/carousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/build.gradle
-2018-11-11 23:39:18,388 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/carousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/settings.gradle
-2018-11-11 23:39:18,388 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:39:18,388 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:39:18,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/local.properties
-2018-11-11 23:39:18,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-11 23:39:18,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/carousel/local.properties
-2018-11-11 23:39:18,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/carousel/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-11 23:39:18,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/local.properties
-2018-11-11 23:39:18,397 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-11-11 23:39:18,397 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-11-11 23:39:18,398 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-11 23:39:18,398 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:39:18,398 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:39:18,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:41:10,913 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-11-11 23:41:10,913 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 23:41:10,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 23:42:32,408 ERROR SysUtils - Could not process external command
+2019-07-07 00:01:52,632 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/gradlew
+2019-07-07 00:01:52,634 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/carousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/build.gradle
+2019-07-07 00:01:52,636 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/carousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/settings.gradle
+2019-07-07 00:01:52,637 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:01:52,637 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:01:52,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/local.properties
+2019-07-07 00:01:52,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-07 00:01:52,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/carousel/local.properties
+2019-07-07 00:01:52,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/carousel/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-07 00:01:52,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/local.properties
+2019-07-07 00:01:52,644 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-07-07 00:01:52,644 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-07-07 00:01:52,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-07 00:01:52,645 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:01:52,645 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:01:52,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:02:01,904 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-07 00:02:01,905 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 00:02:01,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 00:03:16,204 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:42:32,408 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:03:16,204 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -96,7 +98,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :carousel:transformNative_libsWithMergeJniLibsForRelease
 :carousel:transformNative_libsWithSyncJniLibsForRelease
 :carousel:bundleRelease
-:app:prepareCarouselViewMasterCarouselUnspecifiedLibrary
 :app:prepareComAndroidSupportAppcompatV72311Library
 :app:prepareComAndroidSupportMediarouterV72300Library
 :app:preDebugAndroidTestBuild UP-TO-DATE
@@ -151,6 +152,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:prepareComGoogleFirebaseFirebaseMessaging921Library
 :app:prepareComGoogleFirebaseFirebaseStorage921Library
 :app:prepareComGoogleFirebaseFirebaseStorageCommon921Library
+:app:prepareSrcCarouselUnspecifiedLibrary
 :app:prepareDebugDependencies
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -161,13 +163,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:generateDebugResources
 :app:mergeDebugResources
 :app:processDebugManifest
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:20:5-81 Warning:
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:20:5-81 Warning:
 	Element uses-permission#android.permission.ACCESS_COARSE_LOCATION at AndroidManifest.xml:20:5-81 duplicated with element declared at AndroidManifest.xml:17:5-80
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:21:5-79 Warning:
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:21:5-79 Warning:
 	Element uses-permission#android.permission.ACCESS_FINE_LOCATION at AndroidManifest.xml:21:5-79 duplicated with element declared at AndroidManifest.xml:18:5-78
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:20:5-81 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:20:5-81 Warning:
 	Element uses-permission#android.permission.ACCESS_COARSE_LOCATION at AndroidManifest.xml:20:5-81 duplicated with element declared at AndroidManifest.xml:17:5-80
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:21:5-79 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:21:5-79 Warning:
 	Element uses-permission#android.permission.ACCESS_FINE_LOCATION at AndroidManifest.xml:21:5-79 duplicated with element declared at AndroidManifest.xml:18:5-78
 :app:processDebugResources
 :app:generateDebugSources
@@ -178,7 +180,7 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-
 :app:collectDebugMultiDexComponents
 :app:transformClassesWithMultidexlistForDebug
 ProGuard, version 5.2.1
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
 Note: com.google.ads.mediation.MediationServerParameters calls 'Field.getAnnotation'
 Note: com.google.android.gms.internal.zzafc calls 'Class.getAnnotation'
@@ -316,8 +318,8 @@ Note: there were 18 accesses to class members by means of introspection.
       (using '-keep' or '-keepclassmembers').
       (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
 Note: you're ignoring all warnings!
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build/intermediates/multi-dex/debug/componentClasses.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build/intermediates/multi-dex/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
 :app:transformClassesWithDexForDebug
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
@@ -338,13 +340,13 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :app:generateReleaseResources
 :app:mergeReleaseResources
 :app:processReleaseManifest
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:20:5-81 Warning:
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:20:5-81 Warning:
 	Element uses-permission#android.permission.ACCESS_COARSE_LOCATION at AndroidManifest.xml:20:5-81 duplicated with element declared at AndroidManifest.xml:17:5-80
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:21:5-79 Warning:
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:21:5-79 Warning:
 	Element uses-permission#android.permission.ACCESS_FINE_LOCATION at AndroidManifest.xml:21:5-79 duplicated with element declared at AndroidManifest.xml:18:5-78
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:20:5-81 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:20:5-81 Warning:
 	Element uses-permission#android.permission.ACCESS_COARSE_LOCATION at AndroidManifest.xml:20:5-81 duplicated with element declared at AndroidManifest.xml:17:5-80
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/src/main/AndroidManifest.xml:21:5-79 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/src/main/AndroidManifest.xml:21:5-79 Warning:
 	Element uses-permission#android.permission.ACCESS_FINE_LOCATION at AndroidManifest.xml:21:5-79 duplicated with element declared at AndroidManifest.xml:18:5-78
 :app:processReleaseResources
 :app:generateReleaseSources
@@ -448,6 +450,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 1 mins 20.973 secs
+Total time: 1 mins 13.823 secs
 
-2018-11-11 23:42:32,569 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954357293-0/src/CarouselView-master/app/build/outputs/apk/app-debug.apk
+2019-07-07 00:03:16,304 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562432387353-0/src/app/build/outputs/apk/app-debug.apk

@@ -1,51 +1,51 @@
-2018-11-12 11:35:33,358 INFO  DownloadService - Downloading "https://github.com/VictorAlbertos/Mockery/archive/master.zip", attempt 3
-2018-11-12 11:36:33,985 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-12 11:36:35,106 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-12 11:36:35,106 INFO  DownloadService - Downloading "https://github.com/VictorAlbertos/Mockery/archive/master.zip", attempt 3
-2018-11-12 11:37:36,280 DEBUG FullProcessService - Repository https://github.com/VictorAlbertos/Mockery available: true
-2018-11-12 11:37:36,280 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-12 11:37:36,280 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/VictorAlbertos/Mockery, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src]
-2018-11-12 11:37:38,688 INFO  SysUtils - 
-2018-11-12 11:37:38,702 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/.git": true
-2018-11-12 11:37:38,716 INFO  FullProcessService - Size of directory with sources: 645 KB
-2018-11-12 11:37:38,716 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src]
-2018-11-12 11:37:38,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/.git/
+2019-07-07 02:46:16,055 INFO  DownloadService - Downloading "https://github.com/VictorAlbertos/Mockery/archive/master.zip", attempt 3
+2019-07-07 02:47:16,585 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 02:47:17,728 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 02:47:17,728 INFO  DownloadService - Downloading "https://github.com/VictorAlbertos/Mockery/archive/master.zip", attempt 3
+2019-07-07 02:48:19,212 DEBUG FullProcessService - Repository https://github.com/VictorAlbertos/Mockery available: true
+2019-07-07 02:48:19,212 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 02:48:19,212 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/VictorAlbertos/Mockery, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src]
+2019-07-07 02:48:21,199 INFO  SysUtils - 
+2019-07-07 02:48:21,210 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/.git": true
+2019-07-07 02:48:21,220 INFO  FullProcessService - Size of directory with sources: 645 KB
+2019-07-07 02:48:21,220 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src]
+2019-07-07 02:48:21,234 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/.git/
 
-2018-11-12 11:37:38,743 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew
-2018-11-12 11:37:38,755 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/build.gradle
-2018-11-12 11:37:38,766 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/settings.gradle
-2018-11-12 11:37:38,767 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 11:37:38,767 INFO  ProjectFixService - Fixing project...
-2018-11-12 11:37:38,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/local.properties
-2018-11-12 11:37:38,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/local.properties
-2018-11-12 11:37:38,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/local.properties
-2018-11-12 11:37:38,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/local.properties
-2018-11-12 11:37:38,792 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-12 11:37:38,792 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-12 11:37:38,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/local.properties
-2018-11-12 11:37:38,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/local.properties
-2018-11-12 11:37:38,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/local.properties
-2018-11-12 11:37:38,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/local.properties
-2018-11-12 11:37:38,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/local.properties
-2018-11-12 11:37:38,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/local.properties
-2018-11-12 11:37:38,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 11:37:38,800 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 11:37:38,800 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:37:38,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:37:59,373 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:37:59,373 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:37:59,373 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:37:59,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:38:05,855 ERROR SysUtils - Could not process external command
+2019-07-07 02:48:21,242 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew
+2019-07-07 02:48:21,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/build.gradle
+2019-07-07 02:48:21,257 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/settings.gradle
+2019-07-07 02:48:21,258 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 02:48:21,258 INFO  ProjectFixService - Fixing project...
+2019-07-07 02:48:21,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/local.properties
+2019-07-07 02:48:21,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/local.properties
+2019-07-07 02:48:21,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/local.properties
+2019-07-07 02:48:21,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/local.properties
+2019-07-07 02:48:21,275 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-07 02:48:21,275 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-07 02:48:21,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/local.properties
+2019-07-07 02:48:21,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/local.properties
+2019-07-07 02:48:21,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/local.properties
+2019-07-07 02:48:21,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/local.properties
+2019-07-07 02:48:21,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/local.properties
+2019-07-07 02:48:21,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/local.properties
+2019-07-07 02:48:21,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-07 02:48:21,280 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 02:48:21,280 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:48:21,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:48:31,220 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:48:31,220 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:48:31,220 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:48:31,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:48:36,753 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -72,7 +72,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:38:05,855 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:48:36,753 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -182,15 +182,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.899 secs
+Total time: 4.93 secs
 
-2018-11-12 11:38:05,869 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:38:05,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:38:14,925 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:38:14,925 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:38:14,925 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:38:14,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:38:22,518 ERROR SysUtils - Could not process external command
+2019-07-07 02:48:36,762 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:48:36,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:48:43,358 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:48:43,359 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:48:43,359 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:48:43,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:48:49,070 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -217,7 +217,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:38:22,518 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:48:49,070 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -327,15 +327,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.977 secs
+Total time: 5.088 secs
 
-2018-11-12 11:38:22,542 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:38:22,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:38:33,018 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:38:33,018 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:38:33,018 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:38:33,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/example_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:38:39,916 ERROR SysUtils - Could not process external command
+2019-07-07 02:48:49,080 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:48:49,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:48:54,818 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:48:54,818 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:48:54,818 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:48:54,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/example_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:49:00,377 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -362,7 +362,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:38:39,916 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:00,377 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -472,15 +472,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.314 secs
+Total time: 4.951 secs
 
-2018-11-12 11:38:39,929 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:38:39,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:38:46,835 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:38:46,835 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:38:46,835 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:38:46,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:38:53,676 ERROR SysUtils - Could not process external command
+2019-07-07 02:49:00,386 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:49:00,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:49:05,964 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:49:05,965 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:49:05,965 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:49:05,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:49:11,599 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -507,7 +507,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 11:38:53,676 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:11,599 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -610,22 +610,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.258 secs
+Total time: 5.002 secs
 
-2018-11-12 11:38:53,689 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:38:53,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:39:00,917 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:39:00,917 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:39:00,917 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:39:00,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:39:24,773 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:11,608 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:49:11,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:49:17,532 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:49:17,532 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:49:17,532 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:49:17,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:49:31,458 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -634,58 +634,58 @@ Note: Recompile with -Xlint:unchecked for details.
 :core:processResources UP-TO-DATE
 :core:classes
 :core:jar
-:core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/Interceptor.java:66: warning: no @param for metadata
+:core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/Interceptor.java:66: warning: no @param for metadata
     void validate(Object candidate, Metadata<A> metadata) throws AssertionError;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:39: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:39: warning: no @return
   Class<? extends Behaviour> value();
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:48: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:48: warning: no @return
     T legal();
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:53: warning: no @param for candidate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTO.java:53: warning: no @param for candidate
     void validate(T candidate) throws AssertionError;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:40: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:40: warning: no @return
   Class<? extends DTOArgs.Behaviour> value();
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:49: warning: no @param for args
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:49: warning: no @param for args
     T legal(Object[] args);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:49: warning: no @return
     T legal(Object[] args);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:54: warning: no @param for candidate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/DTOArgs.java:54: warning: no @param for candidate
     void validate(T candidate) throws AssertionError;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:40: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:40: warning: no @return
   String[] value();
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:50: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:50: warning: no @return
   String illegal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:45: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Enum.java:45: warning: no @return
   String legal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:41: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:41: warning: no @return
   String value();
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:51: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:51: warning: no @return
   String illegal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:46: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/Valid.java:46: warning: no @return
   String legal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/JsonConverter.java:38: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/JsonConverter.java:38: warning: no @return
   Class<? extends JolyglotGenerics> value();
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/Mockery.java:76: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/Mockery.java:76: warning: no @return
     Type[] supportedTypes(Metadata<A> metadata);
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/Mockery.java:82: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/Mockery.java:82: warning: no @return
     boolean isOptional();
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/core/src/main/java/io/victoralbertos/mockery/api/SupportedTypes.java:50: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/core/src/main/java/io/victoralbertos/mockery/api/SupportedTypes.java:50: warning: no @return
   public final static Type listOf(final Type type) {
                            ^
 
@@ -694,11 +694,6 @@ Note: Recompile with -Xlint:unchecked for details.
 :core:sourcesJar
 :core:assemble
 :core:compileTestJava
-Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/jackson/0.0.3/jackson-0.0.3.pom
-Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/moshi/0.0.3/moshi-0.0.3.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.pom
-Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/gson/0.0.3/gson-0.0.3.jar
 Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/jackson/0.0.3/jackson-0.0.3.jar
 Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/moshi/0.0.3/moshi-0.0.3.jar
 Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar
@@ -713,21 +708,21 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 BUILD SUCCESSFUL
 
-Total time: 23.361 secs
+Total time: 13.448 secs
 
-2018-11-12 11:39:24,793 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:39:24,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:39:31,792 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:39:31,792 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:39:31,792 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:39:31,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:39:41,122 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:31,470 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:49:31,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:49:37,577 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:49:37,577 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:49:37,577 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:49:37,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:49:44,800 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJava UP-TO-DATE
 :core:processResources UP-TO-DATE
 :core:classes UP-TO-DATE
 :core:jar UP-TO-DATE
 :extension_retrofit:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/internal/built_in_interceptor/CallAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/internal/built_in_interceptor/CallAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -735,25 +730,25 @@ Note: Recompile with -Xlint:unchecked for details.
 :extension_retrofit:classes
 :extension_retrofit:jar
 :core:javadoc UP-TO-DATE
-:extension_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:39: warning: no @return
+:extension_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:39: warning: no @return
   String value();
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:49: warning: no @return
   String illegal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:44: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_mockery/RequestBodyValid.java:44: warning: no @return
   String legal() default "";
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:46: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:46: warning: no @return
   long delay() default 2000;
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:66: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:66: warning: no @return
   Class<? extends ErrorResponseAdapter> errorResponseAdapter() default ByPassErrorResponseAdapter.class;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:53: warning: no @return
   int failurePercent() default 3;
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Retrofit.java:60: warning: no @return
   int variancePercentage() default 40;
       ^
 
@@ -762,7 +757,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :extension_retrofit:sourcesJar
 :extension_retrofit:assemble
 :extension_retrofit:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/RetrofitInterceptorTest.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/RetrofitInterceptorTest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -774,15 +769,15 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 8.855 secs
+Total time: 6.759 secs
 
-2018-11-12 11:39:41,149 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:39:41,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:39:49,029 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:39:49,030 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:39:49,030 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:39:49,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:39:57,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:44,818 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:49:44,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:49:50,620 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:49:50,620 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:49:50,620 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:49:50,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:49:57,714 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJava UP-TO-DATE
 :core:processResources UP-TO-DATE
 :core:classes UP-TO-DATE
@@ -799,16 +794,16 @@ Total time: 8.855 secs
 :extension_rx2_retrofit:jar
 :core:javadoc UP-TO-DATE
 :extension_retrofit:javadoc UP-TO-DATE
-:extension_rx2_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:46: warning: no @return
+:extension_rx2_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:46: warning: no @return
   long delay() default 2000;
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:66: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:66: warning: no @return
   Class<? extends ErrorResponseAdapter> errorResponseAdapter() default ByPassErrorResponseAdapter.class;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:53: warning: no @return
   int failurePercent() default 3;
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/Rx2Retrofit.java:60: warning: no @return
   int variancePercentage() default 40;
       ^
 
@@ -817,7 +812,7 @@ Total time: 8.855 secs
 :extension_rx2_retrofit:sourcesJar
 :extension_rx2_retrofit:assemble
 :extension_rx2_retrofit:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx2_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/Rx2RetrofitInterceptorTest.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx2_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/Rx2RetrofitInterceptorTest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -829,15 +824,15 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 7.914 secs
+Total time: 6.607 secs
 
-2018-11-12 11:39:57,445 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:39:57,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:40:04,498 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:40:04,498 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:40:04,498 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:40:04,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:40:11,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:49:57,734 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:49:57,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:50:03,521 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:50:03,521 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:50:03,521 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:50:03,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:50:10,289 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJava UP-TO-DATE
 :core:processResources UP-TO-DATE
 :core:classes UP-TO-DATE
@@ -847,7 +842,7 @@ Total time: 7.914 secs
 :extension_retrofit:classes UP-TO-DATE
 :extension_retrofit:jar UP-TO-DATE
 :extension_rx_retrofit:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/internal/built_in_interceptor/RxRetrofitInterceptor.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/internal/built_in_interceptor/RxRetrofitInterceptor.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -856,16 +851,16 @@ Note: Recompile with -Xlint:unchecked for details.
 :extension_rx_retrofit:jar
 :core:javadoc UP-TO-DATE
 :extension_retrofit:javadoc UP-TO-DATE
-:extension_rx_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:46: warning: no @return
+:extension_rx_retrofit:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:46: warning: no @return
   long delay() default 2000;
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:66: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:66: warning: no @return
   Class<? extends ErrorResponseAdapter> errorResponseAdapter() default ByPassErrorResponseAdapter.class;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:53: warning: no @return
   int failurePercent() default 3;
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/main/java/io/victoralbertos/mockery/api/built_in_interceptor/RxRetrofit.java:60: warning: no @return
   int variancePercentage() default 40;
       ^
 
@@ -874,7 +869,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :extension_rx_retrofit:sourcesJar
 :extension_rx_retrofit:assemble
 :extension_rx_retrofit:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/extension_rx_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/RxRetrofitInterceptorTest.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/extension_rx_retrofit/src/test/java/io/victoralbertos/mockery/internal/built_in_interceptor/RxRetrofitInterceptorTest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -886,21 +881,21 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 6.983 secs
+Total time: 6.293 secs
 
-2018-11-12 11:40:11,985 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:40:11,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:40:20,358 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:40:20,358 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:40:20,358 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:40:20,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:40:29,066 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:50:10,313 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:50:10,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:50:15,965 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:50:15,965 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:50:15,965 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:50:15,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:50:23,273 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJava UP-TO-DATE
 :core:processResources UP-TO-DATE
 :core:classes UP-TO-DATE
 :core:jar UP-TO-DATE
 :test_runtime:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/src/main/java/io/victoralbertos/mockery/internal/RobotBuilder.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/src/main/java/io/victoralbertos/mockery/internal/RobotBuilder.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -908,7 +903,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :test_runtime:classes
 :test_runtime:jar
 :test_compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_compiler/src/main/java/io/victoralbertos/mockery/internal/MockeryProcessor.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_compiler/src/main/java/io/victoralbertos/mockery/internal/MockeryProcessor.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :test_compiler:processResources UP-TO-DATE
@@ -930,15 +925,15 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 8.239 secs
+Total time: 6.836 secs
 
-2018-11-12 11:40:29,115 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 11:40:29,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 11:40:36,412 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 11:40:36,412 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 11:40:36,412 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 11:40:36,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541997333350-0/src/test_runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 11:40:42,092 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:50:23,298 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:50:23,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:50:29,113 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:50:29,114 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 02:50:29,114 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 02:50:29,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442376047-0/src/test_runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:50:33,794 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileJava UP-TO-DATE
 :core:processResources UP-TO-DATE
 :core:classes UP-TO-DATE
@@ -963,7 +958,7 @@ Total time: 8.239 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.207 secs
+Total time: 4.215 secs
 
-2018-11-12 11:40:42,130 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 11:40:42,162 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 02:50:33,821 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 02:50:33,842 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,33 +1,36 @@
-2018-11-11 23:49:48,614 INFO  DownloadService - Downloading "https://github.com/dynamitechetan/Flowing-Gradient/archive/master.zip", attempt 3
-2018-11-11 23:49:50,477 INFO  DownloadService - Downloaded https://github.com/dynamitechetan/Flowing-Gradient/archive/master.zip, attempt 3
-2018-11-11 23:49:50,477 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/master.zip": 235 KB
-2018-11-11 23:49:50,477 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:49:50,477 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/master.zip: true
-2018-11-11 23:49:50,477 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src'.
-2018-11-11 23:49:50,500 INFO  FullProcessService - Size of directory with sources: 244 KB
-2018-11-11 23:49:50,500 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src]
-2018-11-11 23:49:50,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/.git/
+2019-07-07 00:20:25,511 INFO  DownloadService - Downloading "https://github.com/dynamitechetan/Flowing-Gradient/archive/master.zip", attempt 3
+2019-07-07 00:21:26,467 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:21:27,224 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:21:27,224 INFO  DownloadService - Downloading "https://github.com/dynamitechetan/Flowing-Gradient/archive/master.zip", attempt 3
+2019-07-07 00:22:28,578 DEBUG FullProcessService - Repository https://github.com/dynamitechetan/Flowing-Gradient available: true
+2019-07-07 00:22:28,579 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:22:28,579 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dynamitechetan/Flowing-Gradient, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src]
+2019-07-07 00:22:30,487 INFO  SysUtils - 
+2019-07-07 00:22:30,494 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/.git": true
+2019-07-07 00:22:30,497 INFO  FullProcessService - Size of directory with sources: 244 KB
+2019-07-07 00:22:30,497 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src]
+2019-07-07 00:22:30,512 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/.git/
 
-2018-11-11 23:49:50,522 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/gradlew
-2018-11-11 23:49:50,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/flowinggradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/build.gradle
-2018-11-11 23:49:50,529 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/flowinggradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/settings.gradle
-2018-11-11 23:49:50,529 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:49:50,529 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:49:50,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/local.properties
-2018-11-11 23:49:50,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-11-11 23:49:50,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/flowinggradient/local.properties
-2018-11-11 23:49:50,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/flowinggradient/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-11-11 23:49:50,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/local.properties
-2018-11-11 23:49:50,540 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 23:49:50,540 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 23:49:50,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-11-11 23:49:50,541 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:49:50,541 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:49:50,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:49:58,160 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-11 23:49:58,160 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 23:49:58,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 23:50:16,324 ERROR SysUtils - Could not process external command
+2019-07-07 00:22:30,514 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/gradlew
+2019-07-07 00:22:30,517 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/flowinggradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/build.gradle
+2019-07-07 00:22:30,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/flowinggradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/settings.gradle
+2019-07-07 00:22:30,519 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:22:30,519 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:22:30,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/local.properties
+2019-07-07 00:22:30,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-07-07 00:22:30,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/flowinggradient/local.properties
+2019-07-07 00:22:30,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/flowinggradient/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-07-07 00:22:30,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/local.properties
+2019-07-07 00:22:30,527 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 00:22:30,527 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 00:22:30,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-07-07 00:22:30,528 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:22:30,528 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:22:30,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:22:36,370 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-07 00:22:36,370 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 00:22:36,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 00:22:50,615 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 23:50:16,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 00:22:50,615 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -140,7 +143,7 @@ Merged dex #7 (4 defs/4.1KiB)
 Merged dex #8 (60 defs/148.0KiB)
 Merged dex #9 (335 defs/262.9KiB)
 Merged dex #10 (41 defs/6.5KiB)
-Result is 1878 defs/3066.2KiB. Took 0.3s
+Result is 1878 defs/3066.2KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -265,6 +268,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.6 secs
+Total time: 13.676 secs
 
-2018-11-11 23:50:16,416 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541954988606-0/src/Flowing-Gradient-master/app/build/outputs/apk/app-debug.apk
+2019-07-07 00:22:50,675 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433625508-0/src/app/build/outputs/apk/app-debug.apk

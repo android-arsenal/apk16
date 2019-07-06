@@ -1,33 +1,36 @@
-2018-11-11 23:50:24,506 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/Scripto/archive/master.zip", attempt 3
-2018-11-11 23:50:25,152 INFO  DownloadService - Downloaded https://github.com/ImangazalievM/Scripto/archive/master.zip, attempt 3
-2018-11-11 23:50:25,152 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/master.zip": 108 KB
-2018-11-11 23:50:25,152 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:50:25,152 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/master.zip: true
-2018-11-11 23:50:25,152 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src'.
-2018-11-11 23:50:25,177 INFO  FullProcessService - Size of directory with sources: 168 KB
-2018-11-11 23:50:25,177 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src]
-2018-11-11 23:50:25,200 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/.git/
+2019-07-07 00:22:58,369 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/Scripto/archive/master.zip", attempt 3
+2019-07-07 00:23:58,908 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 00:24:00,020 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 00:24:00,020 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/Scripto/archive/master.zip", attempt 3
+2019-07-07 00:25:01,662 DEBUG FullProcessService - Repository https://github.com/ImangazalievM/Scripto available: true
+2019-07-07 00:25:01,662 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 00:25:01,662 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ImangazalievM/Scripto, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src]
+2019-07-07 00:25:04,172 INFO  SysUtils - 
+2019-07-07 00:25:04,178 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/.git": true
+2019-07-07 00:25:04,181 INFO  FullProcessService - Size of directory with sources: 168 KB
+2019-07-07 00:25:04,181 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src]
+2019-07-07 00:25:04,196 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/.git/
 
-2018-11-11 23:50:25,205 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-11-11 23:50:25,206 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-11-11 23:50:25,215 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/build.gradle
-2018-11-11 23:50:25,220 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/settings.gradle
-2018-11-11 23:50:25,220 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:50:25,220 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:50:25,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/local.properties
-2018-11-11 23:50:25,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-11 23:50:25,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/local.properties
-2018-11-11 23:50:25,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-11 23:50:25,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/local.properties
-2018-11-11 23:50:25,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-11 23:50:25,234 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:50:25,234 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:50:25,234 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:50:25,247 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-11 23:50:25,247 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:50:25,247 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:50:25,247 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:50:25,252 ERROR SysUtils - Could not process external command
+2019-07-07 00:25:04,199 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-07 00:25:04,199 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-07 00:25:04,204 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/build.gradle
+2019-07-07 00:25:04,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/settings.gradle
+2019-07-07 00:25:04,207 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 00:25:04,207 INFO  ProjectFixService - Fixing project...
+2019-07-07 00:25:04,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/local.properties
+2019-07-07 00:25:04,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-07 00:25:04,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/local.properties
+2019-07-07 00:25:04,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-07 00:25:04,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/local.properties
+2019-07-07 00:25:04,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-07 00:25:04,214 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 00:25:04,214 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:25:04,214 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:25:04,225 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-07 00:25:04,225 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:25:04,225 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:25:04,225 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:25:04,229 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -64,14 +67,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-11-11 23:50:25,252 INFO  SysUtils - 
-2018-11-11 23:50:25,256 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:50:25,256 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:50:25,261 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-11 23:50:25,261 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:50:25,261 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:50:25,261 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/scripto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:50:25,266 ERROR SysUtils - Could not process external command
+2019-07-07 00:25:04,229 INFO  SysUtils - 
+2019-07-07 00:25:04,232 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:25:04,232 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:25:04,236 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-07 00:25:04,236 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:25:04,236 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:25:04,236 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/scripto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:25:04,240 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -108,14 +111,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-11-11 23:50:25,266 INFO  SysUtils - 
-2018-11-11 23:50:25,270 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:50:25,270 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:50:25,275 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-11 23:50:25,275 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 23:50:25,275 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 23:50:25,275 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541955024498-0/src/Scripto-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 23:50:25,281 ERROR SysUtils - Could not process external command
+2019-07-07 00:25:04,240 INFO  SysUtils - 
+2019-07-07 00:25:04,243 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 00:25:04,243 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 00:25:04,247 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-07 00:25:04,247 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-07 00:25:04,247 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-07 00:25:04,247 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562433778364-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 00:25:04,251 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -152,6 +155,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-11-11 23:50:25,281 INFO  SysUtils - 
-2018-11-11 23:50:25,285 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 23:50:25,288 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 00:25:04,251 INFO  SysUtils - 
+2019-07-07 00:25:04,254 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 00:25:04,256 ERROR FullProcessService - Could not find generated or existed APK file

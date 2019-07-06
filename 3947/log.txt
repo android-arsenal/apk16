@@ -1,34 +1,34 @@
-2018-11-12 00:35:20,910 INFO  DownloadService - Downloading "https://github.com/simpleton/smscode-auto-reader/archive/master.zip", attempt 3
-2018-11-12 00:36:21,531 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-12 00:36:22,795 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-12 00:36:22,795 INFO  DownloadService - Downloading "https://github.com/simpleton/smscode-auto-reader/archive/master.zip", attempt 3
-2018-11-12 00:37:24,171 DEBUG FullProcessService - Repository https://github.com/simpleton/smscode-auto-reader available: true
-2018-11-12 00:37:24,172 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-12 00:37:24,172 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/simpleton/smscode-auto-reader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src]
-2018-11-12 00:37:26,067 INFO  SysUtils - 
-2018-11-12 00:37:26,083 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/.git": true
-2018-11-12 00:37:26,084 INFO  FullProcessService - Size of directory with sources: 67 KB
-2018-11-12 00:37:26,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src]
-2018-11-12 00:37:26,101 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/.git/
+2019-07-07 01:36:30,842 INFO  DownloadService - Downloading "https://github.com/simpleton/smscode-auto-reader/archive/master.zip", attempt 3
+2019-07-07 01:37:31,409 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 01:37:32,198 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 01:37:32,198 INFO  DownloadService - Downloading "https://github.com/simpleton/smscode-auto-reader/archive/master.zip", attempt 3
+2019-07-07 01:38:33,490 DEBUG FullProcessService - Repository https://github.com/simpleton/smscode-auto-reader available: true
+2019-07-07 01:38:33,491 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 01:38:33,491 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/simpleton/smscode-auto-reader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src]
+2019-07-07 01:38:35,266 INFO  SysUtils - 
+2019-07-07 01:38:35,279 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/.git": true
+2019-07-07 01:38:35,280 INFO  FullProcessService - Size of directory with sources: 67 KB
+2019-07-07 01:38:35,280 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src]
+2019-07-07 01:38:35,295 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/.git/
 
-2018-11-12 00:37:26,103 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/gradlew
-2018-11-12 00:37:26,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/build.gradle
-2018-11-12 00:37:26,110 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/settings.gradle
-2018-11-12 00:37:26,111 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 00:37:26,111 INFO  ProjectFixService - Fixing project...
-2018-11-12 00:37:26,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/local.properties
-2018-11-12 00:37:26,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-11-12 00:37:26,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/local.properties
-2018-11-12 00:37:26,117 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-11-12 00:37:26,118 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-11-12 00:37:26,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-11-12 00:37:26,119 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 00:37:26,119 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:37:26,119 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:37:35,913 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-11-12 00:37:35,913 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
-2018-11-12 00:37:35,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
-2018-11-12 00:37:42,653 ERROR SysUtils - Could not process external command
+2019-07-07 01:38:35,296 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/gradlew
+2019-07-07 01:38:35,297 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/build.gradle
+2019-07-07 01:38:35,298 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/settings.gradle
+2019-07-07 01:38:35,299 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 01:38:35,299 INFO  ProjectFixService - Fixing project...
+2019-07-07 01:38:35,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/local.properties
+2019-07-07 01:38:35,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-07 01:38:35,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/local.properties
+2019-07-07 01:38:35,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-07 01:38:35,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-07 01:38:35,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-07 01:38:35,304 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 01:38:35,304 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:38:35,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:38:42,041 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-07 01:38:42,041 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-07-07 01:38:42,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-07-07 01:38:46,744 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:37:42,653 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:38:46,744 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:mergeDebugProguardFiles
@@ -162,14 +161,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Users/v
 
 BUILD FAILED
 
-Total time: 6.255 secs
+Total time: 4.15 secs
 
-2018-11-12 00:37:42,659 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:37:42,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:37:49,311 INFO  ProjectTaskService - Detected possible tasks: 63
-2018-11-12 00:37:49,312 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
-2018-11-12 00:37:49,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957720902-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
-2018-11-12 00:37:55,684 ERROR SysUtils - Could not process external command
+2019-07-07 01:38:46,746 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:38:46,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:38:51,328 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-07 01:38:51,328 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-07-07 01:38:51,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562438190838-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-07-07 01:38:55,694 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -182,8 +181,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -197,7 +195,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:37:55,684 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:38:55,694 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:mergeDebugProguardFiles UP-TO-DATE
@@ -303,7 +301,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Users/v
 
 BUILD FAILED
 
-Total time: 5.88 secs
+Total time: 3.851 secs
 
-2018-11-12 00:37:55,689 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 00:37:55,693 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-07 01:38:55,697 ERROR FullProcessService - Project build has not produced APK file
+2019-07-07 01:38:55,700 ERROR FullProcessService - Could not find generated or existed APK file

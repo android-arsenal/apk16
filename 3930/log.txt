@@ -1,39 +1,39 @@
-2018-11-12 01:08:16,241 INFO  DownloadService - Downloading "https://github.com/gwoodhouse/BottomNavigation/archive/master.zip", attempt 3
-2018-11-12 01:09:17,185 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-12 01:09:18,072 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-12 01:09:18,072 INFO  DownloadService - Downloading "https://github.com/gwoodhouse/BottomNavigation/archive/master.zip", attempt 3
-2018-11-12 01:10:19,349 DEBUG FullProcessService - Repository https://github.com/gwoodhouse/BottomNavigation available: true
-2018-11-12 01:10:19,349 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-12 01:10:19,350 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gwoodhouse/BottomNavigation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src]
-2018-11-12 01:10:22,241 INFO  SysUtils - 
-2018-11-12 01:10:22,249 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/.git": true
-2018-11-12 01:10:22,252 INFO  FullProcessService - Size of directory with sources: 567 KB
-2018-11-12 01:10:22,253 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src]
-2018-11-12 01:10:22,270 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/.git/
+2019-07-07 02:02:37,133 INFO  DownloadService - Downloading "https://github.com/gwoodhouse/BottomNavigation/archive/master.zip", attempt 3
+2019-07-07 02:03:37,779 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 02:03:38,991 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 02:03:38,992 INFO  DownloadService - Downloading "https://github.com/gwoodhouse/BottomNavigation/archive/master.zip", attempt 3
+2019-07-07 02:04:40,356 DEBUG FullProcessService - Repository https://github.com/gwoodhouse/BottomNavigation available: true
+2019-07-07 02:04:40,356 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 02:04:40,357 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gwoodhouse/BottomNavigation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src]
+2019-07-07 02:04:42,446 INFO  SysUtils - 
+2019-07-07 02:04:42,452 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/.git": true
+2019-07-07 02:04:42,454 INFO  FullProcessService - Size of directory with sources: 567 KB
+2019-07-07 02:04:42,454 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src]
+2019-07-07 02:04:42,470 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/.git/
 
-2018-11-12 01:10:22,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew
-2018-11-12 01:10:22,277 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/build.gradle
-2018-11-12 01:10:22,280 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle
-2018-11-12 01:10:22,281 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-11-12 01:10:24,333 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-11-12 01:10:24,333 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-11-12 01:10:24,333 INFO  ProjectFixService - Fixing project...
-2018-11-12 01:10:24,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/local.properties
-2018-11-12 01:10:24,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
-2018-11-12 01:10:24,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/local.properties
-2018-11-12 01:10:24,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
-2018-11-12 01:10:24,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/local.properties
-2018-11-12 01:10:24,351 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 01:10:24,351 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 01:10:24,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
-2018-11-12 01:10:24,352 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 01:10:24,352 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 01:10:24,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 01:10:36,822 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 01:10:36,822 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-12 01:10:36,822 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-12 01:10:36,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-12 01:10:49,408 ERROR SysUtils - Could not process external command
+2019-07-07 02:04:42,472 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew
+2019-07-07 02:04:42,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/build.gradle
+2019-07-07 02:04:42,480 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle
+2019-07-07 02:04:42,480 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-07-07 02:04:43,084 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-07-07 02:04:43,084 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-07-07 02:04:43,084 INFO  ProjectFixService - Fixing project...
+2019-07-07 02:04:43,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/local.properties
+2019-07-07 02:04:43,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2019-07-07 02:04:43,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/local.properties
+2019-07-07 02:04:43,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2019-07-07 02:04:43,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/local.properties
+2019-07-07 02:04:43,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 02:04:43,095 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 02:04:43,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2019-07-07 02:04:43,096 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 02:04:43,096 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:04:43,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:04:50,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-07 02:04:50,001 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-07 02:04:50,001 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-07 02:04:50,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-07 02:05:00,261 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 01:10:49,408 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:05:00,261 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :BottomNavigationModule:preBuild UP-TO-DATE
 :BottomNavigationModule:preDebugBuild UP-TO-DATE
@@ -95,9 +95,9 @@ Incremental java compilation is an incubating feature.
 :BottomNavigationModule:incrementalDebugJavaCompilationSafeguard
 :BottomNavigationModule:compileDebugJavaWithJavac
 :BottomNavigationModule:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/view/BottomNavigationTabView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/view/BottomNavigationTabView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/behaviour/BottomNavigationBehavior.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/behaviour/BottomNavigationBehavior.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :BottomNavigationModule:extractDebugAnnotations
 :BottomNavigationModule:mergeDebugProguardFiles
@@ -132,9 +132,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :BottomNavigationModule:incrementalReleaseJavaCompilationSafeguard
 :BottomNavigationModule:compileReleaseJavaWithJavac
 :BottomNavigationModule:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/view/BottomNavigationTabView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/view/BottomNavigationTabView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/behaviour/BottomNavigationBehavior.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/BottomNavigationModule/src/main/java/ca/gcastle/bottomnavigation/behaviour/BottomNavigationBehavior.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :BottomNavigationModule:extractReleaseAnnotations
 :BottomNavigationModule:mergeReleaseProguardFiles
@@ -246,14 +246,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.067 secs
+Total time: 9.679 secs
 
-2018-11-12 01:10:49,473 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 01:10:49,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 01:10:58,852 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-11-12 01:10:58,852 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 01:10:58,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 01:11:06,177 ERROR SysUtils - Could not process external command
+2019-07-07 02:05:00,302 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 02:05:00,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 02:05:06,182 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-07 02:05:06,182 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 02:05:06,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 02:05:11,883 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -280,7 +280,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 01:11:06,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:05:11,883 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -341,11 +341,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 BUILD FAILED
 
-Total time: 6.801 secs
+Total time: 5.145 secs
 
-2018-11-12 01:11:06,177 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 01:11:06,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 01:11:24,854 ERROR SysUtils - Could not process external command
+2019-07-07 02:05:11,883 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-07 02:05:11,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-07 02:05:26,175 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -372,7 +372,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 01:11:24,856 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 02:05:26,175 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :BottomNavigationModule:preBuild UP-TO-DATE
 :BottomNavigationModule:preReleaseBuild UP-TO-DATE
@@ -461,7 +461,7 @@ Merged dex #8 (77 defs/166.2KiB)
 Merged dex #9 (333 defs/262.4KiB)
 Merged dex #10 (20 defs/27.6KiB)
 Merged dex #11 (41 defs/6.5KiB)
-Result is 1920 defs/3136.0KiB. Took 0.3s
+Result is 1920 defs/3136.0KiB. Took 0.2s
 :SampleApp:mergeDebugJniLibFolders
 :SampleApp:transformNative_libsWithMergeJniLibsForDebug
 :SampleApp:processDebugJavaRes UP-TO-DATE
@@ -586,6 +586,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.079 secs
+Total time: 13.677 secs
 
-2018-11-12 01:11:24,978 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541959696238-0/src/SampleApp/build/outputs/apk/SampleApp-debug.apk
+2019-07-07 02:05:26,251 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562439757131-0/src/SampleApp/build/outputs/apk/SampleApp-debug.apk

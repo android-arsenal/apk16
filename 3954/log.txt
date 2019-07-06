@@ -1,33 +1,36 @@
-2018-11-12 00:24:17,963 INFO  DownloadService - Downloading "https://github.com/SparkYuan/SubmitButton/archive/master.zip", attempt 3
-2018-11-12 00:24:20,742 INFO  DownloadService - Downloaded https://github.com/SparkYuan/SubmitButton/archive/master.zip, attempt 3
-2018-11-12 00:24:20,742 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/master.zip": 1 MB
-2018-11-12 00:24:20,742 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 00:24:20,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/master.zip: true
-2018-11-12 00:24:20,747 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src'.
-2018-11-12 00:24:20,773 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-12 00:24:20,773 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src]
-2018-11-12 00:24:20,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/.git/
+2019-07-07 01:21:16,825 INFO  DownloadService - Downloading "https://github.com/SparkYuan/SubmitButton/archive/master.zip", attempt 3
+2019-07-07 01:22:17,386 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-07 01:22:18,192 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-07 01:22:18,192 INFO  DownloadService - Downloading "https://github.com/SparkYuan/SubmitButton/archive/master.zip", attempt 3
+2019-07-07 01:23:19,485 DEBUG FullProcessService - Repository https://github.com/SparkYuan/SubmitButton available: true
+2019-07-07 01:23:19,485 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-07 01:23:19,485 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SparkYuan/SubmitButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src]
+2019-07-07 01:23:22,141 INFO  SysUtils - 
+2019-07-07 01:23:22,170 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/.git": true
+2019-07-07 01:23:22,172 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-07 01:23:22,172 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src]
+2019-07-07 01:23:22,186 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/.git/
 
-2018-11-12 00:24:20,795 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/gradlew
-2018-11-12 00:24:20,799 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/submitbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/build.gradle
-2018-11-12 00:24:20,802 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/submitbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/settings.gradle
-2018-11-12 00:24:20,802 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 00:24:20,802 INFO  ProjectFixService - Fixing project...
-2018-11-12 00:24:20,811 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/local.properties
-2018-11-12 00:24:20,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 00:24:20,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/submitbutton/local.properties
-2018-11-12 00:24:20,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/submitbutton/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 00:24:20,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/local.properties
-2018-11-12 00:24:20,814 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 00:24:20,815 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 00:24:20,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-12 00:24:20,816 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 00:24:20,816 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 00:24:20,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 00:24:28,895 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-12 00:24:28,895 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 00:24:28,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 00:24:46,143 ERROR SysUtils - Could not process external command
+2019-07-07 01:23:22,189 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/gradlew
+2019-07-07 01:23:22,191 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/submitbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/build.gradle
+2019-07-07 01:23:22,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/submitbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/settings.gradle
+2019-07-07 01:23:22,193 INFO  ProjectBuildService - Remote scripts: none
+2019-07-07 01:23:22,193 INFO  ProjectFixService - Fixing project...
+2019-07-07 01:23:22,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/local.properties
+2019-07-07 01:23:22,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 01:23:22,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/submitbutton/local.properties
+2019-07-07 01:23:22,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/submitbutton/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 01:23:22,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/local.properties
+2019-07-07 01:23:22,200 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-07 01:23:22,200 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-07 01:23:22,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-07 01:23:22,201 INFO  ProjectFixService - Project was maybe fixed
+2019-07-07 01:23:22,201 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-07 01:23:22,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-07 01:23:28,005 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-07 01:23:28,005 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-07 01:23:28,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-07 01:23:42,205 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 00:24:46,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-07 01:23:42,205 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -262,6 +264,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.702 secs
+Total time: 13.609 secs
 
-2018-11-12 00:24:46,231 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541957057959-0/src/SubmitButton-master/app/build/outputs/apk/app-debug.apk
+2019-07-07 01:23:42,264 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562437276821-0/src/app/build/outputs/apk/app-debug.apk
