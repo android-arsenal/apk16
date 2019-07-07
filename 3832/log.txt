@@ -1,20 +1,20 @@
-2018-12-16 21:54:45,408 INFO  DownloadService - Downloading "https://github.com/saschpe/android-versioninfo/archive/master.zip", attempt 3
-2018-12-16 21:55:46,018 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-16 21:55:47,076 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-16 21:55:47,077 INFO  DownloadService - Downloading "https://github.com/saschpe/android-versioninfo/archive/master.zip", attempt 3
-2018-12-16 21:56:48,445 DEBUG FullProcessService - Repository https://github.com/saschpe/android-versioninfo available: true
-2018-12-16 21:56:48,445 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-16 21:56:48,445 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/saschpe/android-versioninfo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972085399-0/src]
-2018-12-16 21:56:50,317 INFO  SysUtils - 
-2018-12-16 21:56:50,353 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972085399-0/src/.git": true
-2018-12-16 21:56:50,356 INFO  FullProcessService - Size of directory with sources: 200 KB
-2018-12-16 21:56:50,357 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972085399-0/src]
-2018-12-16 21:56:50,374 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972085399-0/src/.git/
+2019-07-08 01:12:23,332 INFO  DownloadService - Downloading "https://github.com/saschpe/android-versioninfo/archive/master.zip", attempt 3
+2019-07-08 01:13:23,930 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 01:13:25,116 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 01:13:25,116 INFO  DownloadService - Downloading "https://github.com/saschpe/android-versioninfo/archive/master.zip", attempt 3
+2019-07-08 01:14:26,864 DEBUG FullProcessService - Repository https://github.com/saschpe/android-versioninfo available: true
+2019-07-08 01:14:26,864 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 01:14:26,864 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/saschpe/android-versioninfo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523143324-0/src]
+2019-07-08 01:14:29,076 INFO  SysUtils - 
+2019-07-08 01:14:29,104 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523143324-0/src/.git": true
+2019-07-08 01:14:29,107 INFO  FullProcessService - Size of directory with sources: 201 KB
+2019-07-08 01:14:29,107 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523143324-0/src]
+2019-07-08 01:14:29,122 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523143324-0/src/.git/
 
-2018-12-16 21:56:50,378 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544972085399-0/src/gradlew
-2018-12-16 21:56:50,382 INFO  ProjectBuildService - Build script(s): none
-2018-12-16 21:56:50,385 INFO  ProjectBuildService - All script(s): none
-2018-12-16 21:56:50,385 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:56:50,385 ERROR FullProcessService - Project is not correct Gradle project
-2018-12-16 21:56:50,385 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 21:56:50,388 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 01:14:29,124 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523143324-0/src/gradlew
+2019-07-08 01:14:29,126 INFO  ProjectBuildService - Build script(s): none
+2019-07-08 01:14:29,128 INFO  ProjectBuildService - All script(s): none
+2019-07-08 01:14:29,128 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:14:29,128 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-08 01:14:29,128 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 01:14:29,130 ERROR FullProcessService - Could not find generated or existed APK file

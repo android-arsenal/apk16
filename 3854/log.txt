@@ -1,36 +1,36 @@
-2018-11-12 16:55:37,160 INFO  DownloadService - Downloading "https://github.com/venshine/GoodView/archive/master.zip", attempt 3
-2018-11-12 16:55:39,036 INFO  DownloadService - Downloaded https://github.com/venshine/GoodView/archive/master.zip, attempt 3
-2018-11-12 16:55:39,036 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/master.zip": 130 KB
-2018-11-12 16:55:39,036 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:55:39,036 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/master.zip: true
-2018-11-12 16:55:39,037 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src'.
-2018-11-12 16:55:39,050 INFO  FullProcessService - Size of directory with sources: 152 KB
-2018-11-12 16:55:39,051 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src]
-2018-11-12 16:55:39,070 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/.git/
+2019-07-08 00:31:27,402 INFO  DownloadService - Downloading "https://github.com/venshine/GoodView/archive/master.zip", attempt 3
+2019-07-08 00:31:28,607 INFO  DownloadService - Downloaded https://github.com/venshine/GoodView/archive/master.zip, attempt 3
+2019-07-08 00:31:28,608 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/master.zip": 130 KB
+2019-07-08 00:31:28,608 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:31:28,613 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/master.zip: true
+2019-07-08 00:31:28,614 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src'.
+2019-07-08 00:31:28,628 INFO  FullProcessService - Size of directory with sources: 152 KB
+2019-07-08 00:31:28,628 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src]
+2019-07-08 00:31:28,643 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/.git/
 
-2018-11-12 16:55:39,072 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew
-2018-11-12 16:55:39,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/build.gradle
-2018-11-12 16:55:39,077 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle
-2018-11-12 16:55:39,078 INFO  DownloadService - Downloading "http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle", attempt 3
-2018-11-12 16:55:41,432 INFO  DownloadService - Downloaded http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle, attempt 3
-2018-11-12 16:55:41,432 INFO  ProjectBuildService - Remote scripts: http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle
-2018-11-12 16:55:41,432 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:55:41,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/local.properties
-2018-11-12 16:55:41,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:55:41,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/local.properties
-2018-11-12 16:55:41,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:55:41,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/local.properties
-2018-11-12 16:55:41,443 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 16:55:41,443 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 16:55:41,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:55:41,445 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:55:41,445 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:55:41,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:55:48,164 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 16:55:48,164 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 16:55:48,164 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 16:55:48,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 16:55:53,636 ERROR SysUtils - Could not process external command
+2019-07-08 00:31:28,646 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew
+2019-07-08 00:31:28,647 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/build.gradle
+2019-07-08 00:31:28,649 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle
+2019-07-08 00:31:28,649 INFO  DownloadService - Downloading "http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle", attempt 3
+2019-07-08 00:31:30,815 INFO  DownloadService - Downloaded http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle, attempt 3
+2019-07-08 00:31:30,826 INFO  ProjectBuildService - Remote scripts: http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle
+2019-07-08 00:31:30,826 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:31:30,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/local.properties
+2019-07-08 00:31:30,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:31:30,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/local.properties
+2019-07-08 00:31:30,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:31:30,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/local.properties
+2019-07-08 00:31:30,834 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 00:31:30,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 00:31:30,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:31:30,838 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:31:30,838 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:31:30,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:31:36,135 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 00:31:36,135 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-08 00:31:36,136 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-08 00:31:36,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-08 00:31:40,573 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:55:53,636 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:31:40,573 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -119,11 +118,11 @@ org.gradle.execution.TaskSelectionException: Task 'sourcesJar' not found in proj
 
 BUILD FAILED
 
-Total time: 4.967 secs
+Total time: 3.948 secs
 
-2018-11-12 16:55:53,637 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 16:55:53,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 16:56:04,491 ERROR SysUtils - Could not process external command
+2019-07-08 00:31:40,573 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:31:40,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:31:49,663 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -136,8 +135,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -151,7 +149,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:56:04,491 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:31:49,663 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :goodview:preBuild UP-TO-DATE
 :goodview:preDebugBuild UP-TO-DATE
@@ -184,7 +182,7 @@ Incremental java compilation is an incubating feature.
 :goodview:incrementalDebugJavaCompilationSafeguard
 :goodview:compileDebugJavaWithJavac
 :goodview:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/src/main/java/com/wx/goodview/GoodView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/src/main/java/com/wx/goodview/GoodView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :goodview:extractDebugAnnotations
 :goodview:mergeDebugProguardFiles
@@ -219,7 +217,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :goodview:incrementalReleaseJavaCompilationSafeguard
 :goodview:compileReleaseJavaWithJavac
 :goodview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/goodview/src/main/java/com/wx/goodview/GoodView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/goodview/src/main/java/com/wx/goodview/GoodView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :goodview:extractReleaseAnnotations
 :goodview:mergeReleaseProguardFiles
@@ -331,14 +329,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.342 secs
+Total time: 8.585 secs
 
-2018-11-12 16:56:04,547 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:56:04,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:56:11,634 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-12 16:56:11,634 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 16:56:11,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 16:56:19,291 ERROR SysUtils - Could not process external command
+2019-07-08 00:31:49,699 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:31:49,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:31:54,576 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-08 00:31:54,576 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:31:54,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:31:59,273 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -351,8 +349,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -366,7 +363,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:56:19,291 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:31:59,273 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -427,11 +424,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 7.147 secs
+Total time: 4.195 secs
 
-2018-11-12 16:56:19,291 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 16:56:19,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 16:56:34,670 ERROR SysUtils - Could not process external command
+2019-07-08 00:31:59,273 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:31:59,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:32:11,257 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -444,8 +441,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -459,7 +455,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:56:34,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:32:11,257 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :goodview:preBuild UP-TO-DATE
 :goodview:preReleaseBuild UP-TO-DATE
@@ -528,7 +524,7 @@ Incremental java compilation is an incubating feature.
 :sample:incrementalDebugJavaCompilationSafeguard
 :sample:compileDebugJavaWithJavac
 :sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/src/main/java/com/wx/goodview/demo/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/src/main/java/com/wx/goodview/demo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :sample:compileDebugNdk UP-TO-DATE
 :sample:compileDebugSources
@@ -542,7 +538,7 @@ Merged dex #5 (17 defs/48.5KiB)
 Merged dex #6 (42 defs/102.0KiB)
 Merged dex #7 (333 defs/262.4KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1542 defs/2318.2KiB. Took 0.3s
+Result is 1542 defs/2318.2KiB. Took 0.2s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -569,7 +565,7 @@ Result is 1542 defs/2318.2KiB. Took 0.3s
 :sample:incrementalReleaseJavaCompilationSafeguard
 :sample:compileReleaseJavaWithJavac
 :sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/src/main/java/com/wx/goodview/demo/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/src/main/java/com/wx/goodview/demo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :sample:compileReleaseNdk UP-TO-DATE
 :sample:compileReleaseSources
@@ -669,6 +665,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.808 secs
+Total time: 11.453 secs
 
-2018-11-12 16:56:34,787 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016537155-0/src/GoodView-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 00:32:11,322 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520687399-0/src/GoodView-master/sample/build/outputs/apk/sample-debug-unaligned.apk

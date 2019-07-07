@@ -1,141 +1,164 @@
-2018-11-12 23:20:15,535 INFO  DownloadService - Downloading "https://github.com/drstranges/ActionHandler/archive/master.zip", attempt 3
-2018-11-12 23:20:16,203 INFO  DownloadService - Downloaded https://github.com/drstranges/ActionHandler/archive/master.zip, attempt 3
-2018-11-12 23:20:16,203 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/master.zip": 219 KB
-2018-11-12 23:20:16,203 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 23:20:16,205 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/master.zip: true
-2018-11-12 23:20:16,205 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src'.
-2018-11-12 23:20:16,257 INFO  FullProcessService - Size of directory with sources: 354 KB
-2018-11-12 23:20:16,257 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src]
-2018-11-12 23:20:16,285 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/.git/
+2019-07-08 00:54:31,773 INFO  DownloadService - Downloading "https://github.com/drstranges/ActionHandler/archive/master.zip", attempt 3
+2019-07-08 00:55:32,393 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 00:55:33,176 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 00:55:33,176 INFO  DownloadService - Downloading "https://github.com/drstranges/ActionHandler/archive/master.zip", attempt 3
+2019-07-08 00:56:34,582 DEBUG FullProcessService - Repository https://github.com/drstranges/ActionHandler available: true
+2019-07-08 00:56:34,582 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 00:56:34,582 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/drstranges/ActionHandler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src]
+2019-07-08 00:56:36,735 INFO  SysUtils - 
+2019-07-08 00:56:36,742 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/.git": true
+2019-07-08 00:56:36,746 INFO  FullProcessService - Size of directory with sources: 357 KB
+2019-07-08 00:56:36,746 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src]
+2019-07-08 00:56:36,762 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/.git/
 
-2018-11-12 23:20:16,292 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew
-2018-11-12 23:20:16,299 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/simple-handling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/build.gradle
-2018-11-12 23:20:16,308 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/simple-handling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/settings.gradle
-2018-11-12 23:20:16,309 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-12 23:20:16,410 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-12 23:20:16,410 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-12 23:20:16,510 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-12 23:20:16,510 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-12 23:20:16,510 INFO  ProjectFixService - Fixing project...
-2018-11-12 23:20:16,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/local.properties
-2018-11-12 23:20:16,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:20:16,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/local.properties
-2018-11-12 23:20:16,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:20:16,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/simple-handling/local.properties
-2018-11-12 23:20:16,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/simple-handling/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:20:16,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/local.properties
-2018-11-12 23:20:16,531 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-12 23:20:16,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-12 23:20:16,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:20:16,533 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 23:20:16,533 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:20:16,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:20:26,866 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-12 23:20:26,867 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-12 23:20:26,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-12 23:20:51,097 INFO  SysUtils - Configuration on demand is an incubating feature.
-:actionhandler:preBuild UP-TO-DATE
-:actionhandler:preDebugBuild UP-TO-DATE
-:actionhandler:compileDebugAidl
-Download https://maven.google.com/com/android/databinding/library/3.1.0/library-3.1.0.pom
-Download https://maven.google.com/com/android/databinding/adapters/3.1.0/adapters-3.1.0.pom
-Download https://maven.google.com/com/android/databinding/adapters/3.1.0/adapters-3.1.0.aar
-Download https://maven.google.com/com/android/databinding/library/3.1.0/library-3.1.0.aar
-:actionhandler:compileDebugRenderscript
-:actionhandler:generateDebugResValues
-:actionhandler:generateDebugResources
-:actionhandler:mergeDebugResources
-:actionhandler:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
-:actionhandler:dataBindingGenBaseClassesDebug
-:actionhandler:checkDebugManifest
-:actionhandler:generateDebugBuildConfig
-:actionhandler:packageDebugResources
-:actionhandler:platformAttrExtractor
-:actionhandler:processDebugManifest
-:actionhandler:prepareLintJar
-:actionhandler:javaPreCompileDebug
-Download https://maven.google.com/com/android/databinding/compiler/3.1.0/compiler-3.1.0.pom
-Download https://maven.google.com/com/android/databinding/compiler/3.1.0/compiler-3.1.0.jar
-:actionhandler:transformDataBindingWithDataBindingMergeArtifactsForDebug
-:actionhandler:mergeDebugConsumerProguardFiles
-:actionhandler:mergeDebugShaders
-:actionhandler:compileDebugShaders
-:actionhandler:generateDebugAssets
-:actionhandler:packageDebugAssets
-:actionhandler:packageDebugRenderscript NO-SOURCE
-:actionhandler:processDebugJavaRes NO-SOURCE
-:actionhandler:compileDebugNdk NO-SOURCE
-:actionhandler:mergeDebugJniLibFolders
-:actionhandler:transformNativeLibsWithMergeJniLibsForDebug
-:actionhandler:transformNativeLibsWithStripDebugSymbolForDebug
-:actionhandler:transformNativeLibsWithSyncJniLibsForDebug
-:actionhandler:preReleaseBuild UP-TO-DATE
-:actionhandler:compileReleaseAidl
-:actionhandler:compileReleaseRenderscript
-:actionhandler:generateReleaseResValues
-:actionhandler:generateReleaseResources
-:actionhandler:mergeReleaseResources
-:actionhandler:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
-:actionhandler:dataBindingGenBaseClassesRelease
-:actionhandler:checkReleaseManifest
-:actionhandler:generateReleaseBuildConfig
-:actionhandler:packageReleaseResources
-:actionhandler:processReleaseManifest
-:actionhandler:javaPreCompileRelease
-:actionhandler:transformDataBindingWithDataBindingMergeArtifactsForRelease
-:actionhandler:mergeReleaseConsumerProguardFiles
-:actionhandler:mergeReleaseShaders
-:actionhandler:compileReleaseShaders
-:actionhandler:generateReleaseAssets
-:actionhandler:packageReleaseAssets
-:actionhandler:packageReleaseRenderscript NO-SOURCE
-:actionhandler:processReleaseJavaRes NO-SOURCE
-:actionhandler:compileReleaseNdk NO-SOURCE
-:actionhandler:mergeReleaseJniLibFolders
-:actionhandler:transformNativeLibsWithMergeJniLibsForRelease
-:actionhandler:transformNativeLibsWithStripDebugSymbolForRelease
-:actionhandler:transformNativeLibsWithSyncJniLibsForRelease
-:actionhandler:verifyReleaseResources
-:actionhandler:generateDebugRFile
-:actionhandler:generateDebugSources
-:actionhandler:dataBindingExportBuildInfoDebug
-:actionhandler:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/src/main/java/com/drextended/actionhandler/util/ProgressBarController.java uses or overrides a deprecated API.
+2019-07-08 00:56:36,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew
+2019-07-08 00:56:36,768 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/simple-handling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/build.gradle
+2019-07-08 00:56:36,771 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/simple-handling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/settings.gradle
+2019-07-08 00:56:36,771 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-08 00:56:37,128 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-08 00:56:37,129 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-08 00:56:37,209 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-08 00:56:37,209 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-08 00:56:37,209 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:56:37,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/local.properties
+2019-07-08 00:56:37,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:56:37,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:56:37,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/local.properties
+2019-07-08 00:56:37,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,227 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/simple-handling/local.properties
+2019-07-08 00:56:37,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/simple-handling/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/simple-handling/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/local.properties
+2019-07-08 00:56:37,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-08 00:56:37,232 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-08 00:56:37,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 00:56:37,233 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:56:37,233 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:56:37,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:56:46,980 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-07-08 00:56:46,980 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 00:56:46,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 00:57:01,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :actionhandler
+WARNING: The following project options are deprecated and have been removed: 
+android.databinding.enableV2
+Databinding v1 is removed.
+
+
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :actionhandler:preBuild UP-TO-DATE
+> Task :actionhandler:preDebugBuild UP-TO-DATE
+> Task :actionhandler:compileDebugAidl NO-SOURCE
+> Task :actionhandler:compileDebugRenderscript NO-SOURCE
+> Task :actionhandler:checkDebugManifest
+> Task :actionhandler:generateDebugBuildConfig
+> Task :actionhandler:prepareLintJar
+> Task :actionhandler:prepareLintJarForPublish
+> Task :actionhandler:generateDebugSources
+> Task :actionhandler:dataBindingExportBuildInfoDebug
+> Task :actionhandler:dataBindingMergeDependencyArtifactsDebug
+> Task :actionhandler:generateDebugResValues
+> Task :actionhandler:generateDebugResources
+> Task :actionhandler:mergeDebugResources
+> Task :actionhandler:packageDebugResources
+> Task :actionhandler:dataBindingMergeGenClassesDebug
+> Task :actionhandler:dataBindingGenBaseClassesDebug
+> Task :actionhandler:processDebugManifest
+> Task :actionhandler:mergeDebugShaders
+> Task :actionhandler:compileDebugShaders
+> Task :actionhandler:generateDebugAssets
+> Task :actionhandler:packageDebugAssets
+> Task :actionhandler:packageDebugRenderscript NO-SOURCE
+> Task :actionhandler:processDebugJavaRes NO-SOURCE
+> Task :actionhandler:mergeDebugJniLibFolders
+> Task :actionhandler:parseDebugLibraryResources
+> Task :actionhandler:preReleaseBuild UP-TO-DATE
+> Task :actionhandler:compileReleaseAidl NO-SOURCE
+> Task :actionhandler:compileReleaseRenderscript NO-SOURCE
+> Task :actionhandler:checkReleaseManifest
+> Task :actionhandler:generateReleaseBuildConfig
+> Task :actionhandler:generateReleaseSources
+> Task :actionhandler:dataBindingExportBuildInfoRelease
+> Task :actionhandler:mergeDebugNativeLibs
+> Task :actionhandler:stripDebugDebugSymbols
+> Task :actionhandler:transformNativeLibsWithSyncJniLibsForDebug
+> Task :actionhandler:generateReleaseResValues
+> Task :actionhandler:generateReleaseResources
+> Task :actionhandler:mergeReleaseResources
+> Task :actionhandler:packageReleaseResources
+> Task :actionhandler:javaPreCompileDebug
+> Task :actionhandler:processReleaseManifest
+> Task :actionhandler:mergeReleaseShaders
+> Task :actionhandler:compileReleaseShaders
+> Task :actionhandler:generateReleaseAssets
+> Task :actionhandler:packageReleaseAssets
+> Task :actionhandler:packageReleaseRenderscript NO-SOURCE
+> Task :actionhandler:processReleaseJavaRes NO-SOURCE
+> Task :actionhandler:mergeReleaseJniLibFolders
+> Task :actionhandler:generateDebugRFile
+
+> Task :actionhandler:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/src/main/java/com/drextended/actionhandler/util/ProgressBarController.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:actionhandler:extractDebugAnnotations
-:actionhandler:transformResourcesWithMergeJavaResForDebug
-:actionhandler:transformClassesAndResourcesWithSyncLibJarsForDebug
-:actionhandler:bundleDebug
-:actionhandler:compileDebugSources
-:actionhandler:assembleDebug
-:actionhandler:generateReleaseRFile
-:actionhandler:generateReleaseSources
-:actionhandler:dataBindingExportBuildInfoRelease
-:actionhandler:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/actionhandler/src/main/java/com/drextended/actionhandler/util/ProgressBarController.java uses or overrides a deprecated API.
+> Task :actionhandler:extractDebugAnnotations
+> Task :actionhandler:mergeDebugGeneratedProguardFiles
+> Task :actionhandler:mergeDebugConsumerProguardFiles
+> Task :actionhandler:javaPreCompileRelease
+> Task :actionhandler:compileDebugSources
+> Task :actionhandler:dataBindingMergeDependencyArtifactsRelease
+> Task :actionhandler:mergeDebugJavaResource
+> Task :actionhandler:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :actionhandler:bundleDebugAar
+> Task :actionhandler:dataBindingMergeGenClassesRelease
+> Task :actionhandler:assembleDebug
+> Task :actionhandler:dataBindingGenBaseClassesRelease
+> Task :actionhandler:parseReleaseLibraryResources
+> Task :actionhandler:mergeReleaseNativeLibs
+> Task :actionhandler:stripReleaseDebugSymbols
+> Task :actionhandler:transformNativeLibsWithSyncJniLibsForRelease
+> Task :actionhandler:generateReleaseRFile
+
+> Task :actionhandler:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/src/main/java/com/drextended/actionhandler/util/ProgressBarController.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:actionhandler:extractReleaseAnnotations
-:actionhandler:transformResourcesWithMergeJavaResForRelease
-:actionhandler:transformClassesAndResourcesWithSyncLibJarsForRelease
-:actionhandler:bundleRelease
-:actionhandler:compileReleaseSources
-:actionhandler:assembleRelease
-:actionhandler:assemble
-:actionhandler:build
+> Task :actionhandler:extractReleaseAnnotations
+> Task :actionhandler:mergeReleaseGeneratedProguardFiles
+> Task :actionhandler:mergeReleaseConsumerProguardFiles
+> Task :actionhandler:compileReleaseSources
+> Task :actionhandler:verifyReleaseResources
+> Task :actionhandler:mergeReleaseJavaResource
+> Task :actionhandler:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :actionhandler:bundleReleaseAar
+> Task :actionhandler:assembleRelease
+> Task :actionhandler:assemble
+> Task :actionhandler:build
 
-BUILD SUCCESSFUL in 23s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 14s
 57 actionable tasks: 57 executed
 
-2018-11-12 23:20:51,155 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:20:51,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:20:58,907 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-12 23:20:58,907 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 23:20:58,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 23:21:06,281 ERROR SysUtils - Could not process external command
+2019-07-08 00:57:01,467 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:57:01,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:57:06,809 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-08 00:57:06,809 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:57:06,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:57:10,928 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -148,8 +171,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -163,7 +185,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:21:06,281 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:57:10,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :samples:databinding
+WARNING: The following project options are deprecated and have been removed: 
+android.databinding.enableV2
+Databinding v1 is removed.
+
+
 
 FAILURE: Build failed with an exception.
 
@@ -178,60 +207,79 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
@@ -243,172 +291,243 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 3s
 
-2018-11-12 23:21:06,281 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 23:21:06,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 23:21:55,132 INFO  SysUtils - Configuration on demand is an incubating feature.
-:actionhandler:preBuild UP-TO-DATE
-:actionhandler:preDebugBuild UP-TO-DATE
-:actionhandler:compileDebugAidl UP-TO-DATE
-:actionhandler:compileDebugRenderscript UP-TO-DATE
-:actionhandler:generateDebugResValues UP-TO-DATE
-:actionhandler:generateDebugResources UP-TO-DATE
-:actionhandler:mergeDebugResources UP-TO-DATE
-:actionhandler:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
-:actionhandler:dataBindingGenBaseClassesDebug UP-TO-DATE
-:actionhandler:checkDebugManifest UP-TO-DATE
-:actionhandler:generateDebugBuildConfig UP-TO-DATE
-:actionhandler:packageDebugResources UP-TO-DATE
-:actionhandler:platformAttrExtractor UP-TO-DATE
-:actionhandler:processDebugManifest UP-TO-DATE
-:actionhandler:generateDebugRFile UP-TO-DATE
-:actionhandler:prepareLintJar UP-TO-DATE
-:actionhandler:generateDebugSources UP-TO-DATE
-:actionhandler:dataBindingExportBuildInfoDebug UP-TO-DATE
-:actionhandler:javaPreCompileDebug UP-TO-DATE
-:actionhandler:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
-:actionhandler:compileDebugJavaWithJavac UP-TO-DATE
-:actionhandler:processDebugJavaRes NO-SOURCE
-:actionhandler:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:samples:databinding:preBuild UP-TO-DATE
-:samples:databinding:preDebugBuild
-:samples:databinding:compileDebugAidl
-:actionhandler:packageDebugRenderscript NO-SOURCE
-:samples:databinding:compileDebugRenderscript
-:samples:databinding:generateDebugResValues
-:samples:databinding:generateDebugResources
-:samples:databinding:mergeDebugResources
-:samples:databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
-:samples:databinding:dataBindingGenBaseClassesDebug
-:samples:databinding:checkDebugManifest
-:samples:databinding:generateDebugBuildConfig
-:samples:databinding:prepareLintJar
-:samples:databinding:mainApkListPersistenceDebug
-:samples:databinding:createDebugCompatibleScreenManifests
-:samples:databinding:processDebugManifest
-:samples:databinding:splitsDiscoveryTaskDebug
-:samples:databinding:processDebugResources
-:samples:databinding:generateDebugSources
-:samples:databinding:dataBindingExportBuildInfoDebug
-:samples:databinding:javaPreCompileDebug
-:samples:databinding:transformDataBindingWithDataBindingMergeArtifactsForDebug
-:samples:databinding:compileDebugJavaWithJavac
-:samples:databinding:compileDebugNdk NO-SOURCE
-:samples:databinding:compileDebugSources
-:actionhandler:mergeDebugShaders UP-TO-DATE
-:actionhandler:compileDebugShaders UP-TO-DATE
-:actionhandler:generateDebugAssets UP-TO-DATE
-:actionhandler:packageDebugAssets UP-TO-DATE
-:samples:databinding:mergeDebugShaders
-:samples:databinding:compileDebugShaders
-:samples:databinding:generateDebugAssets
-:samples:databinding:mergeDebugAssets
-:samples:databinding:transformClassesWithDexBuilderForDebug
-:samples:databinding:transformDexArchiveWithExternalLibsDexMergerForDebug
-:samples:databinding:transformDexArchiveWithDexMergerForDebug
-:actionhandler:compileDebugNdk NO-SOURCE
-:actionhandler:mergeDebugJniLibFolders UP-TO-DATE
-:actionhandler:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:actionhandler:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:actionhandler:transformNativeLibsWithIntermediateJniLibsForDebug
-:samples:databinding:mergeDebugJniLibFolders
-:samples:databinding:transformNativeLibsWithMergeJniLibsForDebug
-:samples:databinding:transformNativeLibsWithStripDebugSymbolForDebug
-:samples:databinding:processDebugJavaRes NO-SOURCE
-:samples:databinding:transformResourcesWithMergeJavaResForDebug
-:samples:databinding:validateSigningDebug
-:samples:databinding:packageDebug
-:samples:databinding:assembleDebug
-:actionhandler:preReleaseBuild UP-TO-DATE
-:actionhandler:compileReleaseAidl UP-TO-DATE
-:actionhandler:compileReleaseRenderscript UP-TO-DATE
-:actionhandler:generateReleaseResValues UP-TO-DATE
-:actionhandler:generateReleaseResources UP-TO-DATE
-:actionhandler:mergeReleaseResources UP-TO-DATE
-:actionhandler:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
-:actionhandler:dataBindingGenBaseClassesRelease UP-TO-DATE
-:actionhandler:checkReleaseManifest UP-TO-DATE
-:actionhandler:generateReleaseBuildConfig UP-TO-DATE
-:actionhandler:packageReleaseResources UP-TO-DATE
-:actionhandler:processReleaseManifest UP-TO-DATE
-:actionhandler:generateReleaseRFile UP-TO-DATE
-:actionhandler:generateReleaseSources UP-TO-DATE
-:actionhandler:dataBindingExportBuildInfoRelease UP-TO-DATE
-:actionhandler:javaPreCompileRelease UP-TO-DATE
-:actionhandler:transformDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
-:actionhandler:compileReleaseJavaWithJavac UP-TO-DATE
-:actionhandler:processReleaseJavaRes NO-SOURCE
-:actionhandler:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:samples:databinding:preReleaseBuild
-:samples:databinding:compileReleaseAidl
-:actionhandler:packageReleaseRenderscript NO-SOURCE
-:samples:databinding:compileReleaseRenderscript
-:samples:databinding:generateReleaseResValues
-:samples:databinding:generateReleaseResources
-:samples:databinding:mergeReleaseResources
-:samples:databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
-:samples:databinding:dataBindingGenBaseClassesRelease
-:samples:databinding:checkReleaseManifest
-:samples:databinding:generateReleaseBuildConfig
-:samples:databinding:mainApkListPersistenceRelease
-:samples:databinding:createReleaseCompatibleScreenManifests
-:samples:databinding:processReleaseManifest
-:samples:databinding:splitsDiscoveryTaskRelease
-:samples:databinding:processReleaseResources
-:samples:databinding:generateReleaseSources
-:samples:databinding:dataBindingExportBuildInfoRelease
-:samples:databinding:javaPreCompileRelease
-:samples:databinding:transformDataBindingWithDataBindingMergeArtifactsForRelease
-:samples:databinding:compileReleaseJavaWithJavac
-:samples:databinding:compileReleaseNdk NO-SOURCE
-:samples:databinding:compileReleaseSources
-:samples:databinding:lintVitalRelease SKIPPED
-:actionhandler:mergeReleaseShaders UP-TO-DATE
-:actionhandler:compileReleaseShaders UP-TO-DATE
-:actionhandler:generateReleaseAssets UP-TO-DATE
-:actionhandler:packageReleaseAssets UP-TO-DATE
-:samples:databinding:mergeReleaseShaders
-:samples:databinding:compileReleaseShaders
-:samples:databinding:generateReleaseAssets
-:samples:databinding:mergeReleaseAssets
-:samples:databinding:transformClassesWithDexBuilderForRelease
-:samples:databinding:transformDexArchiveWithExternalLibsDexMergerForRelease
-:samples:databinding:transformDexArchiveWithDexMergerForRelease
-:actionhandler:compileReleaseNdk NO-SOURCE
-:actionhandler:mergeReleaseJniLibFolders UP-TO-DATE
-:actionhandler:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:actionhandler:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:actionhandler:transformNativeLibsWithIntermediateJniLibsForRelease
-:samples:databinding:mergeReleaseJniLibFolders
-:samples:databinding:transformNativeLibsWithMergeJniLibsForRelease
-:samples:databinding:transformNativeLibsWithStripDebugSymbolForRelease
-:samples:databinding:processReleaseJavaRes NO-SOURCE
-:samples:databinding:transformResourcesWithMergeJavaResForRelease
-:samples:databinding:packageRelease
-:samples:databinding:assembleRelease
-:samples:databinding:assemble
-:samples:databinding:lint
-Ran lint on variant debug: 9 issues found
-Ran lint on variant release: 9 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build/reports/lint-results.xml
-:samples:databinding:preDebugUnitTestBuild UP-TO-DATE
-:samples:databinding:javaPreCompileDebugUnitTest
-:samples:databinding:compileDebugUnitTestJavaWithJavac
-:samples:databinding:mockableAndroidJar
-:samples:databinding:processDebugUnitTestJavaRes NO-SOURCE
-:samples:databinding:testDebugUnitTest
-:samples:databinding:preReleaseUnitTestBuild UP-TO-DATE
-:samples:databinding:javaPreCompileReleaseUnitTest
-:samples:databinding:compileReleaseUnitTestJavaWithJavac
-:samples:databinding:processReleaseUnitTestJavaRes NO-SOURCE
-:samples:databinding:testReleaseUnitTest
-:samples:databinding:test
-:samples:databinding:check
-:samples:databinding:build
+2019-07-08 00:57:10,928 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:57:10,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:58:04,689 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 48s
-116 actionable tasks: 72 executed, 44 up-to-date
+> Configure project :samples:databinding
+WARNING: The following project options are deprecated and have been removed: 
+android.databinding.enableV2
+Databinding v1 is removed.
 
-2018-11-12 23:21:55,250 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039615526-0/src/ActionHandler-master/samples/databinding/build/outputs/apk/release/databinding-release-unsigned.apk
+
+
+> Configure project :actionhandler
+WARNING: The following project options are deprecated and have been removed: 
+android.databinding.enableV2
+Databinding v1 is removed.
+
+
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :actionhandler:preBuild UP-TO-DATE
+> Task :actionhandler:preDebugBuild UP-TO-DATE
+> Task :actionhandler:compileDebugAidl NO-SOURCE
+> Task :actionhandler:compileDebugRenderscript NO-SOURCE
+> Task :actionhandler:checkDebugManifest UP-TO-DATE
+> Task :actionhandler:generateDebugBuildConfig UP-TO-DATE
+> Task :actionhandler:prepareLintJar UP-TO-DATE
+> Task :actionhandler:prepareLintJarForPublish UP-TO-DATE
+> Task :actionhandler:generateDebugSources UP-TO-DATE
+> Task :actionhandler:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :actionhandler:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :actionhandler:dataBindingMergeGenClassesDebug UP-TO-DATE
+> Task :actionhandler:generateDebugResValues UP-TO-DATE
+> Task :actionhandler:generateDebugResources UP-TO-DATE
+> Task :actionhandler:mergeDebugResources UP-TO-DATE
+> Task :actionhandler:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :actionhandler:packageDebugResources UP-TO-DATE
+> Task :actionhandler:parseDebugLibraryResources UP-TO-DATE
+> Task :actionhandler:processDebugManifest UP-TO-DATE
+> Task :actionhandler:generateDebugRFile UP-TO-DATE
+> Task :actionhandler:javaPreCompileDebug UP-TO-DATE
+> Task :actionhandler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :samples:databinding:preBuild UP-TO-DATE
+> Task :samples:databinding:preDebugBuild UP-TO-DATE
+> Task :samples:databinding:compileDebugAidl NO-SOURCE
+> Task :actionhandler:packageDebugRenderscript NO-SOURCE
+> Task :samples:databinding:compileDebugRenderscript NO-SOURCE
+> Task :samples:databinding:checkDebugManifest
+> Task :samples:databinding:generateDebugBuildConfig
+> Task :samples:databinding:prepareLintJar
+> Task :samples:databinding:dataBindingExportFeaturePackageIdsDebug
+> Task :actionhandler:bundleLibCompileDebug
+> Task :samples:databinding:generateDebugResValues
+> Task :samples:databinding:generateDebugResources
+> Task :samples:databinding:dataBindingMergeGenClassesDebug
+> Task :samples:databinding:dataBindingMergeDependencyArtifactsDebug
+> Task :samples:databinding:mainApkListPersistenceDebug
+> Task :samples:databinding:createDebugCompatibleScreenManifests
+> Task :samples:databinding:processDebugManifest
+> Task :actionhandler:mergeDebugShaders UP-TO-DATE
+> Task :actionhandler:compileDebugShaders UP-TO-DATE
+> Task :actionhandler:generateDebugAssets UP-TO-DATE
+> Task :actionhandler:packageDebugAssets UP-TO-DATE
+> Task :samples:databinding:mergeDebugShaders
+> Task :samples:databinding:compileDebugShaders
+> Task :samples:databinding:generateDebugAssets
+> Task :samples:databinding:mergeDebugAssets
+> Task :actionhandler:processDebugJavaRes NO-SOURCE
+> Task :samples:databinding:javaPreCompileDebug
+> Task :samples:databinding:processDebugJavaRes NO-SOURCE
+> Task :samples:databinding:checkDebugDuplicateClasses
+> Task :samples:databinding:desugarDebugFileDependencies
+
+> Task :samples:databinding:mergeExtDexDebug
+AGPBI: {"kind":"warning","text":"Type `androidx.lifecycle.Observer` was not found, it is required for default or static interface methods desugaring of `androidx.databinding.ViewDataBinding$LiveDataListener`","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b330449d754955b03604bdecbd58ebb2/databinding-runtime-3.5.0-beta04/jars/classes.jar"}],"tool":"D8"}
+
+> Task :samples:databinding:mergeDebugResources
+> Task :samples:databinding:dataBindingGenBaseClassesDebug
+> Task :actionhandler:bundleLibRuntimeDebug
+> Task :samples:databinding:processDebugResources
+> Task :samples:databinding:validateSigningDebug
+> Task :samples:databinding:signingConfigWriterDebug
+> Task :actionhandler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :actionhandler:mergeDebugNativeLibs UP-TO-DATE
+> Task :actionhandler:stripDebugDebugSymbols UP-TO-DATE
+> Task :actionhandler:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :samples:databinding:mergeDebugJniLibFolders
+> Task :actionhandler:preReleaseBuild UP-TO-DATE
+> Task :actionhandler:compileReleaseAidl NO-SOURCE
+> Task :actionhandler:compileReleaseRenderscript NO-SOURCE
+> Task :actionhandler:checkReleaseManifest UP-TO-DATE
+> Task :actionhandler:generateReleaseBuildConfig UP-TO-DATE
+> Task :actionhandler:generateReleaseSources UP-TO-DATE
+> Task :actionhandler:dataBindingExportBuildInfoRelease UP-TO-DATE
+> Task :actionhandler:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :actionhandler:dataBindingMergeGenClassesRelease UP-TO-DATE
+> Task :actionhandler:generateReleaseResValues UP-TO-DATE
+> Task :actionhandler:generateReleaseResources UP-TO-DATE
+> Task :actionhandler:mergeReleaseResources UP-TO-DATE
+> Task :actionhandler:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :actionhandler:packageReleaseResources UP-TO-DATE
+> Task :actionhandler:parseReleaseLibraryResources UP-TO-DATE
+> Task :actionhandler:processReleaseManifest UP-TO-DATE
+> Task :actionhandler:generateReleaseRFile UP-TO-DATE
+> Task :actionhandler:javaPreCompileRelease UP-TO-DATE
+> Task :actionhandler:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :samples:databinding:preReleaseBuild UP-TO-DATE
+> Task :samples:databinding:compileReleaseAidl NO-SOURCE
+> Task :actionhandler:packageReleaseRenderscript NO-SOURCE
+> Task :samples:databinding:compileReleaseRenderscript NO-SOURCE
+> Task :samples:databinding:checkReleaseManifest
+> Task :samples:databinding:generateReleaseBuildConfig
+> Task :samples:databinding:dataBindingExportFeaturePackageIdsRelease
+> Task :actionhandler:bundleLibCompileRelease
+> Task :samples:databinding:generateReleaseResValues
+> Task :samples:databinding:generateReleaseResources
+> Task :samples:databinding:dataBindingMergeGenClassesRelease
+> Task :samples:databinding:dataBindingMergeDependencyArtifactsRelease
+> Task :samples:databinding:mainApkListPersistenceRelease
+> Task :samples:databinding:createReleaseCompatibleScreenManifests
+> Task :samples:databinding:processReleaseManifest
+> Task :actionhandler:processReleaseJavaRes NO-SOURCE
+> Task :samples:databinding:prepareLintJarForPublish
+> Task :samples:databinding:generateDebugSources
+> Task :samples:databinding:dataBindingExportBuildInfoDebug
+> Task :samples:databinding:compileDebugJavaWithJavac
+> Task :samples:databinding:compileDebugSources
+
+> Task :samples:databinding:transformClassesWithDexBuilderForDebug
+D8: synthesized for lambda desugaring: Type `com.drextended.databinding.viewmodel.MainActivityViewModel$Callback$-CC` was not found, it is required for default or static interface methods desugaring of `void com.drextended.databinding.viewmodel.-$$Lambda$MainActivityViewModel$Callback$UlWcMNf2Mzn81P3oWspON3zg6L0.showMessage(java.lang.String)`
+
+> Task :samples:databinding:mergeReleaseResources
+> Task :samples:databinding:generateReleaseSources
+> Task :samples:databinding:dataBindingExportBuildInfoRelease
+> Task :samples:databinding:dataBindingGenBaseClassesRelease
+> Task :samples:databinding:processReleaseResources
+> Task :samples:databinding:checkReleaseDuplicateClasses
+> Task :samples:databinding:desugarReleaseFileDependencies
+
+> Task :samples:databinding:mergeExtDexRelease
+AGPBI: {"kind":"warning","text":"Type `androidx.lifecycle.Observer` was not found, it is required for default or static interface methods desugaring of `androidx.databinding.ViewDataBinding$LiveDataListener`","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b330449d754955b03604bdecbd58ebb2/databinding-runtime-3.5.0-beta04/jars/classes.jar"}],"tool":"D8"}
+
+> Task :actionhandler:mergeReleaseShaders UP-TO-DATE
+> Task :actionhandler:compileReleaseShaders UP-TO-DATE
+> Task :actionhandler:generateReleaseAssets UP-TO-DATE
+> Task :actionhandler:packageReleaseAssets UP-TO-DATE
+> Task :samples:databinding:mergeReleaseShaders
+> Task :samples:databinding:compileReleaseShaders
+> Task :samples:databinding:generateReleaseAssets
+> Task :samples:databinding:mergeReleaseAssets
+> Task :samples:databinding:processReleaseJavaRes NO-SOURCE
+> Task :samples:databinding:signingConfigWriterRelease
+> Task :actionhandler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :actionhandler:mergeReleaseNativeLibs UP-TO-DATE
+> Task :actionhandler:stripReleaseDebugSymbols UP-TO-DATE
+> Task :actionhandler:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :samples:databinding:mergeReleaseJniLibFolders
+> Task :samples:databinding:preDebugUnitTestBuild UP-TO-DATE
+> Task :actionhandler:bundleLibResRelease
+> Task :samples:databinding:javaPreCompileRelease
+> Task :samples:databinding:compileReleaseJavaWithJavac
+> Task :samples:databinding:compileReleaseSources
+> Task :samples:databinding:lintVitalRelease SKIPPED
+> Task :samples:databinding:javaPreCompileDebugUnitTest
+> Task :actionhandler:bundleLibResDebug
+
+> Task :samples:databinding:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/50f3fc4cc28514432b7c0f694c966605/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 5 issues found
+Ran lint on variant debug: 5 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build/reports/lint-results.xml
+
+> Task :samples:databinding:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :samples:databinding:processDebugUnitTestJavaRes NO-SOURCE
+> Task :samples:databinding:preReleaseUnitTestBuild UP-TO-DATE
+> Task :samples:databinding:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :samples:databinding:mergeReleaseJavaResource
+> Task :actionhandler:bundleLibRuntimeRelease
+> Task :actionhandler:createFullJarRelease
+
+> Task :samples:databinding:transformClassesWithDexBuilderForRelease
+D8: synthesized for lambda desugaring: Type `com.drextended.databinding.viewmodel.MainActivityViewModel$Callback$-CC` was not found, it is required for default or static interface methods desugaring of `void com.drextended.databinding.viewmodel.-$$Lambda$MainActivityViewModel$Callback$UlWcMNf2Mzn81P3oWspON3zg6L0.showMessage(java.lang.String)`
+
+> Task :samples:databinding:mergeProjectDexDebug
+> Task :samples:databinding:mergeReleaseNativeLibs
+> Task :samples:databinding:stripReleaseDebugSymbols
+> Task :samples:databinding:javaPreCompileReleaseUnitTest
+> Task :samples:databinding:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :samples:databinding:testReleaseUnitTest NO-SOURCE
+> Task :actionhandler:createFullJarDebug
+> Task :samples:databinding:testDebugUnitTest NO-SOURCE
+> Task :samples:databinding:test UP-TO-DATE
+> Task :samples:databinding:check
+
+> Transform artifact full.jar (project :actionhandler) with DexingWithClasspathTransform
+AGPBI: {"kind":"warning","text":"Type `androidx.core.content.ContextCompat` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.drextended.actionhandler.action.CompositeAction$SimpleIconProvider.getIconDrawable(android.content.Context, java.lang.Object)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.core.graphics.drawable.DrawableCompat` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.drextended.actionhandler.action.CompositeAction$SimpleIconProvider.getIconDrawable(android.content.Context, java.lang.Object)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.schedulers.Schedulers` was not found, it is required for default or static interface methods desugaring of `io.reactivex.MaybeSource com.drextended.actionhandler.action.RxRequestAction$2.apply(io.reactivex.Maybe)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.android.schedulers.AndroidSchedulers` was not found, it is required for default or static interface methods desugaring of `io.reactivex.MaybeSource com.drextended.actionhandler.action.RxRequestAction$2.apply(io.reactivex.Maybe)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.localbroadcastmanager.content.LocalBroadcastManager` was not found, it is required for default or static interface methods desugaring of `void com.drextended.actionhandler.action.IntentAction.sendLocalBroadcast(android.content.Context, android.content.Intent, com.drextended.actionhandler.ActionArgs)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.MaybeTransformer` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.RxRequestAction$2`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.widget.PopupMenu$OnMenuItemClickListener` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.CompositeAction$2`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.widget.PopupMenu$OnDismissListener` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.CompositeAction$3`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/release/createFullJarRelease/full.jar"}],"tool":"D8"}
+
+> Task :samples:databinding:mergeDebugNativeLibs
+> Task :samples:databinding:stripDebugDebugSymbols
+> Task :samples:databinding:mergeDebugJavaResource
+
+> Transform artifact full.jar (project :actionhandler) with DexingWithClasspathTransform
+AGPBI: {"kind":"warning","text":"Type `androidx.core.content.ContextCompat` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.drextended.actionhandler.action.CompositeAction$SimpleIconProvider.getIconDrawable(android.content.Context, java.lang.Object)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.core.graphics.drawable.DrawableCompat` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.drextended.actionhandler.action.CompositeAction$SimpleIconProvider.getIconDrawable(android.content.Context, java.lang.Object)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.schedulers.Schedulers` was not found, it is required for default or static interface methods desugaring of `io.reactivex.MaybeSource com.drextended.actionhandler.action.RxRequestAction$2.apply(io.reactivex.Maybe)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.android.schedulers.AndroidSchedulers` was not found, it is required for default or static interface methods desugaring of `io.reactivex.MaybeSource com.drextended.actionhandler.action.RxRequestAction$2.apply(io.reactivex.Maybe)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.localbroadcastmanager.content.LocalBroadcastManager` was not found, it is required for default or static interface methods desugaring of `void com.drextended.actionhandler.action.IntentAction.sendLocalBroadcast(android.content.Context, android.content.Intent, com.drextended.actionhandler.ActionArgs)`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `io.reactivex.MaybeTransformer` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.RxRequestAction$2`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.widget.PopupMenu$OnMenuItemClickListener` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.CompositeAction$2`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.widget.PopupMenu$OnDismissListener` was not found, it is required for default or static interface methods desugaring of `com.drextended.actionhandler.action.CompositeAction$3`","sources":[{"file":"/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/actionhandler/build/intermediates/full_jar/debug/createFullJarDebug/full.jar"}],"tool":"D8"}
+
+> Task :samples:databinding:mergeLibDexDebug
+> Task :samples:databinding:packageDebug
+> Task :samples:databinding:assembleDebug
+> Task :samples:databinding:mergeDexRelease
+> Task :samples:databinding:packageRelease
+> Task :samples:databinding:assembleRelease
+> Task :samples:databinding:assemble
+> Task :samples:databinding:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 53s
+117 actionable tasks: 75 executed, 42 up-to-date
+
+2019-07-08 00:58:04,747 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522071765-0/src/samples/databinding/build/outputs/apk/release/databinding-release-unsigned.apk

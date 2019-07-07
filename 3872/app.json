@@ -9,10 +9,10 @@
     "minSdkVersion" : "15",
     "targetSdkVersion" : "27",
     "maxSdkVersion" : null,
-    "compileSdkVersion" : null,
-    "compileSdkVersionCodename" : null,
-    "platformBuildVersionCode" : null,
-    "platformBuildVersionName" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -23,11 +23,11 @@
     "permissions" : [ ]
   },
   "icon" : null,
-  "dexClasses" : 7329,
-  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.nextfaze.poweradapters.sample\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Power Adapters\" android:name=\"com.nextfaze.poweradapters.sample.Application\" android:allowBackup=\"true\" android:largeHeap=\"true\">\n\t\t<activity android:name=\"com.nextfaze.poweradapters.sample.ShowcaseActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"android.arch.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.nextfaze.poweradapters.sample.lifecycle-trojan\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3454639,
-  "crc32" : 2658405616,
-  "sha256" : "b8a9ed0030c1fe787e27c2e28f22b20c18358f84d1853430c7cc77a26d1239c6",
-  "buildTime" : 1542010627000
+  "dexClasses" : 7479,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.nextfaze.poweradapters.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Power Adapters\" android:name=\"com.nextfaze.poweradapters.sample.Application\" android:allowBackup=\"true\" android:largeHeap=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.nextfaze.poweradapters.sample.ShowcaseActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"android.arch.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.nextfaze.poweradapters.sample.lifecycle-trojan\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3643275,
+  "crc32" : 1982463425,
+  "sha256" : "1936ed4c84a1029c4363c24b6ade4768479ad06d1669092991778ad6c16ef181",
+  "buildTime" : 1562520272000
 }

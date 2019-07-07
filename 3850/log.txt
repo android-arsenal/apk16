@@ -1,31 +1,31 @@
-2018-11-12 16:58:42,677 INFO  DownloadService - Downloading "https://github.com/Nightonke/GithubWidget/archive/master.zip", attempt 3
-2018-11-12 16:58:53,893 INFO  DownloadService - Downloaded https://github.com/Nightonke/GithubWidget/archive/master.zip, attempt 3
-2018-11-12 16:58:53,893 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/master.zip": 9 MB
-2018-11-12 16:58:53,893 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:58:53,899 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/master.zip: true
-2018-11-12 16:58:53,899 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src'.
-2018-11-12 16:58:54,001 INFO  FullProcessService - Size of directory with sources: 11 MB
-2018-11-12 16:58:54,002 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src]
-2018-11-12 16:58:54,020 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/.git/
+2019-07-08 00:33:26,054 INFO  DownloadService - Downloading "https://github.com/Nightonke/GithubWidget/archive/master.zip", attempt 3
+2019-07-08 00:33:34,341 INFO  DownloadService - Downloaded https://github.com/Nightonke/GithubWidget/archive/master.zip, attempt 3
+2019-07-08 00:33:34,341 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/master.zip": 9 MB
+2019-07-08 00:33:34,342 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:33:34,347 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/master.zip: true
+2019-07-08 00:33:34,348 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src'.
+2019-07-08 00:33:34,433 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-07-08 00:33:34,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src]
+2019-07-08 00:33:34,448 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/.git/
 
-2018-11-12 16:58:54,023 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/gradlew
-2018-11-12 16:58:54,027 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/build.gradle
-2018-11-12 16:58:54,031 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/settings.gradle
-2018-11-12 16:58:54,031 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 16:58:54,031 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:58:54,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/local.properties
-2018-11-12 16:58:54,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:58:54,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/local.properties
-2018-11-12 16:58:54,042 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 16:58:54,042 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 16:58:54,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:58:54,043 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:58:54,043 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:58:54,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:59:38,839 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-12 16:59:38,839 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 16:59:38,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 16:59:47,719 ERROR SysUtils - Could not process external command
+2019-07-08 00:33:34,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/gradlew
+2019-07-08 00:33:34,454 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/build.gradle
+2019-07-08 00:33:34,457 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/settings.gradle
+2019-07-08 00:33:34,458 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:33:34,458 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:33:34,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/local.properties
+2019-07-08 00:33:34,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:33:34,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/local.properties
+2019-07-08 00:33:34,465 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 00:33:34,465 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 00:33:34,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:33:34,465 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:33:34,466 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:33:34,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:33:58,049 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-08 00:33:58,049 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:33:58,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:34:05,611 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,7 +52,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:59:47,719 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:34:05,612 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -80,10 +80,10 @@ Incremental java compilation is an incubating feature.
 :app:incrementalDebugJavaCompilationSafeguard
 :app:compileDebugJavaWithJavac
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/src/main/java/com/nightonke/githubwidget/WeekDay.java:6: error: class Weekday is public, should be declared in a file named Weekday.java
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/src/main/java/com/nightonke/githubwidget/WeekDay.java:6: error: class Weekday is public, should be declared in a file named Weekday.java
 public enum Weekday {
        ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/app/src/main/java/com/nightonke/githubwidget/Util.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/app/src/main/java/com/nightonke/githubwidget/Util.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -187,6 +187,6 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 8.367 secs
+Total time: 7.054 secs
 
-2018-11-12 16:59:47,760 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016722669-0/src/GithubWidget-master/Apk/GithubWidget_1.0.3.apk
+2019-07-08 00:34:05,640 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520806046-0/src/GithubWidget-master/Apk/GithubWidget_1.0.3.apk

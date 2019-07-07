@@ -1,176 +1,187 @@
-2018-12-16 21:51:42,730 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
-2018-12-16 21:52:43,591 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-16 21:52:45,183 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-16 21:52:45,183 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
-2018-12-16 21:53:47,195 DEBUG FullProcessService - Repository https://github.com/ernestoyaquello/vertical-stepper-form available: true
-2018-12-16 21:53:47,196 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-16 21:53:47,196 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ernestoyaquello/vertical-stepper-form, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src]
-2018-12-16 21:53:49,467 INFO  SysUtils - 
-2018-12-16 21:53:49,475 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/.git": true
-2018-12-16 21:53:49,479 INFO  FullProcessService - Size of directory with sources: 974 KB
-2018-12-16 21:53:49,479 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src]
-2018-12-16 21:53:49,498 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/.git/
+2019-07-08 00:49:00,716 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
+2019-07-08 00:50:01,684 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 00:50:03,041 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 00:50:03,041 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
+2019-07-08 00:51:05,199 DEBUG FullProcessService - Repository https://github.com/ernestoyaquello/vertical-stepper-form available: true
+2019-07-08 00:51:05,199 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 00:51:05,199 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ernestoyaquello/vertical-stepper-form, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src]
+2019-07-08 00:51:08,766 INFO  SysUtils - 
+2019-07-08 00:51:08,772 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/.git": true
+2019-07-08 00:51:08,775 INFO  FullProcessService - Size of directory with sources: 978 KB
+2019-07-08 00:51:08,775 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src]
+2019-07-08 00:51:08,791 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/.git/
 
-2018-12-16 21:53:49,502 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/gradlew
-2018-12-16 21:53:49,506 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/build.gradle
-2018-12-16 21:53:49,510 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/settings.gradle
-2018-12-16 21:53:49,510 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:53:49,510 INFO  ProjectFixService - Fixing project...
-2018-12-16 21:53:49,518 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/local.properties
-2018-12-16 21:53:49,520 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,520 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/vertical-stepper-form/local.properties
-2018-12-16 21:53:49,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,522 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/local.properties
-2018-12-16 21:53:49,523 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-16 21:53:49,524 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-16 21:53:49,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,525 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2018-12-16 21:53:49,526 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 21:53:49,526 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:53:49,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:53:56,894 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 21:53:56,894 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 21:53:56,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 21:54:33,797 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:vertical-stepper-form:preBuild UP-TO-DATE
-:vertical-stepper-form:preDebugBuild UP-TO-DATE
-:vertical-stepper-form:checkDebugManifest
-:vertical-stepper-form:processDebugManifest
-:app:preDebugBuild
-:vertical-stepper-form:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:vertical-stepper-form:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:vertical-stepper-form:compileDebugRenderscript
-:vertical-stepper-form:generateDebugResValues
-:vertical-stepper-form:generateDebugResources
-:vertical-stepper-form:packageDebugResources
-:app:mergeDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2231: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+2019-07-08 00:51:08,794 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew
+2019-07-08 00:51:08,798 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle
+2019-07-08 00:51:08,800 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/settings.gradle
+2019-07-08 00:51:08,801 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:51:08,801 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:51:08,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/local.properties
+2019-07-08 00:51:08,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/local.properties
+2019-07-08 00:51:08,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/local.properties
+2019-07-08 00:51:08,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-08 00:51:08,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-08 00:51:08,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-08 00:51:08,812 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:51:08,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:51:08,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:51:14,799 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-08 00:51:14,799 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:51:14,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:51:43,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :vertical-stepper-form:preBuild UP-TO-DATE
+> Task :vertical-stepper-form:preDebugBuild UP-TO-DATE
+> Task :vertical-stepper-form:checkDebugManifest
+> Task :vertical-stepper-form:processDebugManifest
+> Task :vertical-stepper-form:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :vertical-stepper-form:generateDebugBuildConfig
+> Task :vertical-stepper-form:generateDebugResValues
+> Task :vertical-stepper-form:prepareLintJar
+> Task :vertical-stepper-form:compileDebugRenderscript NO-SOURCE
+> Task :app:preDebugBuild
+> Task :vertical-stepper-form:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
+> Task :vertical-stepper-form:generateDebugResources
+> Task :vertical-stepper-form:packageDebugResources
+> Task :vertical-stepper-form:generateDebugRFile
+> Task :vertical-stepper-form:generateDebugSources
+> Task :vertical-stepper-form:javaPreCompileDebug
+> Task :vertical-stepper-form:compileDebugJavaWithJavac
+> Task :vertical-stepper-form:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:vertical-stepper-form:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:vertical-stepper-form:generateDebugBuildConfig
-:vertical-stepper-form:prepareLintJar
-:vertical-stepper-form:generateDebugSources
-:vertical-stepper-form:javaPreCompileDebug
-:vertical-stepper-form:compileDebugJavaWithJavac
-:vertical-stepper-form:processDebugJavaRes NO-SOURCE
-:vertical-stepper-form:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:vertical-stepper-form:mergeDebugShaders
-:vertical-stepper-form:compileDebugShaders
-:vertical-stepper-form:generateDebugAssets
-:vertical-stepper-form:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:vertical-stepper-form:compileDebugNdk NO-SOURCE
-:vertical-stepper-form:mergeDebugJniLibFolders
-:vertical-stepper-form:transformNativeLibsWithMergeJniLibsForDebug
-:vertical-stepper-form:transformNativeLibsWithStripDebugSymbolForDebug
-:vertical-stepper-form:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:vertical-stepper-form:preReleaseBuild UP-TO-DATE
-:vertical-stepper-form:checkReleaseManifest
-:vertical-stepper-form:processReleaseManifest
-:app:preReleaseBuild
-:vertical-stepper-form:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:vertical-stepper-form:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:vertical-stepper-form:compileReleaseRenderscript
-:vertical-stepper-form:generateReleaseResValues
-:vertical-stepper-form:generateReleaseResources
-:vertical-stepper-form:packageReleaseResources
-:app:mergeReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:2231: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :vertical-stepper-form:mergeDebugShaders
+> Task :vertical-stepper-form:compileDebugShaders
+> Task :vertical-stepper-form:generateDebugAssets
+> Task :vertical-stepper-form:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :vertical-stepper-form:processDebugJavaRes NO-SOURCE
+> Task :vertical-stepper-form:bundleLibResDebug
+> Task :vertical-stepper-form:bundleLibRuntimeDebug
+> Task :vertical-stepper-form:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :vertical-stepper-form:mergeDebugJniLibFolders
+> Task :vertical-stepper-form:transformNativeLibsWithMergeJniLibsForDebug
+> Task :vertical-stepper-form:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :vertical-stepper-form:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :vertical-stepper-form:preReleaseBuild UP-TO-DATE
+> Task :vertical-stepper-form:checkReleaseManifest
+> Task :vertical-stepper-form:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :vertical-stepper-form:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :vertical-stepper-form:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :vertical-stepper-form:compileReleaseRenderscript NO-SOURCE
+> Task :vertical-stepper-form:generateReleaseBuildConfig
+> Task :vertical-stepper-form:generateReleaseResValues
+> Task :vertical-stepper-form:generateReleaseResources
+> Task :vertical-stepper-form:packageReleaseResources
+> Task :vertical-stepper-form:generateReleaseRFile
+> Task :vertical-stepper-form:generateReleaseSources
+> Task :vertical-stepper-form:javaPreCompileRelease
+> Task :vertical-stepper-form:compileReleaseJavaWithJavac
+> Task :vertical-stepper-form:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:vertical-stepper-form:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:vertical-stepper-form:generateReleaseBuildConfig
-:vertical-stepper-form:generateReleaseSources
-:vertical-stepper-form:javaPreCompileRelease
-:vertical-stepper-form:compileReleaseJavaWithJavac
-:vertical-stepper-form:processReleaseJavaRes NO-SOURCE
-:vertical-stepper-form:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/57baf62e6cd811bfb5d597cf3535472b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:vertical-stepper-form:mergeReleaseShaders
-:vertical-stepper-form:compileReleaseShaders
-:vertical-stepper-form:generateReleaseAssets
-:vertical-stepper-form:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:vertical-stepper-form:compileReleaseNdk NO-SOURCE
-:vertical-stepper-form:mergeReleaseJniLibFolders
-:vertical-stepper-form:transformNativeLibsWithMergeJniLibsForRelease
-:vertical-stepper-form:transformNativeLibsWithStripDebugSymbolForRelease
-:vertical-stepper-form:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:compileReleaseSources
+> Task :vertical-stepper-form:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 36s
-90 actionable tasks: 90 executed
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/72da295213c4b25af4b64df0e2442f09/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2018-12-16 21:54:33,919 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544971902727-0/src/app/build/outputs/apk/debug/app-debug.apk
+> Task :vertical-stepper-form:processReleaseJavaRes NO-SOURCE
+> Task :vertical-stepper-form:bundleLibResRelease
+> Task :vertical-stepper-form:bundleLibRuntimeRelease
+> Task :vertical-stepper-form:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :vertical-stepper-form:mergeReleaseShaders
+> Task :vertical-stepper-form:compileReleaseShaders
+> Task :vertical-stepper-form:generateReleaseAssets
+> Task :vertical-stepper-form:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :vertical-stepper-form:mergeReleaseJniLibFolders
+> Task :vertical-stepper-form:transformNativeLibsWithMergeJniLibsForRelease
+> Task :vertical-stepper-form:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :vertical-stepper-form:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2019-07-08 00:51:43,986 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/outputs/apk/debug/app-debug.apk

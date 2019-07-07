@@ -1,34 +1,37 @@
-2018-11-12 23:25:51,179 INFO  DownloadService - Downloading "https://github.com/fabiomsr/MoneyTextView/archive/master.zip", attempt 3
-2018-11-12 23:25:51,694 INFO  DownloadService - Downloaded https://github.com/fabiomsr/MoneyTextView/archive/master.zip, attempt 3
-2018-11-12 23:25:51,695 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/master.zip": 261 KB
-2018-11-12 23:25:51,695 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 23:25:51,700 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/master.zip: true
-2018-11-12 23:25:51,700 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src'.
-2018-11-12 23:25:51,724 INFO  FullProcessService - Size of directory with sources: 318 KB
-2018-11-12 23:25:51,724 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src]
-2018-11-12 23:25:51,744 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/.git/
+2019-07-08 01:06:50,512 INFO  DownloadService - Downloading "https://github.com/fabiomsr/MoneyTextView/archive/master.zip", attempt 3
+2019-07-08 01:07:51,099 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 01:07:51,946 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 01:07:51,947 INFO  DownloadService - Downloading "https://github.com/fabiomsr/MoneyTextView/archive/master.zip", attempt 3
+2019-07-08 01:08:53,563 DEBUG FullProcessService - Repository https://github.com/fabiomsr/MoneyTextView available: true
+2019-07-08 01:08:53,564 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 01:08:53,564 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fabiomsr/MoneyTextView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src]
+2019-07-08 01:08:55,982 INFO  SysUtils - 
+2019-07-08 01:08:55,989 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/.git": true
+2019-07-08 01:08:55,991 INFO  FullProcessService - Size of directory with sources: 318 KB
+2019-07-08 01:08:55,991 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src]
+2019-07-08 01:08:56,006 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/.git/
 
-2018-11-12 23:25:51,748 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew
-2018-11-12 23:25:51,751 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/build.gradle
-2018-11-12 23:25:51,754 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/publish/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/publish/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/publish/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/build.gradle
-2018-11-12 23:25:51,755 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 23:25:51,755 INFO  ProjectFixService - Fixing project...
-2018-11-12 23:25:51,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/local.properties
-2018-11-12 23:25:51,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:25:51,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/local.properties
-2018-11-12 23:25:51,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-12 23:25:51,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/local.properties
-2018-11-12 23:25:51,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-12 23:25:51,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-12 23:25:51,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-12 23:25:51,768 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 23:25:51,768 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:25:51,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:25:59,665 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 23:25:59,665 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 23:25:59,665 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 23:25:59,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 23:26:06,155 ERROR SysUtils - Could not process external command
+2019-07-08 01:08:56,008 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew
+2019-07-08 01:08:56,011 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/build.gradle
+2019-07-08 01:08:56,013 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/publish/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/publish/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/publish/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/build.gradle
+2019-07-08 01:08:56,013 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:08:56,013 INFO  ProjectFixService - Fixing project...
+2019-07-08 01:08:56,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/local.properties
+2019-07-08 01:08:56,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-08 01:08:56,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/local.properties
+2019-07-08 01:08:56,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 01:08:56,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/local.properties
+2019-07-08 01:08:56,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 01:08:56,020 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 01:08:56,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-08 01:08:56,021 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 01:08:56,021 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:08:56,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:09:01,930 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:09:01,930 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:09:01,930 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:09:01,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:09:07,002 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:26:06,156 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:09:07,002 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -241,15 +244,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.198 secs
+Total time: 4.813 secs
 
-2018-11-12 23:26:06,161 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:26:06,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:26:12,530 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 23:26:12,530 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 23:26:12,530 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 23:26:12,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/moneytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 23:26:18,655 ERROR SysUtils - Could not process external command
+2019-07-08 01:09:07,005 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:09:07,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:09:11,932 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:09:11,932 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:09:11,932 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:09:11,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/moneytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:09:17,080 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -276,7 +279,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:26:18,655 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:09:17,080 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -384,15 +387,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.834 secs
+Total time: 4.891 secs
 
-2018-11-12 23:26:18,659 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:26:18,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:26:24,987 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 23:26:24,987 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 23:26:24,987 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 23:26:24,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039951171-0/src/MoneyTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 23:26:31,750 ERROR SysUtils - Could not process external command
+2019-07-08 01:09:17,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:09:17,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:09:22,255 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:09:22,255 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:09:22,255 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:09:22,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522810508-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:09:27,203 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -419,7 +422,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:26:31,750 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:09:27,203 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -605,7 +608,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.391 secs
+Total time: 4.707 secs
 
-2018-11-12 23:26:31,755 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 23:26:31,759 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 01:09:27,206 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 01:09:27,209 ERROR FullProcessService - Could not find generated or existed APK file

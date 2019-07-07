@@ -1,38 +1,38 @@
-2018-11-12 16:48:58,783 INFO  DownloadService - Downloading "https://github.com/ahmedrizwan/ReactiveAudioRecord/archive/master.zip", attempt 3
-2018-11-12 16:48:59,361 INFO  DownloadService - Downloaded https://github.com/ahmedrizwan/ReactiveAudioRecord/archive/master.zip, attempt 3
-2018-11-12 16:48:59,361 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/master.zip": 122 KB
-2018-11-12 16:48:59,361 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:48:59,362 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/master.zip: true
-2018-11-12 16:48:59,362 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src'.
-2018-11-12 16:48:59,402 INFO  FullProcessService - Size of directory with sources: 138 KB
-2018-11-12 16:48:59,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src]
-2018-11-12 16:48:59,443 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/.git/
+2019-07-08 00:27:16,233 INFO  DownloadService - Downloading "https://github.com/ahmedrizwan/ReactiveAudioRecord/archive/master.zip", attempt 3
+2019-07-08 00:27:16,792 INFO  DownloadService - Downloaded https://github.com/ahmedrizwan/ReactiveAudioRecord/archive/master.zip, attempt 3
+2019-07-08 00:27:16,793 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/master.zip": 122 KB
+2019-07-08 00:27:16,793 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:27:16,798 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/master.zip: true
+2019-07-08 00:27:16,799 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src'.
+2019-07-08 00:27:16,820 INFO  FullProcessService - Size of directory with sources: 138 KB
+2019-07-08 00:27:16,820 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src]
+2019-07-08 00:27:16,837 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/.git/
 
-2018-11-12 16:48:59,449 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew
-2018-11-12 16:48:59,456 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/build.gradle
-2018-11-12 16:48:59,462 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/settings.gradle
-2018-11-12 16:48:59,470 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2018-11-12 16:49:00,174 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2018-11-12 16:49:00,174 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-12 16:49:00,274 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-12 16:49:00,274 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2018-11-12 16:49:00,274 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:49:00,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/local.properties
-2018-11-12 16:49:00,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 16:49:00,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/local.properties
-2018-11-12 16:49:00,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 16:49:00,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/local.properties
-2018-11-12 16:49:00,292 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 16:49:00,292 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 16:49:00,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-11-12 16:49:00,294 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:49:00,294 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:49:00,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:49:52,200 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 16:49:52,202 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-12 16:49:52,202 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-12 16:49:52,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-12 16:50:06,381 ERROR SysUtils - Could not process external command
+2019-07-08 00:27:16,839 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew
+2019-07-08 00:27:16,842 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/build.gradle
+2019-07-08 00:27:16,845 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/settings.gradle
+2019-07-08 00:27:16,845 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-08 00:27:17,093 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-08 00:27:17,094 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-08 00:27:17,320 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-08 00:27:17,320 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-08 00:27:17,320 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:27:17,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/local.properties
+2019-07-08 00:27:17,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-08 00:27:17,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/local.properties
+2019-07-08 00:27:17,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-08 00:27:17,331 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/local.properties
+2019-07-08 00:27:17,331 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 00:27:17,331 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 00:27:17,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-08 00:27:17,332 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:27:17,332 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:27:17,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:27:47,982 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 00:27:47,983 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-08 00:27:47,983 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-08 00:27:47,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/reactiveaudiorecord/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-08 00:27:58,692 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,8 +45,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:50:06,381 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:27:58,692 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :reactiveaudiorecord:preBuild UP-TO-DATE
 :reactiveaudiorecord:preDebugBuild UP-TO-DATE
@@ -237,14 +236,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.638 secs
+Total time: 10.125 secs
 
-2018-11-12 16:50:06,443 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:50:06,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:50:17,956 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-11-12 16:50:17,956 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 16:50:17,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 16:50:26,109 ERROR SysUtils - Could not process external command
+2019-07-08 00:27:58,726 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:27:58,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:28:05,315 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-08 00:28:05,315 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:28:05,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:28:11,535 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -257,8 +256,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -272,7 +270,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:50:26,110 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:28:11,536 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -333,11 +331,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 7.63 secs
+Total time: 5.629 secs
 
-2018-11-12 16:50:26,110 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 16:50:26,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 16:50:45,895 ERROR SysUtils - Could not process external command
+2019-07-08 00:28:11,536 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:28:11,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:28:26,415 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -350,8 +348,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -365,7 +362,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:50:45,895 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:28:26,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :reactiveaudiorecord:preBuild UP-TO-DATE
 :reactiveaudiorecord:preReleaseBuild UP-TO-DATE
@@ -565,6 +562,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 19.21 secs
+Total time: 14.295 secs
 
-2018-11-12 16:50:46,001 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016138779-0/src/ReactiveAudioRecord-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 00:28:26,486 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520436225-0/src/ReactiveAudioRecord-master/sample/build/outputs/apk/sample-debug-unaligned.apk

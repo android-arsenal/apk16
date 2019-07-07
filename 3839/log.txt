@@ -1,506 +1,256 @@
-2018-11-12 23:22:08,043 INFO  DownloadService - Downloading "https://github.com/andob/emojilike-android/archive/master.zip", attempt 3
-2018-11-12 23:22:23,548 INFO  DownloadService - Downloaded https://github.com/andob/emojilike-android/archive/master.zip, attempt 3
-2018-11-12 23:22:23,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/master.zip": 22 MB
-2018-11-12 23:22:23,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 23:22:23,551 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/master.zip: true
-2018-11-12 23:22:23,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src'.
-2018-11-12 23:22:23,670 INFO  FullProcessService - Size of directory with sources: 22 MB
-2018-11-12 23:22:23,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src]
-2018-11-12 23:22:23,691 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/.git/
+2019-07-08 01:00:19,881 INFO  DownloadService - Downloading "https://github.com/andob/emojilike-android/archive/master.zip", attempt 3
+2019-07-08 01:01:20,733 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 01:01:21,556 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 01:01:21,556 INFO  DownloadService - Downloading "https://github.com/andob/emojilike-android/archive/master.zip", attempt 3
+2019-07-08 01:02:23,099 DEBUG FullProcessService - Repository https://github.com/andob/emojilike-android available: true
+2019-07-08 01:02:23,099 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 01:02:23,100 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andob/emojilike-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src]
+2019-07-08 01:02:49,170 INFO  SysUtils - 
+2019-07-08 01:02:49,198 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/.git": true
+2019-07-08 01:02:49,200 INFO  FullProcessService - Size of directory with sources: 22 MB
+2019-07-08 01:02:49,200 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src]
+2019-07-08 01:02:49,215 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/.git/
 
-2018-11-12 23:22:23,695 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/gradlew
-2018-11-12 23:22:23,699 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/build.gradle
-2018-11-12 23:22:23,702 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/settings.gradle
-2018-11-12 23:22:23,702 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 23:22:23,702 INFO  ProjectFixService - Fixing project...
-2018-11-12 23:22:23,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/local.properties
-2018-11-12 23:22:23,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 23:22:23,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/local.properties
-2018-11-12 23:22:23,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 23:22:23,713 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/local.properties
-2018-11-12 23:22:23,714 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-11-12 23:22:23,714 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-11-12 23:22:23,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 23:22:23,715 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 23:22:23,715 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:22:23,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:22:30,842 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 23:22:30,842 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-12 23:22:30,842 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-12 23:22:30,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 23:22:44,196 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:22:44,196 INFO  SysUtils - Configuration on demand is an incubating feature.
-:emojilike:preBuild UP-TO-DATE
-:emojilike:preDebugBuild UP-TO-DATE
-:emojilike:compileDebugNdk UP-TO-DATE
-:emojilike:compileLint
-:emojilike:copyDebugLint UP-TO-DATE
-:emojilike:checkDebugManifest
-:emojilike:preDebugAndroidTestBuild UP-TO-DATE
-:emojilike:preDebugUnitTestBuild UP-TO-DATE
-:emojilike:preReleaseBuild UP-TO-DATE
-:emojilike:preReleaseUnitTestBuild UP-TO-DATE
-:emojilike:prepareComAndroidSupportAnimatedVectorDrawable2340Library
-:emojilike:prepareComAndroidSupportAppcompatV72340Library
-:emojilike:prepareComAndroidSupportSupportV42340Library
-:emojilike:prepareComAndroidSupportSupportVectorDrawable2340Library
-:emojilike:prepareDebugDependencies
-:emojilike:compileDebugAidl
-:emojilike:compileDebugRenderscript
-:emojilike:generateDebugBuildConfig
-:emojilike:generateDebugAssets UP-TO-DATE
-:emojilike:mergeDebugAssets
-:emojilike:generateDebugResValues
-:emojilike:generateDebugResources
-:emojilike:mergeDebugResources
-:emojilike:processDebugManifest
-:emojilike:processDebugResources
-:emojilike:generateDebugSources
-:emojilike:compileDebugJavaWithJavac
-:emojilike:extractDebugAnnotations
-:emojilike:mergeDebugProguardFiles
-:emojilike:packageDebugRenderscript UP-TO-DATE
-:emojilike:packageDebugResources
-:emojilike:processDebugJavaRes UP-TO-DATE
-:emojilike:transformResourcesWithMergeJavaResForDebug
-:emojilike:transformClassesAndResourcesWithSyncLibJarsForDebug
-:emojilike:mergeDebugJniLibFolders
-:emojilike:transformNative_libsWithMergeJniLibsForDebug
-:emojilike:transformNative_libsWithSyncJniLibsForDebug
-:emojilike:bundleDebug
-:emojilike:compileDebugSources
-:emojilike:assembleDebug
-:emojilike:compileReleaseNdk UP-TO-DATE
-:emojilike:copyReleaseLint UP-TO-DATE
-:emojilike:checkReleaseManifest
-:emojilike:prepareReleaseDependencies
-:emojilike:compileReleaseAidl
-:emojilike:compileReleaseRenderscript
-:emojilike:generateReleaseBuildConfig
-:emojilike:generateReleaseAssets UP-TO-DATE
-:emojilike:mergeReleaseAssets
-:emojilike:generateReleaseResValues
-:emojilike:generateReleaseResources
-:emojilike:mergeReleaseResources
-:emojilike:processReleaseManifest
-:emojilike:processReleaseResources
-:emojilike:generateReleaseSources
-:emojilike:compileReleaseJavaWithJavac
-:emojilike:extractReleaseAnnotations
-:emojilike:mergeReleaseProguardFiles
-:emojilike:packageReleaseRenderscript UP-TO-DATE
-:emojilike:packageReleaseResources
-:emojilike:processReleaseJavaRes UP-TO-DATE
-:emojilike:transformResourcesWithMergeJavaResForRelease
-:emojilike:transformClassesAndResourcesWithSyncLibJarsForRelease
-:emojilike:mergeReleaseJniLibFolders
-:emojilike:transformNative_libsWithMergeJniLibsForRelease
-:emojilike:transformNative_libsWithSyncJniLibsForRelease
-:emojilike:bundleRelease
-:emojilike:compileReleaseSources
-:emojilike:assembleRelease
-:emojilike:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/ActivityWithEmoji.java:4: error: package android.support.v7.app does not exist
-import android.support.v7.app.AppCompatActivity;
+2019-07-08 01:02:49,217 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/gradlew
+2019-07-08 01:02:49,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/build.gradle
+2019-07-08 01:02:49,221 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/settings.gradle
+2019-07-08 01:02:49,221 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:02:49,221 INFO  ProjectFixService - Fixing project...
+2019-07-08 01:02:49,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/local.properties
+2019-07-08 01:02:49,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/local.properties
+2019-07-08 01:02:49,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,227 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/local.properties
+2019-07-08 01:02:49,228 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-all.zip
+2019-07-08 01:02:49,228 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8.1-bin.zip)
+2019-07-08 01:02:49,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 01:02:49,229 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 01:02:49,229 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:02:49,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:02:56,264 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-07-08 01:02:56,265 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 01:02:56,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 01:03:12,558 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :emojilike:preBuild UP-TO-DATE
+> Task :emojilike:preDebugBuild UP-TO-DATE
+> Task :emojilike:compileDebugAidl
+> Task :emojilike:compileDebugRenderscript
+> Task :emojilike:checkDebugManifest
+> Task :emojilike:generateDebugBuildConfig
+> Task :emojilike:generateDebugResValues
+> Task :emojilike:generateDebugResources
+> Task :emojilike:packageDebugResources
+> Task :emojilike:processDebugManifest
+> Task :emojilike:prepareLintJar
+> Task :emojilike:javaPreCompileDebug
+> Task :emojilike:mergeDebugConsumerProguardFiles
+> Task :emojilike:mergeDebugShaders
+> Task :emojilike:compileDebugShaders
+> Task :emojilike:generateDebugAssets
+> Task :emojilike:packageDebugAssets
+> Task :emojilike:packageDebugRenderscript NO-SOURCE
+> Task :emojilike:processDebugJavaRes NO-SOURCE
+> Task :emojilike:compileDebugNdk NO-SOURCE
+> Task :emojilike:mergeDebugJniLibFolders
+> Task :emojilike:transformNativeLibsWithMergeJniLibsForDebug
+> Task :emojilike:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :emojilike:transformNativeLibsWithSyncJniLibsForDebug
+> Task :emojilike:preReleaseBuild UP-TO-DATE
+> Task :emojilike:compileReleaseAidl
+> Task :emojilike:compileReleaseRenderscript
+> Task :emojilike:checkReleaseManifest
+> Task :emojilike:generateReleaseBuildConfig
+> Task :emojilike:generateReleaseResValues
+> Task :emojilike:generateReleaseResources
+> Task :emojilike:packageReleaseResources
+> Task :emojilike:processReleaseManifest
+> Task :emojilike:javaPreCompileRelease
+> Task :emojilike:mergeReleaseConsumerProguardFiles
+> Task :emojilike:mergeReleaseShaders
+> Task :emojilike:compileReleaseShaders
+> Task :emojilike:generateReleaseAssets
+> Task :emojilike:packageReleaseAssets
+> Task :emojilike:packageReleaseRenderscript NO-SOURCE
+> Task :emojilike:processReleaseJavaRes NO-SOURCE
+> Task :emojilike:compileReleaseNdk NO-SOURCE
+> Task :emojilike:mergeReleaseJniLibFolders
+> Task :emojilike:transformNativeLibsWithMergeJniLibsForRelease
+> Task :emojilike:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :emojilike:transformNativeLibsWithSyncJniLibsForRelease
+> Task :emojilike:mergeReleaseResources
+> Task :emojilike:verifyReleaseResources
+
+> Task :emojilike:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:13: error: package ro.andreidobrescu.emojilikelib does not exist
+import ro.andreidobrescu.emojilikelib.R;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiCellView.java:11: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiCellView.java:13: error: package ro.andreidobrescu.emojilikelib does not exist
+import ro.andreidobrescu.emojilikelib.R;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/ActivityWithEmoji.java:4: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatActivity;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/ActivityWithEmoji.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/ActivityWithEmoji.java:11: error: cannot find symbol
 public class ActivityWithEmoji extends AppCompatActivity implements IActivityWithEmoji
                                        ^
   symbol: class AppCompatActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:152: warning: no @param for touchDownDelay
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiCellView.java:17: error: cannot find symbol
+    public EmojiCellView(@NonNull Context context)
+                          ^
+  symbol:   class NonNull
+  location: class EmojiCellView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiCellView.java:31: error: cannot find symbol
+        public WithImage(@NonNull Context context)
+                          ^
+  symbol:   class NonNull
+  location: class WithImage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiCellView.java:52: error: cannot find symbol
+        public WithImageAndText(@NonNull Context context)
+                                 ^
+  symbol:   class NonNull
+  location: class WithImageAndText
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:161: warning: no @param for touchDownDelay
     public EmojiConfig setTouchDownDelay(int touchDownDelay) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:152: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:161: warning: no @return
     public EmojiConfig setTouchDownDelay(int touchDownDelay) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:160: warning: no @param for touchUpDelay
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:169: warning: no @param for touchUpDelay
     public EmojiConfig setTouchUpDelay(int touchUpDelay) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:160: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/emojilike/src/main/java/ro/andreidobrescu/emojilike/EmojiConfig.java:169: warning: no @return
     public EmojiConfig setTouchUpDelay(int touchUpDelay) {
                        ^
+15 warnings
 
-6 warnings
-:emojilike:javadocJar
-:emojilike:sourcesJar
-:emojilike:assemble
-:emojilike:lint FAILED
+> Task :emojilike:javadocJar
+> Task :emojilike:sourcesJar
+> Task :emojilike:platformAttrExtractor
+> Task :emojilike:generateDebugRFile
+> Task :emojilike:generateDebugSources
+> Task :emojilike:compileDebugJavaWithJavac
+> Task :emojilike:extractDebugAnnotations
+> Task :emojilike:transformResourcesWithMergeJavaResForDebug
+> Task :emojilike:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :emojilike:bundleDebug
+> Task :emojilike:compileDebugSources
+> Task :emojilike:assembleDebug
+> Task :emojilike:generateReleaseRFile
+> Task :emojilike:generateReleaseSources
+> Task :emojilike:compileReleaseJavaWithJavac
+> Task :emojilike:extractReleaseAnnotations
+> Task :emojilike:transformResourcesWithMergeJavaResForRelease
+> Task :emojilike:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :emojilike:bundleRelease
+> Task :emojilike:compileReleaseSources
+> Task :emojilike:assembleRelease
+> Task :emojilike:assemble
+> Task :emojilike:build
 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL in 16s
+51 actionable tasks: 51 executed
 
-* What went wrong:
-Execution failed for task ':emojilike:lint'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+2019-07-08 01:03:12,596 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:03:12,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:03:17,631 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-08 01:03:17,631 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 01:03:17,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 01:03:57,236 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/10.1.0/butterknife-10.1.0.pom
+Download https://jitpack.io/com/github/andob/emojilike-android/beta3/emojilike-android-beta3.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/10.1.0/butterknife-runtime-10.1.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/10.1.0/butterknife-annotations-10.1.0.pom
+Download https://jitpack.io/com/github/andob/emojilike-android/beta3/emojilike-android-beta3.aar
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/10.1.0/butterknife-compiler-10.1.0.pom
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:extractTryWithResourcesSupportJarDebug
+> Task :sample:transformClassesWithStackFramesFixerForDebug
+> Task :sample:transformClassesWithDesugarForDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:extractTryWithResourcesSupportJarRelease
+> Task :sample:transformClassesWithStackFramesFixerForRelease
+> Task :sample:transformClassesWithDesugarForRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL in 39s
+59 actionable tasks: 59 executed
 
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':emojilike:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
-	at org.gradle.internal.Factories$1.create(Factories.java:22)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
-	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:77)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
-	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
-	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
-	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
-	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
-
-
-BUILD FAILED
-
-Total time: 12.871 secs
-
-2018-11-12 23:22:44,263 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:22:44,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:22:51,097 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-11-12 23:22:51,097 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 23:22:51,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 23:23:11,984 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 23:23:11,984 INFO  SysUtils - Configuration on demand is an incubating feature.
-:emojilike:preBuild UP-TO-DATE
-:emojilike:preDebugBuild UP-TO-DATE
-:emojilike:compileDebugNdk UP-TO-DATE
-:emojilike:compileLint
-:emojilike:copyDebugLint UP-TO-DATE
-:emojilike:checkDebugManifest
-:emojilike:preDebugAndroidTestBuild UP-TO-DATE
-:emojilike:preDebugUnitTestBuild UP-TO-DATE
-:emojilike:preReleaseBuild UP-TO-DATE
-:emojilike:preReleaseUnitTestBuild UP-TO-DATE
-:emojilike:prepareComAndroidSupportAnimatedVectorDrawable2340Library UP-TO-DATE
-:emojilike:prepareComAndroidSupportAppcompatV72340Library UP-TO-DATE
-:emojilike:prepareComAndroidSupportSupportV42340Library UP-TO-DATE
-:emojilike:prepareComAndroidSupportSupportVectorDrawable2340Library UP-TO-DATE
-:emojilike:prepareDebugDependencies
-:emojilike:compileDebugAidl UP-TO-DATE
-:emojilike:compileDebugRenderscript UP-TO-DATE
-:emojilike:generateDebugBuildConfig UP-TO-DATE
-:emojilike:generateDebugAssets UP-TO-DATE
-:emojilike:mergeDebugAssets UP-TO-DATE
-:emojilike:generateDebugResValues UP-TO-DATE
-:emojilike:generateDebugResources UP-TO-DATE
-:emojilike:mergeDebugResources UP-TO-DATE
-:emojilike:processDebugManifest UP-TO-DATE
-:emojilike:processDebugResources UP-TO-DATE
-:emojilike:generateDebugSources UP-TO-DATE
-:emojilike:compileDebugJavaWithJavac UP-TO-DATE
-:emojilike:extractDebugAnnotations UP-TO-DATE
-:emojilike:mergeDebugProguardFiles UP-TO-DATE
-:emojilike:packageDebugRenderscript UP-TO-DATE
-:emojilike:packageDebugResources UP-TO-DATE
-:emojilike:processDebugJavaRes UP-TO-DATE
-:emojilike:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:emojilike:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:emojilike:mergeDebugJniLibFolders UP-TO-DATE
-:emojilike:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
-:emojilike:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
-:emojilike:bundleDebug UP-TO-DATE
-:emojilike:compileReleaseNdk UP-TO-DATE
-:emojilike:copyReleaseLint UP-TO-DATE
-:emojilike:checkReleaseManifest
-:emojilike:prepareReleaseDependencies
-:emojilike:compileReleaseAidl UP-TO-DATE
-:emojilike:compileReleaseRenderscript UP-TO-DATE
-:emojilike:generateReleaseBuildConfig UP-TO-DATE
-:emojilike:generateReleaseAssets UP-TO-DATE
-:emojilike:mergeReleaseAssets UP-TO-DATE
-:emojilike:generateReleaseResValues UP-TO-DATE
-:emojilike:generateReleaseResources UP-TO-DATE
-:emojilike:mergeReleaseResources UP-TO-DATE
-:emojilike:processReleaseManifest UP-TO-DATE
-:emojilike:processReleaseResources UP-TO-DATE
-:emojilike:generateReleaseSources UP-TO-DATE
-:emojilike:compileReleaseJavaWithJavac UP-TO-DATE
-:emojilike:extractReleaseAnnotations UP-TO-DATE
-:emojilike:mergeReleaseProguardFiles UP-TO-DATE
-:emojilike:packageReleaseRenderscript UP-TO-DATE
-:emojilike:packageReleaseResources UP-TO-DATE
-:emojilike:processReleaseJavaRes UP-TO-DATE
-:emojilike:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:emojilike:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:emojilike:mergeReleaseJniLibFolders UP-TO-DATE
-:emojilike:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
-:emojilike:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
-:emojilike:bundleRelease UP-TO-DATE
-:emojilike:javadoc UP-TO-DATE
-:emojilike:javadocJar UP-TO-DATE
-:emojilike:sourcesJar UP-TO-DATE
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild UP-TO-DATE
-:sample:checkDebugManifest
-:sample:preReleaseBuild UP-TO-DATE
-:sample:prepareComAndroidSupportAnimatedVectorDrawable2340Library
-:sample:prepareComAndroidSupportAppcompatV72340Library
-:sample:prepareComAndroidSupportCardviewV72311Library
-:sample:prepareComAndroidSupportDesign2340Library
-:sample:prepareComAndroidSupportRecyclerviewV72340Library
-:sample:prepareComAndroidSupportSupportV42340Library
-:sample:prepareComAndroidSupportSupportVectorDrawable2340Library
-:sample:prepareComGithubJitpackEmojilikeUnspecifiedLibrary
-:sample:prepareComJakewhartonButterknife810Library
-:sample:prepareDebugDependencies
-:sample:compileDebugAidl
-:sample:compileDebugRenderscript
-:sample:generateDebugBuildConfig
-:sample:generateDebugAssets UP-TO-DATE
-:sample:mergeDebugAssets
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:processDebugManifest
-:sample:processDebugResources
-:sample:generateDebugSources
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk UP-TO-DATE
-:sample:compileDebugSources
-:sample:transformClassesWithDexForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNative_libsWithMergeJniLibsForDebug
-:sample:processDebugJavaRes UP-TO-DATE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateDebugSigning
-:sample:packageDebug
-:sample:zipalignDebug
-:sample:assembleDebug
-:sample:checkReleaseManifest
-:sample:prepareReleaseDependencies
-:sample:compileReleaseAidl
-:sample:compileReleaseRenderscript
-:sample:generateReleaseBuildConfig
-:sample:generateReleaseAssets UP-TO-DATE
-:sample:mergeReleaseAssets
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:processReleaseManifest
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk UP-TO-DATE
-:sample:compileReleaseSources
-:sample:lintVitalRelease FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':sample:lintVitalRelease'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:lintVitalRelease'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
-	at org.gradle.internal.Factories$1.create(Factories.java:22)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
-	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:77)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
-	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
-	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
-	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
-	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
-
-
-BUILD FAILED
-
-Total time: 20.344 secs
-
-2018-11-12 23:23:12,094 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039728040-0/src/emojilike-android-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 01:03:57,328 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562522419879-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

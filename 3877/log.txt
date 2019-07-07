@@ -1,38 +1,38 @@
-2018-11-12 15:05:38,301 INFO  DownloadService - Downloading "https://github.com/charbgr/SeismicInterceptor/archive/master.zip", attempt 3
-2018-11-12 15:05:49,367 INFO  DownloadService - Downloaded https://github.com/charbgr/SeismicInterceptor/archive/master.zip, attempt 3
-2018-11-12 15:05:49,368 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/master.zip": 5 MB
-2018-11-12 15:05:49,368 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 15:05:49,375 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/master.zip: true
-2018-11-12 15:05:49,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src'.
-2018-11-12 15:05:49,459 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-11-12 15:05:49,459 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src]
-2018-11-12 15:05:49,476 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/.git/
+2019-07-08 00:19:26,744 INFO  DownloadService - Downloading "https://github.com/charbgr/SeismicInterceptor/archive/master.zip", attempt 3
+2019-07-08 00:19:31,381 INFO  DownloadService - Downloaded https://github.com/charbgr/SeismicInterceptor/archive/master.zip, attempt 3
+2019-07-08 00:19:31,382 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/master.zip": 5 MB
+2019-07-08 00:19:31,382 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:19:31,384 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/master.zip: true
+2019-07-08 00:19:31,384 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src'.
+2019-07-08 00:19:31,452 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-07-08 00:19:31,453 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src]
+2019-07-08 00:19:31,470 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/.git/
 
-2018-11-12 15:05:49,481 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/gradlew
-2018-11-12 15:05:49,486 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/build.gradle
-2018-11-12 15:05:49,491 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/settings.gradle
-2018-11-12 15:05:49,491 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-11-12 15:05:49,711 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-11-12 15:05:49,712 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle
-2018-11-12 15:05:49,712 INFO  ProjectFixService - Fixing project...
-2018-11-12 15:05:49,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/local.properties
-2018-11-12 15:05:49,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-12 15:05:49,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor-noop/local.properties
-2018-11-12 15:05:49,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 15:05:49,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor/local.properties
-2018-11-12 15:05:49,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 15:05:49,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/local.properties
-2018-11-12 15:05:49,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 15:05:49,731 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 15:05:49,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 15:05:49,732 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 15:05:49,732 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:05:49,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:05:59,219 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-12 15:05:59,219 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-12 15:05:59,219 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-12 15:05:59,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-12 15:06:05,680 ERROR SysUtils - Could not process external command
+2019-07-08 00:19:31,473 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/gradlew
+2019-07-08 00:19:31,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/build.gradle
+2019-07-08 00:19:31,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/settings.gradle
+2019-07-08 00:19:31,481 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-07-08 00:19:31,717 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-07-08 00:19:31,717 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle
+2019-07-08 00:19:31,717 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:19:31,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/local.properties
+2019-07-08 00:19:31,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-08 00:19:31,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor-noop/local.properties
+2019-07-08 00:19:31,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor-noop/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:19:31,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor/local.properties
+2019-07-08 00:19:31,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/seismicinterceptor/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:19:31,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/local.properties
+2019-07-08 00:19:31,732 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 00:19:31,733 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 00:19:31,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:19:31,734 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:19:31,734 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:19:31,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:19:40,629 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 00:19:40,629 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-08 00:19:40,629 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-08 00:19:40,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-08 00:19:46,257 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 15:06:05,680 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:19:46,257 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -121,11 +121,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocsJar' not found
 
 BUILD FAILED
 
-Total time: 5.931 secs
+Total time: 5.115 secs
 
-2018-11-12 15:06:05,680 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 15:06:05,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 15:06:23,919 ERROR SysUtils - Could not process external command
+2019-07-08 00:19:46,257 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:19:46,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:20:03,097 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -153,7 +153,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 15:06:23,919 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:20:03,097 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild UP-TO-DATE
@@ -247,7 +247,7 @@ Merged dex #13 (34 defs/67.9KiB)
 Merged dex #14 (80 defs/73.3KiB)
 Merged dex #15 (5 defs/4.6KiB)
 Merged dex #16 (41 defs/6.5KiB)
-Result is 2377 defs/3882.6KiB. Took 0.3s
+Result is 2377 defs/3882.6KiB. Took 0.4s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -372,6 +372,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.631 secs
+Total time: 16.265 secs
 
-2018-11-12 15:06:24,017 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542009938292-0/src/SeismicInterceptor-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 00:20:03,164 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562519966740-0/src/SeismicInterceptor-master/sample/build/outputs/apk/sample-debug-unaligned.apk

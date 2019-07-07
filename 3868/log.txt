@@ -1,30 +1,30 @@
-2018-11-12 15:19:07,661 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlist-binder/archive/master.zip", attempt 3
-2018-11-12 15:19:08,179 INFO  DownloadService - Downloaded https://github.com/s0nerik/rxlist-binder/archive/master.zip, attempt 3
-2018-11-12 15:19:08,179 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/master.zip": 55 KB
-2018-11-12 15:19:08,179 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 15:19:08,184 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/master.zip: true
-2018-11-12 15:19:08,184 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src'.
-2018-11-12 15:19:08,188 INFO  FullProcessService - Size of directory with sources: 64 KB
-2018-11-12 15:19:08,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src]
-2018-11-12 15:19:08,207 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/.git/
+2019-07-08 00:25:53,982 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlist-binder/archive/master.zip", attempt 3
+2019-07-08 00:25:54,536 INFO  DownloadService - Downloaded https://github.com/s0nerik/rxlist-binder/archive/master.zip, attempt 3
+2019-07-08 00:25:54,537 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/master.zip": 55 KB
+2019-07-08 00:25:54,537 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:25:54,542 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/master.zip: true
+2019-07-08 00:25:54,543 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src'.
+2019-07-08 00:25:54,548 INFO  FullProcessService - Size of directory with sources: 64 KB
+2019-07-08 00:25:54,548 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src]
+2019-07-08 00:25:54,564 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/.git/
 
-2018-11-12 15:19:08,208 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/gradlew
-2018-11-12 15:19:08,209 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle
-2018-11-12 15:19:08,211 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle
-2018-11-12 15:19:08,211 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 15:19:08,211 INFO  ProjectFixService - Fixing project...
-2018-11-12 15:19:08,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/local.properties
-2018-11-12 15:19:08,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
-2018-11-12 15:19:08,214 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
-2018-11-12 15:19:08,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-12 15:19:08,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
-2018-11-12 15:19:08,215 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 15:19:08,215 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 15:19:08,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 15:19:35,317 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-12 15:19:35,317 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-12 15:19:35,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542010747657-0/src/rxlist-binder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-12 15:19:48,865 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:25:54,565 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/gradlew
+2019-07-08 00:25:54,566 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle
+2019-07-08 00:25:54,567 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle
+2019-07-08 00:25:54,567 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:25:54,567 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:25:54,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/local.properties
+2019-07-08 00:25:54,569 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
+2019-07-08 00:25:54,570 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2019-07-08 00:25:54,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-08 00:25:54,570 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=29]
+2019-07-08 00:25:54,570 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:25:54,570 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:25:54,570 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:26:05,116 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-08 00:26:05,116 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 00:26:05,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520353980-0/src/rxlist-binder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 00:26:11,768 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :preBuild UP-TO-DATE
 :preDebugBuild UP-TO-DATE
@@ -107,7 +107,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 13.023 secs
+Total time: 6.109 secs
 
-2018-11-12 15:19:48,917 ERROR FullProcessService - Project build has not produced APK file
-2018-11-12 15:19:48,963 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 00:26:11,778 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 00:26:11,786 ERROR FullProcessService - Could not find generated or existed APK file

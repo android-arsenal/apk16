@@ -1,33 +1,33 @@
-2018-11-12 16:58:08,447 INFO  DownloadService - Downloading "https://github.com/zhanyongsheng/BrokenView/archive/master.zip", attempt 3
-2018-11-12 16:58:09,342 INFO  DownloadService - Downloaded https://github.com/zhanyongsheng/BrokenView/archive/master.zip, attempt 3
-2018-11-12 16:58:09,342 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/master.zip": 503 KB
-2018-11-12 16:58:09,342 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:58:09,348 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/master.zip: true
-2018-11-12 16:58:09,348 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src'.
-2018-11-12 16:58:09,372 INFO  FullProcessService - Size of directory with sources: 563 KB
-2018-11-12 16:58:09,372 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src]
-2018-11-12 16:58:09,388 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/.git/
+2019-07-08 00:32:52,195 INFO  DownloadService - Downloading "https://github.com/zhanyongsheng/BrokenView/archive/master.zip", attempt 3
+2019-07-08 00:32:54,138 INFO  DownloadService - Downloaded https://github.com/zhanyongsheng/BrokenView/archive/master.zip, attempt 3
+2019-07-08 00:32:54,139 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/master.zip": 503 KB
+2019-07-08 00:32:54,139 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:32:54,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/master.zip: true
+2019-07-08 00:32:54,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src'.
+2019-07-08 00:32:54,169 INFO  FullProcessService - Size of directory with sources: 563 KB
+2019-07-08 00:32:54,169 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src]
+2019-07-08 00:32:54,185 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/.git/
 
-2018-11-12 16:58:09,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/gradlew
-2018-11-12 16:58:09,395 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/brokenview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/build.gradle
-2018-11-12 16:58:09,398 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/brokenview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/settings.gradle
-2018-11-12 16:58:09,398 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 16:58:09,398 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:58:09,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/local.properties
-2018-11-12 16:58:09,407 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:58:09,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/brokenview/local.properties
-2018-11-12 16:58:09,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/brokenview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:58:09,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/local.properties
-2018-11-12 16:58:09,410 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-11-12 16:58:09,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-11-12 16:58:09,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:58:09,411 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:58:09,412 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:58:09,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:58:15,700 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-12 16:58:15,701 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 16:58:15,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 16:58:33,734 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:32:54,188 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/gradlew
+2019-07-08 00:32:54,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/brokenview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/build.gradle
+2019-07-08 00:32:54,192 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/brokenview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/settings.gradle
+2019-07-08 00:32:54,193 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:32:54,193 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:32:54,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/local.properties
+2019-07-08 00:32:54,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:54,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/brokenview/local.properties
+2019-07-08 00:32:54,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/brokenview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:54,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/local.properties
+2019-07-08 00:32:54,199 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-07-08 00:32:54,199 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-07-08 00:32:54,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:54,202 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:32:54,202 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:32:54,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:33:00,322 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-08 00:33:00,323 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:33:00,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:33:17,100 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -51,7 +51,7 @@
 :brokenview:processReleaseResources
 :brokenview:generateReleaseSources
 :brokenview:processReleaseJavaRes UP-TO-DATE
-:brokenview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/brokenview/src/main/java/com/zys/brokenview/LinePath.java uses unchecked or unsafe operations.
+:brokenview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/brokenview/src/main/java/com/zys/brokenview/LinePath.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :brokenview:packageReleaseJar
@@ -74,11 +74,11 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:generateDebugResValues
 :app:generateDebugResources
 :app:mergeDebugResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img1.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img3.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img2.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/toggle_btn_checked.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img1.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img2.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img3.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/toggle_btn_checked.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :app:processDebugManifest
 :app:processDebugResources
 :app:generateDebugSources
@@ -102,11 +102,11 @@ AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/s
 :app:generateReleaseResValues
 :app:generateReleaseResources
 :app:mergeReleaseResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img1.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img3.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img2.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT err(1574684924) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/toggle_btn_checked.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img3.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img2.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/img1.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT err(2144709493) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/toggle_btn_checked.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/src/main/res/mipmap-hdpi/refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :app:processReleaseManifest
 :app:processReleaseResources
 :app:generateReleaseSources
@@ -123,6 +123,6 @@ AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/s
 
 BUILD SUCCESSFUL
 
-Total time: 17.521 secs
+Total time: 16.294 secs
 
-2018-11-12 16:58:33,787 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016688439-0/src/BrokenView-master/app/build/outputs/apk/app-debug.apk
+2019-07-08 00:33:17,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520772187-0/src/BrokenView-master/app/build/outputs/apk/app-debug.apk

@@ -1,31 +1,31 @@
-2018-11-12 16:50:57,551 INFO  DownloadService - Downloading "https://github.com/qinci/MarkdownEditors/archive/master.zip", attempt 3
-2018-11-12 16:51:32,857 INFO  DownloadService - Downloaded https://github.com/qinci/MarkdownEditors/archive/master.zip, attempt 3
-2018-11-12 16:51:32,857 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/master.zip": 15 MB
-2018-11-12 16:51:32,857 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:51:32,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/master.zip: true
-2018-11-12 16:51:32,863 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src'.
-2018-11-12 16:51:33,056 INFO  FullProcessService - Size of directory with sources: 19 MB
-2018-11-12 16:51:33,056 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src]
-2018-11-12 16:51:33,073 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/.git/
+2019-07-08 00:28:37,722 INFO  DownloadService - Downloading "https://github.com/qinci/MarkdownEditors/archive/master.zip", attempt 3
+2019-07-08 00:28:51,280 INFO  DownloadService - Downloaded https://github.com/qinci/MarkdownEditors/archive/master.zip, attempt 3
+2019-07-08 00:28:51,281 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/master.zip": 15 MB
+2019-07-08 00:28:51,281 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:28:51,283 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/master.zip: true
+2019-07-08 00:28:51,284 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src'.
+2019-07-08 00:28:51,445 INFO  FullProcessService - Size of directory with sources: 19 MB
+2019-07-08 00:28:51,445 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src]
+2019-07-08 00:28:51,462 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/.git/
 
-2018-11-12 16:51:33,079 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/gradlew
-2018-11-12 16:51:33,086 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/build.gradle
-2018-11-12 16:51:33,092 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/settings.gradle
-2018-11-12 16:51:33,092 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 16:51:33,092 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:51:33,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/local.properties
-2018-11-12 16:51:33,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
-2018-11-12 16:51:33,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/local.properties
-2018-11-12 16:51:33,107 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-12 16:51:33,108 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-12 16:51:33,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
-2018-11-12 16:51:33,109 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:51:33,109 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:51:33,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:52:26,789 INFO  ProjectTaskService - Detected possible tasks: 116
-2018-11-12 16:52:26,789 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2018-11-12 16:52:26,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2018-11-12 16:53:16,111 ERROR SysUtils - Could not process external command
+2019-07-08 00:28:51,466 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/gradlew
+2019-07-08 00:28:51,470 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/build.gradle
+2019-07-08 00:28:51,474 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/settings.gradle
+2019-07-08 00:28:51,474 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:28:51,474 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:28:51,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/local.properties
+2019-07-08 00:28:51,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
+2019-07-08 00:28:51,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/local.properties
+2019-07-08 00:28:51,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 00:28:51,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 00:28:51,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=22]
+2019-07-08 00:28:51,484 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:28:51,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:28:51,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:29:04,382 INFO  ProjectTaskService - Detected possible tasks: 116
+2019-07-08 00:29:04,382 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-07-08 00:29:04,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-07-08 00:29:43,678 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -38,8 +38,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -53,7 +52,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:53:16,112 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:29:43,679 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is required to support java 8 language features.
 Incremental java compilation is an incubating feature.
 Jack is required to support java 8 language features.
@@ -103,7 +102,7 @@ Jack is required to support java 8 language features.
 :app:incrementalFlavors_devDebugJavaCompilationSafeguard
 :app:compileFlavors_devDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseToolbarActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseToolbarActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileRetrolambdaFlavors_devDebug
@@ -114,10 +113,10 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:collectFlavors_devDebugMultiDexComponents
 :app:transformClassesWithMultidexlistForFlavors_devDebug
 ProGuard, version 5.2.1
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_dev/debug/jars/1/1f/combined.jar]
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_dev/debug/jars/1/1f/combined.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/multi-dex/flavors_dev/debug/componentClasses.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_dev/debug/jars/1/1f/combined.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/multi-dex/flavors_dev/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_dev/debug/jars/1/1f/combined.jar]
 :app:transformClassesWithDexForFlavors_devDebug
 To run dex in process, the Gradle daemon needs a larger heap.
 It currently has approximately 3641 MB.
@@ -150,7 +149,7 @@ For more information see https://docs.gradle.org/current/userguide/build_environ
 :app:incrementalFlavors_releaseDebugJavaCompilationSafeguard
 :app:compileFlavors_releaseDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseToolbarActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseToolbarActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileRetrolambdaFlavors_releaseDebug
@@ -161,10 +160,10 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:collectFlavors_releaseDebugMultiDexComponents
 :app:transformClassesWithMultidexlistForFlavors_releaseDebug
 ProGuard, version 5.2.1
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_release/debug/jars/1/1f/combined.jar]
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_release/debug/jars/1/1f/combined.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/multi-dex/flavors_release/debug/componentClasses.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_release/debug/jars/1/1f/combined.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/multi-dex/flavors_release/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/build/intermediates/transforms/jarMerging/flavors_release/debug/jars/1/1f/combined.jar]
 :app:transformClassesWithDexForFlavors_releaseDebug
 :app:mergeFlavors_releaseDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForFlavors_releaseDebug
@@ -190,24 +189,24 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :app:processFlavors_devDevResources
 :app:generateFlavors_devDevSources
 :app:incrementalFlavors_devDevJavaCompilationSafeguard
-:app:compileFlavors_devDevJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseFragment.java:28: error: package com.squareup.leakcanary does not exist
+:app:compileFlavors_devDevJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseFragment.java:28: error: package com.squareup.leakcanary does not exist
 import com.squareup.leakcanary.RefWatcher;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:29: error: package com.squareup.leakcanary does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:29: error: package com.squareup.leakcanary does not exist
 import com.squareup.leakcanary.LeakCanary;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:30: error: package com.squareup.leakcanary does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:30: error: package com.squareup.leakcanary does not exist
 import com.squareup.leakcanary.RefWatcher;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:32: error: package me.drakeet.library does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:32: error: package me.drakeet.library does not exist
 import me.drakeet.library.CrashWoodpecker;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:45: error: cannot find symbol
     private RefWatcher refWatcher;
             ^
   symbol:   class RefWatcher
   location: class BaseApplication
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/app/src/main/java/ren/qinc/markdowneditors/base/BaseApplication.java:68: error: cannot find symbol
     public static RefWatcher getRefWatcher(Context context) {
                   ^
   symbol:   class RefWatcher
@@ -312,6 +311,6 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 48.718 secs
+Total time: 38.754 secs
 
-2018-11-12 16:53:16,248 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016257547-0/src/MarkdownEditors-master/apk/app-flavors_release-release.apk
+2019-07-08 00:29:43,764 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520517719-0/src/MarkdownEditors-master/apk/app-flavors_release-release.apk

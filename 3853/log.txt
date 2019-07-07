@@ -1,35 +1,35 @@
-2018-11-12 16:56:41,982 INFO  DownloadService - Downloading "https://github.com/venshine/WheelView/archive/master.zip", attempt 3
-2018-11-12 16:56:43,939 INFO  DownloadService - Downloaded https://github.com/venshine/WheelView/archive/master.zip, attempt 3
-2018-11-12 16:56:43,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/master.zip": 365 KB
-2018-11-12 16:56:43,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 16:56:43,941 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/master.zip: true
-2018-11-12 16:56:43,941 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src'.
-2018-11-12 16:56:43,963 INFO  FullProcessService - Size of directory with sources: 461 KB
-2018-11-12 16:56:43,963 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src]
-2018-11-12 16:56:43,982 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/.git/
+2019-07-08 00:32:18,587 INFO  DownloadService - Downloading "https://github.com/venshine/WheelView/archive/master.zip", attempt 3
+2019-07-08 00:32:20,183 INFO  DownloadService - Downloaded https://github.com/venshine/WheelView/archive/master.zip, attempt 3
+2019-07-08 00:32:20,183 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/master.zip": 365 KB
+2019-07-08 00:32:20,183 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 00:32:20,188 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/master.zip: true
+2019-07-08 00:32:20,189 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src'.
+2019-07-08 00:32:20,208 INFO  FullProcessService - Size of directory with sources: 462 KB
+2019-07-08 00:32:20,208 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src]
+2019-07-08 00:32:20,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/.git/
 
-2018-11-12 16:56:43,984 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/gradlew
-2018-11-12 16:56:43,988 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/wheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/build.gradle
-2018-11-12 16:56:43,990 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/wheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/settings.gradle
-2018-11-12 16:56:43,991 INFO  DownloadService - Downloading "http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle", attempt 3
-2018-11-12 16:56:44,188 INFO  DownloadService - Downloaded http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle, attempt 3
-2018-11-12 16:56:44,188 INFO  ProjectBuildService - Remote scripts: http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle
-2018-11-12 16:56:44,188 INFO  ProjectFixService - Fixing project...
-2018-11-12 16:56:44,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/local.properties
-2018-11-12 16:56:44,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:56:44,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/wheelview/local.properties
-2018-11-12 16:56:44,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/wheelview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:56:44,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/local.properties
-2018-11-12 16:56:44,200 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-11-12 16:56:44,200 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-11-12 16:56:44,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-12 16:56:44,201 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 16:56:44,201 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 16:56:44,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 16:56:50,862 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-12 16:56:50,862 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-12 16:56:50,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-12 16:56:56,188 ERROR SysUtils - Could not process external command
+2019-07-08 00:32:20,226 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/gradlew
+2019-07-08 00:32:20,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/wheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/build.gradle
+2019-07-08 00:32:20,230 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/wheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/settings.gradle
+2019-07-08 00:32:20,230 INFO  DownloadService - Downloading "http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle", attempt 3
+2019-07-08 00:32:20,627 INFO  DownloadService - Downloaded http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle, attempt 3
+2019-07-08 00:32:20,640 INFO  ProjectBuildService - Remote scripts: http://git.oschina.net/venshine/gradle-bintray-upload/raw/master/bintray.gradle
+2019-07-08 00:32:20,640 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:32:20,647 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/local.properties
+2019-07-08 00:32:20,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:20,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/wheelview/local.properties
+2019-07-08 00:32:20,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/wheelview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:20,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/local.properties
+2019-07-08 00:32:20,649 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-07-08 00:32:20,649 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-07-08 00:32:20,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 00:32:20,650 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:32:20,650 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:32:20,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:32:26,327 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-08 00:32:26,327 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 00:32:26,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 00:32:30,588 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:56:56,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:32:30,588 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -116,11 +116,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 4.816 secs
+Total time: 3.769 secs
 
-2018-11-12 16:56:56,188 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-12 16:56:56,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-12 16:57:13,624 ERROR SysUtils - Could not process external command
+2019-07-08 00:32:30,588 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 00:32:30,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 00:32:45,578 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -147,7 +147,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-12 16:57:13,624 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:32:45,579 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild UP-TO-DATE
 :sample:checkDebugManifest
@@ -172,7 +172,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :wheelview:processReleaseManifest
 :wheelview:processReleaseResources
 :wheelview:generateReleaseSources
-:wheelview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/wheelview/src/main/java/com/wx/wheelview/widget/WheelView.java uses or overrides a deprecated API.
+:wheelview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/wheelview/src/main/java/com/wx/wheelview/widget/WheelView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -201,7 +201,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:processDebugManifest
 :sample:processDebugResources
 :sample:generateDebugSources
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/src/main/java/com/wx/wheelview/demo/MainActivity.java uses unchecked or unsafe operations.
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/src/main/java/com/wx/wheelview/demo/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileDebugNdk UP-TO-DATE
@@ -228,7 +228,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:processReleaseManifest
 :sample:processReleaseResources
 :sample:generateReleaseSources
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/src/main/java/com/wx/wheelview/demo/MainActivity.java uses unchecked or unsafe operations.
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/src/main/java/com/wx/wheelview/demo/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileReleaseNdk UP-TO-DATE
@@ -330,6 +330,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.9 secs
+Total time: 14.475 secs
 
-2018-11-12 16:57:13,688 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542016601979-0/src/WheelView-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 00:32:45,623 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520738585-0/src/WheelView-master/sample/build/outputs/apk/sample-debug-unaligned.apk

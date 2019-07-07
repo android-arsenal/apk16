@@ -1,30 +1,33 @@
-2018-11-13 19:14:56,038 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip", attempt 3
-2018-11-13 19:14:57,700 INFO  DownloadService - Downloaded https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip, attempt 3
-2018-11-13 19:14:57,700 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip": 59 KB
-2018-11-13 19:14:57,700 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-13 19:14:57,705 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip: true
-2018-11-13 19:14:57,706 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src'.
-2018-11-13 19:14:57,715 INFO  FullProcessService - Size of directory with sources: 68 KB
-2018-11-13 19:14:57,715 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src]
-2018-11-13 19:14:57,734 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/.git/
+2019-07-08 01:20:03,938 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip", attempt 3
+2019-07-08 01:21:04,524 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 01:21:05,332 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 01:21:05,332 INFO  DownloadService - Downloading "https://github.com/s0nerik/rxlifecycle-groovy/archive/master.zip", attempt 3
+2019-07-08 01:22:06,704 DEBUG FullProcessService - Repository https://github.com/s0nerik/rxlifecycle-groovy available: true
+2019-07-08 01:22:06,704 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 01:22:06,704 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/s0nerik/rxlifecycle-groovy, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src]
+2019-07-08 01:22:08,647 INFO  SysUtils - 
+2019-07-08 01:22:08,659 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/.git": true
+2019-07-08 01:22:08,660 INFO  FullProcessService - Size of directory with sources: 68 KB
+2019-07-08 01:22:08,660 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src]
+2019-07-08 01:22:08,674 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/.git/
 
-2018-11-13 19:14:57,736 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew
-2018-11-13 19:14:57,738 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle
-2018-11-13 19:14:57,739 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle
-2018-11-13 19:14:57,739 INFO  ProjectBuildService - Remote scripts: none
-2018-11-13 19:14:57,739 INFO  ProjectFixService - Fixing project...
-2018-11-13 19:14:57,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/local.properties
-2018-11-13 19:14:57,743 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
-2018-11-13 19:14:57,744 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
-2018-11-13 19:14:57,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-13 19:14:57,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
-2018-11-13 19:14:57,745 INFO  ProjectFixService - Project was maybe fixed
-2018-11-13 19:14:57,745 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-13 19:14:57,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-13 19:15:13,978 INFO  ProjectTaskService - Detected possible tasks: 77
-2018-11-13 19:15:13,978 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-13 19:15:13,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-13 19:15:27,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:22:08,676 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/gradlew
+2019-07-08 01:22:08,677 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle
+2019-07-08 01:22:08,677 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle
+2019-07-08 01:22:08,678 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:22:08,678 INFO  ProjectFixService - Fixing project...
+2019-07-08 01:22:08,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/local.properties
+2019-07-08 01:22:08,680 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
+2019-07-08 01:22:08,680 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2019-07-08 01:22:08,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-08 01:22:08,681 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=29]
+2019-07-08 01:22:08,681 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 01:22:08,681 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:22:08,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:22:25,075 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-07-08 01:22:25,075 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 01:22:25,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 01:22:33,229 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :preBuild UP-TO-DATE
 :preDebugBuild UP-TO-DATE
@@ -66,8 +69,8 @@ Incremental java compilation is an incubating feature.
 :processDebugJavaRes
 :transformResourcesWithMergeJavaResForDebug
 :transformClassesAndResourcesWithSyncLibJarsForDebug
-ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/transforms/mergeJavaRes/debug/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
-ImmutableDirectoryInput{name=8f2442fa481a96aeba271bcd0bfcf950f9b785f4, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build/intermediates/transforms/mergeJavaRes/debug/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
+ImmutableDirectoryInput{name=007895fa414ca464d19f9c757a6fa11fc94e60ce, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
 :mergeDebugJniLibFolders
 :transformNative_libsWithMergeJniLibsForDebug
 :transformNative_libsWithSyncJniLibsForDebug
@@ -104,8 +107,8 @@ ImmutableDirectoryInput{name=8f2442fa481a96aeba271bcd0bfcf950f9b785f4, file=/pri
 :processReleaseJavaRes
 :transformResourcesWithMergeJavaResForRelease
 :transformClassesAndResourcesWithSyncLibJarsForRelease
-ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/transforms/mergeJavaRes/release/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
-ImmutableDirectoryInput{name=d1ff4cdac47e33e2355ecc861be95940e58e6069, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542111296036-0/src/rxlifecycle-groovy-master/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+ImmutableDirectoryInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build/intermediates/transforms/mergeJavaRes/release/folders/2/3/main, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, changedFiles={}}
+ImmutableDirectoryInput{name=a3e678d24802c6e988dcd2b08ca238902c6e0b41, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562523603934-0/src/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
 :mergeReleaseJniLibFolders
 :transformNative_libsWithMergeJniLibsForRelease
 :transformNative_libsWithSyncJniLibsForRelease
@@ -117,7 +120,7 @@ ImmutableDirectoryInput{name=d1ff4cdac47e33e2355ecc861be95940e58e6069, file=/pri
 
 BUILD SUCCESSFUL
 
-Total time: 13.455 secs
+Total time: 7.647 secs
 
-2018-11-13 19:15:28,067 ERROR FullProcessService - Project build has not produced APK file
-2018-11-13 19:15:28,143 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 01:22:33,237 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 01:22:33,244 ERROR FullProcessService - Could not find generated or existed APK file

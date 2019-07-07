@@ -1,33 +1,36 @@
-2018-11-12 23:19:35,555 INFO  DownloadService - Downloading "https://github.com/sbrukhanda/fragmentviewpager/archive/master.zip", attempt 3
-2018-11-12 23:19:36,696 INFO  DownloadService - Downloaded https://github.com/sbrukhanda/fragmentviewpager/archive/master.zip, attempt 3
-2018-11-12 23:19:36,696 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/master.zip": 103 KB
-2018-11-12 23:19:36,696 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-12 23:19:36,701 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/master.zip: true
-2018-11-12 23:19:36,702 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src'.
-2018-11-12 23:19:36,718 INFO  FullProcessService - Size of directory with sources: 162 KB
-2018-11-12 23:19:36,719 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src]
-2018-11-12 23:19:36,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/.git/
+2019-07-08 00:51:54,784 INFO  DownloadService - Downloading "https://github.com/sbrukhanda/fragmentviewpager/archive/master.zip", attempt 3
+2019-07-08 00:52:55,590 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 00:52:56,833 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 00:52:56,833 INFO  DownloadService - Downloading "https://github.com/sbrukhanda/fragmentviewpager/archive/master.zip", attempt 3
+2019-07-08 00:53:58,364 DEBUG FullProcessService - Repository https://github.com/sbrukhanda/fragmentviewpager available: true
+2019-07-08 00:53:58,365 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 00:53:58,365 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sbrukhanda/fragmentviewpager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src]
+2019-07-08 00:54:00,332 INFO  SysUtils - 
+2019-07-08 00:54:00,354 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/.git": true
+2019-07-08 00:54:00,356 INFO  FullProcessService - Size of directory with sources: 162 KB
+2019-07-08 00:54:00,356 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src]
+2019-07-08 00:54:00,370 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/.git/
 
-2018-11-12 23:19:36,743 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/gradlew
-2018-11-12 23:19:36,746 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/build.gradle
-2018-11-12 23:19:36,749 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/settings.gradle
-2018-11-12 23:19:36,749 INFO  ProjectBuildService - Remote scripts: none
-2018-11-12 23:19:36,749 INFO  ProjectFixService - Fixing project...
-2018-11-12 23:19:36,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/local.properties
-2018-11-12 23:19:36,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 23:19:36,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/library/local.properties
-2018-11-12 23:19:36,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 23:19:36,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/local.properties
-2018-11-12 23:19:36,759 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-11-12 23:19:36,760 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-11-12 23:19:36,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-12 23:19:36,761 INFO  ProjectFixService - Project was maybe fixed
-2018-11-12 23:19:36,761 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-12 23:19:36,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-12 23:19:44,706 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-11-12 23:19:44,706 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
-2018-11-12 23:19:44,706 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
-2018-11-12 23:20:08,328 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 00:54:00,372 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/gradlew
+2019-07-08 00:54:00,374 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/build.gradle
+2019-07-08 00:54:00,375 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/settings.gradle
+2019-07-08 00:54:00,375 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 00:54:00,375 INFO  ProjectFixService - Fixing project...
+2019-07-08 00:54:00,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/local.properties
+2019-07-08 00:54:00,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:54:00,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/library/local.properties
+2019-07-08 00:54:00,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:54:00,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/local.properties
+2019-07-08 00:54:00,381 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-08 00:54:00,381 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-08 00:54:00,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-08 00:54:00,382 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 00:54:00,382 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 00:54:00,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 00:54:07,213 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-07-08 00:54:07,213 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-07-08 00:54:07,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-07-08 00:54:24,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 :demo:preBuild UP-TO-DATE
 :demo:preDebugBuild UP-TO-DATE
 :demo:checkDebugManifest
@@ -69,7 +72,7 @@
 :demo:prepareComAndroidSupportDesign2311Library
 :demo:prepareComAndroidSupportRecyclerviewV72311Library
 :demo:prepareComAndroidSupportSupportV42311Library
-:demo:prepareFragmentviewpagerMasterLibraryUnspecifiedLibrary
+:demo:prepareSrcLibraryUnspecifiedLibrary
 :demo:prepareDebugDependencies
 :demo:compileDebugAidl
 :demo:compileDebugRenderscript
@@ -119,6 +122,6 @@
 
 BUILD SUCCESSFUL
 
-Total time: 23.093 secs
+Total time: 16.751 secs
 
-2018-11-12 23:20:08,389 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542039575547-0/src/fragmentviewpager-master/demo/build/outputs/apk/demo-debug-unaligned.apk
+2019-07-08 00:54:24,537 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521914781-0/src/demo/build/outputs/apk/demo-debug-unaligned.apk
