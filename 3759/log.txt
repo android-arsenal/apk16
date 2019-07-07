@@ -1,87 +1,87 @@
-2019-07-08 02:30:33,314 INFO  DownloadService - Downloading "https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip", attempt 3
-2019-07-08 02:30:35,815 INFO  DownloadService - Downloaded https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip, attempt 3
-2019-07-08 02:30:35,815 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/master.zip": 393 KB
-2019-07-08 02:30:35,815 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 02:30:35,822 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/master.zip: true
-2019-07-08 02:30:35,822 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src'.
-2019-07-08 02:30:35,905 INFO  FullProcessService - Size of directory with sources: 641 KB
-2019-07-08 02:30:35,906 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src]
-2019-07-08 02:30:35,922 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/.git/
+2019-07-08 02:59:36,755 INFO  DownloadService - Downloading "https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip", attempt 3
+2019-07-08 02:59:40,903 INFO  DownloadService - Downloaded https://github.com/asciidoctor/asciidoctor-gradle-plugin/archive/master.zip, attempt 3
+2019-07-08 02:59:40,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/master.zip": 393 KB
+2019-07-08 02:59:40,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:59:40,907 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/master.zip: true
+2019-07-08 02:59:40,907 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src'.
+2019-07-08 02:59:40,994 INFO  FullProcessService - Size of directory with sources: 641 KB
+2019-07-08 02:59:40,994 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src]
+2019-07-08 02:59:41,009 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/.git/
 
-2019-07-08 02:30:35,933 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew
-2019-07-08 02:30:35,949 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle
-2019-07-08 02:30:35,960 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/gradle-plugin-documentation.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/asciidoctorj-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/kindlegen-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/gradle-plugin-dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/jruby-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/ci.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/compatibility-tests.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/credentials.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/classpath-manifest.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/coveralls.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/integration-tests.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/standard-repositories.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/code-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradle/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle
-2019-07-08 02:30:35,963 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 02:30:35,963 INFO  ProjectFixService - Fixing project...
-2019-07-08 02:30:36,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/local.properties
-2019-07-08 02:30:36,001 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
-2019-07-08 02:30:36,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/local.properties
-2019-07-08 02:30:36,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/local.properties
-2019-07-08 02:30:36,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/local.properties
-2019-07-08 02:30:36,069 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,069 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/local.properties
-2019-07-08 02:30:36,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/local.properties
-2019-07-08 02:30:36,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,102 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/local.properties
-2019-07-08 02:30:36,118 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,118 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/local.properties
-2019-07-08 02:30:36,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/local.properties
-2019-07-08 02:30:36,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,152 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/local.properties
-2019-07-08 02:30:36,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,167 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/local.properties
-2019-07-08 02:30:36,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,186 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/local.properties
-2019-07-08 02:30:36,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/local.properties
-2019-07-08 02:30:36,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/local.properties
-2019-07-08 02:30:36,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/local.properties
-2019-07-08 02:30:36,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/local.properties
-2019-07-08 02:30:36,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/local.properties
-2019-07-08 02:30:36,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/local.properties
-2019-07-08 02:30:36,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,300 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/local.properties
-2019-07-08 02:30:36,316 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,316 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/local.properties
-2019-07-08 02:30:36,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-08 02:30:36,332 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-08 02:30:36,333 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 02:30:36,333 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:30:36,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:31:49,248 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:31:49,250 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:31:49,250 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:31:49,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:31:55,257 ERROR SysUtils - Could not process external command
+2019-07-08 02:59:41,021 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew
+2019-07-08 02:59:41,038 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle
+2019-07-08 02:59:41,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/gradle-plugin-documentation.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/asciidoctorj-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/kindlegen-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/gradle-plugin-dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/jruby-versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/ci.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/compatibility-tests.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/credentials.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/classpath-manifest.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/coveralls.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/integration-tests.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/standard-repositories.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/code-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradle/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle
+2019-07-08 02:59:41,053 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:59:41,053 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:59:41,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/local.properties
+2019-07-08 02:59:41,096 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+2019-07-08 02:59:41,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,114 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/local.properties
+2019-07-08 02:59:41,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/local.properties
+2019-07-08 02:59:41,148 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,148 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/local.properties
+2019-07-08 02:59:41,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,166 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,167 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/local.properties
+2019-07-08 02:59:41,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/local.properties
+2019-07-08 02:59:41,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,198 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/local.properties
+2019-07-08 02:59:41,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/local.properties
+2019-07-08 02:59:41,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/local.properties
+2019-07-08 02:59:41,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/local.properties
+2019-07-08 02:59:41,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/local.properties
+2019-07-08 02:59:41,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/local.properties
+2019-07-08 02:59:41,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,296 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/local.properties
+2019-07-08 02:59:41,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,318 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/local.properties
+2019-07-08 02:59:41,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,334 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/local.properties
+2019-07-08 02:59:41,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/local.properties
+2019-07-08 02:59:41,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/local.properties
+2019-07-08 02:59:41,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/local.properties
+2019-07-08 02:59:41,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,399 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/local.properties
+2019-07-08 02:59:41,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/local.properties
+2019-07-08 02:59:41,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:59:41,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:59:41,434 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:59:41,434 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:59:41,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:59:49,105 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:59:49,105 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:59:49,105 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:59:49,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:59:56,341 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -94,7 +94,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -108,14 +109,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:31:55,257 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 02:59:56,341 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':asciidoctor-gradle-jvm-gems'.
@@ -262,7 +263,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':as
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: groovy.lang.MissingPropertyException: No such property: windows for class: java.lang.String
-	at build_947cxp270sfbfknwjl8g88cuz$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
+	at build_52lfy1ppmjsd1bo4iyos2e266$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:130)
@@ -275,21 +276,21 @@ Caused by: groovy.lang.MissingPropertyException: No such property: windows for c
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_947cxp270sfbfknwjl8g88cuz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
+	at build_52lfy1ppmjsd1bo4iyos2e266.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 134 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-07-08 02:31:55,275 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:31:55,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:32:01,293 INFO  ProjectTaskService - Detected possible tasks: 88
-2019-07-08 02:32:01,293 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
-2019-07-08 02:32:01,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2019-07-08 02:32:13,701 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 02:59:56,363 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:59:56,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:00:03,800 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-07-08 03:00:03,801 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-07-08 03:00:03,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-08 03:00:17,277 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :asciidoctor-gradle-base:compileJava NO-SOURCE
@@ -308,15 +309,15 @@ Trying to override old definition of task fileScanner
 > Task :asciidoctor-gradle-base:assemble
 > Task :asciidoctor-gradle-base:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 12s
 8 actionable tasks: 8 executed
 
-2019-07-08 02:32:13,719 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:32:13,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:32:19,819 INFO  ProjectTaskService - Detected possible tasks: 88
-2019-07-08 02:32:19,819 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
-2019-07-08 02:32:19,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2019-07-08 02:33:11,092 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:00:17,301 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:00:17,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:00:24,667 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-07-08 03:00:24,667 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-07-08 03:00:24,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-08 03:00:45,426 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :asciidoctor-gradle-base:compileJava NO-SOURCE
@@ -368,16 +369,16 @@ Trying to override old definition of task fileScanner
 > Task :asciidoctor-gradle-jvm-epub:assemble
 > Task :asciidoctor-gradle-jvm-epub:build
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 20s
 29 actionable tasks: 24 executed, 5 up-to-date
 
-2019-07-08 02:33:11,122 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:11,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:13,741 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:33:13,741 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:33:13,741 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:33:13,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:33:16,457 ERROR SysUtils - Could not process external command
+2019-07-08 03:00:45,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:00:45,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:00:48,404 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:00:48,404 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:00:48,404 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:00:48,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:00:51,390 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -390,7 +391,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -404,19 +406,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:33:16,458 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:00:51,390 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-epub/src/gradleTest/epub3/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -510,13 +512,13 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 2s
 
-2019-07-08 02:33:16,487 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:16,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:22,379 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:33:22,379 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:33:22,379 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:33:22,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:33:28,220 ERROR SysUtils - Could not process external command
+2019-07-08 03:00:51,420 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:00:51,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:00:58,186 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:00:58,186 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:00:58,186 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:00:58,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:01:05,443 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -529,7 +531,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -543,14 +546,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:33:28,220 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:05,443 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':asciidoctor-gradle-jvm-gems'.
@@ -697,7 +700,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':as
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: groovy.lang.MissingPropertyException: No such property: windows for class: java.lang.String
-	at build_947cxp270sfbfknwjl8g88cuz$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
+	at build_52lfy1ppmjsd1bo4iyos2e266$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:130)
@@ -710,22 +713,22 @@ Caused by: groovy.lang.MissingPropertyException: No such property: windows for c
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_947cxp270sfbfknwjl8g88cuz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
+	at build_52lfy1ppmjsd1bo4iyos2e266.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 134 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-07-08 02:33:28,243 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:28,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:30,841 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:33:30,841 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:33:30,841 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:33:30,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:33:33,458 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:05,475 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:05,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:08,409 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:01:08,409 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:01:08,409 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:01:08,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:01:11,399 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -738,7 +741,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -752,19 +756,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:33:33,458 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:11,399 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/src/gradleTest/external-gems/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -858,12 +862,12 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 2s
 
-2019-07-08 02:33:33,480 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:33,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:39,719 INFO  ProjectTaskService - Detected possible tasks: 91
-2019-07-08 02:33:39,719 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
-2019-07-08 02:33:39,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2019-07-08 02:33:45,862 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:11,430 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:11,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:18,698 INFO  ProjectTaskService - Detected possible tasks: 91
+2019-07-08 03:01:18,698 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-07-08 03:01:18,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-08 03:01:25,923 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -876,7 +880,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -890,14 +895,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:33:45,862 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:25,923 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':asciidoctor-gradle-jvm-gems'.
@@ -1070,7 +1075,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':as
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: groovy.lang.MissingPropertyException: No such property: windows for class: java.lang.String
-	at build_947cxp270sfbfknwjl8g88cuz$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
+	at build_52lfy1ppmjsd1bo4iyos2e266$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:13)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:130)
@@ -1083,22 +1088,22 @@ Caused by: groovy.lang.MissingPropertyException: No such property: windows for c
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_947cxp270sfbfknwjl8g88cuz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
+	at build_52lfy1ppmjsd1bo4iyos2e266.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-gems/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 160 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-07-08 02:33:45,891 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:45,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:48,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:33:48,512 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:33:48,512 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:33:48,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:33:51,141 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:25,952 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:25,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:28,850 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:01:28,851 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:01:28,851 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:01:28,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:01:31,795 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1111,7 +1116,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1125,19 +1131,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:33:51,141 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:31,796 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm-slides/src/gradleTest/basic-slides/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -1231,12 +1237,12 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 2s
 
-2019-07-08 02:33:51,168 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:33:51,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:33:57,121 INFO  ProjectTaskService - Detected possible tasks: 100
-2019-07-08 02:33:57,121 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
-2019-07-08 02:33:57,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2019-07-08 02:34:03,697 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:31,827 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:31,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:39,163 INFO  ProjectTaskService - Detected possible tasks: 100
+2019-07-08 03:01:39,163 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-07-08 03:01:39,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-08 03:01:46,964 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :asciidoctor-gradle-base:compileJava NO-SOURCE
@@ -1261,16 +1267,16 @@ Configuration on demand is an incubating feature.
 > Task :asciidoctor-gradle-jvm:assemble
 > Task :asciidoctor-gradle-jvm:build
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 7s
 15 actionable tasks: 3 executed, 12 up-to-date
 
-2019-07-08 02:34:03,725 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:03,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:06,350 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:06,350 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:06,350 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:06,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:09,029 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:46,995 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:46,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:49,949 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:01:49,949 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:01:49,949 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:01:49,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:01:52,909 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1283,7 +1289,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1297,19 +1304,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:09,029 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:52,910 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/compat-plugin-still-works/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -1403,13 +1410,13 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:09,051 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:09,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:11,668 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:11,668 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:11,668 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:11,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:14,308 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:52,940 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:52,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:01:55,807 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:01:55,807 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:01:55,807 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:01:55,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:01:58,745 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1422,7 +1429,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1436,19 +1444,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:14,308 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:01:58,745 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/complex-jvm-setup/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -1542,13 +1550,13 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:14,336 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:14,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:17,596 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:17,596 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:17,596 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:17,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:20,544 ERROR SysUtils - Could not process external command
+2019-07-08 03:01:58,775 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:01:58,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:02,100 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:02,101 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:02,101 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:02,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:05,584 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1561,7 +1569,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1575,7 +1584,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:20,544 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:05,584 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -1727,13 +1736,13 @@ org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'org.asciidoctor.jvm.
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:20,572 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:20,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:23,456 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:23,456 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:23,457 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:23,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:26,380 ERROR SysUtils - Could not process external command
+2019-07-08 03:02:05,614 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:05,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:08,951 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:08,951 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:08,951 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:08,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration-in-process/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:12,271 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1746,7 +1755,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1760,7 +1770,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:26,380 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:12,271 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -1912,13 +1922,13 @@ org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'org.asciidoctor.jvm.
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:26,408 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:26,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:29,316 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:29,316 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:29,316 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:29,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:32,249 ERROR SysUtils - Could not process external command
+2019-07-08 03:02:12,302 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:12,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:15,604 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:15,605 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:15,605 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:15,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-configuration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:18,914 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1931,7 +1941,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1945,7 +1956,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:32,250 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:18,914 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -2097,13 +2108,13 @@ org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'org.asciidoctor.jvm.
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:32,278 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:32,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:35,193 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:35,193 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:35,193 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:35,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:38,104 ERROR SysUtils - Could not process external command
+2019-07-08 03:02:18,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:18,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:22,248 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:22,248 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:22,248 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:22,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/docs-using-project-direct/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:25,663 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2116,7 +2127,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2130,7 +2142,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:38,104 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:25,663 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -2282,13 +2294,13 @@ org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'org.asciidoctor.jvm.
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:38,132 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:38,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:41,039 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:41,039 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:41,039 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:41,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:34:44,043 ERROR SysUtils - Could not process external command
+2019-07-08 03:02:25,692 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:25,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:29,028 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:29,028 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:29,029 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:29,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/asciidoctor-gradle-jvm/src/gradleTest/extension-in-subproject/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:32,342 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2301,7 +2313,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2315,7 +2328,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:34:44,043 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:32,342 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -2467,12 +2480,12 @@ org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'org.asciidoctor.jvm.
 
 BUILD FAILED in 2s
 
-2019-07-08 02:34:44,065 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:44,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:50,154 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-07-08 02:34:50,154 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
-2019-07-08 02:34:50,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2019-07-08 02:34:56,392 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:32,372 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:32,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:39,615 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-08 03:02:39,615 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2019-07-08 03:02:39,615 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/kindlegen-gradle/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-08 03:02:47,109 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :kindlegen-gradle:compileJava NO-SOURCE
@@ -2488,16 +2501,16 @@ Configuration on demand is an incubating feature.
 > Task :kindlegen-gradle:assemble
 > Task :kindlegen-gradle:build
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 6s
 8 actionable tasks: 3 executed, 5 up-to-date
 
-2019-07-08 02:34:56,426 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:34:56,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:34:59,892 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:34:59,892 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:34:59,892 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:34:59,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:35:03,101 ERROR SysUtils - Could not process external command
+2019-07-08 03:02:47,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:47,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:02:50,813 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:02:50,813 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:02:50,813 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:02:50,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:02:54,487 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2510,7 +2523,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2524,14 +2538,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:35:03,101 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:54,487 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating root project 'memory-test'.
@@ -2660,7 +2674,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: java.io.FileNotFoundException: ../asciidoctor-gradle-jvm/build/createClasspathManifest/plugin-classpath.txt (No such file or directory)
-	at build_948g90tj7reywnkddui0g9o4$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:4)
+	at build_szrjab1a7y4xpyspytn7okb5$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:4)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -2668,28 +2682,28 @@ Caused by: java.io.FileNotFoundException: ../asciidoctor-gradle-jvm/build/create
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_948g90tj7reywnkddui0g9o4$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:3)
+	at build_szrjab1a7y4xpyspytn7okb5$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1203)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_948g90tj7reywnkddui0g9o4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:1)
+	at build_szrjab1a7y4xpyspytn7okb5.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/memory-test/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 116 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-07-08 02:35:03,130 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:35:03,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:35:09,393 INFO  ProjectTaskService - Detected possible tasks: 51
-2019-07-08 02:35:09,393 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-08 02:35:09,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-08 02:35:21,211 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:02:54,519 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:02:54,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:03:01,834 INFO  ProjectTaskService - Detected possible tasks: 51
+2019-07-08 03:03:01,834 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-08 03:03:01,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-08 03:03:11,264 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :testfixtures-jvm:compileJava NO-SOURCE
@@ -2700,16 +2714,16 @@ Configuration on demand is an incubating feature.
 > Task :testfixtures-jvm:assemble
 > Task :testfixtures-jvm:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 8s
 2 actionable tasks: 2 executed
 
-2019-07-08 02:35:21,243 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:35:21,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:35:27,796 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 02:35:27,796 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 02:35:27,796 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 02:35:27,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 02:35:34,030 ERROR SysUtils - Could not process external command
+2019-07-08 03:03:11,297 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:03:11,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:03:18,597 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:03:18,597 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:03:18,597 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:03:18,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:03:25,770 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2722,7 +2736,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2736,14 +2751,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 02:35:34,031 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-08 03:03:25,770 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle' line: 69
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle' line: 69
 
 * What went wrong:
 A problem occurred evaluating project ':testfixtures-offline-repo'.
@@ -2890,8 +2905,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':te
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: groovy.lang.MissingPropertyException: No such property: macOsX for class: java.lang.String
-	at build_psbay6x8jztudh9ddg1ur98l$_run_closure2$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:69)
-	at build_psbay6x8jztudh9ddg1ur98l$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:68)
+	at build_d5p6z5nyb0jcn7wzo7qkzucqb$_run_closure2$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:69)
+	at build_d5p6z5nyb0jcn7wzo7qkzucqb$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:68)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -2906,14 +2921,14 @@ Caused by: groovy.lang.MissingPropertyException: No such property: macOsX for cl
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_psbay6x8jztudh9ddg1ur98l.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527833311-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:67)
+	at build_d5p6z5nyb0jcn7wzo7qkzucqb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529576752-0/src/asciidoctor-gradle-plugin-master/testfixtures/offline-repo/build.gradle:67)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 134 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-07-08 02:35:34,063 ERROR FullProcessService - Project build has not produced APK file
-2019-07-08 02:35:34,088 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:03:25,795 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 03:03:25,819 ERROR FullProcessService - Could not find generated or existed APK file
