@@ -1,46 +1,46 @@
-2018-11-16 15:16:01,046 INFO  DownloadService - Downloading "https://github.com/fabioCollini/LifeCycleBinder/archive/master.zip", attempt 3
-2018-11-16 15:16:02,949 INFO  DownloadService - Downloaded https://github.com/fabioCollini/LifeCycleBinder/archive/master.zip, attempt 3
-2018-11-16 15:16:02,949 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/master.zip": 355 KB
-2018-11-16 15:16:02,949 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 15:16:02,955 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/master.zip: true
-2018-11-16 15:16:02,956 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src'.
-2018-11-16 15:16:03,021 INFO  FullProcessService - Size of directory with sources: 454 KB
-2018-11-16 15:16:03,021 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src]
-2018-11-16 15:16:03,038 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/.git/
+2019-07-08 02:08:50,461 INFO  DownloadService - Downloading "https://github.com/fabioCollini/LifeCycleBinder/archive/master.zip", attempt 3
+2019-07-08 02:08:51,480 INFO  DownloadService - Downloaded https://github.com/fabioCollini/LifeCycleBinder/archive/master.zip, attempt 3
+2019-07-08 02:08:51,481 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/master.zip": 355 KB
+2019-07-08 02:08:51,481 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:08:51,487 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/master.zip: true
+2019-07-08 02:08:51,487 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src'.
+2019-07-08 02:08:51,544 INFO  FullProcessService - Size of directory with sources: 454 KB
+2019-07-08 02:08:51,544 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src]
+2019-07-08 02:08:51,561 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/.git/
 
-2018-11-16 15:16:03,046 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew
-2018-11-16 15:16:03,054 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle
-2018-11-16 15:16:03,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/settings.gradle
-2018-11-16 15:16:03,063 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 15:16:03,063 INFO  ProjectFixService - Fixing project...
-2018-11-16 15:16:03,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/local.properties
-2018-11-16 15:16:03,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/local.properties
-2018-11-16 15:16:03,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/local.properties
-2018-11-16 15:16:03,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/local.properties
-2018-11-16 15:16:03,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/local.properties
-2018-11-16 15:16:03,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/local.properties
-2018-11-16 15:16:03,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/local.properties
-2018-11-16 15:16:03,107 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-16 15:16:03,108 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-16 15:16:03,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/local.properties
-2018-11-16 15:16:03,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/local.properties
-2018-11-16 15:16:03,117 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 15:16:03,117 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 15:16:03,117 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:03,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:16:09,818 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:16:09,818 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:16:09,818 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:16:09,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:16:15,145 ERROR SysUtils - Could not process external command
+2019-07-08 02:08:51,568 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew
+2019-07-08 02:08:51,575 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle
+2019-07-08 02:08:51,581 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/settings.gradle
+2019-07-08 02:08:51,582 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:08:51,582 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:08:51,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/local.properties
+2019-07-08 02:08:51,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/local.properties
+2019-07-08 02:08:51,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/local.properties
+2019-07-08 02:08:51,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/local.properties
+2019-07-08 02:08:51,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/local.properties
+2019-07-08 02:08:51,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/local.properties
+2019-07-08 02:08:51,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/local.properties
+2019-07-08 02:08:51,630 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 02:08:51,630 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 02:08:51,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/local.properties
+2019-07-08 02:08:51,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/local.properties
+2019-07-08 02:08:51,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:08:51,640 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:08:51,641 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:08:51,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:08:58,208 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:08:58,208 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:08:58,208 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:08:58,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:09:04,075 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,7 +53,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -67,7 +68,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:16:15,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:09:04,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -253,15 +254,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.023 secs
+Total time: 5.565 secs
 
-2018-11-16 15:16:15,156 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:15,156 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:16:20,696 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:16:20,696 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:16:20,696 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:16:20,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:16:26,102 ERROR SysUtils - Could not process external command
+2019-07-08 02:09:04,082 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:09:04,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:09:09,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:09:09,857 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:09:09,857 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:09:09,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:09:16,027 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -274,7 +275,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -288,7 +290,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:16:26,102 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:09:16,027 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -474,15 +476,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.107 secs
+Total time: 5.862 secs
 
-2018-11-16 15:16:26,113 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:26,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:16:31,717 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:16:31,717 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:16:31,717 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:16:31,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:16:37,377 ERROR SysUtils - Could not process external command
+2019-07-08 02:09:16,037 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:09:16,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:09:22,580 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:09:22,580 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:09:22,580 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:09:22,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-demo-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:09:28,713 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -495,7 +497,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -509,7 +512,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:16:37,378 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:09:28,713 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -695,15 +698,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.386 secs
+Total time: 5.76 secs
 
-2018-11-16 15:16:37,386 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:37,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:16:42,753 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:16:42,753 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:16:42,753 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:16:42,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:16:48,026 ERROR SysUtils - Could not process external command
+2019-07-08 02:09:28,722 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:09:28,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:09:35,030 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:09:35,031 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:09:35,031 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:09:35,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:09:42,565 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -716,7 +719,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -730,7 +734,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:16:48,026 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:09:42,566 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -838,15 +842,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.972 secs
+Total time: 7.184 secs
 
-2018-11-16 15:16:48,036 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:48,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:16:53,461 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:16:53,462 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:16:53,462 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:16:53,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/test-data-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:16:58,801 ERROR SysUtils - Could not process external command
+2019-07-08 02:09:42,574 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:09:42,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:09:48,350 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:09:48,350 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:09:48,350 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:09:48,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/test-data-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:09:54,092 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -859,7 +863,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -873,7 +878,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:16:58,801 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:09:54,092 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1059,15 +1064,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.084 secs
+Total time: 5.453 secs
 
-2018-11-16 15:16:58,810 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:16:58,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:04,518 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:17:04,518 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:17:04,518 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:17:04,518 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:17:09,844 ERROR SysUtils - Could not process external command
+2019-07-08 02:09:54,101 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:09:54,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:00,046 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:10:00,046 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:10:00,046 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:10:00,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:10:05,807 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1080,7 +1085,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1094,7 +1100,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:17:09,844 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:05,807 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1280,15 +1286,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.072 secs
+Total time: 5.516 secs
 
-2018-11-16 15:17:09,855 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:17:09,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:15,138 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:17:15,138 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:17:15,138 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:17:15,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:17:20,383 ERROR SysUtils - Could not process external command
+2019-07-08 02:10:05,814 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:10:05,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:11,884 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:10:11,884 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:10:11,885 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:10:11,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:10:18,173 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1301,7 +1307,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1315,7 +1322,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:17:20,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:18,173 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1501,14 +1508,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.988 secs
+Total time: 5.928 secs
 
-2018-11-16 15:17:20,394 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:17:20,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:23,279 INFO  ProjectTaskService - Detected possible tasks: 39
-2018-11-16 15:17:23,279 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2018-11-16 15:17:23,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2018-11-16 15:17:26,768 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:18,182 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:10:18,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:21,607 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-07-08 02:10:21,607 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-07-08 02:10:21,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-07-08 02:10:25,587 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lifecyclebinder-api:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -1520,14 +1527,14 @@ Total time: 4.988 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.365 secs
+Total time: 3.853 secs
 
-2018-11-16 15:17:26,780 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:17:26,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:29,644 INFO  ProjectTaskService - Detected possible tasks: 39
-2018-11-16 15:17:29,644 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2018-11-16 15:17:29,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356161043-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2018-11-16 15:17:33,254 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:25,597 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:10:25,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:29,276 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-07-08 02:10:29,276 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-07-08 02:10:29,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526530458-0/src/LifeCycleBinder-master/lifecyclebinder-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-07-08 02:10:34,073 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lifecyclebinder-api:compileJava UP-TO-DATE
 :lifecyclebinder-api:processResources UP-TO-DATE
 :lifecyclebinder-api:classes UP-TO-DATE
@@ -1541,7 +1548,7 @@ Total time: 3.365 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.5 secs
+Total time: 4.66 secs
 
-2018-11-16 15:17:33,266 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 15:17:33,277 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:10:34,083 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:10:34,092 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,33 +1,33 @@
-2018-11-16 20:18:50,254 INFO  DownloadService - Downloading "https://github.com/eugeneek/SmileBar/archive/master.zip", attempt 3
-2018-11-16 20:18:50,815 INFO  DownloadService - Downloaded https://github.com/eugeneek/SmileBar/archive/master.zip, attempt 3
-2018-11-16 20:18:50,815 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/master.zip": 185 KB
-2018-11-16 20:18:50,815 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 20:18:50,815 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/master.zip: true
-2018-11-16 20:18:50,815 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src'.
-2018-11-16 20:18:50,836 INFO  FullProcessService - Size of directory with sources: 204 KB
-2018-11-16 20:18:50,836 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src]
-2018-11-16 20:18:50,854 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/.git/
+2019-07-08 02:21:22,166 INFO  DownloadService - Downloading "https://github.com/eugeneek/SmileBar/archive/master.zip", attempt 3
+2019-07-08 02:21:23,475 INFO  DownloadService - Downloaded https://github.com/eugeneek/SmileBar/archive/master.zip, attempt 3
+2019-07-08 02:21:23,475 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/master.zip": 185 KB
+2019-07-08 02:21:23,475 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:21:23,476 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/master.zip: true
+2019-07-08 02:21:23,476 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src'.
+2019-07-08 02:21:23,494 INFO  FullProcessService - Size of directory with sources: 204 KB
+2019-07-08 02:21:23,494 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src]
+2019-07-08 02:21:23,512 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/.git/
 
-2018-11-16 20:18:50,858 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/gradlew
-2018-11-16 20:18:50,862 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/smilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/build.gradle
-2018-11-16 20:18:50,865 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/smilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/settings.gradle
-2018-11-16 20:18:50,866 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 20:18:50,866 INFO  ProjectFixService - Fixing project...
-2018-11-16 20:18:50,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/local.properties
-2018-11-16 20:18:50,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-16 20:18:50,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/smilebar/local.properties
-2018-11-16 20:18:50,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/smilebar/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-16 20:18:50,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/local.properties
-2018-11-16 20:18:50,877 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-16 20:18:50,878 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-16 20:18:50,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-16 20:18:50,879 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 20:18:50,879 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:18:50,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:18:57,075 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-16 20:18:57,075 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-16 20:18:57,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-16 20:19:13,124 ERROR SysUtils - Could not process external command
+2019-07-08 02:21:23,514 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/gradlew
+2019-07-08 02:21:23,517 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/smilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/build.gradle
+2019-07-08 02:21:23,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/smilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/settings.gradle
+2019-07-08 02:21:23,520 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:21:23,520 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:21:23,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/local.properties
+2019-07-08 02:21:23,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-08 02:21:23,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/smilebar/local.properties
+2019-07-08 02:21:23,527 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/smilebar/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-08 02:21:23,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/local.properties
+2019-07-08 02:21:23,528 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:21:23,529 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:21:23,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-08 02:21:23,530 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:21:23,530 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:21:23,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:21:30,059 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-08 02:21:30,059 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:21:30,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:21:46,639 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 20:19:13,124 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:21:46,639 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild UP-TO-DATE
@@ -136,7 +136,7 @@ Merged dex #5 (17 defs/48.5KiB)
 Merged dex #6 (43 defs/106.2KiB)
 Merged dex #7 (335 defs/262.9KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1544 defs/2327.0KiB. Took 0.3s
+Result is 1544 defs/2327.0KiB. Took 0.2s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -261,6 +261,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 15.458 secs
+Total time: 16.051 secs
 
-2018-11-16 20:19:13,210 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374330250-0/src/SmileBar-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-08 02:21:46,710 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527282163-0/src/SmileBar-master/sample/build/outputs/apk/sample-debug-unaligned.apk

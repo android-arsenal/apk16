@@ -1,37 +1,37 @@
-2018-11-16 15:13:05,837 INFO  DownloadService - Downloading "https://github.com/nitrico/LastAdapter/archive/master.zip", attempt 3
-2018-11-16 15:13:06,856 INFO  DownloadService - Downloaded https://github.com/nitrico/LastAdapter/archive/master.zip, attempt 3
-2018-11-16 15:13:06,856 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/master.zip": 117 KB
-2018-11-16 15:13:06,856 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 15:13:06,862 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/master.zip: true
-2018-11-16 15:13:06,862 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src'.
-2018-11-16 15:13:06,881 INFO  FullProcessService - Size of directory with sources: 157 KB
-2018-11-16 15:13:06,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src]
-2018-11-16 15:13:06,898 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/.git/
+2019-07-08 02:05:30,907 INFO  DownloadService - Downloading "https://github.com/nitrico/LastAdapter/archive/master.zip", attempt 3
+2019-07-08 02:05:31,935 INFO  DownloadService - Downloaded https://github.com/nitrico/LastAdapter/archive/master.zip, attempt 3
+2019-07-08 02:05:31,935 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/master.zip": 117 KB
+2019-07-08 02:05:31,935 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:05:31,941 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/master.zip: true
+2019-07-08 02:05:31,941 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src'.
+2019-07-08 02:05:31,955 INFO  FullProcessService - Size of directory with sources: 157 KB
+2019-07-08 02:05:31,956 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src]
+2019-07-08 02:05:31,975 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/.git/
 
-2018-11-16 15:13:06,901 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew
-2018-11-16 15:13:06,903 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle
-2018-11-16 15:13:06,906 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/settings.gradle
-2018-11-16 15:13:06,906 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 15:13:06,906 INFO  ProjectFixService - Fixing project...
-2018-11-16 15:13:06,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/local.properties
-2018-11-16 15:13:06,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-16 15:13:06,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-16 15:13:06,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/local.properties
-2018-11-16 15:13:06,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-16 15:13:06,917 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-16 15:13:06,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/local.properties
-2018-11-16 15:13:06,918 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3.1-all.zip
-2018-11-16 15:13:06,919 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3.1-bin.zip)
-2018-11-16 15:13:06,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-16 15:13:06,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-16 15:13:06,921 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 15:13:06,921 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:13:06,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:13:40,989 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:13:40,989 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:13:40,989 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:13:40,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:13:46,477 ERROR SysUtils - Could not process external command
+2019-07-08 02:05:31,978 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew
+2019-07-08 02:05:31,980 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle
+2019-07-08 02:05:31,982 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/settings.gradle
+2019-07-08 02:05:31,983 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:05:31,983 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:05:31,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/local.properties
+2019-07-08 02:05:31,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:05:31,993 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:05:31,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/local.properties
+2019-07-08 02:05:31,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:05:31,998 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:05:31,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/local.properties
+2019-07-08 02:05:31,999 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3.1-all.zip
+2019-07-08 02:05:32,000 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3.1-bin.zip)
+2019-07-08 02:05:32,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:05:32,002 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:05:32,003 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:05:32,003 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:05:32,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:06:21,027 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:06:21,027 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:06:21,027 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:06:21,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:06:28,024 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:13:46,477 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:06:28,025 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
@@ -327,15 +327,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-11-16 15:13:46,481 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:13:46,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:13:52,529 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:13:52,529 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:13:52,529 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:13:52,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/lastadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:13:58,185 ERROR SysUtils - Could not process external command
+2019-07-08 02:06:28,028 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:06:28,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:06:36,736 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:06:36,736 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:06:36,736 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:06:36,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/lastadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:06:43,197 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -363,7 +363,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:13:58,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:06:43,198 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':lastadapter' is deprecated. Use 'implementation' instead.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
@@ -630,15 +630,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-11-16 15:13:58,189 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:13:58,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:14:03,541 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:14:03,541 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:14:03,541 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:14:03,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355985833-0/src/LastAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:14:08,945 ERROR SysUtils - Could not process external command
+2019-07-08 02:06:43,201 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:06:43,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:06:50,935 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:06:50,935 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:06:50,935 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:06:50,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526330903-0/src/LastAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:06:57,797 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -666,7 +666,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:14:08,945 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:06:57,797 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
@@ -934,7 +934,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-11-16 15:14:08,949 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 15:14:08,952 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:06:57,801 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:06:57,804 ERROR FullProcessService - Could not find generated or existed APK file

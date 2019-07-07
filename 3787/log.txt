@@ -1,33 +1,33 @@
-2018-11-16 18:10:18,510 INFO  DownloadService - Downloading "https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip", attempt 3
-2018-11-16 18:10:19,025 INFO  DownloadService - Downloaded https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip, attempt 3
-2018-11-16 18:10:19,026 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip": 125 KB
-2018-11-16 18:10:19,026 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 18:10:19,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip: true
-2018-11-16 18:10:19,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src'.
-2018-11-16 18:10:19,048 INFO  FullProcessService - Size of directory with sources: 161 KB
-2018-11-16 18:10:19,048 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src]
-2018-11-16 18:10:19,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/.git/
+2019-07-08 02:14:54,924 INFO  DownloadService - Downloading "https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip", attempt 3
+2019-07-08 02:14:55,837 INFO  DownloadService - Downloaded https://github.com/patloew/NavigationViewFragmentAdapters/archive/master.zip, attempt 3
+2019-07-08 02:14:55,837 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/master.zip": 125 KB
+2019-07-08 02:14:55,837 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:14:55,837 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/master.zip: true
+2019-07-08 02:14:55,838 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src'.
+2019-07-08 02:14:55,853 INFO  FullProcessService - Size of directory with sources: 161 KB
+2019-07-08 02:14:55,853 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src]
+2019-07-08 02:14:55,872 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/.git/
 
-2018-11-16 18:10:19,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew
-2018-11-16 18:10:19,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle
-2018-11-16 18:10:19,072 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/settings.gradle
-2018-11-16 18:10:19,072 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 18:10:19,072 INFO  ProjectFixService - Fixing project...
-2018-11-16 18:10:19,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/local.properties
-2018-11-16 18:10:19,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-16 18:10:19,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/local.properties
-2018-11-16 18:10:19,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-16 18:10:19,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/local.properties
-2018-11-16 18:10:19,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-16 18:10:19,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-16 18:10:19,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-16 18:10:19,082 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 18:10:19,082 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 18:10:19,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 18:10:33,248 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-16 18:10:33,248 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-16 18:10:33,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-16 18:10:46,118 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:14:55,876 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew
+2019-07-08 02:14:55,878 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/build.gradle
+2019-07-08 02:14:55,880 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/settings.gradle
+2019-07-08 02:14:55,880 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:14:55,880 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:14:55,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/local.properties
+2019-07-08 02:14:55,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-08 02:14:55,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/local.properties
+2019-07-08 02:14:55,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-08 02:14:55,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/local.properties
+2019-07-08 02:14:55,888 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 02:14:55,888 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 02:14:55,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-08 02:14:55,889 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:14:55,889 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:14:55,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:15:05,155 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-08 02:15:05,155 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 02:15:05,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 02:15:18,734 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -306,394 +306,394 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :library:bundleRelease
 :library:compileReleaseSources
 :library:assembleRelease
-:library:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:17: error: package android.support.annotation does not exist
+:library:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:18: error: package android.support.design.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:18: error: package android.support.design.widget does not exist
 import android.support.design.widget.BottomNavigationView;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:19: error: package android.support.design.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:19: error: package android.support.design.widget does not exist
 import android.support.design.widget.NavigationView;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package NavigationView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package NavigationView does not exist
         extends NavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemSelectedListener {
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package BottomNavigationView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:23: error: package BottomNavigationView does not exist
         extends NavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemSelectedListener {
                                                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:17: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.AnimRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
 import android.support.annotation.IdRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:20: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:20: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:21: error: package android.support.design.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:21: error: package android.support.design.widget does not exist
 import android.support.design.widget.BottomNavigationView;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:22: error: package android.support.design.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:22: error: package android.support.design.widget does not exist
 import android.support.design.widget.NavigationView;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:23: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:23: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:24: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:24: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentManager;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:31: error: cannot find symbol
     final FragmentManager fm;
           ^
   symbol:   class FragmentManager
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:17: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.AnimRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:18: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:18: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentTransaction;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
     public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
                                                       ^
   symbol:   class FragmentManager
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:103: error: cannot find symbol
     public final void attachTo(NavigationView navigationView) {
                                ^
   symbol:   class NavigationView
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:124: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:124: error: cannot find symbol
     public final void attachTo(BottomNavigationView bottomNavigationView) {
                                ^
   symbol:   class BottomNavigationView
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
     public abstract Fragment getFragment(@IdRes int menuItemId);
                     ^
   symbol:   class Fragment
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
     public FragmentTransaction apply(FragmentTransaction transaction) {
                                      ^
   symbol:   class FragmentTransaction
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:34: error: cannot find symbol
     public FragmentTransaction apply(FragmentTransaction transaction) {
            ^
   symbol:   class FragmentTransaction
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:19: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:19: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:26: error: package Fragment does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:26: error: package Fragment does not exist
     private final HashMap<String, Fragment.SavedState> map;
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:74: error: package Fragment does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:74: error: package Fragment does not exist
     public Fragment.SavedState get(String key) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
     public Fragment.SavedState put(String key, Fragment.SavedState value) {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:78: error: package Fragment does not exist
     public Fragment.SavedState put(String key, Fragment.SavedState value) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:82: error: package Fragment does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/StateMap.java:82: error: package Fragment does not exist
     public Fragment.SavedState remove(String key) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:17: error: package android.support.v4.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:17: error: package android.support.v4.widget does not exist
 import android.support.v4.widget.DrawerLayout;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:26: error: cannot find symbol
     private final DrawerLayout drawerLayout;
                   ^
   symbol:   class DrawerLayout
   location: class CloseDrawerNavigationItemSelectedListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/CloseDrawerNavigationItemSelectedListener.java:28: error: cannot find symbol
     public CloseDrawerNavigationItemSelectedListener(DrawerLayout drawerLayout) {
                                                      ^
   symbol:   class DrawerLayout
   location: class CloseDrawerNavigationItemSelectedListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:18: error: package android.support.annotation does not exist
 import android.support.annotation.IdRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:20: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:20: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:21: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:21: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentManager;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:22: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:22: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentTransaction;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
     public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                   ^
   symbol:   class FragmentManager
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:18: error: package android.support.annotation does not exist
 import android.support.annotation.IdRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:20: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:20: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:21: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:21: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentManager;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:22: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:22: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentTransaction;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
     public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                        ^
   symbol:   class FragmentManager
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/OnNavigationItemSelectedListener.java:24: error: cannot find symbol
     boolean onNavigationItemSelected(@NonNull MenuItem item);
                                       ^
   symbol:   class NonNull
   location: interface OnNavigationItemSelectedListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
     public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
                                               ^
   symbol:   class NonNull
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
     public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
                                                                                         ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:43: error: cannot find symbol
     public BaseNavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId) {
                                                                                                                 ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:50: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                                            ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                                                                ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                            ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                                   ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: error: cannot find symbol
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                                                          ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                                                     ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                                                                         ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                     ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                         ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                                            ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: error: cannot find symbol
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                                                                   ^
   symbol:   class AnimRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:93: error: cannot find symbol
     public final void setNavigationItemSelectedListener(@Nullable OnNavigationItemSelectedListener listener) {
                                                          ^
   symbol:   class Nullable
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:147: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:147: error: cannot find symbol
     public String getTag(@IdRes int menuItemId) {
                           ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:146: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:146: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:158: error: cannot find symbol
     public abstract Fragment getFragment(@IdRes int menuItemId);
                                           ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:157: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:157: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:168: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:168: error: cannot find symbol
     public boolean shouldAddToBackStack(@IdRes int menuItemId) {
                                          ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:180: error: cannot find symbol
     public boolean shouldHandleMenuItem(@IdRes int menuItemId) {
                                          ^
   symbol:   class IdRes
   location: class BaseNavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
     public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                ^
   symbol:   class AnimRes
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
     public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                    ^
   symbol:   class AnimRes
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
     public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                       ^
   symbol:   class AnimRes
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/FragmentTransactionAnimations.java:27: error: cannot find symbol
     public void setAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                                                                                              ^
   symbol:   class AnimRes
   location: class FragmentTransactionAnimations
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
     public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                           ^
   symbol:   class NonNull
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
     public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                                                     ^
   symbol:   class IdRes
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:32: error: cannot find symbol
     public NavigationViewFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                                                                             ^
   symbol:   class IdRes
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:44: error: cannot find symbol
     public final void onSaveInstanceState(@NonNull Bundle outState) {
                                            ^
   symbol:   class NonNull
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewFragmentAdapter.java:49: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class NavigationViewFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
     public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                ^
   symbol:   class NonNull
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
     public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                                                          ^
   symbol:   class IdRes
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:37: error: cannot find symbol
     public NavigationViewStateFragmentAdapter(@NonNull FragmentManager fragmentManager, @IdRes int containerId, @IdRes int defaultMenuItemId, Bundle savedInstanceState) {
                                                                                                                  ^
   symbol:   class IdRes
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:50: error: cannot find symbol
     public final void onSaveInstanceState(@NonNull Bundle outState) {
                                            ^
   symbol:   class NonNull
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/NavigationViewStateFragmentAdapter.java:55: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class NavigationViewStateFragmentAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:154: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:154: warning: no description for @param
      * @param menuItemId
        ^
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:143: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:143: warning: no description for @param
      * @param menuItemId
        ^
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for enter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for enter
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for exit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:74: warning: no @param for exit
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for enter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for enter
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for exit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for exit
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popEnter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popEnter
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popExit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:82: warning: no @param for popExit
     public final void setBackStackCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for enter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for enter
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for exit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:58: warning: no @param for exit
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for enter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for enter
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for exit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for exit
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popEnter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popEnter
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popExit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:66: warning: no @param for popExit
     public final void setCustomAnimations(@AnimRes int enter, @AnimRes int exit, @AnimRes int popEnter, @AnimRes int popExit) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:165: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/library/src/main/java/com/patloew/navigationviewfragmentadapters/BaseNavigationViewFragmentAdapter.java:165: warning: no description for @param
      * @param menuItemId
        ^
 
@@ -705,15 +705,15 @@ javadoc: warning - Class NonNull not found.
 
 BUILD SUCCESSFUL
 
-Total time: 12.526 secs
+Total time: 13.248 secs
 
-2018-11-16 18:10:46,194 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 18:10:46,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 18:10:56,582 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 18:10:56,583 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 18:10:56,583 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 18:10:56,583 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 18:11:02,840 ERROR SysUtils - Could not process external command
+2019-07-08 02:15:18,798 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:15:18,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:15:27,443 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:15:27,443 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:15:27,443 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:15:27,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:15:33,412 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -726,7 +726,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -740,7 +740,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 18:11:02,840 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:15:33,413 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -1226,15 +1226,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.901 secs
+Total time: 5.716 secs
 
-2018-11-16 18:11:02,913 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 18:11:02,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 18:11:09,367 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 18:11:09,368 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 18:11:09,368 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 18:11:09,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366618502-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 18:11:15,651 ERROR SysUtils - Could not process external command
+2019-07-08 02:15:33,464 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:15:33,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:15:39,849 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:15:39,849 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:15:39,849 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:15:39,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526894921-0/src/NavigationViewFragmentAdapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:15:46,333 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1247,7 +1247,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1261,7 +1261,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 18:11:15,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:15:46,333 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -1591,7 +1591,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.017 secs
+Total time: 6.133 secs
 
-2018-11-16 18:11:15,719 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 18:11:15,786 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:15:46,389 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:15:46,441 ERROR FullProcessService - Could not find generated or existed APK file

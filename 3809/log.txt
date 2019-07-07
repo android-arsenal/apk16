@@ -1,31 +1,31 @@
-2018-11-16 15:14:08,974 INFO  DownloadService - Downloading "https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip", attempt 3
-2018-11-16 15:14:12,592 INFO  DownloadService - Downloaded https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip, attempt 3
-2018-11-16 15:14:12,592 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip": 114 KB
-2018-11-16 15:14:12,592 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 15:14:12,596 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip: true
-2018-11-16 15:14:12,596 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src'.
-2018-11-16 15:14:12,616 INFO  FullProcessService - Size of directory with sources: 122 KB
-2018-11-16 15:14:12,616 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src]
-2018-11-16 15:14:12,634 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/.git/
+2019-07-08 02:06:57,832 INFO  DownloadService - Downloading "https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip", attempt 3
+2019-07-08 02:07:00,645 INFO  DownloadService - Downloaded https://github.com/radzio/DeepDiveIntoAndroidDataBinding/archive/master.zip, attempt 3
+2019-07-08 02:07:00,645 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/master.zip": 114 KB
+2019-07-08 02:07:00,645 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:07:00,651 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/master.zip: true
+2019-07-08 02:07:00,651 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src'.
+2019-07-08 02:07:00,671 INFO  FullProcessService - Size of directory with sources: 122 KB
+2019-07-08 02:07:00,671 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src]
+2019-07-08 02:07:00,690 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/.git/
 
-2018-11-16 15:14:12,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew
-2018-11-16 15:14:12,639 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle
-2018-11-16 15:14:12,642 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/settings.gradle
-2018-11-16 15:14:12,642 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 15:14:12,642 INFO  ProjectFixService - Fixing project...
-2018-11-16 15:14:12,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/local.properties
-2018-11-16 15:14:12,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-16 15:14:12,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/local.properties
-2018-11-16 15:14:12,650 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-16 15:14:12,651 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-16 15:14:12,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-16 15:14:12,651 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 15:14:12,651 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:14:12,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:14:54,098 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-16 15:14:54,098 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-16 15:14:54,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-16 15:15:03,440 ERROR SysUtils - Could not process external command
+2019-07-08 02:07:00,693 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew
+2019-07-08 02:07:00,696 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle
+2019-07-08 02:07:00,699 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/settings.gradle
+2019-07-08 02:07:00,699 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:07:00,699 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:07:00,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/local.properties
+2019-07-08 02:07:00,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-08 02:07:00,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/local.properties
+2019-07-08 02:07:00,707 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:07:00,707 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:07:00,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-08 02:07:00,708 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:07:00,708 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:07:00,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:07:39,684 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-08 02:07:39,685 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:07:39,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:07:50,200 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -38,7 +38,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -52,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:15:03,440 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:07:50,200 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -85,28 +86,28 @@ Incremental java compilation is an incubating feature.
 :app:generateDebugSources
 :app:dataBindingExportBuildInfoDebug
 :app:incrementalDebugJavaCompilationSafeguard
-:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
 import net.droidlabs.deepdiveintoandroiddatabinding.BR;
                                                    ^
   symbol:   class BR
   location: package net.droidlabs.deepdiveintoandroiddatabinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
 import net.droidlabs.deepdiveintoandroiddatabinding.BR;
                                                    ^
   symbol:   class BR
   location: package net.droidlabs.deepdiveintoandroiddatabinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityMainBinding;
                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
     private ActivityMainBinding binding;
             ^
   symbol:   class ActivityMainBinding
   location: class MainActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityTwoWayBinding;
                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
     private ActivityTwoWayBinding binding;
             ^
   symbol:   class ActivityTwoWayBinding
@@ -235,14 +236,14 @@ Caused by: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.white
 
 BUILD FAILED
 
-Total time: 8.809 secs
+Total time: 10.01 secs
 
-2018-11-16 15:15:03,491 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:15:03,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:15:08,891 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-16 15:15:08,891 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-16 15:15:08,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-16 15:15:15,691 ERROR SysUtils - Could not process external command
+2019-07-08 02:07:50,243 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:07:50,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:07:56,441 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-08 02:07:56,442 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:07:56,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:08:03,836 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -255,7 +256,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -269,7 +271,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:15:15,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:08:03,836 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -302,28 +304,28 @@ Incremental java compilation is an incubating feature.
 :app:generateDebugSources UP-TO-DATE
 :app:dataBindingExportBuildInfoDebug UP-TO-DATE
 :app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
-:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/TwoWayViewModel.java:5: error: cannot find symbol
 import net.droidlabs.deepdiveintoandroiddatabinding.BR;
                                                    ^
   symbol:   class BR
   location: package net.droidlabs.deepdiveintoandroiddatabinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/viewmodel/MainViewModel.java:6: error: cannot find symbol
 import net.droidlabs.deepdiveintoandroiddatabinding.BR;
                                                    ^
   symbol:   class BR
   location: package net.droidlabs.deepdiveintoandroiddatabinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:10: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityMainBinding;
                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/MainActivity.java:18: error: cannot find symbol
     private ActivityMainBinding binding;
             ^
   symbol:   class ActivityMainBinding
   location: class MainActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:8: error: package net.droidlabs.deepdiveintoandroiddatabinding.databinding does not exist
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityTwoWayBinding;
                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356048972-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526417829-0/src/DeepDiveIntoAndroidDataBinding-master/app/src/main/java/net/droidlabs/deepdiveintoandroiddatabinding/view/TwoWayBindingActivity.java:13: error: cannot find symbol
     private ActivityTwoWayBinding binding;
             ^
   symbol:   class ActivityTwoWayBinding
@@ -452,7 +454,7 @@ Caused by: java.lang.NoSuchMethodError: com.google.common.base.CharMatcher.white
 
 BUILD FAILED
 
-Total time: 6.272 secs
+Total time: 6.903 secs
 
-2018-11-16 15:15:15,742 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 15:15:15,788 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:08:03,878 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:08:03,914 ERROR FullProcessService - Could not find generated or existed APK file

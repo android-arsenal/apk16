@@ -1,10 +1,10 @@
-2018-11-16 18:04:31,039 INFO  DownloadService - Downloading "https://github.com/anupcowkur/frog/archive/master.zip", attempt 3
-2018-11-16 18:04:32,839 INFO  DownloadService - Downloaded https://github.com/anupcowkur/frog/archive/master.zip, attempt 3
-2018-11-16 18:04:32,840 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366271033-0/master.zip": 678 KB
-2018-11-16 18:04:32,840 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 18:04:32,840 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542366271033-0/master.zip: false
-2018-11-16 18:04:32,840 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-16 18:04:32,840 ERROR FullProcessService - Could not find directory with sources
-2018-11-16 18:04:32,840 ERROR FullProcessService - Project will not be processed
-2018-11-16 18:04:32,840 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 18:04:32,840 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:14:53,410 INFO  DownloadService - Downloading "https://github.com/anupcowkur/frog/archive/master.zip", attempt 3
+2019-07-08 02:14:54,915 INFO  DownloadService - Downloaded https://github.com/anupcowkur/frog/archive/master.zip, attempt 3
+2019-07-08 02:14:54,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526893403-0/master.zip": 678 KB
+2019-07-08 02:14:54,915 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:14:54,916 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526893403-0/master.zip: false
+2019-07-08 02:14:54,916 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-08 02:14:54,916 ERROR FullProcessService - Could not find directory with sources
+2019-07-08 02:14:54,916 ERROR FullProcessService - Project will not be processed
+2019-07-08 02:14:54,916 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:14:54,916 ERROR FullProcessService - Could not find generated or existed APK file

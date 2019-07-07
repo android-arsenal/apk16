@@ -1,36 +1,33 @@
-2018-11-15 16:09:17,093 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/QuickMenu/archive/master.zip", attempt 3
-2018-11-15 16:10:17,804 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-15 16:10:19,148 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-15 16:10:19,148 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/QuickMenu/archive/master.zip", attempt 3
-2018-11-15 16:11:20,638 DEBUG FullProcessService - Repository https://github.com/ImangazalievM/QuickMenu available: true
-2018-11-15 16:11:20,638 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-15 16:11:20,638 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ImangazalievM/QuickMenu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src]
-2018-11-15 16:11:22,903 INFO  SysUtils - 
-2018-11-15 16:11:22,911 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/.git": true
-2018-11-15 16:11:22,915 INFO  FullProcessService - Size of directory with sources: 319 KB
-2018-11-15 16:11:22,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src]
-2018-11-15 16:11:22,932 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/.git/
+2019-07-08 01:56:21,928 INFO  DownloadService - Downloading "https://github.com/ImangazalievM/QuickMenu/archive/master.zip", attempt 3
+2019-07-08 01:56:24,203 INFO  DownloadService - Downloaded https://github.com/ImangazalievM/QuickMenu/archive/master.zip, attempt 3
+2019-07-08 01:56:24,204 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/master.zip": 225 KB
+2019-07-08 01:56:24,204 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 01:56:24,210 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/master.zip: true
+2019-07-08 01:56:24,210 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src'.
+2019-07-08 01:56:24,233 INFO  FullProcessService - Size of directory with sources: 319 KB
+2019-07-08 01:56:24,233 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src]
+2019-07-08 01:56:24,249 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/.git/
 
-2018-11-15 16:11:22,936 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/gradlew
-2018-11-15 16:11:22,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/build.gradle
-2018-11-15 16:11:22,945 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/settings.gradle
-2018-11-15 16:11:22,946 INFO  ProjectBuildService - Remote scripts: none
-2018-11-15 16:11:22,946 INFO  ProjectFixService - Fixing project...
-2018-11-15 16:11:22,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/local.properties
-2018-11-15 16:11:22,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-15 16:11:22,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/library/local.properties
-2018-11-15 16:11:22,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/library/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-15 16:11:22,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/local.properties
-2018-11-15 16:11:22,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-15 16:11:22,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-15 16:11:22,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-15 16:11:22,956 INFO  ProjectFixService - Project was maybe fixed
-2018-11-15 16:11:22,956 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-15 16:11:22,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-15 16:11:44,971 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-15 16:11:44,971 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-15 16:11:44,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-15 16:12:04,583 ERROR SysUtils - Could not process external command
+2019-07-08 01:56:24,252 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/gradlew
+2019-07-08 01:56:24,257 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/build.gradle
+2019-07-08 01:56:24,259 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/settings.gradle
+2019-07-08 01:56:24,260 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:56:24,260 INFO  ProjectFixService - Fixing project...
+2019-07-08 01:56:24,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/local.properties
+2019-07-08 01:56:24,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 01:56:24,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/library/local.properties
+2019-07-08 01:56:24,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/library/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 01:56:24,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/local.properties
+2019-07-08 01:56:24,269 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 01:56:24,269 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 01:56:24,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-08 01:56:24,270 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 01:56:24,270 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:56:24,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:56:32,942 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-08 01:56:32,942 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 01:56:32,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 01:56:50,112 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,7 +40,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-15 16:12:04,583 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:56:50,113 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -107,7 +105,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:bundleRelease
 :app:prepareComAndroidSupportAppcompatV72310Library
 :app:prepareComAndroidSupportSupportV42310Library
-:app:prepareSrcLibraryUnspecifiedLibrary
+:app:prepareQuickMenuMasterLibraryUnspecifiedLibrary
 :app:prepareDebugDependencies
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -259,6 +257,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 19.068 secs
+Total time: 16.653 secs
 
-2018-11-15 16:12:04,689 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542272957090-0/src/app/build/outputs/apk/app-debug.apk
+2019-07-08 01:56:50,174 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525781920-0/src/QuickMenu-master/app/build/outputs/apk/app-debug.apk

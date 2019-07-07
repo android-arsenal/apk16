@@ -1,32 +1,30 @@
-2018-12-16 22:16:25,698 INFO  DownloadService - Downloading "https://github.com/vektah/CodeGlance/archive/master.zip", attempt 3
-2018-12-16 22:17:26,226 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-16 22:17:27,276 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-16 22:17:27,276 INFO  DownloadService - Downloading "https://github.com/vektah/CodeGlance/archive/master.zip", attempt 3
-2018-12-16 22:18:28,561 DEBUG FullProcessService - Repository https://github.com/vektah/CodeGlance available: true
-2018-12-16 22:18:28,561 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-16 22:18:28,561 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vektah/CodeGlance, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src]
-2018-12-16 22:18:30,854 INFO  SysUtils - 
-2018-12-16 22:18:30,878 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/.git": true
-2018-12-16 22:18:30,880 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-16 22:18:30,880 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src]
-2018-12-16 22:18:30,896 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/.git/
+2019-07-08 02:36:58,181 INFO  DownloadService - Downloading "https://github.com/vektah/CodeGlance/archive/master.zip", attempt 3
+2019-07-08 02:37:00,221 INFO  DownloadService - Downloaded https://github.com/vektah/CodeGlance/archive/master.zip, attempt 3
+2019-07-08 02:37:00,221 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/master.zip": 1 MB
+2019-07-08 02:37:00,221 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:37:00,222 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/master.zip: true
+2019-07-08 02:37:00,222 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src'.
+2019-07-08 02:37:00,243 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-08 02:37:00,243 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src]
+2019-07-08 02:37:00,261 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/.git/
 
-2018-12-16 22:18:30,898 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/gradlew
-2018-12-16 22:18:30,900 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle
-2018-12-16 22:18:30,902 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle
-2018-12-16 22:18:30,902 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 22:18:30,902 INFO  ProjectFixService - Fixing project...
-2018-12-16 22:18:30,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/local.properties
-2018-12-16 22:18:30,907 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
-2018-12-16 22:18:30,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-16 22:18:30,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-16 22:18:30,908 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 22:18:30,908 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 22:18:30,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 22:18:34,700 INFO  ProjectTaskService - Detected possible tasks: 50
-2018-12-16 22:18:34,700 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 22:18:34,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 22:18:46,449 ERROR SysUtils - Could not process external command
+2019-07-08 02:37:00,263 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/gradlew
+2019-07-08 02:37:00,265 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle
+2019-07-08 02:37:00,267 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle
+2019-07-08 02:37:00,268 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:37:00,268 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:37:00,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/local.properties
+2019-07-08 02:37:00,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
+2019-07-08 02:37:00,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:37:00,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:37:00,273 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:37:00,273 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:37:00,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:42:00,702 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 143 (Exit value: 143)
+2019-07-08 02:42:00,703 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:42:00,703 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:42:00,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:46:36,526 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,7 +37,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -53,8 +51,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 22:18:46,449 INFO  SysUtils - Configuration on demand is an incubating feature.
-:compileKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544973385695-0/src/src/main/java/net/vektah/codeglance/render/Folds.kt: (32, 27): Unresolved reference: HashSet
+2019-07-08 02:46:36,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/14.1.4/ideaIC-14.1.4.zip
+Download https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/14.1.4/ideaIC-14.1.4-sources.jar
+:compileKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528218174-0/src/CodeGlance-master/src/main/java/net/vektah/codeglance/render/Folds.kt: (32, 27): Unresolved reference: HashSet
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -147,7 +147,7 @@ Caused by: org.gradle.api.GradleException: Compilation error. See log for more d
 
 BUILD FAILED
 
-Total time: 11.444 secs
+Total time: 4 mins 35.658 secs
 
-2018-12-16 22:18:46,453 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 22:18:46,456 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:46:36,530 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:46:36,532 ERROR FullProcessService - Could not find generated or existed APK file

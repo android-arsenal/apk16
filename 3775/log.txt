@@ -1,38 +1,38 @@
-2018-11-16 20:15:07,462 INFO  DownloadService - Downloading "https://github.com/A-Zaiats/android-mvvm/archive/master.zip", attempt 3
-2018-11-16 20:15:08,143 INFO  DownloadService - Downloaded https://github.com/A-Zaiats/android-mvvm/archive/master.zip, attempt 3
-2018-11-16 20:15:08,143 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/master.zip": 183 KB
-2018-11-16 20:15:08,143 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 20:15:08,149 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/master.zip: true
-2018-11-16 20:15:08,149 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src'.
-2018-11-16 20:15:08,184 INFO  FullProcessService - Size of directory with sources: 281 KB
-2018-11-16 20:15:08,185 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src]
-2018-11-16 20:15:08,201 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/.git/
+2019-07-08 02:19:07,029 INFO  DownloadService - Downloading "https://github.com/A-Zaiats/android-mvvm/archive/master.zip", attempt 3
+2019-07-08 02:19:09,104 INFO  DownloadService - Downloaded https://github.com/A-Zaiats/android-mvvm/archive/master.zip, attempt 3
+2019-07-08 02:19:09,104 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/master.zip": 183 KB
+2019-07-08 02:19:09,104 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:19:09,110 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/master.zip: true
+2019-07-08 02:19:09,110 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src'.
+2019-07-08 02:19:09,142 INFO  FullProcessService - Size of directory with sources: 281 KB
+2019-07-08 02:19:09,142 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src]
+2019-07-08 02:19:09,157 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/.git/
 
-2018-11-16 20:15:08,207 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew
-2018-11-16 20:15:08,213 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/build.gradle
-2018-11-16 20:15:08,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/quality/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/build.gradle
-2018-11-16 20:15:08,218 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 20:15:08,218 INFO  ProjectFixService - Fixing project...
-2018-11-16 20:15:08,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/local.properties
-2018-11-16 20:15:08,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 20:15:08,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/local.properties
-2018-11-16 20:15:08,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 20:15:08,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/local.properties
-2018-11-16 20:15:08,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 20:15:08,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/local.properties
-2018-11-16 20:15:08,241 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-all.zip
-2018-11-16 20:15:08,241 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2.1-bin.zip)
-2018-11-16 20:15:08,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 20:15:08,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/local.properties
-2018-11-16 20:15:08,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-11-16 20:15:08,245 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 20:15:08,245 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:15:08,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:15:43,288 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 20:15:43,289 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 20:15:43,289 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 20:15:43,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 20:15:49,182 ERROR SysUtils - Could not process external command
+2019-07-08 02:19:09,161 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew
+2019-07-08 02:19:09,166 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/build.gradle
+2019-07-08 02:19:09,170 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/quality/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/build.gradle
+2019-07-08 02:19:09,170 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:19:09,170 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:19:09,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/local.properties
+2019-07-08 02:19:09,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:19:09,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/local.properties
+2019-07-08 02:19:09,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:19:09,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/local.properties
+2019-07-08 02:19:09,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:19:09,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/local.properties
+2019-07-08 02:19:09,192 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-all.zip
+2019-07-08 02:19:09,193 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2.1-bin.zip)
+2019-07-08 02:19:09,193 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:19:09,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/local.properties
+2019-07-08 02:19:09,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-08 02:19:09,197 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:19:09,197 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:19:09,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:19:26,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:19:26,017 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:19:26,017 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:19:26,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:19:32,304 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 20:15:49,182 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:19:32,304 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -162,15 +162,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.648 secs
+Total time: 6.015 secs
 
-2018-11-16 20:15:49,189 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:15:49,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:15:56,297 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 20:15:56,298 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 20:15:56,298 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 20:15:56,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 20:16:02,216 ERROR SysUtils - Could not process external command
+2019-07-08 02:19:32,309 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:19:32,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:19:38,388 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:19:38,388 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:19:38,388 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:19:38,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:19:44,047 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -197,7 +197,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 20:16:02,216 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:19:44,047 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -368,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.702 secs
+Total time: 5.432 secs
 
-2018-11-16 20:16:02,222 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:16:02,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:16:08,618 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 20:16:08,618 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 20:16:08,618 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 20:16:08,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 20:16:14,482 ERROR SysUtils - Could not process external command
+2019-07-08 02:19:44,051 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:19:44,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:19:50,092 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:19:50,092 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:19:50,092 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:19:50,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:19:56,056 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 20:16:14,482 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:19:56,056 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -574,15 +574,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.653 secs
+Total time: 5.664 secs
 
-2018-11-16 20:16:14,489 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:16:14,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:16:20,334 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 20:16:20,334 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 20:16:20,334 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 20:16:20,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 20:16:26,052 ERROR SysUtils - Could not process external command
+2019-07-08 02:19:56,062 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:19:56,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:20:02,045 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:20:02,045 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:20:02,045 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:20:02,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:20:08,175 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -609,7 +609,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 20:16:26,052 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:20:08,175 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -712,15 +712,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.496 secs
+Total time: 5.877 secs
 
-2018-11-16 20:16:26,058 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 20:16:26,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 20:16:32,376 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 20:16:32,376 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 20:16:32,376 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 20:16:32,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542374107459-0/src/android-mvvm-master/testutils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 20:16:35,739 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:20:08,181 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:20:08,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:20:14,461 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:20:14,461 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:20:14,461 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:20:14,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527147025-0/src/android-mvvm-master/testutils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:20:18,035 INFO  SysUtils - Configuration on demand is an incubating feature.
 :testutils:compileJava
 :testutils:processResources UP-TO-DATE
 :testutils:classes
@@ -735,7 +735,7 @@ Total time: 5.496 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.231 secs
+Total time: 3.454 secs
 
-2018-11-16 20:16:35,747 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 20:16:35,754 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:20:18,040 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:20:18,046 ERROR FullProcessService - Could not find generated or existed APK file

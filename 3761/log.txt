@@ -1,40 +1,40 @@
-2019-01-26 21:06:09,909 INFO  DownloadService - Downloading "https://github.com/barteksc/AndroidPdfViewer/archive/master.zip", attempt 3
-2019-01-26 21:06:11,923 INFO  DownloadService - Downloaded https://github.com/barteksc/AndroidPdfViewer/archive/master.zip, attempt 3
-2019-01-26 21:06:11,924 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/master.zip": 2 MB
-2019-01-26 21:06:11,924 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-26 21:06:11,930 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/master.zip: true
-2019-01-26 21:06:11,930 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src'.
-2019-01-26 21:06:11,977 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-01-26 21:06:11,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src]
-2019-01-26 21:06:11,995 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/.git/
+2019-07-08 02:24:16,439 INFO  DownloadService - Downloading "https://github.com/barteksc/AndroidPdfViewer/archive/master.zip", attempt 3
+2019-07-08 02:24:22,584 INFO  DownloadService - Downloaded https://github.com/barteksc/AndroidPdfViewer/archive/master.zip, attempt 3
+2019-07-08 02:24:22,585 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/master.zip": 2 MB
+2019-07-08 02:24:22,585 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:24:22,585 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/master.zip: true
+2019-07-08 02:24:22,585 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src'.
+2019-07-08 02:24:22,626 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-08 02:24:22,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src]
+2019-07-08 02:24:22,641 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/.git/
 
-2019-01-26 21:06:11,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew
-2019-01-26 21:06:12,002 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/build.gradle
-2019-01-26 21:06:12,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/settings.gradle
-2019-01-26 21:06:12,010 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-01-26 21:06:12,769 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-01-26 21:06:12,769 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-01-26 21:06:12,865 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-01-26 21:06:12,865 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-01-26 21:06:12,865 INFO  ProjectFixService - Fixing project...
-2019-01-26 21:06:12,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/local.properties
-2019-01-26 21:06:12,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/local.properties
-2019-01-26 21:06:12,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/local.properties
-2019-01-26 21:06:12,882 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-26 21:06:12,882 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-26 21:06:12,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,883 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-26 21:06:12,884 INFO  ProjectFixService - Project was maybe fixed
-2019-01-26 21:06:12,884 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-26 21:06:12,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-26 21:06:22,011 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-26 21:06:22,011 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-26 21:06:22,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-26 21:07:15,461 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:24:22,644 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew
+2019-07-08 02:24:22,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/build.gradle
+2019-07-08 02:24:22,648 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/settings.gradle
+2019-07-08 02:24:22,648 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-08 02:24:23,189 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-08 02:24:23,189 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-08 02:24:23,370 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-08 02:24:23,370 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-08 02:24:23,370 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:24:23,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/local.properties
+2019-07-08 02:24:23,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,379 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/local.properties
+2019-07-08 02:24:23,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/local.properties
+2019-07-08 02:24:23,381 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-08 02:24:23,382 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-08 02:24:23,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 02:24:23,383 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:24:23,383 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:24:23,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:24:33,458 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-07-08 02:24:33,458 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 02:24:33,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 02:25:13,785 INFO  SysUtils - Configuration on demand is an incubating feature.
 :android-pdf-viewer:preBuild UP-TO-DATE
 :android-pdf-viewer:preDebugBuild UP-TO-DATE
 :android-pdf-viewer:compileDebugAidl
@@ -87,7 +87,7 @@ Download https://jcenter.bintray.com/com/github/barteksc/pdfium-android/1.9.0/pd
 :android-pdf-viewer:verifyReleaseResources
 :android-pdf-viewer:generateDebugRFile
 :android-pdf-viewer:generateDebugSources
-:android-pdf-viewer:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/scroll/DefaultScrollHandle.java uses or overrides a deprecated API.
+:android-pdf-viewer:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/scroll/DefaultScrollHandle.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :android-pdf-viewer:extractDebugAnnotations
@@ -98,7 +98,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :android-pdf-viewer:assembleDebug
 :android-pdf-viewer:generateReleaseRFile
 :android-pdf-viewer:generateReleaseSources
-:android-pdf-viewer:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/scroll/DefaultScrollHandle.java uses or overrides a deprecated API.
+:android-pdf-viewer:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/scroll/DefaultScrollHandle.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :android-pdf-viewer:extractReleaseAnnotations
@@ -110,15 +110,15 @@ Note: Recompile with -Xlint:deprecation for details.
 :android-pdf-viewer:assemble
 :android-pdf-viewer:build
 
-BUILD SUCCESSFUL in 53s
+BUILD SUCCESSFUL in 40s
 48 actionable tasks: 48 executed
 
-2019-01-26 21:07:15,500 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-26 21:07:15,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-26 21:07:22,031 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-26 21:07:22,031 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-26 21:07:22,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-26 21:07:27,995 ERROR SysUtils - Could not process external command
+2019-07-08 02:25:13,813 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:25:13,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:25:21,125 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-08 02:25:21,125 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:25:21,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:25:27,010 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -131,8 +131,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -146,7 +145,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-26 21:07:27,995 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:25:27,010 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -228,9 +227,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-01-26 21:07:27,995 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-01-26 21:07:27,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-26 21:08:16,772 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:25:27,010 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-08 02:25:27,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:26:22,320 INFO  SysUtils - Configuration on demand is an incubating feature.
 :android-pdf-viewer:preBuild UP-TO-DATE
 :android-pdf-viewer:preDebugBuild UP-TO-DATE
 :android-pdf-viewer:compileDebugAidl UP-TO-DATE
@@ -267,11 +266,11 @@ BUILD FAILED in 5s
 :sample:processDebugResources
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
-Download https://jcenter.bintray.com/org/androidannotations/androidannotations-api/4.4.0/androidannotations-api-4.4.0.jar
 Download https://jcenter.bintray.com/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+Download https://jcenter.bintray.com/org/androidannotations/androidannotations-api/4.4.0/androidannotations-api-4.4.0.jar
 Download https://jcenter.bintray.com/com/helger/jcodemodel/3.0.1/jcodemodel-3.0.1.jar
 Download https://jcenter.bintray.com/org/androidannotations/androidannotations/4.4.0/androidannotations-4.4.0.jar
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/generated/source/apt/debug/com/github/barteksc/sample/PDFViewActivity_.java uses unchecked or unsafe operations.
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/generated/source/apt/debug/com/github/barteksc/sample/PDFViewActivity_.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileDebugNdk NO-SOURCE
@@ -295,16 +294,16 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:mergeDebugJniLibFolders
 :sample:transformNativeLibsWithMergeJniLibsForDebug
 :sample:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodpng.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodft2.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libc++_shared.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodpdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libjniPdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodpng.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodft2.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libc++_shared.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodpdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libjniPdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodpng.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodft2.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libc++_shared.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libmodpdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libjniPdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodpng.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodft2.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libc++_shared.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libmodpdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libjniPdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
 :sample:processDebugJavaRes NO-SOURCE
 :sample:transformResourcesWithMergeJavaResForDebug
 :sample:validateSigningDebug
@@ -341,7 +340,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :sample:processReleaseResources
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/generated/source/apt/release/com/github/barteksc/sample/PDFViewActivity_.java uses unchecked or unsafe operations.
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/generated/source/apt/release/com/github/barteksc/sample/PDFViewActivity_.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileReleaseNdk NO-SOURCE
@@ -366,26 +365,26 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:mergeReleaseJniLibFolders
 :sample:transformNativeLibsWithMergeJniLibsForRelease
 :sample:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodpng.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodft2.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libc++_shared.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodpdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libjniPdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodpng.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodft2.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libc++_shared.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodpdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libjniPdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodpng.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodft2.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libc++_shared.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libmodpdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libjniPdfium.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodpng.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodft2.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libc++_shared.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libmodpdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libjniPdfium.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
 :sample:processReleaseJavaRes NO-SOURCE
 :sample:transformResourcesWithMergeJavaResForRelease
 :sample:packageRelease
 :sample:assembleRelease
 :sample:assemble
 :sample:lint
-Ran lint on variant release: 5 issues found
 Ran lint on variant debug: 5 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/reports/lint-results.xml
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/reports/lint-results.xml
 :sample:preDebugUnitTestBuild UP-TO-DATE
 :sample:javaPreCompileDebugUnitTest
 :sample:compileDebugUnitTestJavaWithJavac NO-SOURCE
@@ -401,7 +400,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sample:check
 :sample:build
 
-BUILD SUCCESSFUL in 47s
+BUILD SUCCESSFUL in 54s
 94 actionable tasks: 60 executed, 34 up-to-date
 
-2019-01-26 21:08:16,877 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511569906-0/src/AndroidPdfViewer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-08 02:26:22,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527456436-0/src/AndroidPdfViewer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

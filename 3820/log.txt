@@ -1,34 +1,34 @@
-2018-11-16 12:39:22,052 INFO  DownloadService - Downloading "https://github.com/Carbs0126/AvatarImageView/archive/master.zip", attempt 3
-2018-11-16 12:39:23,813 INFO  DownloadService - Downloaded https://github.com/Carbs0126/AvatarImageView/archive/master.zip, attempt 3
-2018-11-16 12:39:23,813 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/master.zip": 733 KB
-2018-11-16 12:39:23,813 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 12:39:23,819 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/master.zip: true
-2018-11-16 12:39:23,819 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src'.
-2018-11-16 12:39:23,850 INFO  FullProcessService - Size of directory with sources: 777 KB
-2018-11-16 12:39:23,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src]
-2018-11-16 12:39:23,869 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/.git/
+2019-07-08 01:57:33,218 INFO  DownloadService - Downloading "https://github.com/Carbs0126/AvatarImageView/archive/master.zip", attempt 3
+2019-07-08 01:57:34,884 INFO  DownloadService - Downloaded https://github.com/Carbs0126/AvatarImageView/archive/master.zip, attempt 3
+2019-07-08 01:57:34,884 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/master.zip": 733 KB
+2019-07-08 01:57:34,884 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 01:57:34,885 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/master.zip: true
+2019-07-08 01:57:34,885 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src'.
+2019-07-08 01:57:34,914 INFO  FullProcessService - Size of directory with sources: 777 KB
+2019-07-08 01:57:34,914 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src]
+2019-07-08 01:57:34,935 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/.git/
 
-2018-11-16 12:39:23,872 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew
-2018-11-16 12:39:23,875 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/build.gradle
-2018-11-16 12:39:23,879 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/settings.gradle
-2018-11-16 12:39:23,879 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 12:39:23,879 INFO  ProjectFixService - Fixing project...
-2018-11-16 12:39:23,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/local.properties
-2018-11-16 12:39:23,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-16 12:39:23,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/local.properties
-2018-11-16 12:39:23,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-16 12:39:23,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/local.properties
-2018-11-16 12:39:23,888 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-16 12:39:23,889 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-16 12:39:23,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-16 12:39:23,889 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 12:39:23,889 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 12:39:23,890 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 12:39:27,638 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 12:39:27,638 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 12:39:27,638 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 12:39:27,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 12:39:30,967 ERROR SysUtils - Could not process external command
+2019-07-08 01:57:34,937 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew
+2019-07-08 01:57:34,940 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/build.gradle
+2019-07-08 01:57:34,943 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/settings.gradle
+2019-07-08 01:57:34,943 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 01:57:34,943 INFO  ProjectFixService - Fixing project...
+2019-07-08 01:57:34,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/local.properties
+2019-07-08 01:57:34,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 01:57:34,951 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/local.properties
+2019-07-08 01:57:34,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-08 01:57:34,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/local.properties
+2019-07-08 01:57:34,957 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 01:57:34,957 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 01:57:34,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 01:57:34,959 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 01:57:34,959 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:57:34,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:57:39,316 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:57:39,316 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:57:39,316 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:57:39,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:57:42,593 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,12 +56,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 12:39:30,967 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:57:42,593 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -148,7 +148,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_3iaii09a1je5vvf4g584vqing.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle:1)
+	at build_656o6h5mpdojoxx365gjrqkn2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2.14.1. Current version is 2.10. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.14.1-all.zip
@@ -171,15 +171,15 @@ Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2
 
 BUILD FAILED
 
-Total time: 2.771 secs
+Total time: 2.736 secs
 
-2018-11-16 12:39:30,971 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 12:39:30,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 12:39:34,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 12:39:34,590 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 12:39:34,590 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 12:39:34,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 12:39:38,442 ERROR SysUtils - Could not process external command
+2019-07-08 01:57:42,598 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:57:42,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:57:46,249 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:57:46,250 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:57:46,250 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:57:46,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:57:49,413 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -207,12 +207,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 12:39:38,443 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:57:49,413 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -299,7 +299,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_7n8edic3kjqd22aayvta3djdt.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/library/build.gradle:1)
+	at build_3ri5ewkyndnjgznebfch02h4t.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/library/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2.14.1. Current version is 2.10. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.14.1-all.zip
@@ -322,15 +322,15 @@ Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2
 
 BUILD FAILED
 
-Total time: 3.29 secs
+Total time: 2.569 secs
 
-2018-11-16 12:39:38,447 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 12:39:38,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 12:39:42,182 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 12:39:42,182 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 12:39:42,182 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 12:39:42,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 12:39:45,704 ERROR SysUtils - Could not process external command
+2019-07-08 01:57:49,417 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 01:57:49,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 01:57:52,991 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 01:57:52,992 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 01:57:52,992 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 01:57:52,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 01:57:56,646 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -358,12 +358,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 12:39:45,704 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 01:57:56,646 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -450,7 +450,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_3iaii09a1je5vvf4g584vqing.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346762044-0/src/AvatarImageView-master/example/build.gradle:1)
+	at build_656o6h5mpdojoxx365gjrqkn2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562525853214-0/src/AvatarImageView-master/example/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2.14.1. Current version is 2.10. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.14.1-all.zip
@@ -473,7 +473,7 @@ Caused by: org.gradle.api.GradleException: Minimum supported Gradle version is 2
 
 BUILD FAILED
 
-Total time: 2.953 secs
+Total time: 3.064 secs
 
-2018-11-16 12:39:45,709 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 12:39:45,713 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 01:57:56,650 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 01:57:56,653 ERROR FullProcessService - Could not find generated or existed APK file

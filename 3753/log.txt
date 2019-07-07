@@ -1,10 +1,10 @@
-2018-11-17 20:53:41,845 INFO  DownloadService - Downloading "https://github.com/afcastano/AutoValuePlugin/archive/master.zip", attempt 3
-2018-11-17 20:53:43,030 INFO  DownloadService - Downloaded https://github.com/afcastano/AutoValuePlugin/archive/master.zip, attempt 3
-2018-11-17 20:53:43,030 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462821842-0/master.zip": 1 MB
-2018-11-17 20:53:43,030 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-17 20:53:43,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462821842-0/master.zip: false
-2018-11-17 20:53:43,031 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-17 20:53:43,031 ERROR FullProcessService - Could not find directory with sources
-2018-11-17 20:53:43,031 ERROR FullProcessService - Project will not be processed
-2018-11-17 20:53:43,031 ERROR FullProcessService - Project build has not produced APK file
-2018-11-17 20:53:43,031 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:36:01,460 INFO  DownloadService - Downloading "https://github.com/afcastano/AutoValuePlugin/archive/master.zip", attempt 3
+2019-07-08 02:36:04,294 INFO  DownloadService - Downloaded https://github.com/afcastano/AutoValuePlugin/archive/master.zip, attempt 3
+2019-07-08 02:36:04,295 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528161458-0/master.zip": 1 MB
+2019-07-08 02:36:04,295 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:36:04,296 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528161458-0/master.zip: false
+2019-07-08 02:36:04,296 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-08 02:36:04,296 ERROR FullProcessService - Could not find directory with sources
+2019-07-08 02:36:04,296 ERROR FullProcessService - Project will not be processed
+2019-07-08 02:36:04,296 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:36:04,296 ERROR FullProcessService - Could not find generated or existed APK file

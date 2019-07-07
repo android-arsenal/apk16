@@ -31,8 +31,8 @@
   "dexClasses" : 87,
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"14\" android:versionName=\"2.1.0\" package=\"com.wdullaer.swipeactionexample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"@android:style/Theme.Holo.Light\" android:label=\"SwipeActionListView Example\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SwipeActionListView Example\" android:name=\"com.wdullaer.swipeactionexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 83239,
-  "crc32" : 257999894,
-  "sha256" : "c5b77d6bd3552f3fc5e750b2a36fb2dc55f50536e62b6e02f82c3a175f3ddad4",
-  "buildTime" : 1542373898000
+  "fileSize" : 83237,
+  "crc32" : 426798461,
+  "sha256" : "0664c93c676a729cbce87e4429a04be4436d84efd19ea6e81021dfd952db3a27",
+  "buildTime" : 1562527042000
 }

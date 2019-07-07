@@ -1,33 +1,33 @@
-2018-11-16 15:08:14,294 INFO  DownloadService - Downloading "https://github.com/djuarez/Kotlin-CleanArchitecture/archive/master.zip", attempt 3
-2018-11-16 15:08:15,322 INFO  DownloadService - Downloaded https://github.com/djuarez/Kotlin-CleanArchitecture/archive/master.zip, attempt 3
-2018-11-16 15:08:15,322 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/master.zip": 100 KB
-2018-11-16 15:08:15,322 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 15:08:15,323 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/master.zip: true
-2018-11-16 15:08:15,323 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src'.
-2018-11-16 15:08:15,347 INFO  FullProcessService - Size of directory with sources: 117 KB
-2018-11-16 15:08:15,347 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src]
-2018-11-16 15:08:15,367 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/.git/
+2019-07-08 02:02:00,987 INFO  DownloadService - Downloading "https://github.com/djuarez/Kotlin-CleanArchitecture/archive/master.zip", attempt 3
+2019-07-08 02:02:03,932 INFO  DownloadService - Downloaded https://github.com/djuarez/Kotlin-CleanArchitecture/archive/master.zip, attempt 3
+2019-07-08 02:02:03,932 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/master.zip": 100 KB
+2019-07-08 02:02:03,932 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:02:03,934 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/master.zip: true
+2019-07-08 02:02:03,934 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src'.
+2019-07-08 02:02:03,954 INFO  FullProcessService - Size of directory with sources: 117 KB
+2019-07-08 02:02:03,954 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src]
+2019-07-08 02:02:03,972 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/.git/
 
-2018-11-16 15:08:15,372 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/gradlew
-2018-11-16 15:08:15,377 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/build.gradle
-2018-11-16 15:08:15,381 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/config/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/config/buildsystem/ci.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/settings.gradle
-2018-11-16 15:08:15,381 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 15:08:15,381 INFO  ProjectFixService - Fixing project...
-2018-11-16 15:08:15,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/local.properties
-2018-11-16 15:08:15,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-16 15:08:15,396 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-16 15:08:15,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/local.properties
-2018-11-16 15:08:15,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-16 15:08:15,399 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-16 15:08:15,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-16 15:08:15,403 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-16 15:08:15,403 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 15:08:15,403 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:08:15,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:09:14,374 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-11-16 15:09:14,380 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-16 15:09:14,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-16 15:09:50,399 ERROR SysUtils - Could not process external command
+2019-07-08 02:02:03,975 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/gradlew
+2019-07-08 02:02:03,978 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/build.gradle
+2019-07-08 02:02:03,981 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/config/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/config/buildsystem/ci.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/settings.gradle
+2019-07-08 02:02:03,981 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:02:03,981 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:02:03,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/local.properties
+2019-07-08 02:02:03,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:02:03,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:02:03,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/local.properties
+2019-07-08 02:02:03,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:02:03,995 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:02:03,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:02:03,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:02:03,999 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:02:03,999 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:02:03,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:02:52,203 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-07-08 02:02:52,203 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:02:52,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:03:30,285 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:09:50,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:03:30,285 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -88,22 +88,22 @@ Incremental java compilation is an incubating feature.
 :app:generateDebugSources
 :app:incrementalDebugJavaCompilationSafeguard
 :app:compileDebugKotlin
-w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build/tmp/kapt/debug/classFileStubs
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build/tmp/kapt/debug/classFileStubs
 :app:compileDebugJavaWithJavac
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: Version 5.8.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Version 5.12.0 of Realm is now available: http://static.realm.io/downloads/java/latest
 Note: Processing class GithubEntity
 Note: Creating DefaultRealmModule
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileDebugKotlinAfterJava
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/cache/DBHelper.kt: (17, 14): Parameter 'github' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/executor/JobExecutor.kt: (46, 13): Condition 'runnable == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerActivity.kt: (33, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerFragment.kt: (13, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (38, 37): Unnecessary safe call on a non-null receiver of type Github
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (39, 31): Unnecessary safe call on a non-null receiver of type Github
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (40, 53): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/cache/DBHelper.kt: (17, 14): Parameter 'github' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/executor/JobExecutor.kt: (46, 13): Condition 'runnable == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerActivity.kt: (33, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerFragment.kt: (13, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (38, 37): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (39, 31): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (40, 53): Unnecessary safe call on a non-null receiver of type Github
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
 :app:prePackageMarkerForDebug
@@ -139,7 +139,7 @@ Merged dex #26 (80 defs/73.3KiB)
 Merged dex #27 (931 defs/763.4KiB)
 Merged dex #28 (35 defs/38.7KiB)
 Merged dex #29 (41 defs/6.5KiB)
-Result is 4571 defs/5482.8KiB. Took 0.6s
+Result is 4571 defs/5482.8KiB. Took 0.8s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -165,22 +165,22 @@ Result is 4571 defs/5482.8KiB. Took 0.6s
 :app:generateReleaseSources
 :app:incrementalReleaseJavaCompilationSafeguard
 :app:compileReleaseKotlin
-w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build/tmp/kapt/release/classFileStubs
+w: Classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build/tmp/kapt/release/classFileStubs
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: Version 5.8.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Version 5.12.0 of Realm is now available: http://static.realm.io/downloads/java/latest
 Note: Processing class GithubEntity
 Note: Creating DefaultRealmModule
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseKotlinAfterJava
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/cache/DBHelper.kt: (17, 14): Parameter 'github' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/executor/JobExecutor.kt: (46, 13): Condition 'runnable == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerActivity.kt: (33, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerFragment.kt: (13, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (38, 37): Unnecessary safe call on a non-null receiver of type Github
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (39, 31): Unnecessary safe call on a non-null receiver of type Github
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (40, 53): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/cache/DBHelper.kt: (17, 14): Parameter 'github' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/data/executor/JobExecutor.kt: (46, 13): Condition 'runnable == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerActivity.kt: (33, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/internal/di/scope/PerFragment.kt: (13, 1): This annotation is deprecated in Kotlin. Use '@kotlin.annotation.Retention' instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (38, 37): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (39, 31): Unnecessary safe call on a non-null receiver of type Github
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/src/main/kotlin/com/djuarez/rxkotlin/presentation/ui/main/MainActivity.kt: (40, 53): Unnecessary safe call on a non-null receiver of type Github
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
 :app:lintVitalRelease FAILED
@@ -279,6 +279,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 35.303 secs
+Total time: 37.396 secs
 
-2018-11-16 15:09:50,517 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355694290-0/src/Kotlin-CleanArchitecture-master/app/build/outputs/apk/app-debug-unaligned.apk
+2019-07-08 02:03:30,355 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526120983-0/src/Kotlin-CleanArchitecture-master/app/build/outputs/apk/app-debug-unaligned.apk

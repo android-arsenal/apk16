@@ -1,37 +1,36 @@
-2019-01-22 16:37:48,940 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip", attempt 3
-2019-01-22 16:37:51,715 INFO  DownloadService - Downloaded https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip, attempt 3
-2019-01-22 16:37:51,716 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/master.zip": 240 KB
-2019-01-22 16:37:51,716 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 16:37:51,721 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/master.zip: true
-2019-01-22 16:37:51,722 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src'.
-2019-01-22 16:37:51,742 INFO  FullProcessService - Size of directory with sources: 308 KB
-2019-01-22 16:37:51,743 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src]
-2019-01-22 16:37:51,762 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/.git/
+2019-07-08 02:22:21,497 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip", attempt 3
+2019-07-08 02:22:22,379 INFO  DownloadService - Downloaded https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip, attempt 3
+2019-07-08 02:22:22,379 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip": 241 KB
+2019-07-08 02:22:22,379 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:22:22,380 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip: true
+2019-07-08 02:22:22,380 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src'.
+2019-07-08 02:22:22,398 INFO  FullProcessService - Size of directory with sources: 311 KB
+2019-07-08 02:22:22,398 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src]
+2019-07-08 02:22:22,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/.git/
 
-2019-01-22 16:37:51,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/gradlew
-2019-01-22 16:37:51,768 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/build.gradle
-2019-01-22 16:37:51,771 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/settings.gradle
-2019-01-22 16:37:51,771 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 16:37:51,771 INFO  ProjectFixService - Fixing project...
-2019-01-22 16:37:51,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/local.properties
-2019-01-22 16:37:51,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-22 16:37:51,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-22 16:37:51,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/otpview/local.properties
-2019-01-22 16:37:51,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 16:37:51,779 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 16:37:51,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/local.properties
-2019-01-22 16:37:51,780 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
-2019-01-22 16:37:51,780 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
-2019-01-22 16:37:51,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-22 16:37:51,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-22 16:37:51,782 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 16:37:51,782 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:37:51,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:37:58,367 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-22 16:37:58,367 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 16:37:58,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 16:38:18,382 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
+2019-07-08 02:22:22,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew
+2019-07-08 02:22:22,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle
+2019-07-08 02:22:22,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/settings.gradle
+2019-07-08 02:22:22,421 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:22:22,421 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:22:22,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/local.properties
+2019-07-08 02:22:22,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-08 02:22:22,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-08 02:22:22,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/local.properties
+2019-07-08 02:22:22,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-08 02:22:22,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-08 02:22:22,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/local.properties
+2019-07-08 02:22:22,431 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-08 02:22:22,432 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-08 02:22:22,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-08 02:22:22,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-08 02:22:22,436 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:22:22,436 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:22:22,436 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:22:31,200 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-08 02:22:31,200 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 02:22:31,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 02:23:03,270 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :otpview:preBuild UP-TO-DATE
 > Task :otpview:preDebugBuild UP-TO-DATE
@@ -45,21 +44,13 @@
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
+> Task :app:generateDebugSources
 > Task :otpview:compileDebugRenderscript
+> Task :otpview:generateDebugBuildConfig
 > Task :otpview:generateDebugResValues
 > Task :otpview:generateDebugResources
 > Task :otpview:packageDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
 > Task :otpview:generateDebugRFile
-> Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Task :otpview:generateDebugBuildConfig
 > Task :otpview:prepareLintJar
 > Task :otpview:generateDebugSources
 > Task :otpview:javaPreCompileDebug
@@ -67,6 +58,13 @@
 > Task :otpview:processDebugJavaRes NO-SOURCE
 > Task :otpview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
@@ -78,9 +76,14 @@
 > Task :otpview:generateDebugAssets
 > Task :otpview:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :otpview:createFullJarDebug
+> Transform full.jar (project :otpview) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :otpview) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :otpview:compileDebugNdk NO-SOURCE
 > Task :otpview:mergeDebugJniLibFolders
@@ -89,13 +92,10 @@
 > Task :otpview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:checkDebugLibraries
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:validateSigningDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
 > Task :otpview:preReleaseBuild UP-TO-DATE
 > Task :otpview:checkReleaseManifest
 > Task :otpview:processReleaseManifest
@@ -106,31 +106,36 @@
 > Task :app:compileReleaseRenderscript
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
+> Task :app:generateReleaseSources
 > Task :otpview:compileReleaseRenderscript
+> Task :otpview:generateReleaseBuildConfig
 > Task :otpview:generateReleaseResValues
 > Task :otpview:generateReleaseResources
 > Task :otpview:packageReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
 > Task :otpview:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :otpview:generateReleaseBuildConfig
 > Task :otpview:generateReleaseSources
 > Task :otpview:javaPreCompileRelease
 > Task :otpview:compileReleaseJavaWithJavac
 > Task :otpview:processReleaseJavaRes NO-SOURCE
 > Task :otpview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
+> Task :otpview:createFullJarRelease
+> Transform full.jar (project :otpview) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :otpview) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -139,9 +144,7 @@
 > Task :otpview:generateReleaseAssets
 > Task :otpview:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :otpview:compileReleaseNdk NO-SOURCE
 > Task :otpview:mergeReleaseJniLibFolders
@@ -150,7 +153,6 @@
 > Task :otpview:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:checkReleaseLibraries
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:packageRelease
@@ -158,7 +160,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 19s
-90 actionable tasks: 90 executed
+BUILD SUCCESSFUL in 31s
+88 actionable tasks: 88 executed
 
-2019-01-22 16:38:18,466 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149868932-0/src/android-otpview-pinview-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-08 02:23:03,330 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build/outputs/apk/debug/app-debug.apk

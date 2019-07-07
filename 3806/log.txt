@@ -1,33 +1,33 @@
-2018-11-16 15:17:33,335 INFO  DownloadService - Downloading "https://github.com/romainguy/elegant-underline/archive/master.zip", attempt 3
-2018-11-16 15:17:38,098 INFO  DownloadService - Downloaded https://github.com/romainguy/elegant-underline/archive/master.zip, attempt 3
-2018-11-16 15:17:38,098 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/master.zip": 407 KB
-2018-11-16 15:17:38,098 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 15:17:38,103 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/master.zip: true
-2018-11-16 15:17:38,104 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src'.
-2018-11-16 15:17:38,120 INFO  FullProcessService - Size of directory with sources: 449 KB
-2018-11-16 15:17:38,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src]
-2018-11-16 15:17:38,138 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/.git/
+2019-07-08 02:10:34,147 INFO  DownloadService - Downloading "https://github.com/romainguy/elegant-underline/archive/master.zip", attempt 3
+2019-07-08 02:10:38,192 INFO  DownloadService - Downloaded https://github.com/romainguy/elegant-underline/archive/master.zip, attempt 3
+2019-07-08 02:10:38,192 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/master.zip": 407 KB
+2019-07-08 02:10:38,192 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:10:38,192 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/master.zip: true
+2019-07-08 02:10:38,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src'.
+2019-07-08 02:10:38,207 INFO  FullProcessService - Size of directory with sources: 449 KB
+2019-07-08 02:10:38,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src]
+2019-07-08 02:10:38,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/.git/
 
-2018-11-16 15:17:38,140 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/gradlew
-2018-11-16 15:17:38,142 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/build.gradle
-2018-11-16 15:17:38,144 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/settings.gradle
-2018-11-16 15:17:38,144 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 15:17:38,144 INFO  ProjectFixService - Fixing project...
-2018-11-16 15:17:38,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/local.properties
-2018-11-16 15:17:38,149 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle": [buildToolsVersion=24,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-11-16 15:17:38,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-11-16 15:17:38,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/local.properties
-2018-11-16 15:17:38,151 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-16 15:17:38,151 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-16 15:17:38,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-11-16 15:17:38,152 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 15:17:38,152 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:17:38,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:42,671 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:17:42,671 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:17:42,671 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:17:42,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:17:46,752 ERROR SysUtils - Could not process external command
+2019-07-08 02:10:38,228 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/gradlew
+2019-07-08 02:10:38,230 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/build.gradle
+2019-07-08 02:10:38,232 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/settings.gradle
+2019-07-08 02:10:38,233 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:10:38,233 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:10:38,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/local.properties
+2019-07-08 02:10:38,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle": [buildToolsVersion=24,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-08 02:10:38,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-08 02:10:38,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/local.properties
+2019-07-08 02:10:38,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:10:38,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:10:38,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-08 02:10:38,241 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:10:38,241 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:10:38,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:43,705 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:10:43,705 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:10:43,705 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:10:43,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:10:48,879 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:17:46,752 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:48,879 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -150,15 +150,15 @@ Caused by: java.lang.IllegalArgumentException: The SDK Build Tools revision (17.
 
 BUILD FAILED
 
-Total time: 3.56 secs
+Total time: 4.688 secs
 
-2018-11-16 15:17:46,755 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 15:17:46,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 15:17:50,886 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-16 15:17:50,886 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-16 15:17:50,886 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-16 15:17:50,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542356253331-0/src/elegant-underline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-16 15:17:55,097 ERROR SysUtils - Could not process external command
+2019-07-08 02:10:48,883 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:10:48,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:10:53,401 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:10:53,401 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:10:53,401 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:10:53,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562526634144-0/src/elegant-underline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:10:58,102 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -185,7 +185,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-16 15:17:55,097 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:10:58,102 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -274,14 +274,14 @@ Caused by: java.lang.IllegalArgumentException: The SDK Build Tools revision (17.
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 3.7 secs
+Total time: 4.203 secs
 
-2018-11-16 15:17:55,100 ERROR FullProcessService - Project build has not produced APK file
-2018-11-16 15:17:55,102 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 02:10:58,104 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 02:10:58,106 ERROR FullProcessService - Could not find generated or existed APK file
