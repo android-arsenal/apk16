@@ -1,39 +1,36 @@
-2019-07-08 00:49:00,716 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
-2019-07-08 00:50:01,684 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-08 00:50:03,041 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-08 00:50:03,041 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
-2019-07-08 00:51:05,199 DEBUG FullProcessService - Repository https://github.com/ernestoyaquello/vertical-stepper-form available: true
-2019-07-08 00:51:05,199 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-08 00:51:05,199 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ernestoyaquello/vertical-stepper-form, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src]
-2019-07-08 00:51:08,766 INFO  SysUtils - 
-2019-07-08 00:51:08,772 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/.git": true
-2019-07-08 00:51:08,775 INFO  FullProcessService - Size of directory with sources: 978 KB
-2019-07-08 00:51:08,775 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src]
-2019-07-08 00:51:08,791 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/.git/
+2019-07-24 11:57:44,123 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip", attempt 3
+2019-07-24 11:57:45,430 INFO  DownloadService - Downloaded https://github.com/ernestoyaquello/vertical-stepper-form/archive/master.zip, attempt 3
+2019-07-24 11:57:45,431 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/master.zip": 800 KB
+2019-07-24 11:57:45,431 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 11:57:45,437 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/master.zip: true
+2019-07-24 11:57:45,437 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src'.
+2019-07-24 11:57:45,467 INFO  FullProcessService - Size of directory with sources: 978 KB
+2019-07-24 11:57:45,468 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src]
+2019-07-24 11:57:45,484 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/.git/
 
-2019-07-08 00:51:08,794 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew
-2019-07-08 00:51:08,798 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle
-2019-07-08 00:51:08,800 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/settings.gradle
-2019-07-08 00:51:08,801 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 00:51:08,801 INFO  ProjectFixService - Fixing project...
-2019-07-08 00:51:08,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/local.properties
-2019-07-08 00:51:08,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/local.properties
-2019-07-08 00:51:08,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/vertical-stepper-form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/local.properties
-2019-07-08 00:51:08,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-08 00:51:08,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-08 00:51:08,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-08 00:51:08,812 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 00:51:08,812 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:51:08,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:51:14,799 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-08 00:51:14,799 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 00:51:14,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 00:51:43,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 11:57:45,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/gradlew
+2019-07-24 11:57:45,490 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/build.gradle
+2019-07-24 11:57:45,492 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/vertical-stepper-form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/settings.gradle
+2019-07-24 11:57:45,493 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 11:57:45,493 INFO  ProjectFixService - Fixing project...
+2019-07-24 11:57:45,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/local.properties
+2019-07-24 11:57:45,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,500 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/vertical-stepper-form/local.properties
+2019-07-24 11:57:45,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/vertical-stepper-form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/vertical-stepper-form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/local.properties
+2019-07-24 11:57:45,504 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-24 11:57:45,504 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-24 11:57:45,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-24 11:57:45,506 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 11:57:45,506 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:57:45,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 11:57:51,549 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 11:57:51,549 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 11:57:51,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 11:58:22,171 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :vertical-stepper-form:preBuild UP-TO-DATE
 > Task :vertical-stepper-form:preDebugBuild UP-TO-DATE
@@ -44,14 +41,14 @@
 > Task :vertical-stepper-form:generateDebugBuildConfig
 > Task :vertical-stepper-form:generateDebugResValues
 > Task :vertical-stepper-form:prepareLintJar
-> Task :vertical-stepper-form:compileDebugRenderscript NO-SOURCE
-> Task :app:preDebugBuild
 > Task :vertical-stepper-form:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
+> Task :vertical-stepper-form:compileDebugRenderscript NO-SOURCE
 > Task :vertical-stepper-form:generateDebugResources
 > Task :vertical-stepper-form:packageDebugResources
 > Task :vertical-stepper-form:generateDebugRFile
@@ -63,15 +60,15 @@
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -125,7 +122,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:517: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
@@ -137,7 +134,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assembleDebug
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/src/main/java/verticalstepperform/ernestoyaquello/com/verticalstepperform/NewAlarmFormActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
@@ -181,7 +178,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 30s
 91 actionable tasks: 91 executed
 
-2019-07-08 00:51:43,986 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562521740712-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-07-24 11:58:22,235 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944264115-0/src/VerticalStepperForm-master/app/build/outputs/apk/debug/app-debug.apk

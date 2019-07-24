@@ -1,181 +1,185 @@
-2019-07-07 02:53:09,098 INFO  DownloadService - Downloading "https://github.com/kakajika/RelativePopupWindow/archive/master.zip", attempt 3
-2019-07-07 02:54:09,636 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-07 02:54:11,120 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-07 02:54:11,120 INFO  DownloadService - Downloading "https://github.com/kakajika/RelativePopupWindow/archive/master.zip", attempt 3
-2019-07-07 02:55:12,396 DEBUG FullProcessService - Repository https://github.com/kakajika/RelativePopupWindow available: true
-2019-07-07 02:55:12,396 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-07 02:55:12,396 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kakajika/RelativePopupWindow, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src]
-2019-07-07 02:55:15,408 INFO  SysUtils - 
-2019-07-07 02:55:15,414 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/.git": true
-2019-07-07 02:55:15,417 INFO  FullProcessService - Size of directory with sources: 926 KB
-2019-07-07 02:55:15,417 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src]
-2019-07-07 02:55:15,432 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/.git/
+2019-07-24 11:55:37,491 INFO  DownloadService - Downloading "https://github.com/kakajika/RelativePopupWindow/archive/master.zip", attempt 3
+2019-07-24 11:55:42,804 INFO  DownloadService - Downloaded https://github.com/kakajika/RelativePopupWindow/archive/master.zip, attempt 3
+2019-07-24 11:55:42,805 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/master.zip": 725 KB
+2019-07-24 11:55:42,805 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 11:55:42,810 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/master.zip: true
+2019-07-24 11:55:42,811 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src'.
+2019-07-24 11:55:42,840 INFO  FullProcessService - Size of directory with sources: 924 KB
+2019-07-24 11:55:42,840 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src]
+2019-07-24 11:55:42,860 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/.git/
 
-2019-07-07 02:55:15,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/gradlew
-2019-07-07 02:55:15,437 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/relativepopupwindow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/build.gradle
-2019-07-07 02:55:15,440 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/relativepopupwindow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/settings.gradle
-2019-07-07 02:55:15,440 INFO  ProjectBuildService - Remote scripts: none
-2019-07-07 02:55:15,440 INFO  ProjectFixService - Fixing project...
-2019-07-07 02:55:15,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/local.properties
-2019-07-07 02:55:15,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-07 02:55:15,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-07 02:55:15,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/relativepopupwindow/local.properties
-2019-07-07 02:55:15,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/relativepopupwindow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-07-07 02:55:15,447 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/relativepopupwindow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-07-07 02:55:15,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/local.properties
-2019-07-07 02:55:15,448 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-07 02:55:15,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-07 02:55:15,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-07-07 02:55:15,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-07-07 02:55:15,449 INFO  ProjectFixService - Project was maybe fixed
-2019-07-07 02:55:15,449 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-07 02:55:15,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-07 02:55:23,558 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-07-07 02:55:23,559 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-07 02:55:23,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-07 02:56:05,042 INFO  SysUtils - Configuration on demand is an incubating feature.
-:example:checkDebugClasspath
-:example:preBuild UP-TO-DATE
-:relativepopupwindow:preBuild UP-TO-DATE
-:relativepopupwindow:preDebugBuild UP-TO-DATE
-:relativepopupwindow:checkDebugManifest
-:relativepopupwindow:processDebugManifest
-:example:preDebugBuild
-:relativepopupwindow:compileDebugAidl NO-SOURCE
-:example:compileDebugAidl NO-SOURCE
-:relativepopupwindow:packageDebugRenderscript NO-SOURCE
-:example:compileDebugRenderscript
-:example:checkDebugManifest
-:example:generateDebugBuildConfig
-:example:mainApkListPersistenceDebug
-:example:generateDebugResValues
-:example:generateDebugResources
-:relativepopupwindow:compileDebugRenderscript
-:relativepopupwindow:generateDebugResValues
-:relativepopupwindow:generateDebugResources
-:relativepopupwindow:packageDebugResources
-:example:mergeDebugResources
-:example:createDebugCompatibleScreenManifests
-:example:processDebugManifest
-:example:splitsDiscoveryTaskDebug
-:relativepopupwindow:generateDebugRFile
-:example:processDebugResources
-:relativepopupwindow:generateDebugBuildConfig
-:relativepopupwindow:prepareLintJar
-:relativepopupwindow:generateDebugSources
-:relativepopupwindow:javaPreCompileDebug
-:relativepopupwindow:compileDebugJavaWithJavac
-:relativepopupwindow:processDebugJavaRes NO-SOURCE
-:relativepopupwindow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:example:compileDebugKotlin
-:example:prepareLintJar
-:example:generateDebugSources
-:example:javaPreCompileDebug
-:example:compileDebugJavaWithJavac
-:example:compileDebugNdk NO-SOURCE
-:example:compileDebugSources
-:example:mergeDebugShaders
-:example:compileDebugShaders
-:example:generateDebugAssets
-:relativepopupwindow:mergeDebugShaders
-:relativepopupwindow:compileDebugShaders
-:relativepopupwindow:generateDebugAssets
-:relativepopupwindow:packageDebugAssets
-:example:mergeDebugAssets
-:example:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 2 methods.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-:example:transformDexArchiveWithExternalLibsDexMergerForDebug
-:example:transformDexArchiveWithDexMergerForDebug
-:example:mergeDebugJniLibFolders
-:relativepopupwindow:compileDebugNdk NO-SOURCE
-:relativepopupwindow:mergeDebugJniLibFolders
-:relativepopupwindow:transformNativeLibsWithMergeJniLibsForDebug
-:relativepopupwindow:transformNativeLibsWithStripDebugSymbolForDebug
-:relativepopupwindow:transformNativeLibsWithIntermediateJniLibsForDebug
-:example:transformNativeLibsWithMergeJniLibsForDebug
-:example:transformNativeLibsWithStripDebugSymbolForDebug
-:example:checkDebugLibraries
-:example:processDebugJavaRes NO-SOURCE
-:example:transformResourcesWithMergeJavaResForDebug
-:example:validateSigningDebug
-:example:packageDebug
-:example:assembleDebug
-:example:checkReleaseClasspath
-:relativepopupwindow:preReleaseBuild UP-TO-DATE
-:relativepopupwindow:checkReleaseManifest
-:relativepopupwindow:processReleaseManifest
-:example:preReleaseBuild
-:relativepopupwindow:compileReleaseAidl NO-SOURCE
-:example:compileReleaseAidl NO-SOURCE
-:relativepopupwindow:packageReleaseRenderscript NO-SOURCE
-:example:compileReleaseRenderscript
-:example:checkReleaseManifest
-:example:generateReleaseBuildConfig
-:example:mainApkListPersistenceRelease
-:example:generateReleaseResValues
-:example:generateReleaseResources
-:relativepopupwindow:compileReleaseRenderscript
-:relativepopupwindow:generateReleaseResValues
-:relativepopupwindow:generateReleaseResources
-:relativepopupwindow:packageReleaseResources
-:example:mergeReleaseResources
-:example:createReleaseCompatibleScreenManifests
-:example:processReleaseManifest
-:example:splitsDiscoveryTaskRelease
-:relativepopupwindow:generateReleaseRFile
-:example:processReleaseResources
-:relativepopupwindow:generateReleaseBuildConfig
-:relativepopupwindow:generateReleaseSources
-:relativepopupwindow:javaPreCompileRelease
-:relativepopupwindow:compileReleaseJavaWithJavac
-:relativepopupwindow:processReleaseJavaRes NO-SOURCE
-:relativepopupwindow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:example:compileReleaseKotlin
-:example:generateReleaseSources
-:example:javaPreCompileRelease
-:example:compileReleaseJavaWithJavac
-:example:compileReleaseNdk NO-SOURCE
-:example:compileReleaseSources
-:example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/bd9fff3be0023c5719e1d94a7793f6ce/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:example:mergeReleaseShaders
-:example:compileReleaseShaders
-:example:generateReleaseAssets
-:relativepopupwindow:mergeReleaseShaders
-:relativepopupwindow:compileReleaseShaders
-:relativepopupwindow:generateReleaseAssets
-:relativepopupwindow:packageReleaseAssets
-:example:mergeReleaseAssets
-:example:transformClassesWithDexBuilderForRelease
-:example:transformDexArchiveWithExternalLibsDexMergerForRelease
-:example:transformDexArchiveWithDexMergerForRelease
-:example:mergeReleaseJniLibFolders
-:relativepopupwindow:compileReleaseNdk NO-SOURCE
-:relativepopupwindow:mergeReleaseJniLibFolders
-:relativepopupwindow:transformNativeLibsWithMergeJniLibsForRelease
-:relativepopupwindow:transformNativeLibsWithStripDebugSymbolForRelease
-:relativepopupwindow:transformNativeLibsWithIntermediateJniLibsForRelease
-:example:transformNativeLibsWithMergeJniLibsForRelease
-:example:transformNativeLibsWithStripDebugSymbolForRelease
-:example:checkReleaseLibraries
-:example:processReleaseJavaRes NO-SOURCE
-:example:transformResourcesWithMergeJavaResForRelease
-:example:packageRelease
-:example:assembleRelease
-:example:assemble
-:example:build
+2019-07-24 11:55:42,865 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/gradlew
+2019-07-24 11:55:42,869 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/relativepopupwindow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/build.gradle
+2019-07-24 11:55:42,874 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/relativepopupwindow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/settings.gradle
+2019-07-24 11:55:42,874 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 11:55:42,874 INFO  ProjectFixService - Fixing project...
+2019-07-24 11:55:42,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/local.properties
+2019-07-24 11:55:42,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-24 11:55:42,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-24 11:55:42,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/relativepopupwindow/local.properties
+2019-07-24 11:55:42,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/relativepopupwindow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:55:42,886 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/relativepopupwindow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:55:42,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/local.properties
+2019-07-24 11:55:42,888 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-24 11:55:42,888 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-24 11:55:42,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:55:42,890 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:55:42,890 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 11:55:42,890 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:55:42,890 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 11:55:55,703 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-24 11:55:55,703 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 11:55:55,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 11:56:53,983 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 40s
-92 actionable tasks: 92 executed
+> Configure project :relativepopupwindow
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-07-07 02:56:05,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562442789094-0/src/example/build/outputs/apk/release/example-release-unsigned.apk
+> Task :example:preBuild UP-TO-DATE
+> Task :relativepopupwindow:preBuild UP-TO-DATE
+> Task :relativepopupwindow:preDebugBuild UP-TO-DATE
+> Task :relativepopupwindow:checkDebugManifest
+> Task :relativepopupwindow:processDebugManifest
+> Task :example:preDebugBuild
+> Task :relativepopupwindow:compileDebugAidl NO-SOURCE
+> Task :example:compileDebugAidl NO-SOURCE
+> Task :relativepopupwindow:packageDebugRenderscript NO-SOURCE
+> Task :example:compileDebugRenderscript NO-SOURCE
+> Task :example:checkDebugManifest
+> Task :example:generateDebugBuildConfig
+> Task :example:mainApkListPersistenceDebug
+> Task :example:generateDebugResValues
+> Task :example:generateDebugResources
+> Task :relativepopupwindow:compileDebugRenderscript NO-SOURCE
+> Task :relativepopupwindow:generateDebugResValues
+> Task :relativepopupwindow:generateDebugResources
+> Task :relativepopupwindow:packageDebugResources
+> Task :example:mergeDebugResources
+> Task :example:createDebugCompatibleScreenManifests
+> Task :example:processDebugManifest
+> Task :relativepopupwindow:generateDebugRFile
+> Task :example:processDebugResources
+> Task :relativepopupwindow:generateDebugBuildConfig
+> Task :relativepopupwindow:prepareLintJar
+> Task :relativepopupwindow:generateDebugSources
+> Task :relativepopupwindow:javaPreCompileDebug
+> Task :relativepopupwindow:compileDebugJavaWithJavac
+> Task :relativepopupwindow:bundleLibCompileDebug
+> Task :example:compileDebugKotlin
+> Task :example:prepareLintJar
+> Task :example:generateDebugSources
+> Task :example:javaPreCompileDebug
+> Task :example:compileDebugJavaWithJavac
+> Task :example:compileDebugSources
+> Task :example:mergeDebugShaders
+> Task :example:compileDebugShaders
+> Task :example:generateDebugAssets
+> Task :relativepopupwindow:mergeDebugShaders
+> Task :relativepopupwindow:compileDebugShaders
+> Task :relativepopupwindow:generateDebugAssets
+> Task :relativepopupwindow:packageDebugAssets
+> Task :example:mergeDebugAssets
+> Task :relativepopupwindow:processDebugJavaRes NO-SOURCE
+> Task :relativepopupwindow:bundleLibResDebug
+> Task :relativepopupwindow:bundleLibRuntimeDebug
+> Task :relativepopupwindow:createFullJarDebug
+> Task :example:checkDebugDuplicateClasses
+> Task :example:mergeExtDexDebug
+> Task :example:transformClassesWithDexBuilderForDebug
+> Task :example:mergeDexDebug
+> Task :example:validateSigningDebug
+> Task :example:signingConfigWriterDebug
+> Task :example:mergeDebugJniLibFolders
+> Task :relativepopupwindow:mergeDebugJniLibFolders
+> Task :relativepopupwindow:transformNativeLibsWithMergeJniLibsForDebug
+> Task :relativepopupwindow:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :relativepopupwindow:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :example:processDebugJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForDebug
+> Task :example:packageDebug
+> Task :example:assembleDebug
+> Task :relativepopupwindow:preReleaseBuild UP-TO-DATE
+> Task :relativepopupwindow:checkReleaseManifest
+> Task :relativepopupwindow:processReleaseManifest
+> Task :example:preReleaseBuild
+> Task :relativepopupwindow:compileReleaseAidl NO-SOURCE
+> Task :example:compileReleaseAidl NO-SOURCE
+> Task :relativepopupwindow:packageReleaseRenderscript NO-SOURCE
+> Task :example:compileReleaseRenderscript NO-SOURCE
+> Task :example:checkReleaseManifest
+> Task :example:generateReleaseBuildConfig
+> Task :example:mainApkListPersistenceRelease
+> Task :example:generateReleaseResValues
+> Task :example:generateReleaseResources
+> Task :relativepopupwindow:compileReleaseRenderscript NO-SOURCE
+> Task :relativepopupwindow:generateReleaseResValues
+> Task :relativepopupwindow:generateReleaseResources
+> Task :relativepopupwindow:packageReleaseResources
+> Task :example:mergeReleaseResources
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example:processReleaseManifest
+> Task :relativepopupwindow:generateReleaseRFile
+> Task :example:processReleaseResources
+> Task :relativepopupwindow:generateReleaseBuildConfig
+> Task :relativepopupwindow:generateReleaseSources
+> Task :relativepopupwindow:javaPreCompileRelease
+> Task :relativepopupwindow:compileReleaseJavaWithJavac
+> Task :relativepopupwindow:bundleLibCompileRelease
+> Task :example:compileReleaseKotlin
+> Task :example:generateReleaseSources
+> Task :example:javaPreCompileRelease
+> Task :example:compileReleaseJavaWithJavac
+> Task :example:compileReleaseSources
+> Task :relativepopupwindow:prepareLintJarForPublish
+
+> Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1274b00bd3530dfa8f3157ec9e9bb382/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :relativepopupwindow:processReleaseJavaRes NO-SOURCE
+> Task :relativepopupwindow:bundleLibResRelease
+> Task :relativepopupwindow:bundleLibRuntimeRelease
+> Task :relativepopupwindow:createFullJarRelease
+> Task :example:checkReleaseDuplicateClasses
+> Task :example:mergeExtDexRelease
+> Task :example:transformClassesWithDexBuilderForRelease
+> Task :example:mergeDexRelease
+> Task :example:mergeReleaseShaders
+> Task :example:compileReleaseShaders
+> Task :example:generateReleaseAssets
+> Task :relativepopupwindow:mergeReleaseShaders
+> Task :relativepopupwindow:compileReleaseShaders
+> Task :relativepopupwindow:generateReleaseAssets
+> Task :relativepopupwindow:packageReleaseAssets
+> Task :example:mergeReleaseAssets
+> Task :example:signingConfigWriterRelease
+> Task :example:mergeReleaseJniLibFolders
+> Task :relativepopupwindow:mergeReleaseJniLibFolders
+> Task :relativepopupwindow:transformNativeLibsWithMergeJniLibsForRelease
+> Task :relativepopupwindow:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :relativepopupwindow:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :example:processReleaseJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForRelease
+> Task :example:packageRelease
+> Task :example:assembleRelease
+> Task :example:assemble
+> Task :example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 57s
+93 actionable tasks: 93 executed
+
+2019-07-24 11:56:54,061 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944137482-0/src/RelativePopupWindow-master/example/build/outputs/apk/release/example-release-unsigned.apk
