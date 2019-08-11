@@ -1,22 +1,10 @@
-2019-07-29 18:36:42,860 INFO  DownloadService - Downloading "https://github.com/vidstige/jadb/archive/master.zip", attempt 3
-2019-07-29 18:37:43,935 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-29 18:37:45,358 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-29 18:37:45,359 INFO  DownloadService - Downloading "https://github.com/vidstige/jadb/archive/master.zip", attempt 3
-2019-07-29 18:38:46,765 DEBUG FullProcessService - Repository https://github.com/vidstige/jadb available: true
-2019-07-29 18:38:46,765 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-29 18:38:46,765 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vidstige/jadb, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src]
-2019-07-29 18:38:49,164 INFO  SysUtils - 
-2019-07-29 18:38:49,193 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src/.git": true
-2019-07-29 18:38:49,195 INFO  FullProcessService - Size of directory with sources: 377 KB
-2019-07-29 18:38:49,195 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src]
-2019-07-29 18:38:49,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src/.git/
-
-2019-07-29 18:38:49,213 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-07-29 18:38:49,213 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-07-29 18:38:49,214 INFO  ProjectBuildService - Build script(s): none
-2019-07-29 18:38:49,216 INFO  ProjectBuildService - All script(s): none
-2019-07-29 18:38:49,216 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 18:38:49,216 ERROR FullProcessService - Project is not correct Gradle project
-2019-07-29 18:38:49,216 ERROR FullProcessService - Project build has not produced APK file
-2019-07-29 18:38:49,218 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src/test/data/Tiniest Smallest APK ever.apk
-2019-07-29 18:38:49,218 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400202855-0/src/test/data/Tiniest Smallest APK ever.apk
+2019-08-11 17:35:41,534 INFO  DownloadService - Downloading "https://github.com/vidstige/jadb/archive/master.zip", attempt 3
+2019-08-11 17:35:43,732 INFO  DownloadService - Downloaded https://github.com/vidstige/jadb/archive/master.zip, attempt 3
+2019-08-11 17:35:43,732 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519741526-0/master.zip": 271 KB
+2019-08-11 17:35:43,732 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 17:35:43,732 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519741526-0/master.zip: false
+2019-08-11 17:35:43,732 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-08-11 17:35:43,732 ERROR FullProcessService - Could not find directory with sources
+2019-08-11 17:35:43,732 ERROR FullProcessService - Project will not be processed
+2019-08-11 17:35:43,732 ERROR FullProcessService - Project build has not produced APK file
+2019-08-11 17:35:43,733 ERROR FullProcessService - Could not find generated or existed APK file
