@@ -1,36 +1,36 @@
-2019-07-08 02:22:21,497 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip", attempt 3
-2019-07-08 02:22:22,379 INFO  DownloadService - Downloaded https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip, attempt 3
-2019-07-08 02:22:22,379 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip": 241 KB
-2019-07-08 02:22:22,379 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 02:22:22,380 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip: true
-2019-07-08 02:22:22,380 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src'.
-2019-07-08 02:22:22,398 INFO  FullProcessService - Size of directory with sources: 311 KB
-2019-07-08 02:22:22,398 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src]
-2019-07-08 02:22:22,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/.git/
+2019-08-26 16:01:41,798 INFO  DownloadService - Downloading "https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip", attempt 3
+2019-08-26 16:01:44,089 INFO  DownloadService - Downloaded https://github.com/mukeshsolanki/android-otpview-pinview/archive/master.zip, attempt 3
+2019-08-26 16:01:44,089 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/master.zip": 242 KB
+2019-08-26 16:01:44,089 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-26 16:01:44,095 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/master.zip: true
+2019-08-26 16:01:44,095 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src'.
+2019-08-26 16:01:44,114 INFO  FullProcessService - Size of directory with sources: 313 KB
+2019-08-26 16:01:44,114 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src]
+2019-08-26 16:01:44,131 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/.git/
 
-2019-07-08 02:22:22,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew
-2019-07-08 02:22:22,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle
-2019-07-08 02:22:22,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/settings.gradle
-2019-07-08 02:22:22,421 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 02:22:22,421 INFO  ProjectFixService - Fixing project...
-2019-07-08 02:22:22,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/local.properties
-2019-07-08 02:22:22,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-08 02:22:22,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-08 02:22:22,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/local.properties
-2019-07-08 02:22:22,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-08 02:22:22,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-08 02:22:22,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/local.properties
-2019-07-08 02:22:22,431 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-07-08 02:22:22,432 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-07-08 02:22:22,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-08 02:22:22,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-08 02:22:22,436 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 02:22:22,436 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 02:22:22,436 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 02:22:31,200 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-08 02:22:31,200 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 02:22:31,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 02:23:03,270 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-26 16:01:44,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/gradlew
+2019-08-26 16:01:44,136 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/build.gradle
+2019-08-26 16:01:44,138 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/settings.gradle
+2019-08-26 16:01:44,138 INFO  ProjectBuildService - Remote scripts: none
+2019-08-26 16:01:44,138 INFO  ProjectFixService - Fixing project...
+2019-08-26 16:01:44,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/local.properties
+2019-08-26 16:01:44,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-26 16:01:44,144 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-26 16:01:44,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/otpview/local.properties
+2019-08-26 16:01:44,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-26 16:01:44,145 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/otpview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-26 16:01:44,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/local.properties
+2019-08-26 16:01:44,146 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-08-26 16:01:44,146 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-08-26 16:01:44,146 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-26 16:01:44,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-26 16:01:44,147 INFO  ProjectFixService - Project was maybe fixed
+2019-08-26 16:01:44,147 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 16:01:44,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 16:01:50,014 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-26 16:01:50,014 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-26 16:01:50,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-26 16:02:18,494 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :otpview:preBuild UP-TO-DATE
 > Task :otpview:preDebugBuild UP-TO-DATE
@@ -129,7 +129,10 @@
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/00d10bf04f34403e0087b5477a4a910e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :otpview:createFullJarRelease
 > Transform full.jar (project :otpview) with IdentityTransform
 > Task :app:mergeExtDexRelease
@@ -160,7 +163,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 28s
 88 actionable tasks: 88 executed
 
-2019-07-08 02:23:03,330 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562527341492-0/src/android-otpview-pinview-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-26 16:02:18,551 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810101790-0/src/android-otpview-pinview-master/app/build/outputs/apk/debug/app-debug.apk
