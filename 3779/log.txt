@@ -1,459 +1,459 @@
-2019-07-29 18:38:50,134 INFO  DownloadService - Downloading "https://github.com/wdullaer/MaterialDateTimePicker/archive/master.zip", attempt 3
-2019-07-29 18:39:50,764 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-29 18:39:51,608 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-29 18:39:51,608 INFO  DownloadService - Downloading "https://github.com/wdullaer/MaterialDateTimePicker/archive/master.zip", attempt 3
-2019-07-29 18:40:53,120 DEBUG FullProcessService - Repository https://github.com/wdullaer/MaterialDateTimePicker available: true
-2019-07-29 18:40:53,120 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-29 18:40:53,121 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wdullaer/MaterialDateTimePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src]
-2019-07-29 18:40:55,269 INFO  SysUtils - 
-2019-07-29 18:40:55,279 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/.git": true
-2019-07-29 18:40:55,287 INFO  FullProcessService - Size of directory with sources: 995 KB
-2019-07-29 18:40:55,288 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src]
-2019-07-29 18:40:55,305 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/.git/
+2019-08-29 14:38:20,768 INFO  DownloadService - Downloading "https://github.com/wdullaer/MaterialDateTimePicker/archive/master.zip", attempt 3
+2019-08-29 14:39:21,324 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-29 14:39:22,702 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-29 14:39:22,702 INFO  DownloadService - Downloading "https://github.com/wdullaer/MaterialDateTimePicker/archive/master.zip", attempt 3
+2019-08-29 14:40:24,270 DEBUG FullProcessService - Repository https://github.com/wdullaer/MaterialDateTimePicker available: true
+2019-08-29 14:40:24,270 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-29 14:40:24,270 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wdullaer/MaterialDateTimePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src]
+2019-08-29 14:40:26,750 INFO  SysUtils - 
+2019-08-29 14:40:26,761 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/.git": true
+2019-08-29 14:40:26,769 INFO  FullProcessService - Size of directory with sources: 996 KB
+2019-08-29 14:40:26,769 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src]
+2019-08-29 14:40:26,787 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/.git/
 
-2019-07-29 18:40:55,312 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/gradlew
-2019-07-29 18:40:55,318 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/build.gradle
-2019-07-29 18:40:55,324 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/settings.gradle
-2019-07-29 18:40:55,325 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 18:40:55,325 INFO  ProjectFixService - Fixing project...
-2019-07-29 18:40:55,341 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/local.properties
-2019-07-29 18:40:55,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 18:40:55,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 18:40:55,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/local.properties
-2019-07-29 18:40:55,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 18:40:55,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 18:40:55,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/local.properties
-2019-07-29 18:40:55,348 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-29 18:40:55,348 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-29 18:40:55,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 18:40:55,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 18:40:55,351 INFO  ProjectFixService - Project was maybe fixed
-2019-07-29 18:40:55,351 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 18:40:55,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 18:41:04,048 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-29 18:41:04,049 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-29 18:41:04,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-29 18:41:22,187 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-08-29 14:40:26,793 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/gradlew
+2019-08-29 14:40:26,799 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/build.gradle
+2019-08-29 14:40:26,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/settings.gradle
+2019-08-29 14:40:26,805 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 14:40:26,805 INFO  ProjectFixService - Fixing project...
+2019-08-29 14:40:26,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/local.properties
+2019-08-29 14:40:26,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:40:26,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:40:26,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/local.properties
+2019-08-29 14:40:26,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:40:26,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:40:26,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/local.properties
+2019-08-29 14:40:26,837 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-29 14:40:26,837 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-29 14:40:26,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:40:26,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:40:26,840 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 14:40:26,840 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:40:26,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:40:35,272 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-29 14:40:35,272 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-29 14:40:35,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-29 14:40:53,501 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 > Task :library:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/AccessibleTextView.java:28: error: package androidx.appcompat.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/AccessibleTextView.java:28: error: package androidx.appcompat.widget does not exist
 public class AccessibleTextView extends androidx.appcompat.widget.AppCompatTextView {
                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:21: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:22: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DateRangeLimiter.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DateRangeLimiter.java:20: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:39: error: cannot find symbol
 import androidx.annotation.ColorInt;
                           ^
   symbol:   class ColorInt
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:40: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:41: error: cannot find symbol
 import androidx.annotation.StringRes;
                           ^
   symbol:   class StringRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:31: error: package androidx.appcompat.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:42: error: package androidx.appcompat.app does not exist
 import androidx.appcompat.app.AppCompatDialogFragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:32: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:43: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:33: error: package androidx.core.content.res does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:44: error: package androidx.core.content.res does not exist
 import androidx.core.content.res.ResourcesCompat;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:46: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:62: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java:59: error: cannot find symbol
 public class DatePickerDialog extends AppCompatDialogFragment implements
                                       ^
   symbol: class AppCompatDialogFragment
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:20: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:21: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:21: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.RecyclerView;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:30: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:30: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:31: error: package androidx.core.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:31: error: package androidx.core.view does not exist
 import androidx.core.view.ViewCompat;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:32: error: package androidx.core.view.accessibility does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:32: error: package androidx.core.view.accessibility does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:33: error: package androidx.customview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:33: error: package androidx.customview.widget does not exist
 import androidx.customview.widget.ExploreByTouchHelper;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:41: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:35: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:35: error: package RecyclerView does not exist
 public abstract class MonthAdapter extends RecyclerView.Adapter<MonthViewHolder> implements OnDayClickListener {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:195: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthAdapter.java:195: error: package RecyclerView does not exist
     static class MonthViewHolder extends RecyclerView.ViewHolder {
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:4: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:4: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:5: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:5: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:6: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:6: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:7: error: package androidx.core.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:7: error: package androidx.core.view does not exist
 import androidx.core.view.ViewCompat;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerGroup.java:14: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:35: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:36: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:37: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:37: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.LinearLayoutManager;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:38: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:38: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.RecyclerView;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DayPickerView.java:43: error: cannot find symbol
 public abstract class DayPickerView extends RecyclerView implements OnDateChangedListener {
                                             ^
   symbol: class RecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/YearPickerView.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/YearPickerView.java:32: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:653: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:653: error: cannot find symbol
     protected class MonthViewTouchHelper extends ExploreByTouchHelper {
                                                  ^
   symbol:   class ExploreByTouchHelper
   location: class MonthView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:27: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:28: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:28: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:31: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:36: error: package androidx.appcompat.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/TextViewWithCircularIndicator.java:36: error: package androidx.appcompat.widget does not exist
 public class TextViewWithCircularIndicator extends androidx.appcompat.widget.AppCompatTextView {
                                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:701: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/MonthView.java:701: error: cannot find symbol
                                                     @NonNull AccessibilityNodeInfoCompat node) {
                                                              ^
   symbol:   class AccessibilityNodeInfoCompat
   location: class MonthView.MonthViewTouchHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/VerticalTextView.java:14: error: package androidx.appcompat.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/VerticalTextView.java:14: error: package androidx.appcompat.widget does not exist
 public class VerticalTextView extends androidx.appcompat.widget.AppCompatTextView {
                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/Utils.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/Utils.java:27: error: cannot find symbol
 import androidx.annotation.AttrRes;
                           ^
   symbol:   class AttrRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/Utils.java:28: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/Utils.java:28: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimepointLimiter.java:4: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimepointLimiter.java:4: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimepointLimiter.java:5: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimepointLimiter.java:5: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:5: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:5: error: cannot find symbol
 import androidx.annotation.IntRange;
                           ^
   symbol:   class IntRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:6: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/Timepoint.java:7: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:29: error: cannot find symbol
 import androidx.annotation.ColorInt;
                           ^
   symbol:   class ColorInt
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:30: error: cannot find symbol
 import androidx.annotation.IntRange;
                           ^
   symbol:   class IntRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:31: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:32: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:33: error: cannot find symbol
 import androidx.annotation.StringRes;
                           ^
   symbol:   class StringRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:34: error: package androidx.appcompat.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:34: error: package androidx.appcompat.app does not exist
 import androidx.appcompat.app.AppCompatDialogFragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:35: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:35: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:36: error: package androidx.core.content.res does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:36: error: package androidx.core.content.res does not exist
 import androidx.core.content.res.ResourcesCompat;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:51: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:25: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:26: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:26: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:27: error: package androidx.core.view.accessibility does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:27: error: package androidx.core.view.accessibility does not exist
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialPickerLayout.java:41: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:64: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/TimePickerDialog.java:64: error: cannot find symbol
 public class TimePickerDialog extends AppCompatDialogFragment implements
                                       ^
   symbol: class AppCompatDialogFragment
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/DefaultTimepointLimiter.java:5: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/DefaultTimepointLimiter.java:5: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/DefaultTimepointLimiter.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/DefaultTimepointLimiter.java:6: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/CircleView.java:23: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/CircleView.java:23: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/CircleView.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/CircleView.java:27: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/AmPmCirclesView.java:25: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/AmPmCirclesView.java:25: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/AmPmCirclesView.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/AmPmCirclesView.java:29: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialTextsView.java:30: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialTextsView.java:30: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialTextsView.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialTextsView.java:34: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialSelectorView.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/time/RadialSelectorView.java:31: error: cannot find symbol
 import com.wdullaer.materialdatetimepicker.R;
                                           ^
   symbol:   class R
   location: package com.wdullaer.materialdatetimepicker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:21: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:21: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.LinearLayoutManager;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:22: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:22: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.LinearSnapHelper;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:24: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:25: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:26: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:26: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.OrientationHelper;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:27: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:27: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.RecyclerView;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:36: error: cannot find symbol
 public class GravitySnapHelper extends LinearSnapHelper {
                                        ^
   symbol: class LinearSnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:38: error: cannot find symbol
     private OrientationHelper verticalHelper;
             ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:39: error: cannot find symbol
     private OrientationHelper horizontalHelper;
             ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:44: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:44: error: package RecyclerView does not exist
     private RecyclerView.OnScrollListener mScrollListener = new RecyclerView.OnScrollListener() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:77: error: cannot find symbol
     public void attachToRecyclerView(@Nullable RecyclerView recyclerView)
                                                ^
   symbol:   class RecyclerView
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:94: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:94: error: package RecyclerView does not exist
     public int[] calculateDistanceToFinalSnap(@NonNull RecyclerView.LayoutManager layoutManager,
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:122: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:122: error: package RecyclerView does not exist
     public View findSnapView(RecyclerView.LayoutManager layoutManager) {
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:144: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:144: error: cannot find symbol
     private int distanceToStart(View targetView, OrientationHelper helper, boolean fromEnd) {
                                                  ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:152: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:152: error: cannot find symbol
     private int distanceToEnd(View targetView, OrientationHelper helper, boolean fromStart) {
                                                ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:167: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:167: error: package RecyclerView does not exist
     private View findStartView(RecyclerView.LayoutManager layoutManager,
                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:168: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:168: error: cannot find symbol
                                OrientationHelper helper) {
                                ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:212: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:212: error: package RecyclerView does not exist
     private View findEndView(RecyclerView.LayoutManager layoutManager,
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:213: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:213: error: cannot find symbol
                              OrientationHelper helper) {
                              ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:251: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:251: error: cannot find symbol
     private int getSnappedPosition(RecyclerView recyclerView) {
                                    ^
   symbol:   class RecyclerView
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:265: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:265: error: package RecyclerView does not exist
     private OrientationHelper getVerticalHelper(RecyclerView.LayoutManager layoutManager) {
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:265: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:265: error: cannot find symbol
     private OrientationHelper getVerticalHelper(RecyclerView.LayoutManager layoutManager) {
             ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:272: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:272: error: package RecyclerView does not exist
     private OrientationHelper getHorizontalHelper(RecyclerView.LayoutManager layoutManager) {
                                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:272: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/GravitySnapHelper.java:272: error: cannot find symbol
     private OrientationHelper getHorizontalHelper(RecyclerView.LayoutManager layoutManager) {
             ^
   symbol:   class OrientationHelper
   location: class GravitySnapHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:82: error: cannot find symbol
     void setSelectableDays(@NonNull Calendar[] days) {
                             ^
   symbol:   class NonNull
   location: class DefaultDateRangeLimiter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:88: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:88: error: cannot find symbol
     void setDisabledDays(@NonNull Calendar[] days) {
                           ^
   symbol:   class NonNull
   location: class DefaultDateRangeLimiter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:94: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:94: error: cannot find symbol
     void setMinDate(@NonNull Calendar calendar) {
                      ^
   symbol:   class NonNull
   location: class DefaultDateRangeLimiter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:98: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:98: error: cannot find symbol
     void setMaxDate(@NonNull Calendar calendar) {
                      ^
   symbol:   class NonNull
   location: class DefaultDateRangeLimiter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:102: error: cannot find symbol
     void setController(@NonNull DatePickerController controller) {
                         ^
   symbol:   class NonNull
   location: class DefaultDateRangeLimiter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:115: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DefaultDateRangeLimiter.java:115: error: cannot find symbol
     @Nullable Calendar getMinDate() {
      ^
   symbol:   class Nullable
@@ -480,7 +480,7 @@ public class GravitySnapHelper extends LinearSnapHelper {
 > Task :library:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :library:extractDebugAnnotations
@@ -515,13 +515,13 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:javaPreCompileRelease
 
 > Task :library:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
 > Task :library:extractReleaseAnnotations
 > Task :library:mergeReleaseConsumerProguardFiles
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/library/src/main/java/com/wdullaer/materialdatetimepicker/date/DatePickerDialog.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
@@ -550,12 +550,12 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 17s
 47 actionable tasks: 47 executed
 
-2019-07-29 18:41:22,243 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 18:41:22,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 18:41:29,242 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-29 18:41:29,242 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-29 18:41:29,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-29 18:41:59,037 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-08-29 14:40:53,567 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:40:53,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:41:00,904 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-29 14:41:00,904 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-29 14:41:00,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-29 14:41:41,581 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
@@ -688,7 +688,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 40s
 89 actionable tasks: 59 executed, 30 up-to-date
 
-2019-07-29 18:41:59,167 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400330131-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-29 14:41:41,708 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064300761-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

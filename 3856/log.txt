@@ -1,34 +1,37 @@
-2019-08-11 18:59:04,116 INFO  DownloadService - Downloading "https://github.com/asLody/VirtualApp/archive/master.zip", attempt 3
-2019-08-11 18:59:08,004 INFO  DownloadService - Downloaded https://github.com/asLody/VirtualApp/archive/master.zip, attempt 3
-2019-08-11 18:59:08,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/master.zip": 2 MB
-2019-08-11 18:59:08,005 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 18:59:08,007 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/master.zip: true
-2019-08-11 18:59:08,007 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src'.
-2019-08-11 18:59:08,225 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-08-11 18:59:08,225 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src]
-2019-08-11 18:59:08,247 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/.git/
+2019-08-29 14:35:57,180 INFO  DownloadService - Downloading "https://github.com/asLody/VirtualApp/archive/master.zip", attempt 3
+2019-08-29 14:36:58,324 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-29 14:36:59,531 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-29 14:36:59,531 INFO  DownloadService - Downloading "https://github.com/asLody/VirtualApp/archive/master.zip", attempt 3
+2019-08-29 14:38:01,364 DEBUG FullProcessService - Repository https://github.com/asLody/VirtualApp available: true
+2019-08-29 14:38:01,365 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-29 14:38:01,365 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/asLody/VirtualApp, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src]
+2019-08-29 14:38:05,065 INFO  SysUtils - 
+2019-08-29 14:38:05,082 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/.git": true
+2019-08-29 14:38:05,104 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-08-29 14:38:05,104 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src]
+2019-08-29 14:38:05,127 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/.git/
 
-2019-08-11 18:59:08,264 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew
-2019-08-11 18:59:08,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/build.gradle
-2019-08-11 18:59:08,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/settings.gradle
-2019-08-11 18:59:08,297 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 18:59:08,297 INFO  ProjectFixService - Fixing project...
-2019-08-11 18:59:08,333 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/local.properties
-2019-08-11 18:59:08,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=22]
-2019-08-11 18:59:08,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/local.properties
-2019-08-11 18:59:08,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=22]
-2019-08-11 18:59:08,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/local.properties
-2019-08-11 18:59:08,335 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-08-11 18:59:08,336 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-08-11 18:59:08,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=22]
-2019-08-11 18:59:08,337 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 18:59:08,337 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 18:59:08,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 18:59:13,489 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-11 18:59:13,489 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-11 18:59:13,489 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-11 18:59:13,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-11 18:59:15,720 ERROR SysUtils - Could not process external command
+2019-08-29 14:38:05,144 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew
+2019-08-29 14:38:05,160 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/build.gradle
+2019-08-29 14:38:05,176 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/settings.gradle
+2019-08-29 14:38:05,176 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 14:38:05,176 INFO  ProjectFixService - Fixing project...
+2019-08-29 14:38:05,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/local.properties
+2019-08-29 14:38:05,209 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=22]
+2019-08-29 14:38:05,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/local.properties
+2019-08-29 14:38:05,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=22]
+2019-08-29 14:38:05,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/local.properties
+2019-08-29 14:38:05,210 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-08-29 14:38:05,211 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-08-29 14:38:05,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=22]
+2019-08-29 14:38:05,211 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 14:38:05,211 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:38:05,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:38:08,909 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:38:08,909 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:38:08,909 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:38:08,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:38:11,439 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 18:59:15,720 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:38:11,439 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -208,13 +210,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-11 18:59:15,737 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 18:59:15,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 18:59:17,964 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-11 18:59:17,964 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-11 18:59:17,964 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-11 18:59:17,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-11 18:59:20,158 ERROR SysUtils - Could not process external command
+2019-08-29 14:38:11,459 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:38:11,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:38:13,693 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:38:13,693 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:38:13,693 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:38:13,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:38:15,946 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -227,22 +229,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 18:59:20,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:38:15,946 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -394,13 +395,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-11 18:59:20,178 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 18:59:20,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 18:59:22,482 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-11 18:59:22,483 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-11 18:59:22,483 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-11 18:59:22,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524744112-0/src/VirtualApp-master/VirtualApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-11 18:59:24,699 ERROR SysUtils - Could not process external command
+2019-08-29 14:38:15,966 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:38:15,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:38:18,270 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:38:18,281 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:38:18,281 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:38:18,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567064157172-0/src/VirtualApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:38:20,572 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -413,22 +414,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 18:59:24,700 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:38:20,572 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -580,5 +580,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-11 18:59:24,720 ERROR FullProcessService - Project build has not produced APK file
-2019-08-11 18:59:24,736 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-29 14:38:20,592 ERROR FullProcessService - Project build has not produced APK file
+2019-08-29 14:38:20,608 ERROR FullProcessService - Could not find generated or existed APK file

@@ -3,8 +3,8 @@
     "packageName" : "com.wdullaer.materialdatetimepicker.sample",
     "label" : "Material DateTimePicker",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "4.2.1",
-    "versionCode" : 52,
+    "versionName" : "4.2.2",
+    "versionCode" : 53,
     "installLocation" : null,
     "minSdkVersion" : "16",
     "targetSdkVersion" : "28",
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 2088,
   "locales" : [ "", "kk_KZ", "as", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "or", "is", "si", "de", "es_US", "ca", "te", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "en_CA", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "en_XC", "iw", "en_IN", "mk_MK", "nb", "te_IN", "ta", "en_GB" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"52\" android:versionName=\"4.2.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.wdullaer.materialdatetimepicker.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Material DateTimePicker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"DateTimePicker Example\" android:name=\"com.wdullaer.datetimepickerexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2037408,
-  "crc32" : 2420252374,
-  "sha256" : "a82e84c226acd61fb7369c1a7b03e3094fa1506506e15ddd91f798b1436e954a",
-  "buildTime" : 1564400518000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"53\" android:versionName=\"4.2.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.wdullaer.materialdatetimepicker.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Material DateTimePicker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"DateTimePicker Example\" android:name=\"com.wdullaer.datetimepickerexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2037450,
+  "crc32" : 3696396799,
+  "sha256" : "849b4f9d468c7ac3ebeba522e90107c0b863e7b14f0fabf6e39fa0928db636e0",
+  "buildTime" : 1567064501000
 }
