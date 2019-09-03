@@ -1,76 +1,79 @@
-2019-07-08 00:22:47,736 INFO  DownloadService - Downloading "https://github.com/NextFaze/power-adapters/archive/master.zip", attempt 3
-2019-07-08 00:22:48,579 INFO  DownloadService - Downloaded https://github.com/NextFaze/power-adapters/archive/master.zip, attempt 3
-2019-07-08 00:22:48,580 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/master.zip": 401 KB
-2019-07-08 00:22:48,580 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 00:22:48,581 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/master.zip: true
-2019-07-08 00:22:48,581 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src'.
-2019-07-08 00:22:48,659 INFO  FullProcessService - Size of directory with sources: 995 KB
-2019-07-08 00:22:48,659 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src]
-2019-07-08 00:22:48,676 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/.git/
+2019-09-03 23:29:53,570 INFO  DownloadService - Downloading "https://github.com/NextFaze/power-adapters/archive/master.zip", attempt 3
+2019-09-03 23:30:54,108 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-03 23:30:55,129 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-03 23:30:55,130 INFO  DownloadService - Downloading "https://github.com/NextFaze/power-adapters/archive/master.zip", attempt 3
+2019-09-03 23:31:56,645 DEBUG FullProcessService - Repository https://github.com/NextFaze/power-adapters available: true
+2019-09-03 23:31:56,645 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-03 23:31:56,645 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/NextFaze/power-adapters, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src]
+2019-09-03 23:31:58,824 INFO  SysUtils - 
+2019-09-03 23:31:58,836 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/.git": true
+2019-09-03 23:31:58,847 INFO  FullProcessService - Size of directory with sources: 998 KB
+2019-09-03 23:31:58,848 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src]
+2019-09-03 23:31:58,865 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/.git/
 
-2019-07-08 00:22:48,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/gradlew
-2019-07-08 00:22:48,696 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters/build.gradle
-2019-07-08 00:22:48,704 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/settings.gradle
-2019-07-08 00:22:48,705 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 00:22:48,705 INFO  ProjectFixService - Fixing project...
-2019-07-08 00:22:48,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/local.properties
-2019-07-08 00:22:48,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-07-08 00:22:48,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-07-08 00:22:48,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/local.properties
-2019-07-08 00:22:48,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=27]
-2019-07-08 00:22:48,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=27]
-2019-07-08 00:22:48,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-test/local.properties
-2019-07-08 00:22:48,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-07-08 00:22:48,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-07-08 00:22:48,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-kotlin/local.properties
-2019-07-08 00:22:48,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/local.properties
-2019-07-08 00:22:48,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2/local.properties
-2019-07-08 00:22:48,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/local.properties
-2019-07-08 00:22:48,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-kotlin/local.properties
-2019-07-08 00:22:48,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,768 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/local.properties
-2019-07-08 00:22:48,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7/local.properties
-2019-07-08 00:22:48,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,782 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-recyclerview-v7/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/local.properties
-2019-07-08 00:22:48,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2/local.properties
-2019-07-08 00:22:48,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-support-v4/local.properties
-2019-07-08 00:22:48,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-support-v4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-support-v4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters/local.properties
-2019-07-08 00:22:48,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 00:22:48,800 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 00:22:48,800 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 00:22:48,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 00:22:58,091 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-07-08 00:22:58,091 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 00:22:58,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 00:24:36,991 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 23:31:58,874 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/gradlew
+2019-09-03 23:31:58,884 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters/build.gradle
+2019-09-03 23:31:58,893 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/settings.gradle
+2019-09-03 23:31:58,894 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 23:31:58,894 INFO  ProjectFixService - Fixing project...
+2019-09-03 23:31:58,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/local.properties
+2019-09-03 23:31:58,925 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-03 23:31:58,926 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-03 23:31:58,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/local.properties
+2019-09-03 23:31:58,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=27]
+2019-09-03 23:31:58,934 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=27]
+2019-09-03 23:31:58,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-test/local.properties
+2019-09-03 23:31:58,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-09-03 23:31:58,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-09-03 23:31:58,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-kotlin/local.properties
+2019-09-03 23:31:58,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,943 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2-kotlin/local.properties
+2019-09-03 23:31:58,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,948 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2/local.properties
+2019-09-03 23:31:58,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/local.properties
+2019-09-03 23:31:58,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-kotlin/local.properties
+2019-09-03 23:31:58,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7-kotlin/local.properties
+2019-09-03 23:31:58,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7/local.properties
+2019-09-03 23:31:58,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,973 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-recyclerview-v7/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2-kotlin/local.properties
+2019-09-03 23:31:58,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2/local.properties
+2019-09-03 23:31:58,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,986 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-support-v4/local.properties
+2019-09-03 23:31:58,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-support-v4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-support-v4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters/local.properties
+2019-09-03 23:31:58,996 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,996 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-09-03 23:31:58,997 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 23:31:58,997 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:31:58,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:32:10,589 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-09-03 23:32:10,589 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 23:32:10,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 23:34:09,824 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :power-adapters:androidJavadocs NO-SOURCE
 > Task :power-adapters:androidJavadocsJar
 > Task :power-adapters:androidSourcesJar
 > Task :power-adapters:preBuild UP-TO-DATE
 > Task :power-adapters:preDebugBuild UP-TO-DATE
 > Task :power-adapters:compileDebugAidl NO-SOURCE
-> Task :power-adapters:compileDebugRenderscript
+> Task :power-adapters:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters:checkDebugManifest
 > Task :power-adapters:generateDebugBuildConfig
 > Task :power-adapters:generateDebugResValues
@@ -96,10 +99,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters:generateDebugAssets
 > Task :power-adapters:packageDebugAssets
 > Task :power-adapters:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters:prepareLintJarForPublish
 > Task :power-adapters:processDebugJavaRes NO-SOURCE
 > Task :power-adapters:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters:compileDebugNdk NO-SOURCE
 > Task :power-adapters:mergeDebugJniLibFolders
 > Task :power-adapters:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters:transformNativeLibsWithStripDebugSymbolForDebug
@@ -109,7 +112,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters:assembleDebug
 > Task :power-adapters:preReleaseBuild UP-TO-DATE
 > Task :power-adapters:compileReleaseAidl NO-SOURCE
-> Task :power-adapters:compileReleaseRenderscript
+> Task :power-adapters:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters:checkReleaseManifest
 > Task :power-adapters:generateReleaseBuildConfig
 > Task :power-adapters:generateReleaseResValues
@@ -137,7 +140,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters:compileReleaseNdk NO-SOURCE
 > Task :power-adapters:mergeReleaseJniLibFolders
 > Task :power-adapters:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters:transformNativeLibsWithStripDebugSymbolForRelease
@@ -156,8 +158,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:preBuild UP-TO-DATE
 > Task :power-adapters-data:preDebugBuild UP-TO-DATE
 > Task :power-adapters-data:compileDebugAidl NO-SOURCE
-> Task :power-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-data:compileDebugRenderscript
+> Task :power-adapters:bundleLibCompileDebug
+> Task :power-adapters-data:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-data:checkDebugManifest
 > Task :power-adapters-data:generateDebugBuildConfig
 > Task :power-adapters-data:generateDebugResValues
@@ -173,7 +175,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:javaPreCompileDebug
 
 > Task :power-adapters-data:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :power-adapters-data:extractDebugAnnotations
@@ -183,10 +185,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:generateDebugAssets
 > Task :power-adapters-data:packageDebugAssets
 > Task :power-adapters-data:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-data:prepareLintJarForPublish
 > Task :power-adapters-data:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-data:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-data:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-data:compileDebugNdk NO-SOURCE
 > Task :power-adapters-data:mergeDebugJniLibFolders
 > Task :power-adapters-data:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-data:transformNativeLibsWithStripDebugSymbolForDebug
@@ -196,8 +198,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:assembleDebug
 > Task :power-adapters-data:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-data:compileReleaseAidl NO-SOURCE
-> Task :power-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-data:compileReleaseRenderscript
+> Task :power-adapters:bundleLibCompileRelease
+> Task :power-adapters-data:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-data:checkReleaseManifest
 > Task :power-adapters-data:generateReleaseBuildConfig
 > Task :power-adapters-data:generateReleaseResValues
@@ -211,9 +213,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:generateReleaseSources
 > Task :power-adapters-data:javaPreCompileRelease
 
-> Task :power-adapters-data:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-data/src/main/java/com/nextfaze/poweradapters/data/Data.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
+> Task :power-adapters-data:compileReleaseJavaWithJavac
 
 > Task :power-adapters-data:extractReleaseAnnotations
 > Task :power-adapters-data:mergeReleaseConsumerProguardFiles
@@ -225,7 +227,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-data:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-data:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-data:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-data:mergeReleaseJniLibFolders
 > Task :power-adapters-data:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-data:transformNativeLibsWithStripDebugSymbolForRelease
@@ -244,8 +245,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-kotlin:preBuild UP-TO-DATE
 > Task :power-adapters-data-kotlin:preDebugBuild UP-TO-DATE
 > Task :power-adapters-data-kotlin:compileDebugAidl NO-SOURCE
-> Task :power-adapters-data:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-data-kotlin:compileDebugRenderscript
+> Task :power-adapters-data:bundleLibCompileDebug
+> Task :power-adapters-data-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-data-kotlin:checkDebugManifest
 > Task :power-adapters-data-kotlin:generateDebugBuildConfig
 > Task :power-adapters-data-kotlin:generateDebugResValues
@@ -267,10 +268,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-kotlin:generateDebugAssets
 > Task :power-adapters-data-kotlin:packageDebugAssets
 > Task :power-adapters-data-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-data-kotlin:prepareLintJarForPublish
 > Task :power-adapters-data-kotlin:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-data-kotlin:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-data-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-data-kotlin:compileDebugNdk NO-SOURCE
 > Task :power-adapters-data-kotlin:mergeDebugJniLibFolders
 > Task :power-adapters-data-kotlin:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-data-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
@@ -280,8 +281,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-kotlin:assembleDebug
 > Task :power-adapters-data-kotlin:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-data-kotlin:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-data:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-data-kotlin:compileReleaseRenderscript
+> Task :power-adapters-data:bundleLibCompileRelease
+> Task :power-adapters-data-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-data-kotlin:checkReleaseManifest
 > Task :power-adapters-data-kotlin:generateReleaseBuildConfig
 > Task :power-adapters-data-kotlin:generateReleaseResValues
@@ -305,7 +306,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-kotlin:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-data-kotlin:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-data-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-data-kotlin:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-data-kotlin:mergeReleaseJniLibFolders
 > Task :power-adapters-data-kotlin:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-data-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
@@ -328,14 +328,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:compileDebugAidl NO-SOURCE
 > Task :power-adapters-data-rxjava2:compileDebugAidl NO-SOURCE
 > Task :power-adapters-rxjava2:packageDebugRenderscript NO-SOURCE
-> Task :power-adapters-data-rxjava2:compileDebugRenderscript
+> Task :power-adapters-data-rxjava2:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-data-rxjava2:checkDebugManifest
 > Task :power-adapters-data-rxjava2:generateDebugBuildConfig
 > Task :power-adapters-data-rxjava2:generateDebugResValues
 > Task :power-adapters-data-rxjava2:generateDebugResources
 > Task :power-adapters-data-rxjava2:packageDebugResources
 > Task :power-adapters-data-rxjava2:processDebugManifest
-> Task :power-adapters-rxjava2:compileDebugRenderscript
+> Task :power-adapters-rxjava2:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-rxjava2:generateDebugResValues
 > Task :power-adapters-rxjava2:generateDebugResources
 > Task :power-adapters-rxjava2:packageDebugResources
@@ -351,8 +351,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:generateDebugSources
 > Task :power-adapters-rxjava2:javaPreCompileDebug
 > Task :power-adapters-rxjava2:compileDebugJavaWithJavac
-> Task :power-adapters-rxjava2:processDebugJavaRes NO-SOURCE
-> Task :power-adapters-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :power-adapters-rxjava2:bundleLibCompileDebug
 > Task :power-adapters-data-rxjava2:kaptGenerateStubsDebugKotlin
 > Task :power-adapters-data-rxjava2:kaptDebugKotlin
 > Task :power-adapters-data-rxjava2:compileDebugKotlin
@@ -367,10 +366,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2:generateDebugAssets
 > Task :power-adapters-data-rxjava2:packageDebugAssets
 > Task :power-adapters-data-rxjava2:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-data-rxjava2:prepareLintJarForPublish
 > Task :power-adapters-data-rxjava2:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-data-rxjava2:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-data-rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-data-rxjava2:compileDebugNdk NO-SOURCE
 > Task :power-adapters-data-rxjava2:mergeDebugJniLibFolders
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
@@ -383,14 +382,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:compileReleaseAidl NO-SOURCE
 > Task :power-adapters-data-rxjava2:compileReleaseAidl NO-SOURCE
 > Task :power-adapters-rxjava2:packageReleaseRenderscript NO-SOURCE
-> Task :power-adapters-data-rxjava2:compileReleaseRenderscript
+> Task :power-adapters-data-rxjava2:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-data-rxjava2:checkReleaseManifest
 > Task :power-adapters-data-rxjava2:generateReleaseBuildConfig
 > Task :power-adapters-data-rxjava2:generateReleaseResValues
 > Task :power-adapters-data-rxjava2:generateReleaseResources
 > Task :power-adapters-data-rxjava2:packageReleaseResources
 > Task :power-adapters-data-rxjava2:processReleaseManifest
-> Task :power-adapters-rxjava2:compileReleaseRenderscript
+> Task :power-adapters-rxjava2:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-rxjava2:generateReleaseResValues
 > Task :power-adapters-rxjava2:generateReleaseResources
 > Task :power-adapters-rxjava2:packageReleaseResources
@@ -405,8 +404,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:generateReleaseSources
 > Task :power-adapters-rxjava2:javaPreCompileRelease
 > Task :power-adapters-rxjava2:compileReleaseJavaWithJavac
-> Task :power-adapters-rxjava2:processReleaseJavaRes NO-SOURCE
-> Task :power-adapters-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :power-adapters-rxjava2:bundleLibCompileRelease
 > Task :power-adapters-data-rxjava2:kaptGenerateStubsReleaseKotlin
 > Task :power-adapters-data-rxjava2:kaptReleaseKotlin
 > Task :power-adapters-data-rxjava2:compileReleaseKotlin
@@ -423,7 +421,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-data-rxjava2:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-data-rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-data-rxjava2:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-data-rxjava2:mergeReleaseJniLibFolders
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
@@ -442,8 +439,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2-kotlin:preBuild UP-TO-DATE
 > Task :power-adapters-data-rxjava2-kotlin:preDebugBuild UP-TO-DATE
 > Task :power-adapters-data-rxjava2-kotlin:compileDebugAidl NO-SOURCE
-> Task :power-adapters-data-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-data-rxjava2-kotlin:compileDebugRenderscript
+> Task :power-adapters-data-rxjava2:bundleLibCompileDebug
+> Task :power-adapters-data-rxjava2-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:checkDebugManifest
 > Task :power-adapters-data-rxjava2-kotlin:generateDebugBuildConfig
 > Task :power-adapters-data-rxjava2-kotlin:generateDebugResValues
@@ -465,10 +462,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2-kotlin:generateDebugAssets
 > Task :power-adapters-data-rxjava2-kotlin:packageDebugAssets
 > Task :power-adapters-data-rxjava2-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-data-rxjava2-kotlin:prepareLintJarForPublish
 > Task :power-adapters-data-rxjava2-kotlin:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-data-rxjava2-kotlin:compileDebugNdk NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:mergeDebugJniLibFolders
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
@@ -478,8 +475,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2-kotlin:assembleDebug
 > Task :power-adapters-data-rxjava2-kotlin:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-data-rxjava2-kotlin:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-data-rxjava2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-data-rxjava2-kotlin:compileReleaseRenderscript
+> Task :power-adapters-data-rxjava2:bundleLibCompileRelease
+> Task :power-adapters-data-rxjava2-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:checkReleaseManifest
 > Task :power-adapters-data-rxjava2-kotlin:generateReleaseBuildConfig
 > Task :power-adapters-data-rxjava2-kotlin:generateReleaseResValues
@@ -503,7 +500,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-data-rxjava2-kotlin:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-data-rxjava2-kotlin:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-data-rxjava2-kotlin:mergeReleaseJniLibFolders
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
@@ -522,7 +518,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-kotlin:preBuild UP-TO-DATE
 > Task :power-adapters-kotlin:preDebugBuild UP-TO-DATE
 > Task :power-adapters-kotlin:compileDebugAidl NO-SOURCE
-> Task :power-adapters-kotlin:compileDebugRenderscript
+> Task :power-adapters-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-kotlin:checkDebugManifest
 > Task :power-adapters-kotlin:generateDebugBuildConfig
 > Task :power-adapters-kotlin:generateDebugResValues
@@ -544,10 +540,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-kotlin:generateDebugAssets
 > Task :power-adapters-kotlin:packageDebugAssets
 > Task :power-adapters-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-kotlin:prepareLintJarForPublish
 > Task :power-adapters-kotlin:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-kotlin:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-kotlin:compileDebugNdk NO-SOURCE
 > Task :power-adapters-kotlin:mergeDebugJniLibFolders
 > Task :power-adapters-kotlin:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
@@ -557,7 +553,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-kotlin:assembleDebug
 > Task :power-adapters-kotlin:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-kotlin:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-kotlin:compileReleaseRenderscript
+> Task :power-adapters-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-kotlin:checkReleaseManifest
 > Task :power-adapters-kotlin:generateReleaseBuildConfig
 > Task :power-adapters-kotlin:generateReleaseResValues
@@ -581,7 +577,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-kotlin:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-kotlin:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-kotlin:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-kotlin:mergeReleaseJniLibFolders
 > Task :power-adapters-kotlin:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
@@ -600,7 +595,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7:preBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7:preDebugBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7:compileDebugAidl NO-SOURCE
-> Task :power-adapters-recyclerview-v7:compileDebugRenderscript
+> Task :power-adapters-recyclerview-v7:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-recyclerview-v7:checkDebugManifest
 > Task :power-adapters-recyclerview-v7:generateDebugBuildConfig
 > Task :power-adapters-recyclerview-v7:generateDebugResValues
@@ -622,10 +617,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7:generateDebugAssets
 > Task :power-adapters-recyclerview-v7:packageDebugAssets
 > Task :power-adapters-recyclerview-v7:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-recyclerview-v7:prepareLintJarForPublish
 > Task :power-adapters-recyclerview-v7:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-recyclerview-v7:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-recyclerview-v7:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-recyclerview-v7:compileDebugNdk NO-SOURCE
 > Task :power-adapters-recyclerview-v7:mergeDebugJniLibFolders
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithStripDebugSymbolForDebug
@@ -635,7 +630,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7:assembleDebug
 > Task :power-adapters-recyclerview-v7:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-recyclerview-v7:compileReleaseRenderscript
+> Task :power-adapters-recyclerview-v7:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-recyclerview-v7:checkReleaseManifest
 > Task :power-adapters-recyclerview-v7:generateReleaseBuildConfig
 > Task :power-adapters-recyclerview-v7:generateReleaseResValues
@@ -659,7 +654,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-recyclerview-v7:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-recyclerview-v7:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-recyclerview-v7:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-recyclerview-v7:mergeReleaseJniLibFolders
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithStripDebugSymbolForRelease
@@ -678,8 +672,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7-kotlin:preBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7-kotlin:preDebugBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7-kotlin:compileDebugAidl NO-SOURCE
-> Task :power-adapters-recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-recyclerview-v7-kotlin:compileDebugRenderscript
+> Task :power-adapters-recyclerview-v7:bundleLibCompileDebug
+> Task :power-adapters-recyclerview-v7-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:checkDebugManifest
 > Task :power-adapters-recyclerview-v7-kotlin:generateDebugBuildConfig
 > Task :power-adapters-recyclerview-v7-kotlin:generateDebugResValues
@@ -701,10 +695,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7-kotlin:generateDebugAssets
 > Task :power-adapters-recyclerview-v7-kotlin:packageDebugAssets
 > Task :power-adapters-recyclerview-v7-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-recyclerview-v7-kotlin:prepareLintJarForPublish
 > Task :power-adapters-recyclerview-v7-kotlin:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-recyclerview-v7-kotlin:compileDebugNdk NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:mergeDebugJniLibFolders
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
@@ -714,8 +708,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7-kotlin:assembleDebug
 > Task :power-adapters-recyclerview-v7-kotlin:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-recyclerview-v7-kotlin:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-recyclerview-v7-kotlin:compileReleaseRenderscript
+> Task :power-adapters-recyclerview-v7:bundleLibCompileRelease
+> Task :power-adapters-recyclerview-v7-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:checkReleaseManifest
 > Task :power-adapters-recyclerview-v7-kotlin:generateReleaseBuildConfig
 > Task :power-adapters-recyclerview-v7-kotlin:generateReleaseResValues
@@ -739,7 +733,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-recyclerview-v7-kotlin:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-recyclerview-v7-kotlin:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-recyclerview-v7-kotlin:mergeReleaseJniLibFolders
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
@@ -761,9 +754,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:compileDebugShaders
 > Task :power-adapters-rxjava2:generateDebugAssets
 > Task :power-adapters-rxjava2:packageDebugAssets
+> Task :power-adapters-rxjava2:prepareLintJarForPublish
+> Task :power-adapters-rxjava2:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-rxjava2:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-rxjava2:compileDebugNdk NO-SOURCE
 > Task :power-adapters-rxjava2:mergeDebugJniLibFolders
 > Task :power-adapters-rxjava2:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
@@ -777,9 +771,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2:compileReleaseShaders
 > Task :power-adapters-rxjava2:generateReleaseAssets
 > Task :power-adapters-rxjava2:packageReleaseAssets
+> Task :power-adapters-rxjava2:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-rxjava2:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-rxjava2:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-rxjava2:mergeReleaseJniLibFolders
 > Task :power-adapters-rxjava2:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
@@ -798,7 +792,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2-kotlin:preBuild UP-TO-DATE
 > Task :power-adapters-rxjava2-kotlin:preDebugBuild UP-TO-DATE
 > Task :power-adapters-rxjava2-kotlin:compileDebugAidl NO-SOURCE
-> Task :power-adapters-rxjava2-kotlin:compileDebugRenderscript
+> Task :power-adapters-rxjava2-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:checkDebugManifest
 > Task :power-adapters-rxjava2-kotlin:generateDebugBuildConfig
 > Task :power-adapters-rxjava2-kotlin:generateDebugResValues
@@ -820,10 +814,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2-kotlin:generateDebugAssets
 > Task :power-adapters-rxjava2-kotlin:packageDebugAssets
 > Task :power-adapters-rxjava2-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-rxjava2-kotlin:prepareLintJarForPublish
 > Task :power-adapters-rxjava2-kotlin:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-rxjava2-kotlin:compileDebugNdk NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:mergeDebugJniLibFolders
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
@@ -833,7 +827,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2-kotlin:assembleDebug
 > Task :power-adapters-rxjava2-kotlin:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-rxjava2-kotlin:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-rxjava2-kotlin:compileReleaseRenderscript
+> Task :power-adapters-rxjava2-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:checkReleaseManifest
 > Task :power-adapters-rxjava2-kotlin:generateReleaseBuildConfig
 > Task :power-adapters-rxjava2-kotlin:generateReleaseResValues
@@ -857,7 +851,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2-kotlin:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-rxjava2-kotlin:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-rxjava2-kotlin:mergeReleaseJniLibFolders
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
@@ -870,15 +863,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-rxjava2-kotlin:signArchives SKIPPED
 > Task :power-adapters-rxjava2-kotlin:assemble
 > Task :power-adapters-rxjava2-kotlin:build
-> Task :power-adapters-data-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :power-adapters-data-kotlin:bundleLibCompileDebug
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibCompileDebug
+> Task :power-adapters-kotlin:bundleLibCompileDebug
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibCompileDebug
+> Task :power-adapters-rxjava2-kotlin:bundleLibCompileDebug
 > Task :power-adapters-sample:preBuild UP-TO-DATE
 > Task :power-adapters-sample:preDebugBuild
 > Task :power-adapters-sample:compileDebugAidl NO-SOURCE
-> Task :power-adapters-sample:compileDebugRenderscript
+> Task :power-adapters-sample:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-sample:checkDebugManifest
 > Task :power-adapters-sample:generateDebugBuildConfig
 > Task :power-adapters-sample:mainApkListPersistenceDebug
@@ -896,10 +889,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-adapters-sample:javaPreCompileDebug
 
 > Task :power-adapters-sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :power-adapters-sample:compileDebugNdk NO-SOURCE
 > Task :power-adapters-sample:compileDebugSources
 > Task :power-adapters-sample:mergeDebugShaders
 > Task :power-adapters-sample:compileDebugShaders
@@ -907,21 +899,42 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :power-adapters-sample:mergeDebugAssets
 > Task :power-adapters-sample:validateSigningDebug
 > Task :power-adapters-sample:signingConfigWriterDebug
+> Task :power-adapters-sample:checkDebugDuplicateClasses
+> Task :power-adapters:bundleLibRuntimeDebug
+> Task :power-adapters-data:bundleLibRuntimeDebug
+> Task :power-adapters-data-kotlin:bundleLibRuntimeDebug
+> Task :power-adapters-data-rxjava2:bundleLibRuntimeDebug
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibRuntimeDebug
+> Task :power-adapters-kotlin:bundleLibRuntimeDebug
+> Task :power-adapters-recyclerview-v7:bundleLibRuntimeDebug
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibRuntimeDebug
+> Task :power-adapters-rxjava2:bundleLibRuntimeDebug
+> Task :power-adapters-rxjava2-kotlin:bundleLibRuntimeDebug
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
 > Task :power-adapters-sample:transformClassesWithDexBuilderForDebug
 > Task :power-adapters-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :power-adapters-sample:transformDexArchiveWithDexMergerForDebug
+> Task :power-adapters:bundleLibResDebug
 > Task :power-adapters:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-data:bundleLibResDebug
 > Task :power-adapters-data:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-data-kotlin:bundleLibResDebug
 > Task :power-adapters-data-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-data-rxjava2:bundleLibResDebug
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibResDebug
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-kotlin:bundleLibResDebug
 > Task :power-adapters-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-recyclerview-v7:bundleLibResDebug
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibResDebug
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-rxjava2:bundleLibResDebug
 > Task :power-adapters-rxjava2:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :power-adapters-rxjava2-kotlin:bundleLibResDebug
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :power-adapters-sample:mergeDebugJniLibFolders
 > Task :power-adapters-sample:transformNativeLibsWithMergeJniLibsForDebug
@@ -930,14 +943,14 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :power-adapters-sample:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-sample:packageDebug
 > Task :power-adapters-sample:assembleDebug
-> Task :power-adapters-data-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-data-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-recyclerview-v7-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :power-adapters-rxjava2-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :power-adapters-data-kotlin:bundleLibCompileRelease
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibCompileRelease
+> Task :power-adapters-kotlin:bundleLibCompileRelease
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibCompileRelease
+> Task :power-adapters-rxjava2-kotlin:bundleLibCompileRelease
 > Task :power-adapters-sample:preReleaseBuild
 > Task :power-adapters-sample:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-sample:compileReleaseRenderscript
+> Task :power-adapters-sample:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-sample:checkReleaseManifest
 > Task :power-adapters-sample:generateReleaseBuildConfig
 > Task :power-adapters-sample:mainApkListPersistenceRelease
@@ -954,35 +967,55 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :power-adapters-sample:javaPreCompileRelease
 
 > Task :power-adapters-sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/src/main/java/com/nextfaze/poweradapters/sample/files/FilePeekView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :power-adapters-sample:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-sample:compileReleaseSources
 
 > Task :power-adapters-sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/0872fd36ddb999d0c36efbf4fce42fa0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4f85675a7650764132a87cbdf0303b5a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :power-adapters-sample:mergeReleaseShaders
 > Task :power-adapters-sample:compileReleaseShaders
 > Task :power-adapters-sample:generateReleaseAssets
 > Task :power-adapters-sample:mergeReleaseAssets
 > Task :power-adapters-sample:signingConfigWriterRelease
+> Task :power-adapters-sample:checkReleaseDuplicateClasses
+> Task :power-adapters:bundleLibRuntimeRelease
+> Task :power-adapters-data:bundleLibRuntimeRelease
+> Task :power-adapters-data-kotlin:bundleLibRuntimeRelease
+> Task :power-adapters-data-rxjava2:bundleLibRuntimeRelease
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibRuntimeRelease
+> Task :power-adapters-kotlin:bundleLibRuntimeRelease
+> Task :power-adapters-recyclerview-v7:bundleLibRuntimeRelease
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibRuntimeRelease
+> Task :power-adapters-rxjava2:bundleLibRuntimeRelease
+> Task :power-adapters-rxjava2-kotlin:bundleLibRuntimeRelease
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
 > Task :power-adapters-sample:transformClassesWithDexBuilderForRelease
 > Task :power-adapters-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :power-adapters-sample:transformDexArchiveWithDexMergerForRelease
+> Task :power-adapters:bundleLibResRelease
 > Task :power-adapters:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-data:bundleLibResRelease
 > Task :power-adapters-data:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-data-kotlin:bundleLibResRelease
 > Task :power-adapters-data-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-data-rxjava2:bundleLibResRelease
 > Task :power-adapters-data-rxjava2:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-data-rxjava2-kotlin:bundleLibResRelease
 > Task :power-adapters-data-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-kotlin:bundleLibResRelease
 > Task :power-adapters-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-recyclerview-v7:bundleLibResRelease
 > Task :power-adapters-recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-recyclerview-v7-kotlin:bundleLibResRelease
 > Task :power-adapters-recyclerview-v7-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-rxjava2:bundleLibResRelease
 > Task :power-adapters-rxjava2:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :power-adapters-rxjava2-kotlin:bundleLibResRelease
 > Task :power-adapters-rxjava2-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :power-adapters-sample:mergeReleaseJniLibFolders
 > Task :power-adapters-sample:transformNativeLibsWithMergeJniLibsForRelease
@@ -999,7 +1032,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-support-v4:preBuild UP-TO-DATE
 > Task :power-adapters-support-v4:preDebugBuild UP-TO-DATE
 > Task :power-adapters-support-v4:compileDebugAidl NO-SOURCE
-> Task :power-adapters-support-v4:compileDebugRenderscript
+> Task :power-adapters-support-v4:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-support-v4:checkDebugManifest
 > Task :power-adapters-support-v4:generateDebugBuildConfig
 > Task :power-adapters-support-v4:generateDebugResValues
@@ -1021,10 +1054,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-support-v4:generateDebugAssets
 > Task :power-adapters-support-v4:packageDebugAssets
 > Task :power-adapters-support-v4:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-support-v4:prepareLintJarForPublish
 > Task :power-adapters-support-v4:processDebugJavaRes NO-SOURCE
 > Task :power-adapters-support-v4:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-support-v4:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-support-v4:compileDebugNdk NO-SOURCE
 > Task :power-adapters-support-v4:mergeDebugJniLibFolders
 > Task :power-adapters-support-v4:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-support-v4:transformNativeLibsWithStripDebugSymbolForDebug
@@ -1034,7 +1067,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-support-v4:assembleDebug
 > Task :power-adapters-support-v4:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-support-v4:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-support-v4:compileReleaseRenderscript
+> Task :power-adapters-support-v4:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-support-v4:checkReleaseManifest
 > Task :power-adapters-support-v4:generateReleaseBuildConfig
 > Task :power-adapters-support-v4:generateReleaseResValues
@@ -1058,7 +1091,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-support-v4:processReleaseJavaRes NO-SOURCE
 > Task :power-adapters-support-v4:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-support-v4:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-support-v4:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-support-v4:mergeReleaseJniLibFolders
 > Task :power-adapters-support-v4:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-support-v4:transformNativeLibsWithStripDebugSymbolForRelease
@@ -1074,7 +1106,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-test:preBuild UP-TO-DATE
 > Task :power-adapters-test:preDebugBuild UP-TO-DATE
 > Task :power-adapters-test:compileDebugAidl NO-SOURCE
-> Task :power-adapters-test:compileDebugRenderscript
+> Task :power-adapters-test:compileDebugRenderscript NO-SOURCE
 > Task :power-adapters-test:checkDebugManifest
 > Task :power-adapters-test:generateDebugBuildConfig
 > Task :power-adapters-test:generateDebugResValues
@@ -1096,10 +1128,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-test:generateDebugAssets
 > Task :power-adapters-test:packageDebugAssets
 > Task :power-adapters-test:packageDebugRenderscript NO-SOURCE
+> Task :power-adapters-test:prepareLintJarForPublish
 > Task :power-adapters-test:processDebugJavaRes
 > Task :power-adapters-test:transformResourcesWithMergeJavaResForDebug
 > Task :power-adapters-test:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :power-adapters-test:compileDebugNdk NO-SOURCE
 > Task :power-adapters-test:mergeDebugJniLibFolders
 > Task :power-adapters-test:transformNativeLibsWithMergeJniLibsForDebug
 > Task :power-adapters-test:transformNativeLibsWithStripDebugSymbolForDebug
@@ -1109,7 +1141,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-test:assembleDebug
 > Task :power-adapters-test:preReleaseBuild UP-TO-DATE
 > Task :power-adapters-test:compileReleaseAidl NO-SOURCE
-> Task :power-adapters-test:compileReleaseRenderscript
+> Task :power-adapters-test:compileReleaseRenderscript NO-SOURCE
 > Task :power-adapters-test:checkReleaseManifest
 > Task :power-adapters-test:generateReleaseBuildConfig
 > Task :power-adapters-test:generateReleaseResValues
@@ -1133,7 +1165,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-test:processReleaseJavaRes
 > Task :power-adapters-test:transformResourcesWithMergeJavaResForRelease
 > Task :power-adapters-test:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :power-adapters-test:compileReleaseNdk NO-SOURCE
 > Task :power-adapters-test:mergeReleaseJniLibFolders
 > Task :power-adapters-test:transformNativeLibsWithMergeJniLibsForRelease
 > Task :power-adapters-test:transformNativeLibsWithStripDebugSymbolForRelease
@@ -1146,7 +1177,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :power-adapters-test:assemble
 > Task :power-adapters-test:build
 
-BUILD SUCCESSFUL in 1m 38s
-733 actionable tasks: 733 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-07-08 00:24:37,248 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562520167733-0/src/power-adapters-master/power-adapters-sample/build/outputs/apk/release/power-adapters-sample-release-unsigned.apk
+BUILD SUCCESSFUL in 1m 58s
+761 actionable tasks: 761 executed
+
+2019-09-03 23:34:10,113 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528193566-0/src/power-adapters-sample/build/outputs/apk/release/power-adapters-sample-release-unsigned.apk

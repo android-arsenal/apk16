@@ -1,33 +1,36 @@
-2019-07-07 03:42:37,302 INFO  DownloadService - Downloading "https://github.com/beworker/fabuless/archive/master.zip", attempt 3
-2019-07-07 03:42:37,797 INFO  DownloadService - Downloaded https://github.com/beworker/fabuless/archive/master.zip, attempt 3
-2019-07-07 03:42:37,797 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/master.zip": 77 KB
-2019-07-07 03:42:37,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-07 03:42:37,802 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/master.zip: true
-2019-07-07 03:42:37,803 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src'.
-2019-07-07 03:42:37,814 INFO  FullProcessService - Size of directory with sources: 94 KB
-2019-07-07 03:42:37,814 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src]
-2019-07-07 03:42:37,830 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/.git/
+2019-09-03 23:27:48,170 INFO  DownloadService - Downloading "https://github.com/beworker/fabuless/archive/master.zip", attempt 3
+2019-09-03 23:28:48,867 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-03 23:28:50,022 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-03 23:28:50,022 INFO  DownloadService - Downloading "https://github.com/beworker/fabuless/archive/master.zip", attempt 3
+2019-09-03 23:29:51,432 DEBUG FullProcessService - Repository https://github.com/beworker/fabuless available: true
+2019-09-03 23:29:51,432 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-03 23:29:51,432 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/beworker/fabuless, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src]
+2019-09-03 23:29:53,331 INFO  SysUtils - 
+2019-09-03 23:29:53,361 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/.git": true
+2019-09-03 23:29:53,363 INFO  FullProcessService - Size of directory with sources: 94 KB
+2019-09-03 23:29:53,363 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src]
+2019-09-03 23:29:53,386 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/.git/
 
-2019-07-07 03:42:37,832 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-07-07 03:42:37,832 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-07-07 03:42:37,834 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/build.gradle
-2019-07-07 03:42:37,836 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/build.gradle
-2019-07-07 03:42:37,836 INFO  ProjectBuildService - Remote scripts: none
-2019-07-07 03:42:37,836 INFO  ProjectFixService - Fixing project...
-2019-07-07 03:42:37,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/local.properties
-2019-07-07 03:42:37,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
-2019-07-07 03:42:37,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/local.properties
-2019-07-07 03:42:37,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
-2019-07-07 03:42:37,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/local.properties
-2019-07-07 03:42:37,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
-2019-07-07 03:42:37,845 INFO  ProjectFixService - Project was maybe fixed
-2019-07-07 03:42:37,845 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-07 03:42:37,845 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-07 03:42:37,850 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-07-07 03:42:37,850 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-07 03:42:37,850 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-07 03:42:37,850 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-07 03:42:37,855 ERROR SysUtils - Could not process external command
+2019-09-03 23:29:53,388 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-09-03 23:29:53,389 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-09-03 23:29:53,392 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/build.gradle
+2019-09-03 23:29:53,394 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/build.gradle
+2019-09-03 23:29:53,395 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 23:29:53,395 INFO  ProjectFixService - Fixing project...
+2019-09-03 23:29:53,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/local.properties
+2019-09-03 23:29:53,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2019-09-03 23:29:53,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/local.properties
+2019-09-03 23:29:53,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2019-09-03 23:29:53,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/local.properties
+2019-09-03 23:29:53,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2019-09-03 23:29:53,417 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 23:29:53,417 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:29:53,418 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:29:53,443 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 23:29:53,443 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 23:29:53,443 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 23:29:53,444 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 23:29:53,472 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -52,7 +55,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -65,14 +68,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-07-07 03:42:37,855 INFO  SysUtils - 
-2019-07-07 03:42:37,857 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-07 03:42:37,857 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-07 03:42:37,862 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-07-07 03:42:37,862 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-07 03:42:37,862 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-07 03:42:37,862 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/fabuless/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-07 03:42:37,867 ERROR SysUtils - Could not process external command
+2019-09-03 23:29:53,472 INFO  SysUtils - 
+2019-09-03 23:29:53,477 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:29:53,477 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:29:53,494 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 23:29:53,504 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 23:29:53,507 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 23:29:53,509 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/fabuless/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 23:29:53,519 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -97,7 +100,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -110,14 +113,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-07-07 03:42:37,867 INFO  SysUtils - 
-2019-07-07 03:42:37,869 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-07 03:42:37,869 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-07 03:42:37,874 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-07-07 03:42:37,874 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-07 03:42:37,874 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-07 03:42:37,874 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562445757299-0/src/fabuless-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-07 03:42:37,880 ERROR SysUtils - Could not process external command
+2019-09-03 23:29:53,520 INFO  SysUtils - 
+2019-09-03 23:29:53,522 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:29:53,523 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:29:53,528 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 23:29:53,529 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 23:29:53,529 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 23:29:53,529 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567528068166-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 23:29:53,535 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -142,7 +145,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -155,6 +158,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-07-07 03:42:37,880 INFO  SysUtils - 
-2019-07-07 03:42:37,882 ERROR FullProcessService - Project build has not produced APK file
-2019-07-07 03:42:37,884 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-03 23:29:53,535 INFO  SysUtils - 
+2019-09-03 23:29:53,538 ERROR FullProcessService - Project build has not produced APK file
+2019-09-03 23:29:53,540 ERROR FullProcessService - Could not find generated or existed APK file
